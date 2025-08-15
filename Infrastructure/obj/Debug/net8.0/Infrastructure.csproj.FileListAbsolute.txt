@@ -1,0 +1,84 @@
+C:\Users\hussain.saqib\Desktop\Learning\.NET Projects - Learning\ExpenseCalculator\SpendWise\Infrastructure\bin\Debug\net8.0\Infrastructure.deps.json
+C:\Users\hussain.saqib\Desktop\Learning\.NET Projects - Learning\ExpenseCalculator\SpendWise\Infrastructure\bin\Debug\net8.0\Infrastructure.runtimeconfig.json
+C:\Users\hussain.saqib\Desktop\Learning\.NET Projects - Learning\ExpenseCalculator\SpendWise\Infrastructure\bin\Debug\net8.0\Infrastructure.dll
+C:\Users\hussain.saqib\Desktop\Learning\.NET Projects - Learning\ExpenseCalculator\SpendWise\Infrastructure\bin\Debug\net8.0\Infrastructure.pdb
+C:\Users\hussain.saqib\Desktop\Learning\.NET Projects - Learning\ExpenseCalculator\SpendWise\Infrastructure\bin\Debug\net8.0\Application.dll
+C:\Users\hussain.saqib\Desktop\Learning\.NET Projects - Learning\ExpenseCalculator\SpendWise\Infrastructure\bin\Debug\net8.0\Domain.dll
+C:\Users\hussain.saqib\Desktop\Learning\.NET Projects - Learning\ExpenseCalculator\SpendWise\Infrastructure\bin\Debug\net8.0\Shared.dll
+C:\Users\hussain.saqib\Desktop\Learning\.NET Projects - Learning\ExpenseCalculator\SpendWise\Infrastructure\bin\Debug\net8.0\Application.pdb
+C:\Users\hussain.saqib\Desktop\Learning\.NET Projects - Learning\ExpenseCalculator\SpendWise\Infrastructure\bin\Debug\net8.0\Domain.pdb
+C:\Users\hussain.saqib\Desktop\Learning\.NET Projects - Learning\ExpenseCalculator\SpendWise\Infrastructure\bin\Debug\net8.0\Shared.pdb
+C:\Users\hussain.saqib\Desktop\Learning\.NET Projects - Learning\ExpenseCalculator\SpendWise\Infrastructure\obj\Debug\net8.0\Infrastructure.csproj.AssemblyReference.cache
+C:\Users\hussain.saqib\Desktop\Learning\.NET Projects - Learning\ExpenseCalculator\SpendWise\Infrastructure\obj\Debug\net8.0\Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hussain.saqib\Desktop\Learning\.NET Projects - Learning\ExpenseCalculator\SpendWise\Infrastructure\obj\Debug\net8.0\Infrastructure.AssemblyInfoInputs.cache
+C:\Users\hussain.saqib\Desktop\Learning\.NET Projects - Learning\ExpenseCalculator\SpendWise\Infrastructure\obj\Debug\net8.0\Infrastructure.AssemblyInfo.cs
+C:\Users\hussain.saqib\Desktop\Learning\.NET Projects - Learning\ExpenseCalculator\SpendWise\Infrastructure\obj\Debug\net8.0\Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\hussain.saqib\Desktop\Learning\.NET Projects - Learning\ExpenseCalculator\SpendWise\Infrastructure\obj\Debug\net8.0\Infrastr.15EFFBFE.Up2Date
+C:\Users\hussain.saqib\Desktop\Learning\.NET Projects - Learning\ExpenseCalculator\SpendWise\Infrastructure\obj\Debug\net8.0\Infrastructure.dll
+C:\Users\hussain.saqib\Desktop\Learning\.NET Projects - Learning\ExpenseCalculator\SpendWise\Infrastructure\obj\Debug\net8.0\refint\Infrastructure.dll
+C:\Users\hussain.saqib\Desktop\Learning\.NET Projects - Learning\ExpenseCalculator\SpendWise\Infrastructure\obj\Debug\net8.0\Infrastructure.pdb
+C:\Users\hussain.saqib\Desktop\Learning\.NET Projects - Learning\ExpenseCalculator\SpendWise\Infrastructure\obj\Debug\net8.0\Infrastructure.genruntimeconfig.cache
+C:\Users\hussain.saqib\Desktop\Learning\.NET Projects - Learning\ExpenseCalculator\SpendWise\Infrastructure\obj\Debug\net8.0\ref\Infrastructure.dll
+C:\Users\hussain.saqib\OneDrive - Systems Limited\Dotnet Core - Clean Architecture - DDD Pattern\SpendWise\Infrastructure\bin\Debug\net8.0\Infrastructure.deps.json
+C:\Users\hussain.saqib\OneDrive - Systems Limited\Dotnet Core - Clean Architecture - DDD Pattern\SpendWise\Infrastructure\bin\Debug\net8.0\Infrastructure.runtimeconfig.json
+C:\Users\hussain.saqib\OneDrive - Systems Limited\Dotnet Core - Clean Architecture - DDD Pattern\SpendWise\Infrastructure\bin\Debug\net8.0\Infrastructure.dll
+C:\Users\hussain.saqib\OneDrive - Systems Limited\Dotnet Core - Clean Architecture - DDD Pattern\SpendWise\Infrastructure\bin\Debug\net8.0\Infrastructure.pdb
+C:\Users\hussain.saqib\OneDrive - Systems Limited\Dotnet Core - Clean Architecture - DDD Pattern\SpendWise\Infrastructure\bin\Debug\net8.0\Application.dll
+C:\Users\hussain.saqib\OneDrive - Systems Limited\Dotnet Core - Clean Architecture - DDD Pattern\SpendWise\Infrastructure\bin\Debug\net8.0\Domain.dll
+C:\Users\hussain.saqib\OneDrive - Systems Limited\Dotnet Core - Clean Architecture - DDD Pattern\SpendWise\Infrastructure\bin\Debug\net8.0\Shared.dll
+C:\Users\hussain.saqib\OneDrive - Systems Limited\Dotnet Core - Clean Architecture - DDD Pattern\SpendWise\Infrastructure\bin\Debug\net8.0\Application.pdb
+C:\Users\hussain.saqib\OneDrive - Systems Limited\Dotnet Core - Clean Architecture - DDD Pattern\SpendWise\Infrastructure\bin\Debug\net8.0\Domain.pdb
+C:\Users\hussain.saqib\OneDrive - Systems Limited\Dotnet Core - Clean Architecture - DDD Pattern\SpendWise\Infrastructure\bin\Debug\net8.0\Shared.pdb
+C:\Users\hussain.saqib\OneDrive - Systems Limited\Dotnet Core - Clean Architecture - DDD Pattern\SpendWise\Infrastructure\obj\Debug\net8.0\Infrastructure.csproj.AssemblyReference.cache
+C:\Users\hussain.saqib\OneDrive - Systems Limited\Dotnet Core - Clean Architecture - DDD Pattern\SpendWise\Infrastructure\obj\Debug\net8.0\Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hussain.saqib\OneDrive - Systems Limited\Dotnet Core - Clean Architecture - DDD Pattern\SpendWise\Infrastructure\obj\Debug\net8.0\Infrastructure.AssemblyInfoInputs.cache
+C:\Users\hussain.saqib\OneDrive - Systems Limited\Dotnet Core - Clean Architecture - DDD Pattern\SpendWise\Infrastructure\obj\Debug\net8.0\Infrastructure.AssemblyInfo.cs
+C:\Users\hussain.saqib\OneDrive - Systems Limited\Dotnet Core - Clean Architecture - DDD Pattern\SpendWise\Infrastructure\obj\Debug\net8.0\Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\hussain.saqib\OneDrive - Systems Limited\Dotnet Core - Clean Architecture - DDD Pattern\SpendWise\Infrastructure\obj\Debug\net8.0\Infrastr.15EFFBFE.Up2Date
+C:\Users\hussain.saqib\OneDrive - Systems Limited\Dotnet Core - Clean Architecture - DDD Pattern\SpendWise\Infrastructure\obj\Debug\net8.0\Infrastructure.dll
+C:\Users\hussain.saqib\OneDrive - Systems Limited\Dotnet Core - Clean Architecture - DDD Pattern\SpendWise\Infrastructure\obj\Debug\net8.0\refint\Infrastructure.dll
+C:\Users\hussain.saqib\OneDrive - Systems Limited\Dotnet Core - Clean Architecture - DDD Pattern\SpendWise\Infrastructure\obj\Debug\net8.0\Infrastructure.pdb
+C:\Users\hussain.saqib\OneDrive - Systems Limited\Dotnet Core - Clean Architecture - DDD Pattern\SpendWise\Infrastructure\obj\Debug\net8.0\Infrastructure.genruntimeconfig.cache
+C:\Users\hussain.saqib\OneDrive - Systems Limited\Dotnet Core - Clean Architecture - DDD Pattern\SpendWise\Infrastructure\obj\Debug\net8.0\ref\Infrastructure.dll
+C:\Users\hussain.saqib\Desktop\Learning\.NET Projects - Learning\ExpenseCalculator\SpendWise - With Identity Server\Infrastructure\bin\Debug\net8.0\Infrastructure.deps.json
+C:\Users\hussain.saqib\Desktop\Learning\.NET Projects - Learning\ExpenseCalculator\SpendWise - With Identity Server\Infrastructure\bin\Debug\net8.0\Infrastructure.runtimeconfig.json
+C:\Users\hussain.saqib\Desktop\Learning\.NET Projects - Learning\ExpenseCalculator\SpendWise - With Identity Server\Infrastructure\bin\Debug\net8.0\Infrastructure.dll
+C:\Users\hussain.saqib\Desktop\Learning\.NET Projects - Learning\ExpenseCalculator\SpendWise - With Identity Server\Infrastructure\bin\Debug\net8.0\Infrastructure.pdb
+C:\Users\hussain.saqib\Desktop\Learning\.NET Projects - Learning\ExpenseCalculator\SpendWise - With Identity Server\Infrastructure\bin\Debug\net8.0\Application.dll
+C:\Users\hussain.saqib\Desktop\Learning\.NET Projects - Learning\ExpenseCalculator\SpendWise - With Identity Server\Infrastructure\bin\Debug\net8.0\Domain.dll
+C:\Users\hussain.saqib\Desktop\Learning\.NET Projects - Learning\ExpenseCalculator\SpendWise - With Identity Server\Infrastructure\bin\Debug\net8.0\Shared.dll
+C:\Users\hussain.saqib\Desktop\Learning\.NET Projects - Learning\ExpenseCalculator\SpendWise - With Identity Server\Infrastructure\bin\Debug\net8.0\Application.pdb
+C:\Users\hussain.saqib\Desktop\Learning\.NET Projects - Learning\ExpenseCalculator\SpendWise - With Identity Server\Infrastructure\bin\Debug\net8.0\Domain.pdb
+C:\Users\hussain.saqib\Desktop\Learning\.NET Projects - Learning\ExpenseCalculator\SpendWise - With Identity Server\Infrastructure\bin\Debug\net8.0\Shared.pdb
+C:\Users\hussain.saqib\Desktop\Learning\.NET Projects - Learning\ExpenseCalculator\SpendWise - With Identity Server\Infrastructure\obj\Debug\net8.0\Infrastructure.csproj.AssemblyReference.cache
+C:\Users\hussain.saqib\Desktop\Learning\.NET Projects - Learning\ExpenseCalculator\SpendWise - With Identity Server\Infrastructure\obj\Debug\net8.0\Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hussain.saqib\Desktop\Learning\.NET Projects - Learning\ExpenseCalculator\SpendWise - With Identity Server\Infrastructure\obj\Debug\net8.0\Infrastructure.AssemblyInfoInputs.cache
+C:\Users\hussain.saqib\Desktop\Learning\.NET Projects - Learning\ExpenseCalculator\SpendWise - With Identity Server\Infrastructure\obj\Debug\net8.0\Infrastructure.AssemblyInfo.cs
+C:\Users\hussain.saqib\Desktop\Learning\.NET Projects - Learning\ExpenseCalculator\SpendWise - With Identity Server\Infrastructure\obj\Debug\net8.0\Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\hussain.saqib\Desktop\Learning\.NET Projects - Learning\ExpenseCalculator\SpendWise - With Identity Server\Infrastructure\obj\Debug\net8.0\Infrastr.15EFFBFE.Up2Date
+C:\Users\hussain.saqib\Desktop\Learning\.NET Projects - Learning\ExpenseCalculator\SpendWise - With Identity Server\Infrastructure\obj\Debug\net8.0\Infrastructure.dll
+C:\Users\hussain.saqib\Desktop\Learning\.NET Projects - Learning\ExpenseCalculator\SpendWise - With Identity Server\Infrastructure\obj\Debug\net8.0\refint\Infrastructure.dll
+C:\Users\hussain.saqib\Desktop\Learning\.NET Projects - Learning\ExpenseCalculator\SpendWise - With Identity Server\Infrastructure\obj\Debug\net8.0\Infrastructure.pdb
+C:\Users\hussain.saqib\Desktop\Learning\.NET Projects - Learning\ExpenseCalculator\SpendWise - With Identity Server\Infrastructure\obj\Debug\net8.0\Infrastructure.genruntimeconfig.cache
+C:\Users\hussain.saqib\Desktop\Learning\.NET Projects - Learning\ExpenseCalculator\SpendWise - With Identity Server\Infrastructure\obj\Debug\net8.0\ref\Infrastructure.dll
+D:\Work\C#\Advance Architectures\SpendWise\Infrastructure\bin\Debug\net8.0\Infrastructure.deps.json
+D:\Work\C#\Advance Architectures\SpendWise\Infrastructure\bin\Debug\net8.0\Infrastructure.runtimeconfig.json
+D:\Work\C#\Advance Architectures\SpendWise\Infrastructure\bin\Debug\net8.0\Infrastructure.dll
+D:\Work\C#\Advance Architectures\SpendWise\Infrastructure\bin\Debug\net8.0\Infrastructure.pdb
+D:\Work\C#\Advance Architectures\SpendWise\Infrastructure\bin\Debug\net8.0\Application.dll
+D:\Work\C#\Advance Architectures\SpendWise\Infrastructure\bin\Debug\net8.0\Domain.dll
+D:\Work\C#\Advance Architectures\SpendWise\Infrastructure\bin\Debug\net8.0\Shared.dll
+D:\Work\C#\Advance Architectures\SpendWise\Infrastructure\bin\Debug\net8.0\Application.pdb
+D:\Work\C#\Advance Architectures\SpendWise\Infrastructure\bin\Debug\net8.0\Domain.pdb
+D:\Work\C#\Advance Architectures\SpendWise\Infrastructure\bin\Debug\net8.0\Shared.pdb
+D:\Work\C#\Advance Architectures\SpendWise\Infrastructure\obj\Debug\net8.0\Infrastructure.csproj.AssemblyReference.cache
+D:\Work\C#\Advance Architectures\SpendWise\Infrastructure\obj\Debug\net8.0\Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\Work\C#\Advance Architectures\SpendWise\Infrastructure\obj\Debug\net8.0\Infrastructure.AssemblyInfoInputs.cache
+D:\Work\C#\Advance Architectures\SpendWise\Infrastructure\obj\Debug\net8.0\Infrastructure.AssemblyInfo.cs
+D:\Work\C#\Advance Architectures\SpendWise\Infrastructure\obj\Debug\net8.0\Infrastructure.csproj.CoreCompileInputs.cache
+D:\Work\C#\Advance Architectures\SpendWise\Infrastructure\obj\Debug\net8.0\Infrastr.15EFFBFE.Up2Date
+D:\Work\C#\Advance Architectures\SpendWise\Infrastructure\obj\Debug\net8.0\Infrastructure.dll
+D:\Work\C#\Advance Architectures\SpendWise\Infrastructure\obj\Debug\net8.0\refint\Infrastructure.dll
+D:\Work\C#\Advance Architectures\SpendWise\Infrastructure\obj\Debug\net8.0\Infrastructure.pdb
+D:\Work\C#\Advance Architectures\SpendWise\Infrastructure\obj\Debug\net8.0\Infrastructure.genruntimeconfig.cache
+D:\Work\C#\Advance Architectures\SpendWise\Infrastructure\obj\Debug\net8.0\ref\Infrastructure.dll

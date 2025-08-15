@@ -1,0 +1,2893 @@
+2025-03-11 13:46:47.138 +05:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-03-11 13:46:47.259 +05:00 [WRN] The foreign key property 'BillDetail.BillId1' was created in shadow state because a conflicting property with the simple name 'BillId' exists in the entity type, but is either not mapped, is already used for another relationship, or is incompatible with the associated primary key type. See https://aka.ms/efcore-relationships for information on mapping relationships in EF Core.
+2025-03-11 13:46:47.429 +05:00 [WRN] No store type was specified for the decimal property 'BillAmount' on entity type 'Bill'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-03-11 13:46:47.444 +05:00 [WRN] No store type was specified for the decimal property 'ShareAmount' on entity type 'BillDetail'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-03-11 13:46:49.331 +05:00 [INF] Email Background Service is running...
+2025-03-11 13:46:50.551 +05:00 [WRN] Failed to determine the https port for redirect.
+2025-03-11 13:46:50.656 +05:00 [INF] Handling request: GET /openapi/scalar/docs/
+2025-03-11 13:46:50.779 +05:00 [INF] Finished handling request.
+2025-03-11 13:46:50.808 +05:00 [INF] Handling request: GET /openapi/scalar/docs/scalar.js
+2025-03-11 13:46:50.804 +05:00 [INF] Handling request: GET /openapi/scalar/docs/scalar.aspnetcore.js
+2025-03-11 13:46:50.831 +05:00 [INF] HTTP GET /openapi/scalar/docs/ responded 200 in 162.4975 ms
+2025-03-11 13:46:50.870 +05:00 [INF] Finished handling request.
+2025-03-11 13:46:50.870 +05:00 [INF] Finished handling request.
+2025-03-11 13:46:50.891 +05:00 [INF] HTTP GET /openapi/scalar/docs/scalar.js responded 304 in 83.3552 ms
+2025-03-11 13:46:50.893 +05:00 [INF] HTTP GET /openapi/scalar/docs/scalar.aspnetcore.js responded 304 in 89.6872 ms
+2025-03-11 13:47:12.516 +05:00 [INF] Handling request: GET /api/roles/GetAll
+2025-03-11 13:47:12.599 +05:00 [INF] ➡️ [START] Handling GetAllRolesQuery | User: Anonymous | IP: ::1 | Request Data: {}
+2025-03-11 13:47:12.874 +05:00 [INF] ✅ [END] GetAllRolesQuery | Execution Time: 245ms | Response Data: {
+  "Value": [
+    {
+      "Id": "761a6afc-057d-4226-58bc-08dd44f47560",
+      "Name": "Admin",
+      "Description": "Admin role for SpendWise"
+    },
+    {
+      "Id": "f7137b9f-ee58-4c84-58bd-08dd44f47560",
+      "Name": "User",
+      "Description": "User role for SpendWise"
+    },
+    {
+      "Id": "332f8c1c-2595-4a7e-3f6f-08dd6074177f",
+      "Name": "AS",
+      "Description": "asasdasdasdasdasdasdasd"
+    },
+    {
+      "Id": "133197d3-21b2-49c1-3f70-08dd6074177f",
+      "Name": "asdasd",
+      "Description": "asdasdadasdasdasdasdasd"
+    },
+    {
+      "Id": "8559b266-fe50-4635-54b7-08dd60765ea5",
+      "Name": "ASe",
+      "Description": "dasdasdadhadguyadyagsdf"
+    },
+    {
+      "Id": "3d681913-8a8f-4e56-54b8-08dd60765ea5",
+      "Name": "asdasda",
+      "Description": "asdasdasdasdadasdasdasdadasd"
+    },
+    {
+      "Id": "db3cea26-3eb6-4988-54b9-08dd60765ea5",
+      "Name": "asdasdaasd",
+      "Description": "adasdadasdasdasdasdasdasdadasdasdasd"
+    },
+    {
+      "Id": "8c91f425-bd75-4ed9-54ba-08dd60765ea5",
+      "Name": "asdaa",
+      "Description": "asdasdasdasdasdasdasdasdasdasdasd"
+    }
+  ],
+  "IsSuccess": true,
+  "Errors": [],
+  "ValidationErrors": {},
+  "Successes": [
+    "Roles has been successfully retrieved.",
+    "The request has succeeded."
+  ]
+}
+2025-03-11 13:47:12.934 +05:00 [INF] Finished handling request.
+2025-03-11 13:47:12.947 +05:00 [INF] HTTP GET /api/roles/GetAll responded 200 in 430.4239 ms
+2025-03-11 13:47:59.640 +05:00 [INF] Handling request: GET /api/roles/GetAll
+2025-03-11 13:47:59.680 +05:00 [INF] ➡️ [START] Handling GetAllRolesQuery | User: Anonymous | IP: ::1 | Request Data: {}
+2025-03-11 13:47:59.714 +05:00 [INF] ✅ [END] GetAllRolesQuery | Execution Time: 33ms | Response Data: {
+  "Value": [
+    {
+      "Id": "761a6afc-057d-4226-58bc-08dd44f47560",
+      "Name": "Admin",
+      "Description": "Admin role for SpendWise"
+    },
+    {
+      "Id": "f7137b9f-ee58-4c84-58bd-08dd44f47560",
+      "Name": "User",
+      "Description": "User role for SpendWise"
+    },
+    {
+      "Id": "332f8c1c-2595-4a7e-3f6f-08dd6074177f",
+      "Name": "AS",
+      "Description": "asasdasdasdasdasdasdasd"
+    },
+    {
+      "Id": "133197d3-21b2-49c1-3f70-08dd6074177f",
+      "Name": "asdasd",
+      "Description": "asdasdadasdasdasdasdasd"
+    },
+    {
+      "Id": "8559b266-fe50-4635-54b7-08dd60765ea5",
+      "Name": "ASe",
+      "Description": "dasdasdadhadguyadyagsdf"
+    },
+    {
+      "Id": "3d681913-8a8f-4e56-54b8-08dd60765ea5",
+      "Name": "asdasda",
+      "Description": "asdasdasdasdadasdasdasdadasd"
+    },
+    {
+      "Id": "db3cea26-3eb6-4988-54b9-08dd60765ea5",
+      "Name": "asdasdaasd",
+      "Description": "adasdadasdasdasdasdasdasdadasdasdasd"
+    },
+    {
+      "Id": "8c91f425-bd75-4ed9-54ba-08dd60765ea5",
+      "Name": "asdaa",
+      "Description": "asdasdasdasdasdasdasdasdasdasdasd"
+    }
+  ],
+  "IsSuccess": true,
+  "Errors": [],
+  "ValidationErrors": {},
+  "Successes": [
+    "Roles has been successfully retrieved.",
+    "The request has succeeded."
+  ]
+}
+2025-03-11 13:47:59.721 +05:00 [INF] Finished handling request.
+2025-03-11 13:47:59.725 +05:00 [INF] HTTP GET /api/roles/GetAll responded 200 in 85.2302 ms
+2025-03-11 13:48:03.571 +05:00 [INF] Handling request: GET /api/roles/GetAll
+2025-03-11 13:48:03.586 +05:00 [INF] ➡️ [START] Handling GetAllRolesQuery | User: Anonymous | IP: ::1 | Request Data: {}
+2025-03-11 13:48:03.632 +05:00 [INF] ✅ [END] GetAllRolesQuery | Execution Time: 46ms | Response Data: {
+  "Value": [
+    {
+      "Id": "761a6afc-057d-4226-58bc-08dd44f47560",
+      "Name": "Admin",
+      "Description": "Admin role for SpendWise"
+    },
+    {
+      "Id": "f7137b9f-ee58-4c84-58bd-08dd44f47560",
+      "Name": "User",
+      "Description": "User role for SpendWise"
+    },
+    {
+      "Id": "332f8c1c-2595-4a7e-3f6f-08dd6074177f",
+      "Name": "AS",
+      "Description": "asasdasdasdasdasdasdasd"
+    },
+    {
+      "Id": "133197d3-21b2-49c1-3f70-08dd6074177f",
+      "Name": "asdasd",
+      "Description": "asdasdadasdasdasdasdasd"
+    },
+    {
+      "Id": "8559b266-fe50-4635-54b7-08dd60765ea5",
+      "Name": "ASe",
+      "Description": "dasdasdadhadguyadyagsdf"
+    },
+    {
+      "Id": "3d681913-8a8f-4e56-54b8-08dd60765ea5",
+      "Name": "asdasda",
+      "Description": "asdasdasdasdadasdasdasdadasd"
+    },
+    {
+      "Id": "db3cea26-3eb6-4988-54b9-08dd60765ea5",
+      "Name": "asdasdaasd",
+      "Description": "adasdadasdasdasdasdasdasdadasdasdasd"
+    },
+    {
+      "Id": "8c91f425-bd75-4ed9-54ba-08dd60765ea5",
+      "Name": "asdaa",
+      "Description": "asdasdasdasdasdasdasdasdasdasdasd"
+    }
+  ],
+  "IsSuccess": true,
+  "Errors": [],
+  "ValidationErrors": {},
+  "Successes": [
+    "Roles has been successfully retrieved.",
+    "The request has succeeded."
+  ]
+}
+2025-03-11 13:48:03.651 +05:00 [INF] Finished handling request.
+2025-03-11 13:48:03.659 +05:00 [INF] HTTP GET /api/roles/GetAll responded 200 in 88.1138 ms
+2025-03-11 13:48:06.558 +05:00 [INF] Handling request: GET /api/roles/GetAll
+2025-03-11 13:48:06.573 +05:00 [INF] ➡️ [START] Handling GetAllRolesQuery | User: Anonymous | IP: ::1 | Request Data: {}
+2025-03-11 13:48:06.606 +05:00 [INF] ✅ [END] GetAllRolesQuery | Execution Time: 33ms | Response Data: {
+  "Value": [
+    {
+      "Id": "761a6afc-057d-4226-58bc-08dd44f47560",
+      "Name": "Admin",
+      "Description": "Admin role for SpendWise"
+    },
+    {
+      "Id": "f7137b9f-ee58-4c84-58bd-08dd44f47560",
+      "Name": "User",
+      "Description": "User role for SpendWise"
+    },
+    {
+      "Id": "332f8c1c-2595-4a7e-3f6f-08dd6074177f",
+      "Name": "AS",
+      "Description": "asasdasdasdasdasdasdasd"
+    },
+    {
+      "Id": "133197d3-21b2-49c1-3f70-08dd6074177f",
+      "Name": "asdasd",
+      "Description": "asdasdadasdasdasdasdasd"
+    },
+    {
+      "Id": "8559b266-fe50-4635-54b7-08dd60765ea5",
+      "Name": "ASe",
+      "Description": "dasdasdadhadguyadyagsdf"
+    },
+    {
+      "Id": "3d681913-8a8f-4e56-54b8-08dd60765ea5",
+      "Name": "asdasda",
+      "Description": "asdasdasdasdadasdasdasdadasd"
+    },
+    {
+      "Id": "db3cea26-3eb6-4988-54b9-08dd60765ea5",
+      "Name": "asdasdaasd",
+      "Description": "adasdadasdasdasdasdasdasdadasdasdasd"
+    },
+    {
+      "Id": "8c91f425-bd75-4ed9-54ba-08dd60765ea5",
+      "Name": "asdaa",
+      "Description": "asdasdasdasdasdasdasdasdasdasdasd"
+    }
+  ],
+  "IsSuccess": true,
+  "Errors": [],
+  "ValidationErrors": {},
+  "Successes": [
+    "Roles has been successfully retrieved.",
+    "The request has succeeded."
+  ]
+}
+2025-03-11 13:48:06.636 +05:00 [INF] Finished handling request.
+2025-03-11 13:48:06.644 +05:00 [INF] HTTP GET /api/roles/GetAll responded 200 in 85.9917 ms
+2025-03-11 13:48:09.576 +05:00 [INF] Handling request: GET /api/roles/GetAll
+2025-03-11 13:48:09.589 +05:00 [INF] ➡️ [START] Handling GetAllRolesQuery | User: Anonymous | IP: ::1 | Request Data: {}
+2025-03-11 13:48:09.621 +05:00 [INF] ✅ [END] GetAllRolesQuery | Execution Time: 31ms | Response Data: {
+  "Value": [
+    {
+      "Id": "761a6afc-057d-4226-58bc-08dd44f47560",
+      "Name": "Admin",
+      "Description": "Admin role for SpendWise"
+    },
+    {
+      "Id": "f7137b9f-ee58-4c84-58bd-08dd44f47560",
+      "Name": "User",
+      "Description": "User role for SpendWise"
+    },
+    {
+      "Id": "332f8c1c-2595-4a7e-3f6f-08dd6074177f",
+      "Name": "AS",
+      "Description": "asasdasdasdasdasdasdasd"
+    },
+    {
+      "Id": "133197d3-21b2-49c1-3f70-08dd6074177f",
+      "Name": "asdasd",
+      "Description": "asdasdadasdasdasdasdasd"
+    },
+    {
+      "Id": "8559b266-fe50-4635-54b7-08dd60765ea5",
+      "Name": "ASe",
+      "Description": "dasdasdadhadguyadyagsdf"
+    },
+    {
+      "Id": "3d681913-8a8f-4e56-54b8-08dd60765ea5",
+      "Name": "asdasda",
+      "Description": "asdasdasdasdadasdasdasdadasd"
+    },
+    {
+      "Id": "db3cea26-3eb6-4988-54b9-08dd60765ea5",
+      "Name": "asdasdaasd",
+      "Description": "adasdadasdasdasdasdasdasdadasdasdasd"
+    },
+    {
+      "Id": "8c91f425-bd75-4ed9-54ba-08dd60765ea5",
+      "Name": "asdaa",
+      "Description": "asdasdasdasdasdasdasdasdasdasdasd"
+    }
+  ],
+  "IsSuccess": true,
+  "Errors": [],
+  "ValidationErrors": {},
+  "Successes": [
+    "Roles has been successfully retrieved.",
+    "The request has succeeded."
+  ]
+}
+2025-03-11 13:48:09.650 +05:00 [INF] Finished handling request.
+2025-03-11 13:48:09.660 +05:00 [INF] HTTP GET /api/roles/GetAll responded 200 in 84.2382 ms
+2025-03-11 13:48:12.556 +05:00 [INF] Handling request: GET /api/roles/GetAll
+2025-03-11 13:48:12.570 +05:00 [INF] ➡️ [START] Handling GetAllRolesQuery | User: Anonymous | IP: ::1 | Request Data: {}
+2025-03-11 13:48:12.599 +05:00 [INF] ✅ [END] GetAllRolesQuery | Execution Time: 30ms | Response Data: {
+  "Value": [
+    {
+      "Id": "761a6afc-057d-4226-58bc-08dd44f47560",
+      "Name": "Admin",
+      "Description": "Admin role for SpendWise"
+    },
+    {
+      "Id": "f7137b9f-ee58-4c84-58bd-08dd44f47560",
+      "Name": "User",
+      "Description": "User role for SpendWise"
+    },
+    {
+      "Id": "332f8c1c-2595-4a7e-3f6f-08dd6074177f",
+      "Name": "AS",
+      "Description": "asasdasdasdasdasdasdasd"
+    },
+    {
+      "Id": "133197d3-21b2-49c1-3f70-08dd6074177f",
+      "Name": "asdasd",
+      "Description": "asdasdadasdasdasdasdasd"
+    },
+    {
+      "Id": "8559b266-fe50-4635-54b7-08dd60765ea5",
+      "Name": "ASe",
+      "Description": "dasdasdadhadguyadyagsdf"
+    },
+    {
+      "Id": "3d681913-8a8f-4e56-54b8-08dd60765ea5",
+      "Name": "asdasda",
+      "Description": "asdasdasdasdadasdasdasdadasd"
+    },
+    {
+      "Id": "db3cea26-3eb6-4988-54b9-08dd60765ea5",
+      "Name": "asdasdaasd",
+      "Description": "adasdadasdasdasdasdasdasdadasdasdasd"
+    },
+    {
+      "Id": "8c91f425-bd75-4ed9-54ba-08dd60765ea5",
+      "Name": "asdaa",
+      "Description": "asdasdasdasdasdasdasdasdasdasdasd"
+    }
+  ],
+  "IsSuccess": true,
+  "Errors": [],
+  "ValidationErrors": {},
+  "Successes": [
+    "Roles has been successfully retrieved.",
+    "The request has succeeded."
+  ]
+}
+2025-03-11 13:48:12.618 +05:00 [INF] Finished handling request.
+2025-03-11 13:48:12.626 +05:00 [INF] HTTP GET /api/roles/GetAll responded 200 in 69.5049 ms
+2025-03-11 13:48:15.563 +05:00 [INF] Handling request: GET /api/roles/GetAll
+2025-03-11 13:48:15.570 +05:00 [INF] ➡️ [START] Handling GetAllRolesQuery | User: Anonymous | IP: ::1 | Request Data: {}
+2025-03-11 13:48:15.584 +05:00 [INF] ✅ [END] GetAllRolesQuery | Execution Time: 13ms | Response Data: {
+  "Value": [
+    {
+      "Id": "761a6afc-057d-4226-58bc-08dd44f47560",
+      "Name": "Admin",
+      "Description": "Admin role for SpendWise"
+    },
+    {
+      "Id": "f7137b9f-ee58-4c84-58bd-08dd44f47560",
+      "Name": "User",
+      "Description": "User role for SpendWise"
+    },
+    {
+      "Id": "332f8c1c-2595-4a7e-3f6f-08dd6074177f",
+      "Name": "AS",
+      "Description": "asasdasdasdasdasdasdasd"
+    },
+    {
+      "Id": "133197d3-21b2-49c1-3f70-08dd6074177f",
+      "Name": "asdasd",
+      "Description": "asdasdadasdasdasdasdasd"
+    },
+    {
+      "Id": "8559b266-fe50-4635-54b7-08dd60765ea5",
+      "Name": "ASe",
+      "Description": "dasdasdadhadguyadyagsdf"
+    },
+    {
+      "Id": "3d681913-8a8f-4e56-54b8-08dd60765ea5",
+      "Name": "asdasda",
+      "Description": "asdasdasdasdadasdasdasdadasd"
+    },
+    {
+      "Id": "db3cea26-3eb6-4988-54b9-08dd60765ea5",
+      "Name": "asdasdaasd",
+      "Description": "adasdadasdasdasdasdasdasdadasdasdasd"
+    },
+    {
+      "Id": "8c91f425-bd75-4ed9-54ba-08dd60765ea5",
+      "Name": "asdaa",
+      "Description": "asdasdasdasdasdasdasdasdasdasdasd"
+    }
+  ],
+  "IsSuccess": true,
+  "Errors": [],
+  "ValidationErrors": {},
+  "Successes": [
+    "Roles has been successfully retrieved.",
+    "The request has succeeded."
+  ]
+}
+2025-03-11 13:48:15.591 +05:00 [INF] Finished handling request.
+2025-03-11 13:48:15.596 +05:00 [INF] HTTP GET /api/roles/GetAll responded 200 in 32.9752 ms
+2025-03-11 13:48:42.553 +05:00 [INF] Handling request: GET /api/roles/GetAll
+2025-03-11 13:48:42.570 +05:00 [INF] ➡️ [START] Handling GetAllRolesQuery | User: Anonymous | IP: ::1 | Request Data: {}
+2025-03-11 13:48:42.588 +05:00 [INF] ✅ [END] GetAllRolesQuery | Execution Time: 17ms | Response Data: {
+  "Value": [
+    {
+      "Id": "761a6afc-057d-4226-58bc-08dd44f47560",
+      "Name": "Admin",
+      "Description": "Admin role for SpendWise"
+    },
+    {
+      "Id": "f7137b9f-ee58-4c84-58bd-08dd44f47560",
+      "Name": "User",
+      "Description": "User role for SpendWise"
+    },
+    {
+      "Id": "332f8c1c-2595-4a7e-3f6f-08dd6074177f",
+      "Name": "AS",
+      "Description": "asasdasdasdasdasdasdasd"
+    },
+    {
+      "Id": "133197d3-21b2-49c1-3f70-08dd6074177f",
+      "Name": "asdasd",
+      "Description": "asdasdadasdasdasdasdasd"
+    },
+    {
+      "Id": "8559b266-fe50-4635-54b7-08dd60765ea5",
+      "Name": "ASe",
+      "Description": "dasdasdadhadguyadyagsdf"
+    },
+    {
+      "Id": "3d681913-8a8f-4e56-54b8-08dd60765ea5",
+      "Name": "asdasda",
+      "Description": "asdasdasdasdadasdasdasdadasd"
+    },
+    {
+      "Id": "db3cea26-3eb6-4988-54b9-08dd60765ea5",
+      "Name": "asdasdaasd",
+      "Description": "adasdadasdasdasdasdasdasdadasdasdasd"
+    },
+    {
+      "Id": "8c91f425-bd75-4ed9-54ba-08dd60765ea5",
+      "Name": "asdaa",
+      "Description": "asdasdasdasdasdasdasdasdasdasdasd"
+    }
+  ],
+  "IsSuccess": true,
+  "Errors": [],
+  "ValidationErrors": {},
+  "Successes": [
+    "Roles has been successfully retrieved.",
+    "The request has succeeded."
+  ]
+}
+2025-03-11 13:48:42.597 +05:00 [INF] Finished handling request.
+2025-03-11 13:48:42.601 +05:00 [INF] HTTP GET /api/roles/GetAll responded 200 in 54.2235 ms
+2025-03-11 13:49:43.200 +05:00 [INF] Handling request: GET /api/roles/GetAll
+2025-03-11 13:49:43.204 +05:00 [INF] ➡️ [START] Handling GetAllRolesQuery | User: Anonymous | IP: ::1 | Request Data: {}
+2025-03-11 13:49:43.223 +05:00 [INF] ✅ [END] GetAllRolesQuery | Execution Time: 17ms | Response Data: {
+  "Value": [
+    {
+      "Id": "761a6afc-057d-4226-58bc-08dd44f47560",
+      "Name": "Admin",
+      "Description": "Admin role for SpendWise"
+    },
+    {
+      "Id": "f7137b9f-ee58-4c84-58bd-08dd44f47560",
+      "Name": "User",
+      "Description": "User role for SpendWise"
+    },
+    {
+      "Id": "332f8c1c-2595-4a7e-3f6f-08dd6074177f",
+      "Name": "AS",
+      "Description": "asasdasdasdasdasdasdasd"
+    },
+    {
+      "Id": "133197d3-21b2-49c1-3f70-08dd6074177f",
+      "Name": "asdasd",
+      "Description": "asdasdadasdasdasdasdasd"
+    },
+    {
+      "Id": "8559b266-fe50-4635-54b7-08dd60765ea5",
+      "Name": "ASe",
+      "Description": "dasdasdadhadguyadyagsdf"
+    },
+    {
+      "Id": "3d681913-8a8f-4e56-54b8-08dd60765ea5",
+      "Name": "asdasda",
+      "Description": "asdasdasdasdadasdasdasdadasd"
+    },
+    {
+      "Id": "db3cea26-3eb6-4988-54b9-08dd60765ea5",
+      "Name": "asdasdaasd",
+      "Description": "adasdadasdasdasdasdasdasdadasdasdasd"
+    },
+    {
+      "Id": "8c91f425-bd75-4ed9-54ba-08dd60765ea5",
+      "Name": "asdaa",
+      "Description": "asdasdasdasdasdasdasdasdasdasdasd"
+    }
+  ],
+  "IsSuccess": true,
+  "Errors": [],
+  "ValidationErrors": {},
+  "Successes": [
+    "Roles has been successfully retrieved.",
+    "The request has succeeded."
+  ]
+}
+2025-03-11 13:49:43.231 +05:00 [INF] Finished handling request.
+2025-03-11 13:49:43.234 +05:00 [INF] HTTP GET /api/roles/GetAll responded 200 in 33.9401 ms
+2025-03-11 13:49:50.387 +05:00 [INF] Handling request: GET /api/roles/GetAll
+2025-03-11 13:49:50.392 +05:00 [INF] ➡️ [START] Handling GetAllRolesQuery | User: Anonymous | IP: ::1 | Request Data: {}
+2025-03-11 13:49:50.404 +05:00 [INF] ✅ [END] GetAllRolesQuery | Execution Time: 12ms | Response Data: {
+  "Value": [
+    {
+      "Id": "761a6afc-057d-4226-58bc-08dd44f47560",
+      "Name": "Admin",
+      "Description": "Admin role for SpendWise"
+    },
+    {
+      "Id": "f7137b9f-ee58-4c84-58bd-08dd44f47560",
+      "Name": "User",
+      "Description": "User role for SpendWise"
+    },
+    {
+      "Id": "332f8c1c-2595-4a7e-3f6f-08dd6074177f",
+      "Name": "AS",
+      "Description": "asasdasdasdasdasdasdasd"
+    },
+    {
+      "Id": "133197d3-21b2-49c1-3f70-08dd6074177f",
+      "Name": "asdasd",
+      "Description": "asdasdadasdasdasdasdasd"
+    },
+    {
+      "Id": "8559b266-fe50-4635-54b7-08dd60765ea5",
+      "Name": "ASe",
+      "Description": "dasdasdadhadguyadyagsdf"
+    },
+    {
+      "Id": "3d681913-8a8f-4e56-54b8-08dd60765ea5",
+      "Name": "asdasda",
+      "Description": "asdasdasdasdadasdasdasdadasd"
+    },
+    {
+      "Id": "db3cea26-3eb6-4988-54b9-08dd60765ea5",
+      "Name": "asdasdaasd",
+      "Description": "adasdadasdasdasdasdasdasdadasdasdasd"
+    },
+    {
+      "Id": "8c91f425-bd75-4ed9-54ba-08dd60765ea5",
+      "Name": "asdaa",
+      "Description": "asdasdasdasdasdasdasdasdasdasdasd"
+    }
+  ],
+  "IsSuccess": true,
+  "Errors": [],
+  "ValidationErrors": {},
+  "Successes": [
+    "Roles has been successfully retrieved.",
+    "The request has succeeded."
+  ]
+}
+2025-03-11 13:49:50.411 +05:00 [INF] Finished handling request.
+2025-03-11 13:49:50.413 +05:00 [INF] HTTP GET /api/roles/GetAll responded 200 in 25.8495 ms
+2025-03-11 13:50:36.087 +05:00 [INF] Handling request: GET /api/roles/GetAll
+2025-03-11 13:50:36.098 +05:00 [INF] ➡️ [START] Handling GetAllRolesQuery | User: Anonymous | IP: ::1 | Request Data: {}
+2025-03-11 13:50:36.136 +05:00 [INF] ✅ [END] GetAllRolesQuery | Execution Time: 37ms | Response Data: {
+  "Value": [
+    {
+      "Id": "761a6afc-057d-4226-58bc-08dd44f47560",
+      "Name": "Admin",
+      "Description": "Admin role for SpendWise"
+    },
+    {
+      "Id": "f7137b9f-ee58-4c84-58bd-08dd44f47560",
+      "Name": "User",
+      "Description": "User role for SpendWise"
+    },
+    {
+      "Id": "332f8c1c-2595-4a7e-3f6f-08dd6074177f",
+      "Name": "AS",
+      "Description": "asasdasdasdasdasdasdasd"
+    },
+    {
+      "Id": "133197d3-21b2-49c1-3f70-08dd6074177f",
+      "Name": "asdasd",
+      "Description": "asdasdadasdasdasdasdasd"
+    },
+    {
+      "Id": "8559b266-fe50-4635-54b7-08dd60765ea5",
+      "Name": "ASe",
+      "Description": "dasdasdadhadguyadyagsdf"
+    },
+    {
+      "Id": "3d681913-8a8f-4e56-54b8-08dd60765ea5",
+      "Name": "asdasda",
+      "Description": "asdasdasdasdadasdasdasdadasd"
+    },
+    {
+      "Id": "db3cea26-3eb6-4988-54b9-08dd60765ea5",
+      "Name": "asdasdaasd",
+      "Description": "adasdadasdasdasdasdasdasdadasdasdasd"
+    },
+    {
+      "Id": "8c91f425-bd75-4ed9-54ba-08dd60765ea5",
+      "Name": "asdaa",
+      "Description": "asdasdasdasdasdasdasdasdasdasdasd"
+    }
+  ],
+  "IsSuccess": true,
+  "Errors": [],
+  "ValidationErrors": {},
+  "Successes": [
+    "Roles has been successfully retrieved.",
+    "The request has succeeded."
+  ]
+}
+2025-03-11 13:50:36.165 +05:00 [INF] Finished handling request.
+2025-03-11 13:50:36.174 +05:00 [INF] HTTP GET /api/roles/GetAll responded 200 in 87.2099 ms
+2025-03-11 13:50:39.743 +05:00 [INF] Handling request: GET /api/roles/GetAll
+2025-03-11 13:50:39.758 +05:00 [INF] ➡️ [START] Handling GetAllRolesQuery | User: Anonymous | IP: ::1 | Request Data: {}
+2025-03-11 13:50:39.791 +05:00 [INF] ✅ [END] GetAllRolesQuery | Execution Time: 32ms | Response Data: {
+  "Value": [
+    {
+      "Id": "761a6afc-057d-4226-58bc-08dd44f47560",
+      "Name": "Admin",
+      "Description": "Admin role for SpendWise"
+    },
+    {
+      "Id": "f7137b9f-ee58-4c84-58bd-08dd44f47560",
+      "Name": "User",
+      "Description": "User role for SpendWise"
+    },
+    {
+      "Id": "332f8c1c-2595-4a7e-3f6f-08dd6074177f",
+      "Name": "AS",
+      "Description": "asasdasdasdasdasdasdasd"
+    },
+    {
+      "Id": "133197d3-21b2-49c1-3f70-08dd6074177f",
+      "Name": "asdasd",
+      "Description": "asdasdadasdasdasdasdasd"
+    },
+    {
+      "Id": "8559b266-fe50-4635-54b7-08dd60765ea5",
+      "Name": "ASe",
+      "Description": "dasdasdadhadguyadyagsdf"
+    },
+    {
+      "Id": "3d681913-8a8f-4e56-54b8-08dd60765ea5",
+      "Name": "asdasda",
+      "Description": "asdasdasdasdadasdasdasdadasd"
+    },
+    {
+      "Id": "db3cea26-3eb6-4988-54b9-08dd60765ea5",
+      "Name": "asdasdaasd",
+      "Description": "adasdadasdasdasdasdasdasdadasdasdasd"
+    },
+    {
+      "Id": "8c91f425-bd75-4ed9-54ba-08dd60765ea5",
+      "Name": "asdaa",
+      "Description": "asdasdasdasdasdasdasdasdasdasdasd"
+    }
+  ],
+  "IsSuccess": true,
+  "Errors": [],
+  "ValidationErrors": {},
+  "Successes": [
+    "Roles has been successfully retrieved.",
+    "The request has succeeded."
+  ]
+}
+2025-03-11 13:50:39.814 +05:00 [INF] Finished handling request.
+2025-03-11 13:50:39.821 +05:00 [INF] HTTP GET /api/roles/GetAll responded 200 in 78.0026 ms
+2025-03-11 13:50:41.858 +05:00 [INF] Handling request: GET /api/roles/GetAll
+2025-03-11 13:50:41.864 +05:00 [INF] ➡️ [START] Handling GetAllRolesQuery | User: Anonymous | IP: ::1 | Request Data: {}
+2025-03-11 13:50:41.876 +05:00 [INF] ✅ [END] GetAllRolesQuery | Execution Time: 12ms | Response Data: {
+  "Value": [
+    {
+      "Id": "761a6afc-057d-4226-58bc-08dd44f47560",
+      "Name": "Admin",
+      "Description": "Admin role for SpendWise"
+    },
+    {
+      "Id": "f7137b9f-ee58-4c84-58bd-08dd44f47560",
+      "Name": "User",
+      "Description": "User role for SpendWise"
+    },
+    {
+      "Id": "332f8c1c-2595-4a7e-3f6f-08dd6074177f",
+      "Name": "AS",
+      "Description": "asasdasdasdasdasdasdasd"
+    },
+    {
+      "Id": "133197d3-21b2-49c1-3f70-08dd6074177f",
+      "Name": "asdasd",
+      "Description": "asdasdadasdasdasdasdasd"
+    },
+    {
+      "Id": "8559b266-fe50-4635-54b7-08dd60765ea5",
+      "Name": "ASe",
+      "Description": "dasdasdadhadguyadyagsdf"
+    },
+    {
+      "Id": "3d681913-8a8f-4e56-54b8-08dd60765ea5",
+      "Name": "asdasda",
+      "Description": "asdasdasdasdadasdasdasdadasd"
+    },
+    {
+      "Id": "db3cea26-3eb6-4988-54b9-08dd60765ea5",
+      "Name": "asdasdaasd",
+      "Description": "adasdadasdasdasdasdasdasdadasdasdasd"
+    },
+    {
+      "Id": "8c91f425-bd75-4ed9-54ba-08dd60765ea5",
+      "Name": "asdaa",
+      "Description": "asdasdasdasdasdasdasdasdasdasdasd"
+    }
+  ],
+  "IsSuccess": true,
+  "Errors": [],
+  "ValidationErrors": {},
+  "Successes": [
+    "Roles has been successfully retrieved.",
+    "The request has succeeded."
+  ]
+}
+2025-03-11 13:50:41.882 +05:00 [INF] Finished handling request.
+2025-03-11 13:50:41.884 +05:00 [INF] HTTP GET /api/roles/GetAll responded 200 in 25.9256 ms
+2025-03-11 13:52:17.587 +05:00 [INF] Handling request: GET /api/roles/GetAll
+2025-03-11 13:52:17.592 +05:00 [INF] ➡️ [START] Handling GetAllRolesQuery | User: Anonymous | IP: ::1 | Request Data: {}
+2025-03-11 13:52:17.604 +05:00 [INF] ✅ [END] GetAllRolesQuery | Execution Time: 12ms | Response Data: {
+  "Value": [
+    {
+      "Id": "761a6afc-057d-4226-58bc-08dd44f47560",
+      "Name": "Admin",
+      "Description": "Admin role for SpendWise"
+    },
+    {
+      "Id": "f7137b9f-ee58-4c84-58bd-08dd44f47560",
+      "Name": "User",
+      "Description": "User role for SpendWise"
+    },
+    {
+      "Id": "332f8c1c-2595-4a7e-3f6f-08dd6074177f",
+      "Name": "AS",
+      "Description": "asasdasdasdasdasdasdasd"
+    },
+    {
+      "Id": "133197d3-21b2-49c1-3f70-08dd6074177f",
+      "Name": "asdasd",
+      "Description": "asdasdadasdasdasdasdasd"
+    },
+    {
+      "Id": "8559b266-fe50-4635-54b7-08dd60765ea5",
+      "Name": "ASe",
+      "Description": "dasdasdadhadguyadyagsdf"
+    },
+    {
+      "Id": "3d681913-8a8f-4e56-54b8-08dd60765ea5",
+      "Name": "asdasda",
+      "Description": "asdasdasdasdadasdasdasdadasd"
+    },
+    {
+      "Id": "db3cea26-3eb6-4988-54b9-08dd60765ea5",
+      "Name": "asdasdaasd",
+      "Description": "adasdadasdasdasdasdasdasdadasdasdasd"
+    },
+    {
+      "Id": "8c91f425-bd75-4ed9-54ba-08dd60765ea5",
+      "Name": "asdaa",
+      "Description": "asdasdasdasdasdasdasdasdasdasdasd"
+    }
+  ],
+  "IsSuccess": true,
+  "Errors": [],
+  "ValidationErrors": {},
+  "Successes": [
+    "Roles has been successfully retrieved.",
+    "The request has succeeded."
+  ]
+}
+2025-03-11 13:52:17.612 +05:00 [INF] Finished handling request.
+2025-03-11 13:52:17.616 +05:00 [INF] HTTP GET /api/roles/GetAll responded 200 in 28.5169 ms
+2025-03-11 13:53:39.586 +05:00 [INF] Handling request: GET /api/roles/GetAll
+2025-03-11 13:53:39.597 +05:00 [INF] ➡️ [START] Handling GetAllRolesQuery | User: Anonymous | IP: ::1 | Request Data: {}
+2025-03-11 13:53:39.628 +05:00 [INF] ✅ [END] GetAllRolesQuery | Execution Time: 31ms | Response Data: {
+  "Value": [
+    {
+      "Id": "761a6afc-057d-4226-58bc-08dd44f47560",
+      "Name": "Admin",
+      "Description": "Admin role for SpendWise"
+    },
+    {
+      "Id": "f7137b9f-ee58-4c84-58bd-08dd44f47560",
+      "Name": "User",
+      "Description": "User role for SpendWise"
+    },
+    {
+      "Id": "332f8c1c-2595-4a7e-3f6f-08dd6074177f",
+      "Name": "AS",
+      "Description": "asasdasdasdasdasdasdasd"
+    },
+    {
+      "Id": "133197d3-21b2-49c1-3f70-08dd6074177f",
+      "Name": "asdasd",
+      "Description": "asdasdadasdasdasdasdasd"
+    },
+    {
+      "Id": "8559b266-fe50-4635-54b7-08dd60765ea5",
+      "Name": "ASe",
+      "Description": "dasdasdadhadguyadyagsdf"
+    },
+    {
+      "Id": "3d681913-8a8f-4e56-54b8-08dd60765ea5",
+      "Name": "asdasda",
+      "Description": "asdasdasdasdadasdasdasdadasd"
+    },
+    {
+      "Id": "db3cea26-3eb6-4988-54b9-08dd60765ea5",
+      "Name": "asdasdaasd",
+      "Description": "adasdadasdasdasdasdasdasdadasdasdasd"
+    },
+    {
+      "Id": "8c91f425-bd75-4ed9-54ba-08dd60765ea5",
+      "Name": "asdaa",
+      "Description": "asdasdasdasdasdasdasdasdasdasdasd"
+    }
+  ],
+  "IsSuccess": true,
+  "Errors": [],
+  "ValidationErrors": {},
+  "Successes": [
+    "Roles has been successfully retrieved.",
+    "The request has succeeded."
+  ]
+}
+2025-03-11 13:53:39.647 +05:00 [INF] Finished handling request.
+2025-03-11 13:53:39.679 +05:00 [INF] HTTP GET /api/roles/GetAll responded 200 in 92.6212 ms
+2025-03-11 13:53:41.571 +05:00 [INF] Handling request: GET /api/roles/GetAll
+2025-03-11 13:53:41.584 +05:00 [INF] ➡️ [START] Handling GetAllRolesQuery | User: Anonymous | IP: ::1 | Request Data: {}
+2025-03-11 13:53:41.614 +05:00 [INF] ✅ [END] GetAllRolesQuery | Execution Time: 29ms | Response Data: {
+  "Value": [
+    {
+      "Id": "761a6afc-057d-4226-58bc-08dd44f47560",
+      "Name": "Admin",
+      "Description": "Admin role for SpendWise"
+    },
+    {
+      "Id": "f7137b9f-ee58-4c84-58bd-08dd44f47560",
+      "Name": "User",
+      "Description": "User role for SpendWise"
+    },
+    {
+      "Id": "332f8c1c-2595-4a7e-3f6f-08dd6074177f",
+      "Name": "AS",
+      "Description": "asasdasdasdasdasdasdasd"
+    },
+    {
+      "Id": "133197d3-21b2-49c1-3f70-08dd6074177f",
+      "Name": "asdasd",
+      "Description": "asdasdadasdasdasdasdasd"
+    },
+    {
+      "Id": "8559b266-fe50-4635-54b7-08dd60765ea5",
+      "Name": "ASe",
+      "Description": "dasdasdadhadguyadyagsdf"
+    },
+    {
+      "Id": "3d681913-8a8f-4e56-54b8-08dd60765ea5",
+      "Name": "asdasda",
+      "Description": "asdasdasdasdadasdasdasdadasd"
+    },
+    {
+      "Id": "db3cea26-3eb6-4988-54b9-08dd60765ea5",
+      "Name": "asdasdaasd",
+      "Description": "adasdadasdasdasdasdasdasdadasdasdasd"
+    },
+    {
+      "Id": "8c91f425-bd75-4ed9-54ba-08dd60765ea5",
+      "Name": "asdaa",
+      "Description": "asdasdasdasdasdasdasdasdasdasdasd"
+    }
+  ],
+  "IsSuccess": true,
+  "Errors": [],
+  "ValidationErrors": {},
+  "Successes": [
+    "Roles has been successfully retrieved.",
+    "The request has succeeded."
+  ]
+}
+2025-03-11 13:53:41.631 +05:00 [INF] Finished handling request.
+2025-03-11 13:53:41.640 +05:00 [INF] HTTP GET /api/roles/GetAll responded 200 in 69.0967 ms
+2025-03-11 13:53:43.573 +05:00 [INF] Handling request: GET /api/roles/GetAll
+2025-03-11 13:53:43.593 +05:00 [INF] ➡️ [START] Handling GetAllRolesQuery | User: Anonymous | IP: ::1 | Request Data: {}
+2025-03-11 13:53:43.625 +05:00 [INF] ✅ [END] GetAllRolesQuery | Execution Time: 31ms | Response Data: {
+  "Value": [
+    {
+      "Id": "761a6afc-057d-4226-58bc-08dd44f47560",
+      "Name": "Admin",
+      "Description": "Admin role for SpendWise"
+    },
+    {
+      "Id": "f7137b9f-ee58-4c84-58bd-08dd44f47560",
+      "Name": "User",
+      "Description": "User role for SpendWise"
+    },
+    {
+      "Id": "332f8c1c-2595-4a7e-3f6f-08dd6074177f",
+      "Name": "AS",
+      "Description": "asasdasdasdasdasdasdasd"
+    },
+    {
+      "Id": "133197d3-21b2-49c1-3f70-08dd6074177f",
+      "Name": "asdasd",
+      "Description": "asdasdadasdasdasdasdasd"
+    },
+    {
+      "Id": "8559b266-fe50-4635-54b7-08dd60765ea5",
+      "Name": "ASe",
+      "Description": "dasdasdadhadguyadyagsdf"
+    },
+    {
+      "Id": "3d681913-8a8f-4e56-54b8-08dd60765ea5",
+      "Name": "asdasda",
+      "Description": "asdasdasdasdadasdasdasdadasd"
+    },
+    {
+      "Id": "db3cea26-3eb6-4988-54b9-08dd60765ea5",
+      "Name": "asdasdaasd",
+      "Description": "adasdadasdasdasdasdasdasdadasdasdasd"
+    },
+    {
+      "Id": "8c91f425-bd75-4ed9-54ba-08dd60765ea5",
+      "Name": "asdaa",
+      "Description": "asdasdasdasdasdasdasdasdasdasdasd"
+    }
+  ],
+  "IsSuccess": true,
+  "Errors": [],
+  "ValidationErrors": {},
+  "Successes": [
+    "Roles has been successfully retrieved.",
+    "The request has succeeded."
+  ]
+}
+2025-03-11 13:53:43.637 +05:00 [INF] Finished handling request.
+2025-03-11 13:53:43.652 +05:00 [INF] HTTP GET /api/roles/GetAll responded 200 in 79.1367 ms
+2025-03-11 13:53:48.568 +05:00 [INF] Handling request: GET /api/roles/GetAll
+2025-03-11 13:53:48.584 +05:00 [INF] ➡️ [START] Handling GetAllRolesQuery | User: Anonymous | IP: ::1 | Request Data: {}
+2025-03-11 13:53:48.659 +05:00 [INF] ✅ [END] GetAllRolesQuery | Execution Time: 74ms | Response Data: {
+  "Value": [
+    {
+      "Id": "761a6afc-057d-4226-58bc-08dd44f47560",
+      "Name": "Admin",
+      "Description": "Admin role for SpendWise"
+    },
+    {
+      "Id": "f7137b9f-ee58-4c84-58bd-08dd44f47560",
+      "Name": "User",
+      "Description": "User role for SpendWise"
+    },
+    {
+      "Id": "332f8c1c-2595-4a7e-3f6f-08dd6074177f",
+      "Name": "AS",
+      "Description": "asasdasdasdasdasdasdasd"
+    },
+    {
+      "Id": "133197d3-21b2-49c1-3f70-08dd6074177f",
+      "Name": "asdasd",
+      "Description": "asdasdadasdasdasdasdasd"
+    },
+    {
+      "Id": "8559b266-fe50-4635-54b7-08dd60765ea5",
+      "Name": "ASe",
+      "Description": "dasdasdadhadguyadyagsdf"
+    },
+    {
+      "Id": "3d681913-8a8f-4e56-54b8-08dd60765ea5",
+      "Name": "asdasda",
+      "Description": "asdasdasdasdadasdasdasdadasd"
+    },
+    {
+      "Id": "db3cea26-3eb6-4988-54b9-08dd60765ea5",
+      "Name": "asdasdaasd",
+      "Description": "adasdadasdasdasdasdasdasdadasdasdasd"
+    },
+    {
+      "Id": "8c91f425-bd75-4ed9-54ba-08dd60765ea5",
+      "Name": "asdaa",
+      "Description": "asdasdasdasdasdasdasdasdasdasdasd"
+    }
+  ],
+  "IsSuccess": true,
+  "Errors": [],
+  "ValidationErrors": {},
+  "Successes": [
+    "Roles has been successfully retrieved.",
+    "The request has succeeded."
+  ]
+}
+2025-03-11 13:53:48.667 +05:00 [INF] Finished handling request.
+2025-03-11 13:53:48.672 +05:00 [INF] HTTP GET /api/roles/GetAll responded 200 in 103.4554 ms
+2025-03-11 13:53:49.569 +05:00 [INF] Handling request: GET /api/roles/GetAll
+2025-03-11 13:53:49.587 +05:00 [INF] ➡️ [START] Handling GetAllRolesQuery | User: Anonymous | IP: ::1 | Request Data: {}
+2025-03-11 13:53:49.624 +05:00 [INF] ✅ [END] GetAllRolesQuery | Execution Time: 35ms | Response Data: {
+  "Value": [
+    {
+      "Id": "761a6afc-057d-4226-58bc-08dd44f47560",
+      "Name": "Admin",
+      "Description": "Admin role for SpendWise"
+    },
+    {
+      "Id": "f7137b9f-ee58-4c84-58bd-08dd44f47560",
+      "Name": "User",
+      "Description": "User role for SpendWise"
+    },
+    {
+      "Id": "332f8c1c-2595-4a7e-3f6f-08dd6074177f",
+      "Name": "AS",
+      "Description": "asasdasdasdasdasdasdasd"
+    },
+    {
+      "Id": "133197d3-21b2-49c1-3f70-08dd6074177f",
+      "Name": "asdasd",
+      "Description": "asdasdadasdasdasdasdasd"
+    },
+    {
+      "Id": "8559b266-fe50-4635-54b7-08dd60765ea5",
+      "Name": "ASe",
+      "Description": "dasdasdadhadguyadyagsdf"
+    },
+    {
+      "Id": "3d681913-8a8f-4e56-54b8-08dd60765ea5",
+      "Name": "asdasda",
+      "Description": "asdasdasdasdadasdasdasdadasd"
+    },
+    {
+      "Id": "db3cea26-3eb6-4988-54b9-08dd60765ea5",
+      "Name": "asdasdaasd",
+      "Description": "adasdadasdasdasdasdasdasdadasdasdasd"
+    },
+    {
+      "Id": "8c91f425-bd75-4ed9-54ba-08dd60765ea5",
+      "Name": "asdaa",
+      "Description": "asdasdasdasdasdasdasdasdasdasdasd"
+    }
+  ],
+  "IsSuccess": true,
+  "Errors": [],
+  "ValidationErrors": {},
+  "Successes": [
+    "Roles has been successfully retrieved.",
+    "The request has succeeded."
+  ]
+}
+2025-03-11 13:53:49.640 +05:00 [INF] Finished handling request.
+2025-03-11 13:53:49.648 +05:00 [INF] HTTP GET /api/roles/GetAll responded 200 in 78.7608 ms
+2025-03-11 13:54:25.855 +05:00 [INF] Handling request: GET /api/roles/GetAll
+2025-03-11 13:54:25.865 +05:00 [INF] ➡️ [START] Handling GetAllRolesQuery | User: Anonymous | IP: ::1 | Request Data: {}
+2025-03-11 13:54:25.913 +05:00 [INF] ✅ [END] GetAllRolesQuery | Execution Time: 48ms | Response Data: {
+  "Value": [
+    {
+      "Id": "761a6afc-057d-4226-58bc-08dd44f47560",
+      "Name": "Admin",
+      "Description": "Admin role for SpendWise"
+    },
+    {
+      "Id": "f7137b9f-ee58-4c84-58bd-08dd44f47560",
+      "Name": "User",
+      "Description": "User role for SpendWise"
+    },
+    {
+      "Id": "332f8c1c-2595-4a7e-3f6f-08dd6074177f",
+      "Name": "AS",
+      "Description": "asasdasdasdasdasdasdasd"
+    },
+    {
+      "Id": "133197d3-21b2-49c1-3f70-08dd6074177f",
+      "Name": "asdasd",
+      "Description": "asdasdadasdasdasdasdasd"
+    },
+    {
+      "Id": "8559b266-fe50-4635-54b7-08dd60765ea5",
+      "Name": "ASe",
+      "Description": "dasdasdadhadguyadyagsdf"
+    },
+    {
+      "Id": "3d681913-8a8f-4e56-54b8-08dd60765ea5",
+      "Name": "asdasda",
+      "Description": "asdasdasdasdadasdasdasdadasd"
+    },
+    {
+      "Id": "db3cea26-3eb6-4988-54b9-08dd60765ea5",
+      "Name": "asdasdaasd",
+      "Description": "adasdadasdasdasdasdasdasdadasdasdasd"
+    },
+    {
+      "Id": "8c91f425-bd75-4ed9-54ba-08dd60765ea5",
+      "Name": "asdaa",
+      "Description": "asdasdasdasdasdasdasdasdasdasdasd"
+    }
+  ],
+  "IsSuccess": true,
+  "Errors": [],
+  "ValidationErrors": {},
+  "Successes": [
+    "Roles has been successfully retrieved.",
+    "The request has succeeded."
+  ]
+}
+2025-03-11 13:54:25.924 +05:00 [INF] Finished handling request.
+2025-03-11 13:54:25.928 +05:00 [INF] HTTP GET /api/roles/GetAll responded 200 in 72.7281 ms
+2025-03-11 13:55:50.240 +05:00 [INF] Handling request: GET /api/roles/GetAll
+2025-03-11 13:55:50.253 +05:00 [INF] ➡️ [START] Handling GetAllRolesQuery | User: Anonymous | IP: ::1 | Request Data: {}
+2025-03-11 13:55:50.283 +05:00 [INF] ✅ [END] GetAllRolesQuery | Execution Time: 30ms | Response Data: {
+  "Value": [
+    {
+      "Id": "761a6afc-057d-4226-58bc-08dd44f47560",
+      "Name": "Admin",
+      "Description": "Admin role for SpendWise"
+    },
+    {
+      "Id": "f7137b9f-ee58-4c84-58bd-08dd44f47560",
+      "Name": "User",
+      "Description": "User role for SpendWise"
+    },
+    {
+      "Id": "332f8c1c-2595-4a7e-3f6f-08dd6074177f",
+      "Name": "AS",
+      "Description": "asasdasdasdasdasdasdasd"
+    },
+    {
+      "Id": "133197d3-21b2-49c1-3f70-08dd6074177f",
+      "Name": "asdasd",
+      "Description": "asdasdadasdasdasdasdasd"
+    },
+    {
+      "Id": "8559b266-fe50-4635-54b7-08dd60765ea5",
+      "Name": "ASe",
+      "Description": "dasdasdadhadguyadyagsdf"
+    },
+    {
+      "Id": "3d681913-8a8f-4e56-54b8-08dd60765ea5",
+      "Name": "asdasda",
+      "Description": "asdasdasdasdadasdasdasdadasd"
+    },
+    {
+      "Id": "db3cea26-3eb6-4988-54b9-08dd60765ea5",
+      "Name": "asdasdaasd",
+      "Description": "adasdadasdasdasdasdasdasdadasdasdasd"
+    },
+    {
+      "Id": "8c91f425-bd75-4ed9-54ba-08dd60765ea5",
+      "Name": "asdaa",
+      "Description": "asdasdasdasdasdasdasdasdasdasdasd"
+    }
+  ],
+  "IsSuccess": true,
+  "Errors": [],
+  "ValidationErrors": {},
+  "Successes": [
+    "Roles has been successfully retrieved.",
+    "The request has succeeded."
+  ]
+}
+2025-03-11 13:55:50.310 +05:00 [INF] Finished handling request.
+2025-03-11 13:55:50.318 +05:00 [INF] HTTP GET /api/roles/GetAll responded 200 in 77.4038 ms
+2025-03-11 13:55:51.191 +05:00 [INF] Handling request: GET /api/roles/GetAll
+2025-03-11 13:55:51.200 +05:00 [INF] ➡️ [START] Handling GetAllRolesQuery | User: Anonymous | IP: ::1 | Request Data: {}
+2025-03-11 13:55:51.225 +05:00 [INF] ✅ [END] GetAllRolesQuery | Execution Time: 24ms | Response Data: {
+  "Value": [
+    {
+      "Id": "761a6afc-057d-4226-58bc-08dd44f47560",
+      "Name": "Admin",
+      "Description": "Admin role for SpendWise"
+    },
+    {
+      "Id": "f7137b9f-ee58-4c84-58bd-08dd44f47560",
+      "Name": "User",
+      "Description": "User role for SpendWise"
+    },
+    {
+      "Id": "332f8c1c-2595-4a7e-3f6f-08dd6074177f",
+      "Name": "AS",
+      "Description": "asasdasdasdasdasdasdasd"
+    },
+    {
+      "Id": "133197d3-21b2-49c1-3f70-08dd6074177f",
+      "Name": "asdasd",
+      "Description": "asdasdadasdasdasdasdasd"
+    },
+    {
+      "Id": "8559b266-fe50-4635-54b7-08dd60765ea5",
+      "Name": "ASe",
+      "Description": "dasdasdadhadguyadyagsdf"
+    },
+    {
+      "Id": "3d681913-8a8f-4e56-54b8-08dd60765ea5",
+      "Name": "asdasda",
+      "Description": "asdasdasdasdadasdasdasdadasd"
+    },
+    {
+      "Id": "db3cea26-3eb6-4988-54b9-08dd60765ea5",
+      "Name": "asdasdaasd",
+      "Description": "adasdadasdasdasdasdasdasdadasdasdasd"
+    },
+    {
+      "Id": "8c91f425-bd75-4ed9-54ba-08dd60765ea5",
+      "Name": "asdaa",
+      "Description": "asdasdasdasdasdasdasdasdasdasdasd"
+    }
+  ],
+  "IsSuccess": true,
+  "Errors": [],
+  "ValidationErrors": {},
+  "Successes": [
+    "Roles has been successfully retrieved.",
+    "The request has succeeded."
+  ]
+}
+2025-03-11 13:55:51.230 +05:00 [INF] Finished handling request.
+2025-03-11 13:55:51.233 +05:00 [INF] HTTP GET /api/roles/GetAll responded 200 in 42.4373 ms
+2025-03-11 13:55:53.423 +05:00 [INF] Handling request: GET /api/roles/GetAll
+2025-03-11 13:55:53.437 +05:00 [INF] ➡️ [START] Handling GetAllRolesQuery | User: Anonymous | IP: ::1 | Request Data: {}
+2025-03-11 13:55:53.465 +05:00 [INF] ✅ [END] GetAllRolesQuery | Execution Time: 27ms | Response Data: {
+  "Value": [
+    {
+      "Id": "761a6afc-057d-4226-58bc-08dd44f47560",
+      "Name": "Admin",
+      "Description": "Admin role for SpendWise"
+    },
+    {
+      "Id": "f7137b9f-ee58-4c84-58bd-08dd44f47560",
+      "Name": "User",
+      "Description": "User role for SpendWise"
+    },
+    {
+      "Id": "332f8c1c-2595-4a7e-3f6f-08dd6074177f",
+      "Name": "AS",
+      "Description": "asasdasdasdasdasdasdasd"
+    },
+    {
+      "Id": "133197d3-21b2-49c1-3f70-08dd6074177f",
+      "Name": "asdasd",
+      "Description": "asdasdadasdasdasdasdasd"
+    },
+    {
+      "Id": "8559b266-fe50-4635-54b7-08dd60765ea5",
+      "Name": "ASe",
+      "Description": "dasdasdadhadguyadyagsdf"
+    },
+    {
+      "Id": "3d681913-8a8f-4e56-54b8-08dd60765ea5",
+      "Name": "asdasda",
+      "Description": "asdasdasdasdadasdasdasdadasd"
+    },
+    {
+      "Id": "db3cea26-3eb6-4988-54b9-08dd60765ea5",
+      "Name": "asdasdaasd",
+      "Description": "adasdadasdasdasdasdasdasdadasdasdasd"
+    },
+    {
+      "Id": "8c91f425-bd75-4ed9-54ba-08dd60765ea5",
+      "Name": "asdaa",
+      "Description": "asdasdasdasdasdasdasdasdasdasdasd"
+    }
+  ],
+  "IsSuccess": true,
+  "Errors": [],
+  "ValidationErrors": {},
+  "Successes": [
+    "Roles has been successfully retrieved.",
+    "The request has succeeded."
+  ]
+}
+2025-03-11 13:55:53.487 +05:00 [INF] Finished handling request.
+2025-03-11 13:55:53.497 +05:00 [INF] HTTP GET /api/roles/GetAll responded 200 in 74.0512 ms
+2025-03-11 13:55:53.593 +05:00 [INF] Handling request: GET /api/roles/GetAll
+2025-03-11 13:55:53.606 +05:00 [INF] ➡️ [START] Handling GetAllRolesQuery | User: Anonymous | IP: ::1 | Request Data: {}
+2025-03-11 13:55:53.631 +05:00 [INF] ✅ [END] GetAllRolesQuery | Execution Time: 25ms | Response Data: {
+  "Value": [
+    {
+      "Id": "761a6afc-057d-4226-58bc-08dd44f47560",
+      "Name": "Admin",
+      "Description": "Admin role for SpendWise"
+    },
+    {
+      "Id": "f7137b9f-ee58-4c84-58bd-08dd44f47560",
+      "Name": "User",
+      "Description": "User role for SpendWise"
+    },
+    {
+      "Id": "332f8c1c-2595-4a7e-3f6f-08dd6074177f",
+      "Name": "AS",
+      "Description": "asasdasdasdasdasdasdasd"
+    },
+    {
+      "Id": "133197d3-21b2-49c1-3f70-08dd6074177f",
+      "Name": "asdasd",
+      "Description": "asdasdadasdasdasdasdasd"
+    },
+    {
+      "Id": "8559b266-fe50-4635-54b7-08dd60765ea5",
+      "Name": "ASe",
+      "Description": "dasdasdadhadguyadyagsdf"
+    },
+    {
+      "Id": "3d681913-8a8f-4e56-54b8-08dd60765ea5",
+      "Name": "asdasda",
+      "Description": "asdasdasdasdadasdasdasdadasd"
+    },
+    {
+      "Id": "db3cea26-3eb6-4988-54b9-08dd60765ea5",
+      "Name": "asdasdaasd",
+      "Description": "adasdadasdasdasdasdasdasdadasdasdasd"
+    },
+    {
+      "Id": "8c91f425-bd75-4ed9-54ba-08dd60765ea5",
+      "Name": "asdaa",
+      "Description": "asdasdasdasdasdasdasdasdasdasdasd"
+    }
+  ],
+  "IsSuccess": true,
+  "Errors": [],
+  "ValidationErrors": {},
+  "Successes": [
+    "Roles has been successfully retrieved.",
+    "The request has succeeded."
+  ]
+}
+2025-03-11 13:55:53.646 +05:00 [INF] Finished handling request.
+2025-03-11 13:55:53.660 +05:00 [INF] HTTP GET /api/roles/GetAll responded 200 in 67.1553 ms
+2025-03-11 13:55:53.738 +05:00 [INF] Handling request: GET /api/roles/GetAll
+2025-03-11 13:55:53.744 +05:00 [INF] ➡️ [START] Handling GetAllRolesQuery | User: Anonymous | IP: ::1 | Request Data: {}
+2025-03-11 13:55:53.763 +05:00 [INF] ✅ [END] GetAllRolesQuery | Execution Time: 18ms | Response Data: {
+  "Value": [
+    {
+      "Id": "761a6afc-057d-4226-58bc-08dd44f47560",
+      "Name": "Admin",
+      "Description": "Admin role for SpendWise"
+    },
+    {
+      "Id": "f7137b9f-ee58-4c84-58bd-08dd44f47560",
+      "Name": "User",
+      "Description": "User role for SpendWise"
+    },
+    {
+      "Id": "332f8c1c-2595-4a7e-3f6f-08dd6074177f",
+      "Name": "AS",
+      "Description": "asasdasdasdasdasdasdasd"
+    },
+    {
+      "Id": "133197d3-21b2-49c1-3f70-08dd6074177f",
+      "Name": "asdasd",
+      "Description": "asdasdadasdasdasdasdasd"
+    },
+    {
+      "Id": "8559b266-fe50-4635-54b7-08dd60765ea5",
+      "Name": "ASe",
+      "Description": "dasdasdadhadguyadyagsdf"
+    },
+    {
+      "Id": "3d681913-8a8f-4e56-54b8-08dd60765ea5",
+      "Name": "asdasda",
+      "Description": "asdasdasdasdadasdasdasdadasd"
+    },
+    {
+      "Id": "db3cea26-3eb6-4988-54b9-08dd60765ea5",
+      "Name": "asdasdaasd",
+      "Description": "adasdadasdasdasdasdasdasdadasdasdasd"
+    },
+    {
+      "Id": "8c91f425-bd75-4ed9-54ba-08dd60765ea5",
+      "Name": "asdaa",
+      "Description": "asdasdasdasdasdasdasdasdasdasdasd"
+    }
+  ],
+  "IsSuccess": true,
+  "Errors": [],
+  "ValidationErrors": {},
+  "Successes": [
+    "Roles has been successfully retrieved.",
+    "The request has succeeded."
+  ]
+}
+2025-03-11 13:55:53.777 +05:00 [INF] Finished handling request.
+2025-03-11 13:55:53.784 +05:00 [INF] HTTP GET /api/roles/GetAll responded 200 in 46.0532 ms
+2025-03-11 13:55:53.833 +05:00 [INF] Handling request: GET /api/roles/GetAll
+2025-03-11 13:55:53.845 +05:00 [INF] ➡️ [START] Handling GetAllRolesQuery | User: Anonymous | IP: ::1 | Request Data: {}
+2025-03-11 13:55:53.860 +05:00 [INF] ✅ [END] GetAllRolesQuery | Execution Time: 15ms | Response Data: {
+  "Value": [
+    {
+      "Id": "761a6afc-057d-4226-58bc-08dd44f47560",
+      "Name": "Admin",
+      "Description": "Admin role for SpendWise"
+    },
+    {
+      "Id": "f7137b9f-ee58-4c84-58bd-08dd44f47560",
+      "Name": "User",
+      "Description": "User role for SpendWise"
+    },
+    {
+      "Id": "332f8c1c-2595-4a7e-3f6f-08dd6074177f",
+      "Name": "AS",
+      "Description": "asasdasdasdasdasdasdasd"
+    },
+    {
+      "Id": "133197d3-21b2-49c1-3f70-08dd6074177f",
+      "Name": "asdasd",
+      "Description": "asdasdadasdasdasdasdasd"
+    },
+    {
+      "Id": "8559b266-fe50-4635-54b7-08dd60765ea5",
+      "Name": "ASe",
+      "Description": "dasdasdadhadguyadyagsdf"
+    },
+    {
+      "Id": "3d681913-8a8f-4e56-54b8-08dd60765ea5",
+      "Name": "asdasda",
+      "Description": "asdasdasdasdadasdasdasdadasd"
+    },
+    {
+      "Id": "db3cea26-3eb6-4988-54b9-08dd60765ea5",
+      "Name": "asdasdaasd",
+      "Description": "adasdadasdasdasdasdasdasdadasdasdasd"
+    },
+    {
+      "Id": "8c91f425-bd75-4ed9-54ba-08dd60765ea5",
+      "Name": "asdaa",
+      "Description": "asdasdasdasdasdasdasdasdasdasdasd"
+    }
+  ],
+  "IsSuccess": true,
+  "Errors": [],
+  "ValidationErrors": {},
+  "Successes": [
+    "Roles has been successfully retrieved.",
+    "The request has succeeded."
+  ]
+}
+2025-03-11 13:55:53.866 +05:00 [INF] Finished handling request.
+2025-03-11 13:55:53.870 +05:00 [INF] HTTP GET /api/roles/GetAll responded 200 in 36.3142 ms
+2025-03-11 13:55:55.097 +05:00 [INF] Handling request: GET /api/roles/GetAll
+2025-03-11 13:55:55.105 +05:00 [INF] ➡️ [START] Handling GetAllRolesQuery | User: Anonymous | IP: ::1 | Request Data: {}
+2025-03-11 13:55:55.116 +05:00 [INF] ✅ [END] GetAllRolesQuery | Execution Time: 11ms | Response Data: {
+  "Value": [
+    {
+      "Id": "761a6afc-057d-4226-58bc-08dd44f47560",
+      "Name": "Admin",
+      "Description": "Admin role for SpendWise"
+    },
+    {
+      "Id": "f7137b9f-ee58-4c84-58bd-08dd44f47560",
+      "Name": "User",
+      "Description": "User role for SpendWise"
+    },
+    {
+      "Id": "332f8c1c-2595-4a7e-3f6f-08dd6074177f",
+      "Name": "AS",
+      "Description": "asasdasdasdasdasdasdasd"
+    },
+    {
+      "Id": "133197d3-21b2-49c1-3f70-08dd6074177f",
+      "Name": "asdasd",
+      "Description": "asdasdadasdasdasdasdasd"
+    },
+    {
+      "Id": "8559b266-fe50-4635-54b7-08dd60765ea5",
+      "Name": "ASe",
+      "Description": "dasdasdadhadguyadyagsdf"
+    },
+    {
+      "Id": "3d681913-8a8f-4e56-54b8-08dd60765ea5",
+      "Name": "asdasda",
+      "Description": "asdasdasdasdadasdasdasdadasd"
+    },
+    {
+      "Id": "db3cea26-3eb6-4988-54b9-08dd60765ea5",
+      "Name": "asdasdaasd",
+      "Description": "adasdadasdasdasdasdasdasdadasdasdasd"
+    },
+    {
+      "Id": "8c91f425-bd75-4ed9-54ba-08dd60765ea5",
+      "Name": "asdaa",
+      "Description": "asdasdasdasdasdasdasdasdasdasdasd"
+    }
+  ],
+  "IsSuccess": true,
+  "Errors": [],
+  "ValidationErrors": {},
+  "Successes": [
+    "Roles has been successfully retrieved.",
+    "The request has succeeded."
+  ]
+}
+2025-03-11 13:55:55.124 +05:00 [INF] Finished handling request.
+2025-03-11 13:55:55.128 +05:00 [INF] HTTP GET /api/roles/GetAll responded 200 in 30.3135 ms
+2025-03-11 13:56:02.025 +05:00 [INF] Handling request: POST /api/roles/Add
+2025-03-11 13:56:02.488 +05:00 [ERR] HTTP POST /api/roles/Add responded 500 in 462.8954 ms
+Shared.Exceptions.BadRequestException: Exception of type 'Shared.Exceptions.BadRequestException' was thrown.
+   at Application.Behaviors.ValidationBehaviour`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in C:\Users\hussain.saqib\Desktop\Learning\.NET Projects - Learning\ExpenseCalculator\SpendWise - With Identity Server\Application\Behaviors\ValidationBehaviour.cs:line 22
+   at EndPoints.Controllers.Security.Roles.v1.RolesController.Add(AddEditRoleCommand request, CancellationToken cancellationToken) in C:\Users\hussain.saqib\Desktop\Learning\.NET Projects - Learning\ExpenseCalculator\SpendWise - With Identity Server\EndPoints\Controllers\Security\Roles\v1\RolesController.cs:line 15
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Program.<>c.<<<Main>$>b__0_2>d.MoveNext() in C:\Users\hussain.saqib\Desktop\Learning\.NET Projects - Learning\ExpenseCalculator\SpendWise - With Identity Server\EndPoints\Program.cs:line 75
+--- End of stack trace from previous location ---
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2025-03-11 13:56:02.640 +05:00 [ERR] Error in GlobalExceptionHandler at "2025-03-11T13:56:02.6364559+05:00", with status code 400 and exception Shared.Exceptions.BadRequestException: Exception of type 'Shared.Exceptions.BadRequestException' was thrown.
+   at Application.Behaviors.ValidationBehaviour`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in C:\Users\hussain.saqib\Desktop\Learning\.NET Projects - Learning\ExpenseCalculator\SpendWise - With Identity Server\Application\Behaviors\ValidationBehaviour.cs:line 22
+   at EndPoints.Controllers.Security.Roles.v1.RolesController.Add(AddEditRoleCommand request, CancellationToken cancellationToken) in C:\Users\hussain.saqib\Desktop\Learning\.NET Projects - Learning\ExpenseCalculator\SpendWise - With Identity Server\EndPoints\Controllers\Security\Roles\v1\RolesController.cs:line 15
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Program.<>c.<<<Main>$>b__0_2>d.MoveNext() in C:\Users\hussain.saqib\Desktop\Learning\.NET Projects - Learning\ExpenseCalculator\SpendWise - With Identity Server\EndPoints\Program.cs:line 75
+--- End of stack trace from previous location ---
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Application.Middlewares.RateLimitMiddleware.Invoke(HttpContext context) in C:\Users\hussain.saqib\Desktop\Learning\.NET Projects - Learning\ExpenseCalculator\SpendWise - With Identity Server\Application\Middlewares\RateLimitMiddleware.cs:line 26
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at EndPoints.Infrastructure.Middlewares.GlobalExceptionHandler.Invoke(HttpContext context) in C:\Users\hussain.saqib\Desktop\Learning\.NET Projects - Learning\ExpenseCalculator\SpendWise - With Identity Server\EndPoints\Infrastructure\Middlewares\GlobalExceptionHandler.cs:line 17
+2025-03-11 13:56:30.702 +05:00 [INF] Handling request: GET /api/roles/GetAll
+2025-03-11 13:56:30.724 +05:00 [INF] ➡️ [START] Handling GetAllRolesQuery | User: Anonymous | IP: ::1 | Request Data: {}
+2025-03-11 13:56:30.756 +05:00 [INF] ✅ [END] GetAllRolesQuery | Execution Time: 30ms | Response Data: {
+  "Value": [
+    {
+      "Id": "761a6afc-057d-4226-58bc-08dd44f47560",
+      "Name": "Admin",
+      "Description": "Admin role for SpendWise"
+    },
+    {
+      "Id": "f7137b9f-ee58-4c84-58bd-08dd44f47560",
+      "Name": "User",
+      "Description": "User role for SpendWise"
+    },
+    {
+      "Id": "332f8c1c-2595-4a7e-3f6f-08dd6074177f",
+      "Name": "AS",
+      "Description": "asasdasdasdasdasdasdasd"
+    },
+    {
+      "Id": "133197d3-21b2-49c1-3f70-08dd6074177f",
+      "Name": "asdasd",
+      "Description": "asdasdadasdasdasdasdasd"
+    },
+    {
+      "Id": "8559b266-fe50-4635-54b7-08dd60765ea5",
+      "Name": "ASe",
+      "Description": "dasdasdadhadguyadyagsdf"
+    },
+    {
+      "Id": "3d681913-8a8f-4e56-54b8-08dd60765ea5",
+      "Name": "asdasda",
+      "Description": "asdasdasdasdadasdasdasdadasd"
+    },
+    {
+      "Id": "db3cea26-3eb6-4988-54b9-08dd60765ea5",
+      "Name": "asdasdaasd",
+      "Description": "adasdadasdasdasdasdasdasdadasdasdasd"
+    },
+    {
+      "Id": "8c91f425-bd75-4ed9-54ba-08dd60765ea5",
+      "Name": "asdaa",
+      "Description": "asdasdasdasdasdasdasdasdasdasdasd"
+    }
+  ],
+  "IsSuccess": true,
+  "Errors": [],
+  "ValidationErrors": {},
+  "Successes": [
+    "Roles has been successfully retrieved.",
+    "The request has succeeded."
+  ]
+}
+2025-03-11 13:56:30.763 +05:00 [INF] Finished handling request.
+2025-03-11 13:56:30.768 +05:00 [INF] HTTP GET /api/roles/GetAll responded 200 in 65.6482 ms
+2025-03-11 13:56:32.658 +05:00 [INF] Handling request: GET /api/roles/GetAll
+2025-03-11 13:56:32.663 +05:00 [INF] ➡️ [START] Handling GetAllRolesQuery | User: Anonymous | IP: ::1 | Request Data: {}
+2025-03-11 13:56:32.675 +05:00 [INF] ✅ [END] GetAllRolesQuery | Execution Time: 11ms | Response Data: {
+  "Value": [
+    {
+      "Id": "761a6afc-057d-4226-58bc-08dd44f47560",
+      "Name": "Admin",
+      "Description": "Admin role for SpendWise"
+    },
+    {
+      "Id": "f7137b9f-ee58-4c84-58bd-08dd44f47560",
+      "Name": "User",
+      "Description": "User role for SpendWise"
+    },
+    {
+      "Id": "332f8c1c-2595-4a7e-3f6f-08dd6074177f",
+      "Name": "AS",
+      "Description": "asasdasdasdasdasdasdasd"
+    },
+    {
+      "Id": "133197d3-21b2-49c1-3f70-08dd6074177f",
+      "Name": "asdasd",
+      "Description": "asdasdadasdasdasdasdasd"
+    },
+    {
+      "Id": "8559b266-fe50-4635-54b7-08dd60765ea5",
+      "Name": "ASe",
+      "Description": "dasdasdadhadguyadyagsdf"
+    },
+    {
+      "Id": "3d681913-8a8f-4e56-54b8-08dd60765ea5",
+      "Name": "asdasda",
+      "Description": "asdasdasdasdadasdasdasdadasd"
+    },
+    {
+      "Id": "db3cea26-3eb6-4988-54b9-08dd60765ea5",
+      "Name": "asdasdaasd",
+      "Description": "adasdadasdasdasdasdasdasdadasdasdasd"
+    },
+    {
+      "Id": "8c91f425-bd75-4ed9-54ba-08dd60765ea5",
+      "Name": "asdaa",
+      "Description": "asdasdasdasdasdasdasdasdasdasdasd"
+    }
+  ],
+  "IsSuccess": true,
+  "Errors": [],
+  "ValidationErrors": {},
+  "Successes": [
+    "Roles has been successfully retrieved.",
+    "The request has succeeded."
+  ]
+}
+2025-03-11 13:56:32.682 +05:00 [INF] Finished handling request.
+2025-03-11 13:56:32.685 +05:00 [INF] HTTP GET /api/roles/GetAll responded 200 in 27.7183 ms
+2025-03-11 13:56:35.156 +05:00 [INF] Handling request: GET /api/roles/GetAll
+2025-03-11 13:56:35.169 +05:00 [INF] ➡️ [START] Handling GetAllRolesQuery | User: Anonymous | IP: ::1 | Request Data: {}
+2025-03-11 13:56:35.203 +05:00 [INF] ✅ [END] GetAllRolesQuery | Execution Time: 34ms | Response Data: {
+  "Value": [
+    {
+      "Id": "761a6afc-057d-4226-58bc-08dd44f47560",
+      "Name": "Admin",
+      "Description": "Admin role for SpendWise"
+    },
+    {
+      "Id": "f7137b9f-ee58-4c84-58bd-08dd44f47560",
+      "Name": "User",
+      "Description": "User role for SpendWise"
+    },
+    {
+      "Id": "332f8c1c-2595-4a7e-3f6f-08dd6074177f",
+      "Name": "AS",
+      "Description": "asasdasdasdasdasdasdasd"
+    },
+    {
+      "Id": "133197d3-21b2-49c1-3f70-08dd6074177f",
+      "Name": "asdasd",
+      "Description": "asdasdadasdasdasdasdasd"
+    },
+    {
+      "Id": "8559b266-fe50-4635-54b7-08dd60765ea5",
+      "Name": "ASe",
+      "Description": "dasdasdadhadguyadyagsdf"
+    },
+    {
+      "Id": "3d681913-8a8f-4e56-54b8-08dd60765ea5",
+      "Name": "asdasda",
+      "Description": "asdasdasdasdadasdasdasdadasd"
+    },
+    {
+      "Id": "db3cea26-3eb6-4988-54b9-08dd60765ea5",
+      "Name": "asdasdaasd",
+      "Description": "adasdadasdasdasdasdasdasdadasdasdasd"
+    },
+    {
+      "Id": "8c91f425-bd75-4ed9-54ba-08dd60765ea5",
+      "Name": "asdaa",
+      "Description": "asdasdasdasdasdasdasdasdasdasdasd"
+    }
+  ],
+  "IsSuccess": true,
+  "Errors": [],
+  "ValidationErrors": {},
+  "Successes": [
+    "Roles has been successfully retrieved.",
+    "The request has succeeded."
+  ]
+}
+2025-03-11 13:56:35.221 +05:00 [INF] Finished handling request.
+2025-03-11 13:56:35.228 +05:00 [INF] HTTP GET /api/roles/GetAll responded 200 in 71.5904 ms
+2025-03-11 13:56:37.448 +05:00 [INF] Handling request: GET /api/roles/GetAll
+2025-03-11 13:56:37.461 +05:00 [INF] ➡️ [START] Handling GetAllRolesQuery | User: Anonymous | IP: ::1 | Request Data: {}
+2025-03-11 13:56:37.486 +05:00 [INF] ✅ [END] GetAllRolesQuery | Execution Time: 24ms | Response Data: {
+  "Value": [
+    {
+      "Id": "761a6afc-057d-4226-58bc-08dd44f47560",
+      "Name": "Admin",
+      "Description": "Admin role for SpendWise"
+    },
+    {
+      "Id": "f7137b9f-ee58-4c84-58bd-08dd44f47560",
+      "Name": "User",
+      "Description": "User role for SpendWise"
+    },
+    {
+      "Id": "332f8c1c-2595-4a7e-3f6f-08dd6074177f",
+      "Name": "AS",
+      "Description": "asasdasdasdasdasdasdasd"
+    },
+    {
+      "Id": "133197d3-21b2-49c1-3f70-08dd6074177f",
+      "Name": "asdasd",
+      "Description": "asdasdadasdasdasdasdasd"
+    },
+    {
+      "Id": "8559b266-fe50-4635-54b7-08dd60765ea5",
+      "Name": "ASe",
+      "Description": "dasdasdadhadguyadyagsdf"
+    },
+    {
+      "Id": "3d681913-8a8f-4e56-54b8-08dd60765ea5",
+      "Name": "asdasda",
+      "Description": "asdasdasdasdadasdasdasdadasd"
+    },
+    {
+      "Id": "db3cea26-3eb6-4988-54b9-08dd60765ea5",
+      "Name": "asdasdaasd",
+      "Description": "adasdadasdasdasdasdasdasdadasdasdasd"
+    },
+    {
+      "Id": "8c91f425-bd75-4ed9-54ba-08dd60765ea5",
+      "Name": "asdaa",
+      "Description": "asdasdasdasdasdasdasdasdasdasdasd"
+    }
+  ],
+  "IsSuccess": true,
+  "Errors": [],
+  "ValidationErrors": {},
+  "Successes": [
+    "Roles has been successfully retrieved.",
+    "The request has succeeded."
+  ]
+}
+2025-03-11 13:56:37.505 +05:00 [INF] Finished handling request.
+2025-03-11 13:56:37.513 +05:00 [INF] HTTP GET /api/roles/GetAll responded 200 in 64.4824 ms
+2025-03-11 13:56:38.329 +05:00 [INF] Handling request: GET /api/roles/GetAll
+2025-03-11 13:56:38.341 +05:00 [INF] ➡️ [START] Handling GetAllRolesQuery | User: Anonymous | IP: ::1 | Request Data: {}
+2025-03-11 13:56:38.358 +05:00 [INF] ✅ [END] GetAllRolesQuery | Execution Time: 16ms | Response Data: {
+  "Value": [
+    {
+      "Id": "761a6afc-057d-4226-58bc-08dd44f47560",
+      "Name": "Admin",
+      "Description": "Admin role for SpendWise"
+    },
+    {
+      "Id": "f7137b9f-ee58-4c84-58bd-08dd44f47560",
+      "Name": "User",
+      "Description": "User role for SpendWise"
+    },
+    {
+      "Id": "332f8c1c-2595-4a7e-3f6f-08dd6074177f",
+      "Name": "AS",
+      "Description": "asasdasdasdasdasdasdasd"
+    },
+    {
+      "Id": "133197d3-21b2-49c1-3f70-08dd6074177f",
+      "Name": "asdasd",
+      "Description": "asdasdadasdasdasdasdasd"
+    },
+    {
+      "Id": "8559b266-fe50-4635-54b7-08dd60765ea5",
+      "Name": "ASe",
+      "Description": "dasdasdadhadguyadyagsdf"
+    },
+    {
+      "Id": "3d681913-8a8f-4e56-54b8-08dd60765ea5",
+      "Name": "asdasda",
+      "Description": "asdasdasdasdadasdasdasdadasd"
+    },
+    {
+      "Id": "db3cea26-3eb6-4988-54b9-08dd60765ea5",
+      "Name": "asdasdaasd",
+      "Description": "adasdadasdasdasdasdasdasdadasdasdasd"
+    },
+    {
+      "Id": "8c91f425-bd75-4ed9-54ba-08dd60765ea5",
+      "Name": "asdaa",
+      "Description": "asdasdasdasdasdasdasdasdasdasdasd"
+    }
+  ],
+  "IsSuccess": true,
+  "Errors": [],
+  "ValidationErrors": {},
+  "Successes": [
+    "Roles has been successfully retrieved.",
+    "The request has succeeded."
+  ]
+}
+2025-03-11 13:56:38.369 +05:00 [INF] Finished handling request.
+2025-03-11 13:56:38.376 +05:00 [INF] HTTP GET /api/roles/GetAll responded 200 in 47.3236 ms
+2025-03-11 13:56:55.356 +05:00 [INF] Handling request: GET /api/roles/GetAll
+2025-03-11 13:56:55.365 +05:00 [INF] ➡️ [START] Handling GetAllRolesQuery | User: Anonymous | IP: ::1 | Request Data: {}
+2025-03-11 13:56:55.382 +05:00 [INF] ✅ [END] GetAllRolesQuery | Execution Time: 16ms | Response Data: {
+  "Value": [
+    {
+      "Id": "761a6afc-057d-4226-58bc-08dd44f47560",
+      "Name": "Admin",
+      "Description": "Admin role for SpendWise"
+    },
+    {
+      "Id": "f7137b9f-ee58-4c84-58bd-08dd44f47560",
+      "Name": "User",
+      "Description": "User role for SpendWise"
+    },
+    {
+      "Id": "332f8c1c-2595-4a7e-3f6f-08dd6074177f",
+      "Name": "AS",
+      "Description": "asasdasdasdasdasdasdasd"
+    },
+    {
+      "Id": "133197d3-21b2-49c1-3f70-08dd6074177f",
+      "Name": "asdasd",
+      "Description": "asdasdadasdasdasdasdasd"
+    },
+    {
+      "Id": "8559b266-fe50-4635-54b7-08dd60765ea5",
+      "Name": "ASe",
+      "Description": "dasdasdadhadguyadyagsdf"
+    },
+    {
+      "Id": "3d681913-8a8f-4e56-54b8-08dd60765ea5",
+      "Name": "asdasda",
+      "Description": "asdasdasdasdadasdasdasdadasd"
+    },
+    {
+      "Id": "db3cea26-3eb6-4988-54b9-08dd60765ea5",
+      "Name": "asdasdaasd",
+      "Description": "adasdadasdasdasdasdasdasdadasdasdasd"
+    },
+    {
+      "Id": "8c91f425-bd75-4ed9-54ba-08dd60765ea5",
+      "Name": "asdaa",
+      "Description": "asdasdasdasdasdasdasdasdasdasdasd"
+    }
+  ],
+  "IsSuccess": true,
+  "Errors": [],
+  "ValidationErrors": {},
+  "Successes": [
+    "Roles has been successfully retrieved.",
+    "The request has succeeded."
+  ]
+}
+2025-03-11 13:56:55.388 +05:00 [INF] Finished handling request.
+2025-03-11 13:56:55.392 +05:00 [INF] HTTP GET /api/roles/GetAll responded 200 in 36.0918 ms
+2025-03-11 13:56:56.763 +05:00 [INF] Handling request: GET /api/roles/GetAll
+2025-03-11 13:56:56.773 +05:00 [INF] ➡️ [START] Handling GetAllRolesQuery | User: Anonymous | IP: ::1 | Request Data: {}
+2025-03-11 13:56:56.804 +05:00 [INF] ✅ [END] GetAllRolesQuery | Execution Time: 30ms | Response Data: {
+  "Value": [
+    {
+      "Id": "761a6afc-057d-4226-58bc-08dd44f47560",
+      "Name": "Admin",
+      "Description": "Admin role for SpendWise"
+    },
+    {
+      "Id": "f7137b9f-ee58-4c84-58bd-08dd44f47560",
+      "Name": "User",
+      "Description": "User role for SpendWise"
+    },
+    {
+      "Id": "332f8c1c-2595-4a7e-3f6f-08dd6074177f",
+      "Name": "AS",
+      "Description": "asasdasdasdasdasdasdasd"
+    },
+    {
+      "Id": "133197d3-21b2-49c1-3f70-08dd6074177f",
+      "Name": "asdasd",
+      "Description": "asdasdadasdasdasdasdasd"
+    },
+    {
+      "Id": "8559b266-fe50-4635-54b7-08dd60765ea5",
+      "Name": "ASe",
+      "Description": "dasdasdadhadguyadyagsdf"
+    },
+    {
+      "Id": "3d681913-8a8f-4e56-54b8-08dd60765ea5",
+      "Name": "asdasda",
+      "Description": "asdasdasdasdadasdasdasdadasd"
+    },
+    {
+      "Id": "db3cea26-3eb6-4988-54b9-08dd60765ea5",
+      "Name": "asdasdaasd",
+      "Description": "adasdadasdasdasdasdasdasdadasdasdasd"
+    },
+    {
+      "Id": "8c91f425-bd75-4ed9-54ba-08dd60765ea5",
+      "Name": "asdaa",
+      "Description": "asdasdasdasdasdasdasdasdasdasdasd"
+    }
+  ],
+  "IsSuccess": true,
+  "Errors": [],
+  "ValidationErrors": {},
+  "Successes": [
+    "Roles has been successfully retrieved.",
+    "The request has succeeded."
+  ]
+}
+2025-03-11 13:56:56.834 +05:00 [INF] Finished handling request.
+2025-03-11 13:56:56.842 +05:00 [INF] HTTP GET /api/roles/GetAll responded 200 in 78.5642 ms
+2025-03-11 13:56:57.714 +05:00 [INF] Handling request: GET /api/roles/GetAll
+2025-03-11 13:56:57.726 +05:00 [INF] ➡️ [START] Handling GetAllRolesQuery | User: Anonymous | IP: ::1 | Request Data: {}
+2025-03-11 13:56:57.748 +05:00 [INF] ✅ [END] GetAllRolesQuery | Execution Time: 22ms | Response Data: {
+  "Value": [
+    {
+      "Id": "761a6afc-057d-4226-58bc-08dd44f47560",
+      "Name": "Admin",
+      "Description": "Admin role for SpendWise"
+    },
+    {
+      "Id": "f7137b9f-ee58-4c84-58bd-08dd44f47560",
+      "Name": "User",
+      "Description": "User role for SpendWise"
+    },
+    {
+      "Id": "332f8c1c-2595-4a7e-3f6f-08dd6074177f",
+      "Name": "AS",
+      "Description": "asasdasdasdasdasdasdasd"
+    },
+    {
+      "Id": "133197d3-21b2-49c1-3f70-08dd6074177f",
+      "Name": "asdasd",
+      "Description": "asdasdadasdasdasdasdasd"
+    },
+    {
+      "Id": "8559b266-fe50-4635-54b7-08dd60765ea5",
+      "Name": "ASe",
+      "Description": "dasdasdadhadguyadyagsdf"
+    },
+    {
+      "Id": "3d681913-8a8f-4e56-54b8-08dd60765ea5",
+      "Name": "asdasda",
+      "Description": "asdasdasdasdadasdasdasdadasd"
+    },
+    {
+      "Id": "db3cea26-3eb6-4988-54b9-08dd60765ea5",
+      "Name": "asdasdaasd",
+      "Description": "adasdadasdasdasdasdasdasdadasdasdasd"
+    },
+    {
+      "Id": "8c91f425-bd75-4ed9-54ba-08dd60765ea5",
+      "Name": "asdaa",
+      "Description": "asdasdasdasdasdasdasdasdasdasdasd"
+    }
+  ],
+  "IsSuccess": true,
+  "Errors": [],
+  "ValidationErrors": {},
+  "Successes": [
+    "Roles has been successfully retrieved.",
+    "The request has succeeded."
+  ]
+}
+2025-03-11 13:56:57.755 +05:00 [INF] Finished handling request.
+2025-03-11 13:56:57.758 +05:00 [INF] HTTP GET /api/roles/GetAll responded 200 in 44.2541 ms
+2025-03-11 13:57:09.483 +05:00 [INF] Handling request: GET /api/roles/GetAll
+2025-03-11 13:57:09.490 +05:00 [INF] ➡️ [START] Handling GetAllRolesQuery | User: Anonymous | IP: ::1 | Request Data: {}
+2025-03-11 13:57:09.507 +05:00 [INF] ✅ [END] GetAllRolesQuery | Execution Time: 17ms | Response Data: {
+  "Value": [
+    {
+      "Id": "761a6afc-057d-4226-58bc-08dd44f47560",
+      "Name": "Admin",
+      "Description": "Admin role for SpendWise"
+    },
+    {
+      "Id": "f7137b9f-ee58-4c84-58bd-08dd44f47560",
+      "Name": "User",
+      "Description": "User role for SpendWise"
+    },
+    {
+      "Id": "332f8c1c-2595-4a7e-3f6f-08dd6074177f",
+      "Name": "AS",
+      "Description": "asasdasdasdasdasdasdasd"
+    },
+    {
+      "Id": "133197d3-21b2-49c1-3f70-08dd6074177f",
+      "Name": "asdasd",
+      "Description": "asdasdadasdasdasdasdasd"
+    },
+    {
+      "Id": "8559b266-fe50-4635-54b7-08dd60765ea5",
+      "Name": "ASe",
+      "Description": "dasdasdadhadguyadyagsdf"
+    },
+    {
+      "Id": "3d681913-8a8f-4e56-54b8-08dd60765ea5",
+      "Name": "asdasda",
+      "Description": "asdasdasdasdadasdasdasdadasd"
+    },
+    {
+      "Id": "db3cea26-3eb6-4988-54b9-08dd60765ea5",
+      "Name": "asdasdaasd",
+      "Description": "adasdadasdasdasdasdasdasdadasdasdasd"
+    },
+    {
+      "Id": "8c91f425-bd75-4ed9-54ba-08dd60765ea5",
+      "Name": "asdaa",
+      "Description": "asdasdasdasdasdasdasdasdasdasdasd"
+    }
+  ],
+  "IsSuccess": true,
+  "Errors": [],
+  "ValidationErrors": {},
+  "Successes": [
+    "Roles has been successfully retrieved.",
+    "The request has succeeded."
+  ]
+}
+2025-03-11 13:57:09.514 +05:00 [INF] Finished handling request.
+2025-03-11 13:57:09.518 +05:00 [INF] HTTP GET /api/roles/GetAll responded 200 in 34.7386 ms
+2025-03-11 13:57:09.730 +05:00 [INF] Handling request: GET /api/roles/GetAll
+2025-03-11 13:57:09.738 +05:00 [INF] ➡️ [START] Handling GetAllRolesQuery | User: Anonymous | IP: ::1 | Request Data: {}
+2025-03-11 13:57:09.752 +05:00 [INF] ✅ [END] GetAllRolesQuery | Execution Time: 13ms | Response Data: {
+  "Value": [
+    {
+      "Id": "761a6afc-057d-4226-58bc-08dd44f47560",
+      "Name": "Admin",
+      "Description": "Admin role for SpendWise"
+    },
+    {
+      "Id": "f7137b9f-ee58-4c84-58bd-08dd44f47560",
+      "Name": "User",
+      "Description": "User role for SpendWise"
+    },
+    {
+      "Id": "332f8c1c-2595-4a7e-3f6f-08dd6074177f",
+      "Name": "AS",
+      "Description": "asasdasdasdasdasdasdasd"
+    },
+    {
+      "Id": "133197d3-21b2-49c1-3f70-08dd6074177f",
+      "Name": "asdasd",
+      "Description": "asdasdadasdasdasdasdasd"
+    },
+    {
+      "Id": "8559b266-fe50-4635-54b7-08dd60765ea5",
+      "Name": "ASe",
+      "Description": "dasdasdadhadguyadyagsdf"
+    },
+    {
+      "Id": "3d681913-8a8f-4e56-54b8-08dd60765ea5",
+      "Name": "asdasda",
+      "Description": "asdasdasdasdadasdasdasdadasd"
+    },
+    {
+      "Id": "db3cea26-3eb6-4988-54b9-08dd60765ea5",
+      "Name": "asdasdaasd",
+      "Description": "adasdadasdasdasdasdasdasdadasdasdasd"
+    },
+    {
+      "Id": "8c91f425-bd75-4ed9-54ba-08dd60765ea5",
+      "Name": "asdaa",
+      "Description": "asdasdasdasdasdasdasdasdasdasdasd"
+    }
+  ],
+  "IsSuccess": true,
+  "Errors": [],
+  "ValidationErrors": {},
+  "Successes": [
+    "Roles has been successfully retrieved.",
+    "The request has succeeded."
+  ]
+}
+2025-03-11 13:57:09.758 +05:00 [INF] Finished handling request.
+2025-03-11 13:57:09.761 +05:00 [INF] HTTP GET /api/roles/GetAll responded 200 in 30.7848 ms
+2025-03-11 13:57:10.183 +05:00 [INF] Handling request: GET /api/roles/GetAll
+2025-03-11 13:57:10.196 +05:00 [INF] ➡️ [START] Handling GetAllRolesQuery | User: Anonymous | IP: ::1 | Request Data: {}
+2025-03-11 13:57:10.213 +05:00 [INF] ✅ [END] GetAllRolesQuery | Execution Time: 17ms | Response Data: {
+  "Value": [
+    {
+      "Id": "761a6afc-057d-4226-58bc-08dd44f47560",
+      "Name": "Admin",
+      "Description": "Admin role for SpendWise"
+    },
+    {
+      "Id": "f7137b9f-ee58-4c84-58bd-08dd44f47560",
+      "Name": "User",
+      "Description": "User role for SpendWise"
+    },
+    {
+      "Id": "332f8c1c-2595-4a7e-3f6f-08dd6074177f",
+      "Name": "AS",
+      "Description": "asasdasdasdasdasdasdasd"
+    },
+    {
+      "Id": "133197d3-21b2-49c1-3f70-08dd6074177f",
+      "Name": "asdasd",
+      "Description": "asdasdadasdasdasdasdasd"
+    },
+    {
+      "Id": "8559b266-fe50-4635-54b7-08dd60765ea5",
+      "Name": "ASe",
+      "Description": "dasdasdadhadguyadyagsdf"
+    },
+    {
+      "Id": "3d681913-8a8f-4e56-54b8-08dd60765ea5",
+      "Name": "asdasda",
+      "Description": "asdasdasdasdadasdasdasdadasd"
+    },
+    {
+      "Id": "db3cea26-3eb6-4988-54b9-08dd60765ea5",
+      "Name": "asdasdaasd",
+      "Description": "adasdadasdasdasdasdasdasdadasdasdasd"
+    },
+    {
+      "Id": "8c91f425-bd75-4ed9-54ba-08dd60765ea5",
+      "Name": "asdaa",
+      "Description": "asdasdasdasdasdasdasdasdasdasdasd"
+    }
+  ],
+  "IsSuccess": true,
+  "Errors": [],
+  "ValidationErrors": {},
+  "Successes": [
+    "Roles has been successfully retrieved.",
+    "The request has succeeded."
+  ]
+}
+2025-03-11 13:57:10.218 +05:00 [INF] Finished handling request.
+2025-03-11 13:57:10.220 +05:00 [INF] HTTP GET /api/roles/GetAll responded 200 in 37.1748 ms
+2025-03-11 13:57:16.501 +05:00 [INF] Handling request: POST /api/roles/Add
+2025-03-11 13:57:16.734 +05:00 [ERR] HTTP POST /api/roles/Add responded 500 in 232.9115 ms
+Shared.Exceptions.BadRequestException: Exception of type 'Shared.Exceptions.BadRequestException' was thrown.
+   at Application.Behaviors.ValidationBehaviour`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in C:\Users\hussain.saqib\Desktop\Learning\.NET Projects - Learning\ExpenseCalculator\SpendWise - With Identity Server\Application\Behaviors\ValidationBehaviour.cs:line 22
+   at EndPoints.Controllers.Security.Roles.v1.RolesController.Add(AddEditRoleCommand request, CancellationToken cancellationToken) in C:\Users\hussain.saqib\Desktop\Learning\.NET Projects - Learning\ExpenseCalculator\SpendWise - With Identity Server\EndPoints\Controllers\Security\Roles\v1\RolesController.cs:line 15
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Program.<>c.<<<Main>$>b__0_2>d.MoveNext() in C:\Users\hussain.saqib\Desktop\Learning\.NET Projects - Learning\ExpenseCalculator\SpendWise - With Identity Server\EndPoints\Program.cs:line 75
+--- End of stack trace from previous location ---
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2025-03-11 13:57:16.865 +05:00 [ERR] Error in GlobalExceptionHandler at "2025-03-11T13:57:16.8646688+05:00", with status code 400 and exception Shared.Exceptions.BadRequestException: Exception of type 'Shared.Exceptions.BadRequestException' was thrown.
+   at Application.Behaviors.ValidationBehaviour`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in C:\Users\hussain.saqib\Desktop\Learning\.NET Projects - Learning\ExpenseCalculator\SpendWise - With Identity Server\Application\Behaviors\ValidationBehaviour.cs:line 22
+   at EndPoints.Controllers.Security.Roles.v1.RolesController.Add(AddEditRoleCommand request, CancellationToken cancellationToken) in C:\Users\hussain.saqib\Desktop\Learning\.NET Projects - Learning\ExpenseCalculator\SpendWise - With Identity Server\EndPoints\Controllers\Security\Roles\v1\RolesController.cs:line 15
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Program.<>c.<<<Main>$>b__0_2>d.MoveNext() in C:\Users\hussain.saqib\Desktop\Learning\.NET Projects - Learning\ExpenseCalculator\SpendWise - With Identity Server\EndPoints\Program.cs:line 75
+--- End of stack trace from previous location ---
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Application.Middlewares.RateLimitMiddleware.Invoke(HttpContext context) in C:\Users\hussain.saqib\Desktop\Learning\.NET Projects - Learning\ExpenseCalculator\SpendWise - With Identity Server\Application\Middlewares\RateLimitMiddleware.cs:line 26
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at EndPoints.Infrastructure.Middlewares.GlobalExceptionHandler.Invoke(HttpContext context) in C:\Users\hussain.saqib\Desktop\Learning\.NET Projects - Learning\ExpenseCalculator\SpendWise - With Identity Server\EndPoints\Infrastructure\Middlewares\GlobalExceptionHandler.cs:line 17
+2025-03-11 13:57:19.459 +05:00 [INF] Handling request: POST /api/roles/Add
+2025-03-11 13:57:19.649 +05:00 [ERR] HTTP POST /api/roles/Add responded 500 in 189.7117 ms
+Shared.Exceptions.BadRequestException: Exception of type 'Shared.Exceptions.BadRequestException' was thrown.
+   at Application.Behaviors.ValidationBehaviour`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in C:\Users\hussain.saqib\Desktop\Learning\.NET Projects - Learning\ExpenseCalculator\SpendWise - With Identity Server\Application\Behaviors\ValidationBehaviour.cs:line 22
+   at EndPoints.Controllers.Security.Roles.v1.RolesController.Add(AddEditRoleCommand request, CancellationToken cancellationToken) in C:\Users\hussain.saqib\Desktop\Learning\.NET Projects - Learning\ExpenseCalculator\SpendWise - With Identity Server\EndPoints\Controllers\Security\Roles\v1\RolesController.cs:line 15
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Program.<>c.<<<Main>$>b__0_2>d.MoveNext() in C:\Users\hussain.saqib\Desktop\Learning\.NET Projects - Learning\ExpenseCalculator\SpendWise - With Identity Server\EndPoints\Program.cs:line 75
+--- End of stack trace from previous location ---
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2025-03-11 13:57:19.781 +05:00 [ERR] Error in GlobalExceptionHandler at "2025-03-11T13:57:19.7801308+05:00", with status code 400 and exception Shared.Exceptions.BadRequestException: Exception of type 'Shared.Exceptions.BadRequestException' was thrown.
+   at Application.Behaviors.ValidationBehaviour`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in C:\Users\hussain.saqib\Desktop\Learning\.NET Projects - Learning\ExpenseCalculator\SpendWise - With Identity Server\Application\Behaviors\ValidationBehaviour.cs:line 22
+   at EndPoints.Controllers.Security.Roles.v1.RolesController.Add(AddEditRoleCommand request, CancellationToken cancellationToken) in C:\Users\hussain.saqib\Desktop\Learning\.NET Projects - Learning\ExpenseCalculator\SpendWise - With Identity Server\EndPoints\Controllers\Security\Roles\v1\RolesController.cs:line 15
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Program.<>c.<<<Main>$>b__0_2>d.MoveNext() in C:\Users\hussain.saqib\Desktop\Learning\.NET Projects - Learning\ExpenseCalculator\SpendWise - With Identity Server\EndPoints\Program.cs:line 75
+--- End of stack trace from previous location ---
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Application.Middlewares.RateLimitMiddleware.Invoke(HttpContext context) in C:\Users\hussain.saqib\Desktop\Learning\.NET Projects - Learning\ExpenseCalculator\SpendWise - With Identity Server\Application\Middlewares\RateLimitMiddleware.cs:line 26
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at EndPoints.Infrastructure.Middlewares.GlobalExceptionHandler.Invoke(HttpContext context) in C:\Users\hussain.saqib\Desktop\Learning\.NET Projects - Learning\ExpenseCalculator\SpendWise - With Identity Server\EndPoints\Infrastructure\Middlewares\GlobalExceptionHandler.cs:line 17
+2025-03-11 13:57:21.845 +05:00 [INF] Handling request: POST /api/roles/Add
+2025-03-11 13:57:21.864 +05:00 [INF] ➡️ [START] Handling AddEditRoleCommand | User: Anonymous | IP: ::1 | Request Data: {
+  "Id": "00000000-0000-0000-0000-000000000000",
+  "Name": "asdasd",
+  "Description": "asdasdasdasdasdasdasdasdasdasd"
+}
+2025-03-11 13:57:21.931 +05:00 [INF] ✅ [END] AddEditRoleCommand | Execution Time: 69ms | Response Data: {
+  "Value": "00000000-0000-0000-0000-000000000000",
+  "IsSuccess": false,
+  "Errors": [
+    "Role name \u0027asdasd\u0027 is already in use."
+  ],
+  "ValidationErrors": {},
+  "Successes": []
+}
+2025-03-11 13:57:21.945 +05:00 [INF] Finished handling request.
+2025-03-11 13:57:21.954 +05:00 [INF] HTTP POST /api/roles/Add responded 200 in 108.8414 ms
+2025-03-11 13:57:24.305 +05:00 [INF] Handling request: POST /api/roles/Add
+2025-03-11 13:57:24.316 +05:00 [INF] ➡️ [START] Handling AddEditRoleCommand | User: Anonymous | IP: ::1 | Request Data: {
+  "Id": "00000000-0000-0000-0000-000000000000",
+  "Name": "asdasdasdasdasd",
+  "Description": "asdasdasdasdasdasdasdasdasdasd"
+}
+2025-03-11 13:57:24.583 +05:00 [INF] ✅ [END] AddEditRoleCommand | Execution Time: 266ms | Response Data: {
+  "Value": "a318cf07-24a6-4d80-d590-08dd607abddb",
+  "IsSuccess": true,
+  "Errors": [],
+  "ValidationErrors": {},
+  "Successes": [
+    "Role \u0027asdasdasdasdasd\u0027 has been successfully updated.",
+    "The request has succeeded."
+  ]
+}
+2025-03-11 13:57:24.587 +05:00 [INF] Finished handling request.
+2025-03-11 13:57:24.590 +05:00 [INF] HTTP POST /api/roles/Add responded 200 in 285.0089 ms
+2025-03-11 13:57:24.599 +05:00 [INF] Handling request: GET /api/roles/GetAll
+2025-03-11 13:57:24.604 +05:00 [INF] ➡️ [START] Handling GetAllRolesQuery | User: Anonymous | IP: ::1 | Request Data: {}
+2025-03-11 13:57:24.616 +05:00 [INF] ✅ [END] GetAllRolesQuery | Execution Time: 12ms | Response Data: {
+  "Value": [
+    {
+      "Id": "761a6afc-057d-4226-58bc-08dd44f47560",
+      "Name": "Admin",
+      "Description": "Admin role for SpendWise"
+    },
+    {
+      "Id": "f7137b9f-ee58-4c84-58bd-08dd44f47560",
+      "Name": "User",
+      "Description": "User role for SpendWise"
+    },
+    {
+      "Id": "332f8c1c-2595-4a7e-3f6f-08dd6074177f",
+      "Name": "AS",
+      "Description": "asasdasdasdasdasdasdasd"
+    },
+    {
+      "Id": "133197d3-21b2-49c1-3f70-08dd6074177f",
+      "Name": "asdasd",
+      "Description": "asdasdadasdasdasdasdasd"
+    },
+    {
+      "Id": "8559b266-fe50-4635-54b7-08dd60765ea5",
+      "Name": "ASe",
+      "Description": "dasdasdadhadguyadyagsdf"
+    },
+    {
+      "Id": "3d681913-8a8f-4e56-54b8-08dd60765ea5",
+      "Name": "asdasda",
+      "Description": "asdasdasdasdadasdasdasdadasd"
+    },
+    {
+      "Id": "db3cea26-3eb6-4988-54b9-08dd60765ea5",
+      "Name": "asdasdaasd",
+      "Description": "adasdadasdasdasdasdasdasdadasdasdasd"
+    },
+    {
+      "Id": "8c91f425-bd75-4ed9-54ba-08dd60765ea5",
+      "Name": "asdaa",
+      "Description": "asdasdasdasdasdasdasdasdasdasdasd"
+    },
+    {
+      "Id": "a318cf07-24a6-4d80-d590-08dd607abddb",
+      "Name": "asdasdasdasdasd",
+      "Description": "asdasdasdasdasdasdasdasdasdasd"
+    }
+  ],
+  "IsSuccess": true,
+  "Errors": [],
+  "ValidationErrors": {},
+  "Successes": [
+    "Roles has been successfully retrieved.",
+    "The request has succeeded."
+  ]
+}
+2025-03-11 13:57:24.624 +05:00 [INF] Finished handling request.
+2025-03-11 13:57:24.628 +05:00 [INF] HTTP GET /api/roles/GetAll responded 200 in 29.3894 ms
+2025-03-11 13:58:04.817 +05:00 [INF] Handling request: GET /api/roles/GetAll
+2025-03-11 13:58:04.822 +05:00 [INF] ➡️ [START] Handling GetAllRolesQuery | User: Anonymous | IP: ::1 | Request Data: {}
+2025-03-11 13:58:04.832 +05:00 [INF] ✅ [END] GetAllRolesQuery | Execution Time: 10ms | Response Data: {
+  "Value": [
+    {
+      "Id": "761a6afc-057d-4226-58bc-08dd44f47560",
+      "Name": "Admin",
+      "Description": "Admin role for SpendWise"
+    },
+    {
+      "Id": "f7137b9f-ee58-4c84-58bd-08dd44f47560",
+      "Name": "User",
+      "Description": "User role for SpendWise"
+    },
+    {
+      "Id": "332f8c1c-2595-4a7e-3f6f-08dd6074177f",
+      "Name": "AS",
+      "Description": "asasdasdasdasdasdasdasd"
+    },
+    {
+      "Id": "133197d3-21b2-49c1-3f70-08dd6074177f",
+      "Name": "asdasd",
+      "Description": "asdasdadasdasdasdasdasd"
+    },
+    {
+      "Id": "8559b266-fe50-4635-54b7-08dd60765ea5",
+      "Name": "ASe",
+      "Description": "dasdasdadhadguyadyagsdf"
+    },
+    {
+      "Id": "3d681913-8a8f-4e56-54b8-08dd60765ea5",
+      "Name": "asdasda",
+      "Description": "asdasdasdasdadasdasdasdadasd"
+    },
+    {
+      "Id": "db3cea26-3eb6-4988-54b9-08dd60765ea5",
+      "Name": "asdasdaasd",
+      "Description": "adasdadasdasdasdasdasdasdadasdasdasd"
+    },
+    {
+      "Id": "8c91f425-bd75-4ed9-54ba-08dd60765ea5",
+      "Name": "asdaa",
+      "Description": "asdasdasdasdasdasdasdasdasdasdasd"
+    },
+    {
+      "Id": "a318cf07-24a6-4d80-d590-08dd607abddb",
+      "Name": "asdasdasdasdasd",
+      "Description": "asdasdasdasdasdasdasdasdasdasd"
+    }
+  ],
+  "IsSuccess": true,
+  "Errors": [],
+  "ValidationErrors": {},
+  "Successes": [
+    "Roles has been successfully retrieved.",
+    "The request has succeeded."
+  ]
+}
+2025-03-11 13:58:04.839 +05:00 [INF] Finished handling request.
+2025-03-11 13:58:04.842 +05:00 [INF] HTTP GET /api/roles/GetAll responded 200 in 24.4144 ms
+2025-03-11 13:58:12.320 +05:00 [INF] Handling request: GET /api/roles/GetAll
+2025-03-11 13:58:12.330 +05:00 [INF] ➡️ [START] Handling GetAllRolesQuery | User: Anonymous | IP: ::1 | Request Data: {}
+2025-03-11 13:58:12.355 +05:00 [INF] ✅ [END] GetAllRolesQuery | Execution Time: 25ms | Response Data: {
+  "Value": [
+    {
+      "Id": "761a6afc-057d-4226-58bc-08dd44f47560",
+      "Name": "Admin",
+      "Description": "Admin role for SpendWise"
+    },
+    {
+      "Id": "f7137b9f-ee58-4c84-58bd-08dd44f47560",
+      "Name": "User",
+      "Description": "User role for SpendWise"
+    },
+    {
+      "Id": "332f8c1c-2595-4a7e-3f6f-08dd6074177f",
+      "Name": "AS",
+      "Description": "asasdasdasdasdasdasdasd"
+    },
+    {
+      "Id": "133197d3-21b2-49c1-3f70-08dd6074177f",
+      "Name": "asdasd",
+      "Description": "asdasdadasdasdasdasdasd"
+    },
+    {
+      "Id": "8559b266-fe50-4635-54b7-08dd60765ea5",
+      "Name": "ASe",
+      "Description": "dasdasdadhadguyadyagsdf"
+    },
+    {
+      "Id": "3d681913-8a8f-4e56-54b8-08dd60765ea5",
+      "Name": "asdasda",
+      "Description": "asdasdasdasdadasdasdasdadasd"
+    },
+    {
+      "Id": "db3cea26-3eb6-4988-54b9-08dd60765ea5",
+      "Name": "asdasdaasd",
+      "Description": "adasdadasdasdasdasdasdasdadasdasdasd"
+    },
+    {
+      "Id": "8c91f425-bd75-4ed9-54ba-08dd60765ea5",
+      "Name": "asdaa",
+      "Description": "asdasdasdasdasdasdasdasdasdasdasd"
+    },
+    {
+      "Id": "a318cf07-24a6-4d80-d590-08dd607abddb",
+      "Name": "asdasdasdasdasd",
+      "Description": "asdasdasdasdasdasdasdasdasdasd"
+    }
+  ],
+  "IsSuccess": true,
+  "Errors": [],
+  "ValidationErrors": {},
+  "Successes": [
+    "Roles has been successfully retrieved.",
+    "The request has succeeded."
+  ]
+}
+2025-03-11 13:58:12.383 +05:00 [INF] Finished handling request.
+2025-03-11 13:58:12.391 +05:00 [INF] HTTP GET /api/roles/GetAll responded 200 in 71.8758 ms
+2025-03-11 13:58:14.741 +05:00 [INF] Handling request: GET /api/roles/GetAll
+2025-03-11 13:58:14.760 +05:00 [INF] ➡️ [START] Handling GetAllRolesQuery | User: Anonymous | IP: ::1 | Request Data: {}
+2025-03-11 13:58:14.773 +05:00 [INF] ✅ [END] GetAllRolesQuery | Execution Time: 13ms | Response Data: {
+  "Value": [
+    {
+      "Id": "761a6afc-057d-4226-58bc-08dd44f47560",
+      "Name": "Admin",
+      "Description": "Admin role for SpendWise"
+    },
+    {
+      "Id": "f7137b9f-ee58-4c84-58bd-08dd44f47560",
+      "Name": "User",
+      "Description": "User role for SpendWise"
+    },
+    {
+      "Id": "332f8c1c-2595-4a7e-3f6f-08dd6074177f",
+      "Name": "AS",
+      "Description": "asasdasdasdasdasdasdasd"
+    },
+    {
+      "Id": "133197d3-21b2-49c1-3f70-08dd6074177f",
+      "Name": "asdasd",
+      "Description": "asdasdadasdasdasdasdasd"
+    },
+    {
+      "Id": "8559b266-fe50-4635-54b7-08dd60765ea5",
+      "Name": "ASe",
+      "Description": "dasdasdadhadguyadyagsdf"
+    },
+    {
+      "Id": "3d681913-8a8f-4e56-54b8-08dd60765ea5",
+      "Name": "asdasda",
+      "Description": "asdasdasdasdadasdasdasdadasd"
+    },
+    {
+      "Id": "db3cea26-3eb6-4988-54b9-08dd60765ea5",
+      "Name": "asdasdaasd",
+      "Description": "adasdadasdasdasdasdasdasdadasdasdasd"
+    },
+    {
+      "Id": "8c91f425-bd75-4ed9-54ba-08dd60765ea5",
+      "Name": "asdaa",
+      "Description": "asdasdasdasdasdasdasdasdasdasdasd"
+    },
+    {
+      "Id": "a318cf07-24a6-4d80-d590-08dd607abddb",
+      "Name": "asdasdasdasdasd",
+      "Description": "asdasdasdasdasdasdasdasdasdasd"
+    }
+  ],
+  "IsSuccess": true,
+  "Errors": [],
+  "ValidationErrors": {},
+  "Successes": [
+    "Roles has been successfully retrieved.",
+    "The request has succeeded."
+  ]
+}
+2025-03-11 13:58:14.789 +05:00 [INF] Finished handling request.
+2025-03-11 13:58:14.792 +05:00 [INF] HTTP GET /api/roles/GetAll responded 200 in 50.6725 ms
+2025-03-11 13:58:31.847 +05:00 [INF] Handling request: GET /api/roles/GetAll
+2025-03-11 13:58:31.858 +05:00 [INF] ➡️ [START] Handling GetAllRolesQuery | User: Anonymous | IP: ::1 | Request Data: {}
+2025-03-11 13:58:31.887 +05:00 [INF] ✅ [END] GetAllRolesQuery | Execution Time: 28ms | Response Data: {
+  "Value": [
+    {
+      "Id": "761a6afc-057d-4226-58bc-08dd44f47560",
+      "Name": "Admin",
+      "Description": "Admin role for SpendWise"
+    },
+    {
+      "Id": "f7137b9f-ee58-4c84-58bd-08dd44f47560",
+      "Name": "User",
+      "Description": "User role for SpendWise"
+    },
+    {
+      "Id": "332f8c1c-2595-4a7e-3f6f-08dd6074177f",
+      "Name": "AS",
+      "Description": "asasdasdasdasdasdasdasd"
+    },
+    {
+      "Id": "133197d3-21b2-49c1-3f70-08dd6074177f",
+      "Name": "asdasd",
+      "Description": "asdasdadasdasdasdasdasd"
+    },
+    {
+      "Id": "8559b266-fe50-4635-54b7-08dd60765ea5",
+      "Name": "ASe",
+      "Description": "dasdasdadhadguyadyagsdf"
+    },
+    {
+      "Id": "3d681913-8a8f-4e56-54b8-08dd60765ea5",
+      "Name": "asdasda",
+      "Description": "asdasdasdasdadasdasdasdadasd"
+    },
+    {
+      "Id": "db3cea26-3eb6-4988-54b9-08dd60765ea5",
+      "Name": "asdasdaasd",
+      "Description": "adasdadasdasdasdasdasdasdadasdasdasd"
+    },
+    {
+      "Id": "8c91f425-bd75-4ed9-54ba-08dd60765ea5",
+      "Name": "asdaa",
+      "Description": "asdasdasdasdasdasdasdasdasdasdasd"
+    },
+    {
+      "Id": "a318cf07-24a6-4d80-d590-08dd607abddb",
+      "Name": "asdasdasdasdasd",
+      "Description": "asdasdasdasdasdasdasdasdasdasd"
+    }
+  ],
+  "IsSuccess": true,
+  "Errors": [],
+  "ValidationErrors": {},
+  "Successes": [
+    "Roles has been successfully retrieved.",
+    "The request has succeeded."
+  ]
+}
+2025-03-11 13:58:31.903 +05:00 [INF] Finished handling request.
+2025-03-11 13:58:31.911 +05:00 [INF] HTTP GET /api/roles/GetAll responded 200 in 63.6184 ms
+2025-03-11 13:58:54.173 +05:00 [INF] Handling request: GET /api/roles/GetAll
+2025-03-11 13:58:54.186 +05:00 [INF] ➡️ [START] Handling GetAllRolesQuery | User: Anonymous | IP: ::1 | Request Data: {}
+2025-03-11 13:58:54.198 +05:00 [INF] ✅ [END] GetAllRolesQuery | Execution Time: 12ms | Response Data: {
+  "Value": [
+    {
+      "Id": "761a6afc-057d-4226-58bc-08dd44f47560",
+      "Name": "Admin",
+      "Description": "Admin role for SpendWise"
+    },
+    {
+      "Id": "f7137b9f-ee58-4c84-58bd-08dd44f47560",
+      "Name": "User",
+      "Description": "User role for SpendWise"
+    },
+    {
+      "Id": "332f8c1c-2595-4a7e-3f6f-08dd6074177f",
+      "Name": "AS",
+      "Description": "asasdasdasdasdasdasdasd"
+    },
+    {
+      "Id": "133197d3-21b2-49c1-3f70-08dd6074177f",
+      "Name": "asdasd",
+      "Description": "asdasdadasdasdasdasdasd"
+    },
+    {
+      "Id": "8559b266-fe50-4635-54b7-08dd60765ea5",
+      "Name": "ASe",
+      "Description": "dasdasdadhadguyadyagsdf"
+    },
+    {
+      "Id": "3d681913-8a8f-4e56-54b8-08dd60765ea5",
+      "Name": "asdasda",
+      "Description": "asdasdasdasdadasdasdasdadasd"
+    },
+    {
+      "Id": "db3cea26-3eb6-4988-54b9-08dd60765ea5",
+      "Name": "asdasdaasd",
+      "Description": "adasdadasdasdasdasdasdasdadasdasdasd"
+    },
+    {
+      "Id": "8c91f425-bd75-4ed9-54ba-08dd60765ea5",
+      "Name": "asdaa",
+      "Description": "asdasdasdasdasdasdasdasdasdasdasd"
+    },
+    {
+      "Id": "a318cf07-24a6-4d80-d590-08dd607abddb",
+      "Name": "asdasdasdasdasd",
+      "Description": "asdasdasdasdasdasdasdasdasdasd"
+    }
+  ],
+  "IsSuccess": true,
+  "Errors": [],
+  "ValidationErrors": {},
+  "Successes": [
+    "Roles has been successfully retrieved.",
+    "The request has succeeded."
+  ]
+}
+2025-03-11 13:58:54.208 +05:00 [INF] Finished handling request.
+2025-03-11 13:58:54.212 +05:00 [INF] HTTP GET /api/roles/GetAll responded 200 in 39.2112 ms
+2025-03-11 13:58:55.358 +05:00 [INF] Handling request: GET /api/roles/GetAll
+2025-03-11 13:58:55.366 +05:00 [INF] ➡️ [START] Handling GetAllRolesQuery | User: Anonymous | IP: ::1 | Request Data: {}
+2025-03-11 13:58:55.387 +05:00 [INF] ✅ [END] GetAllRolesQuery | Execution Time: 21ms | Response Data: {
+  "Value": [
+    {
+      "Id": "761a6afc-057d-4226-58bc-08dd44f47560",
+      "Name": "Admin",
+      "Description": "Admin role for SpendWise"
+    },
+    {
+      "Id": "f7137b9f-ee58-4c84-58bd-08dd44f47560",
+      "Name": "User",
+      "Description": "User role for SpendWise"
+    },
+    {
+      "Id": "332f8c1c-2595-4a7e-3f6f-08dd6074177f",
+      "Name": "AS",
+      "Description": "asasdasdasdasdasdasdasd"
+    },
+    {
+      "Id": "133197d3-21b2-49c1-3f70-08dd6074177f",
+      "Name": "asdasd",
+      "Description": "asdasdadasdasdasdasdasd"
+    },
+    {
+      "Id": "8559b266-fe50-4635-54b7-08dd60765ea5",
+      "Name": "ASe",
+      "Description": "dasdasdadhadguyadyagsdf"
+    },
+    {
+      "Id": "3d681913-8a8f-4e56-54b8-08dd60765ea5",
+      "Name": "asdasda",
+      "Description": "asdasdasdasdadasdasdasdadasd"
+    },
+    {
+      "Id": "db3cea26-3eb6-4988-54b9-08dd60765ea5",
+      "Name": "asdasdaasd",
+      "Description": "adasdadasdasdasdasdasdasdadasdasdasd"
+    },
+    {
+      "Id": "8c91f425-bd75-4ed9-54ba-08dd60765ea5",
+      "Name": "asdaa",
+      "Description": "asdasdasdasdasdasdasdasdasdasdasd"
+    },
+    {
+      "Id": "a318cf07-24a6-4d80-d590-08dd607abddb",
+      "Name": "asdasdasdasdasd",
+      "Description": "asdasdasdasdasdasdasdasdasdasd"
+    }
+  ],
+  "IsSuccess": true,
+  "Errors": [],
+  "ValidationErrors": {},
+  "Successes": [
+    "Roles has been successfully retrieved.",
+    "The request has succeeded."
+  ]
+}
+2025-03-11 13:58:55.406 +05:00 [INF] Finished handling request.
+2025-03-11 13:58:55.414 +05:00 [INF] HTTP GET /api/roles/GetAll responded 200 in 56.2582 ms
+2025-03-11 13:58:58.052 +05:00 [INF] Handling request: GET /api/roles/GetAll
+2025-03-11 13:58:58.061 +05:00 [INF] ➡️ [START] Handling GetAllRolesQuery | User: Anonymous | IP: ::1 | Request Data: {}
+2025-03-11 13:58:58.117 +05:00 [INF] ✅ [END] GetAllRolesQuery | Execution Time: 46ms | Response Data: {
+  "Value": [
+    {
+      "Id": "761a6afc-057d-4226-58bc-08dd44f47560",
+      "Name": "Admin",
+      "Description": "Admin role for SpendWise"
+    },
+    {
+      "Id": "f7137b9f-ee58-4c84-58bd-08dd44f47560",
+      "Name": "User",
+      "Description": "User role for SpendWise"
+    },
+    {
+      "Id": "332f8c1c-2595-4a7e-3f6f-08dd6074177f",
+      "Name": "AS",
+      "Description": "asasdasdasdasdasdasdasd"
+    },
+    {
+      "Id": "133197d3-21b2-49c1-3f70-08dd6074177f",
+      "Name": "asdasd",
+      "Description": "asdasdadasdasdasdasdasd"
+    },
+    {
+      "Id": "8559b266-fe50-4635-54b7-08dd60765ea5",
+      "Name": "ASe",
+      "Description": "dasdasdadhadguyadyagsdf"
+    },
+    {
+      "Id": "3d681913-8a8f-4e56-54b8-08dd60765ea5",
+      "Name": "asdasda",
+      "Description": "asdasdasdasdadasdasdasdadasd"
+    },
+    {
+      "Id": "db3cea26-3eb6-4988-54b9-08dd60765ea5",
+      "Name": "asdasdaasd",
+      "Description": "adasdadasdasdasdasdasdasdadasdasdasd"
+    },
+    {
+      "Id": "8c91f425-bd75-4ed9-54ba-08dd60765ea5",
+      "Name": "asdaa",
+      "Description": "asdasdasdasdasdasdasdasdasdasdasd"
+    },
+    {
+      "Id": "a318cf07-24a6-4d80-d590-08dd607abddb",
+      "Name": "asdasdasdasdasd",
+      "Description": "asdasdasdasdasdasdasdasdasdasd"
+    }
+  ],
+  "IsSuccess": true,
+  "Errors": [],
+  "ValidationErrors": {},
+  "Successes": [
+    "Roles has been successfully retrieved.",
+    "The request has succeeded."
+  ]
+}
+2025-03-11 13:58:58.124 +05:00 [INF] Finished handling request.
+2025-03-11 13:58:58.126 +05:00 [INF] HTTP GET /api/roles/GetAll responded 200 in 73.5547 ms
+2025-03-11 13:59:05.477 +05:00 [INF] Handling request: POST /api/roles/Add
+2025-03-11 13:59:05.646 +05:00 [ERR] HTTP POST /api/roles/Add responded 500 in 168.4734 ms
+Shared.Exceptions.BadRequestException: Exception of type 'Shared.Exceptions.BadRequestException' was thrown.
+   at Application.Behaviors.ValidationBehaviour`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in C:\Users\hussain.saqib\Desktop\Learning\.NET Projects - Learning\ExpenseCalculator\SpendWise - With Identity Server\Application\Behaviors\ValidationBehaviour.cs:line 22
+   at EndPoints.Controllers.Security.Roles.v1.RolesController.Add(AddEditRoleCommand request, CancellationToken cancellationToken) in C:\Users\hussain.saqib\Desktop\Learning\.NET Projects - Learning\ExpenseCalculator\SpendWise - With Identity Server\EndPoints\Controllers\Security\Roles\v1\RolesController.cs:line 15
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Program.<>c.<<<Main>$>b__0_2>d.MoveNext() in C:\Users\hussain.saqib\Desktop\Learning\.NET Projects - Learning\ExpenseCalculator\SpendWise - With Identity Server\EndPoints\Program.cs:line 75
+--- End of stack trace from previous location ---
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2025-03-11 13:59:05.796 +05:00 [ERR] Error in GlobalExceptionHandler at "2025-03-11T13:59:05.7941478+05:00", with status code 400 and exception Shared.Exceptions.BadRequestException: Exception of type 'Shared.Exceptions.BadRequestException' was thrown.
+   at Application.Behaviors.ValidationBehaviour`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in C:\Users\hussain.saqib\Desktop\Learning\.NET Projects - Learning\ExpenseCalculator\SpendWise - With Identity Server\Application\Behaviors\ValidationBehaviour.cs:line 22
+   at EndPoints.Controllers.Security.Roles.v1.RolesController.Add(AddEditRoleCommand request, CancellationToken cancellationToken) in C:\Users\hussain.saqib\Desktop\Learning\.NET Projects - Learning\ExpenseCalculator\SpendWise - With Identity Server\EndPoints\Controllers\Security\Roles\v1\RolesController.cs:line 15
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Program.<>c.<<<Main>$>b__0_2>d.MoveNext() in C:\Users\hussain.saqib\Desktop\Learning\.NET Projects - Learning\ExpenseCalculator\SpendWise - With Identity Server\EndPoints\Program.cs:line 75
+--- End of stack trace from previous location ---
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Application.Middlewares.RateLimitMiddleware.Invoke(HttpContext context) in C:\Users\hussain.saqib\Desktop\Learning\.NET Projects - Learning\ExpenseCalculator\SpendWise - With Identity Server\Application\Middlewares\RateLimitMiddleware.cs:line 26
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at EndPoints.Infrastructure.Middlewares.GlobalExceptionHandler.Invoke(HttpContext context) in C:\Users\hussain.saqib\Desktop\Learning\.NET Projects - Learning\ExpenseCalculator\SpendWise - With Identity Server\EndPoints\Infrastructure\Middlewares\GlobalExceptionHandler.cs:line 17
+2025-03-11 13:59:12.587 +05:00 [INF] Handling request: POST /api/roles/Add
+2025-03-11 13:59:12.686 +05:00 [ERR] HTTP POST /api/roles/Add responded 500 in 98.3839 ms
+Shared.Exceptions.BadRequestException: Exception of type 'Shared.Exceptions.BadRequestException' was thrown.
+   at Application.Behaviors.ValidationBehaviour`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in C:\Users\hussain.saqib\Desktop\Learning\.NET Projects - Learning\ExpenseCalculator\SpendWise - With Identity Server\Application\Behaviors\ValidationBehaviour.cs:line 22
+   at EndPoints.Controllers.Security.Roles.v1.RolesController.Add(AddEditRoleCommand request, CancellationToken cancellationToken) in C:\Users\hussain.saqib\Desktop\Learning\.NET Projects - Learning\ExpenseCalculator\SpendWise - With Identity Server\EndPoints\Controllers\Security\Roles\v1\RolesController.cs:line 15
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Program.<>c.<<<Main>$>b__0_2>d.MoveNext() in C:\Users\hussain.saqib\Desktop\Learning\.NET Projects - Learning\ExpenseCalculator\SpendWise - With Identity Server\EndPoints\Program.cs:line 75
+--- End of stack trace from previous location ---
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2025-03-11 13:59:12.762 +05:00 [ERR] Error in GlobalExceptionHandler at "2025-03-11T13:59:12.7609419+05:00", with status code 400 and exception Shared.Exceptions.BadRequestException: Exception of type 'Shared.Exceptions.BadRequestException' was thrown.
+   at Application.Behaviors.ValidationBehaviour`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in C:\Users\hussain.saqib\Desktop\Learning\.NET Projects - Learning\ExpenseCalculator\SpendWise - With Identity Server\Application\Behaviors\ValidationBehaviour.cs:line 22
+   at EndPoints.Controllers.Security.Roles.v1.RolesController.Add(AddEditRoleCommand request, CancellationToken cancellationToken) in C:\Users\hussain.saqib\Desktop\Learning\.NET Projects - Learning\ExpenseCalculator\SpendWise - With Identity Server\EndPoints\Controllers\Security\Roles\v1\RolesController.cs:line 15
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Program.<>c.<<<Main>$>b__0_2>d.MoveNext() in C:\Users\hussain.saqib\Desktop\Learning\.NET Projects - Learning\ExpenseCalculator\SpendWise - With Identity Server\EndPoints\Program.cs:line 75
+--- End of stack trace from previous location ---
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Application.Middlewares.RateLimitMiddleware.Invoke(HttpContext context) in C:\Users\hussain.saqib\Desktop\Learning\.NET Projects - Learning\ExpenseCalculator\SpendWise - With Identity Server\Application\Middlewares\RateLimitMiddleware.cs:line 26
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at EndPoints.Infrastructure.Middlewares.GlobalExceptionHandler.Invoke(HttpContext context) in C:\Users\hussain.saqib\Desktop\Learning\.NET Projects - Learning\ExpenseCalculator\SpendWise - With Identity Server\EndPoints\Infrastructure\Middlewares\GlobalExceptionHandler.cs:line 17
+2025-03-11 13:59:16.395 +05:00 [INF] Handling request: POST /api/roles/Add
+2025-03-11 13:59:16.406 +05:00 [INF] ➡️ [START] Handling AddEditRoleCommand | User: Anonymous | IP: ::1 | Request Data: {
+  "Id": "00000000-0000-0000-0000-000000000000",
+  "Name": "asdad123",
+  "Description": "asdasd1782631623asdasdadasdasdasd"
+}
+2025-03-11 13:59:16.438 +05:00 [INF] ✅ [END] AddEditRoleCommand | Execution Time: 31ms | Response Data: {
+  "Value": "f6c29bb2-caa4-4f9f-d591-08dd607abddb",
+  "IsSuccess": true,
+  "Errors": [],
+  "ValidationErrors": {},
+  "Successes": [
+    "Role \u0027asdad123\u0027 has been successfully updated.",
+    "The request has succeeded."
+  ]
+}
+2025-03-11 13:59:16.446 +05:00 [INF] Finished handling request.
+2025-03-11 13:59:16.453 +05:00 [INF] HTTP POST /api/roles/Add responded 200 in 58.2797 ms
+2025-03-11 13:59:16.479 +05:00 [INF] Handling request: GET /api/roles/GetAll
+2025-03-11 13:59:16.493 +05:00 [INF] ➡️ [START] Handling GetAllRolesQuery | User: Anonymous | IP: ::1 | Request Data: {}
+2025-03-11 13:59:16.523 +05:00 [INF] ✅ [END] GetAllRolesQuery | Execution Time: 30ms | Response Data: {
+  "Value": [
+    {
+      "Id": "761a6afc-057d-4226-58bc-08dd44f47560",
+      "Name": "Admin",
+      "Description": "Admin role for SpendWise"
+    },
+    {
+      "Id": "f7137b9f-ee58-4c84-58bd-08dd44f47560",
+      "Name": "User",
+      "Description": "User role for SpendWise"
+    },
+    {
+      "Id": "332f8c1c-2595-4a7e-3f6f-08dd6074177f",
+      "Name": "AS",
+      "Description": "asasdasdasdasdasdasdasd"
+    },
+    {
+      "Id": "133197d3-21b2-49c1-3f70-08dd6074177f",
+      "Name": "asdasd",
+      "Description": "asdasdadasdasdasdasdasd"
+    },
+    {
+      "Id": "8559b266-fe50-4635-54b7-08dd60765ea5",
+      "Name": "ASe",
+      "Description": "dasdasdadhadguyadyagsdf"
+    },
+    {
+      "Id": "3d681913-8a8f-4e56-54b8-08dd60765ea5",
+      "Name": "asdasda",
+      "Description": "asdasdasdasdadasdasdasdadasd"
+    },
+    {
+      "Id": "db3cea26-3eb6-4988-54b9-08dd60765ea5",
+      "Name": "asdasdaasd",
+      "Description": "adasdadasdasdasdasdasdasdadasdasdasd"
+    },
+    {
+      "Id": "8c91f425-bd75-4ed9-54ba-08dd60765ea5",
+      "Name": "asdaa",
+      "Description": "asdasdasdasdasdasdasdasdasdasdasd"
+    },
+    {
+      "Id": "a318cf07-24a6-4d80-d590-08dd607abddb",
+      "Name": "asdasdasdasdasd",
+      "Description": "asdasdasdasdasdasdasdasdasdasd"
+    },
+    {
+      "Id": "f6c29bb2-caa4-4f9f-d591-08dd607abddb",
+      "Name": "asdad123",
+      "Description": "asdasd1782631623asdasdadasdasdasd"
+    }
+  ],
+  "IsSuccess": true,
+  "Errors": [],
+  "ValidationErrors": {},
+  "Successes": [
+    "Roles has been successfully retrieved.",
+    "The request has succeeded."
+  ]
+}
+2025-03-11 13:59:16.542 +05:00 [INF] Finished handling request.
+2025-03-11 13:59:16.554 +05:00 [INF] HTTP GET /api/roles/GetAll responded 200 in 74.8201 ms

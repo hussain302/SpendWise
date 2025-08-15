@@ -1,0 +1,40 @@
+2025-03-11 11:42:56.010 +05:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-03-11 11:42:56.247 +05:00 [WRN] The foreign key property 'BillDetail.BillId1' was created in shadow state because a conflicting property with the simple name 'BillId' exists in the entity type, but is either not mapped, is already used for another relationship, or is incompatible with the associated primary key type. See https://aka.ms/efcore-relationships for information on mapping relationships in EF Core.
+2025-03-11 11:42:56.429 +05:00 [WRN] No store type was specified for the decimal property 'BillAmount' on entity type 'Bill'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-03-11 11:42:56.448 +05:00 [WRN] No store type was specified for the decimal property 'ShareAmount' on entity type 'BillDetail'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-03-11 11:42:59.039 +05:00 [INF] Email Background Service is running...
+2025-03-11 11:42:59.844 +05:00 [WRN] Failed to determine the https port for redirect.
+2025-03-11 11:42:59.960 +05:00 [INF] Handling request: GET /openapi/scalar/docs/
+2025-03-11 11:43:00.148 +05:00 [INF] Finished handling request.
+2025-03-11 11:43:00.150 +05:00 [INF] Handling request: GET /openapi/scalar/docs/scalar.aspnetcore.js
+2025-03-11 11:43:00.150 +05:00 [INF] Handling request: GET /openapi/scalar/docs/scalar.js
+2025-03-11 11:43:00.201 +05:00 [INF] HTTP GET /openapi/scalar/docs/ responded 200 in 237.3787 ms
+2025-03-11 11:43:00.223 +05:00 [INF] Finished handling request.
+2025-03-11 11:43:00.223 +05:00 [INF] Finished handling request.
+2025-03-11 11:43:00.227 +05:00 [INF] HTTP GET /openapi/scalar/docs/scalar.js responded 304 in 77.3312 ms
+2025-03-11 11:43:00.228 +05:00 [INF] HTTP GET /openapi/scalar/docs/scalar.aspnetcore.js responded 304 in 78.3574 ms
+2025-03-11 11:55:00.661 +05:00 [INF] Handling request: GET /api/roles/GetAll
+2025-03-11 11:55:00.770 +05:00 [INF] ➡️ [START] Handling GetAllRolesQuery | User: Anonymous | IP: ::1 | Request Data: {}
+2025-03-11 11:55:01.185 +05:00 [INF] ✅ [END] GetAllRolesQuery | Execution Time: 391ms | Response Data: {
+  "Value": [
+    {
+      "Id": "761a6afc-057d-4226-58bc-08dd44f47560",
+      "Name": "Admin",
+      "Description": "Admin role for SpendWise"
+    },
+    {
+      "Id": "f7137b9f-ee58-4c84-58bd-08dd44f47560",
+      "Name": "User",
+      "Description": "User role for SpendWise"
+    }
+  ],
+  "IsSuccess": true,
+  "Errors": [],
+  "ValidationErrors": {},
+  "Successes": [
+    "Roles has been successfully retrieved.",
+    "The request has succeeded."
+  ]
+}
+2025-03-11 11:55:01.240 +05:00 [INF] Finished handling request.
+2025-03-11 11:55:01.253 +05:00 [INF] HTTP GET /api/roles/GetAll responded 200 in 591.3411 ms

@@ -1,0 +1,30 @@
+2025-04-10 12:09:20.568 +05:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-04-10 12:09:20.677 +05:00 [WRN] The foreign key property 'BillDetail.BillId1' was created in shadow state because a conflicting property with the simple name 'BillId' exists in the entity type, but is either not mapped, is already used for another relationship, or is incompatible with the associated primary key type. See https://aka.ms/efcore-relationships for information on mapping relationships in EF Core.
+2025-04-10 12:09:20.746 +05:00 [WRN] No store type was specified for the decimal property 'BillAmount' on entity type 'Bill'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-04-10 12:09:20.750 +05:00 [WRN] No store type was specified for the decimal property 'ShareAmount' on entity type 'BillDetail'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-04-10 12:09:21.956 +05:00 [INF] Email Background Service is running...
+2025-04-10 12:09:22.650 +05:00 [WRN] Failed to determine the https port for redirect.
+2025-04-10 12:09:22.723 +05:00 [INF] Handling request: GET /openapi/scalar/docs/
+2025-04-10 12:09:22.811 +05:00 [INF] Finished handling request.
+2025-04-10 12:09:22.817 +05:00 [INF] HTTP GET /openapi/scalar/docs/ responded 200 in 92.4935 ms
+2025-04-10 12:09:22.821 +05:00 [INF] Handling request: GET /openapi/scalar/docs/scalar.js
+2025-04-10 12:09:22.821 +05:00 [INF] Handling request: GET /openapi/scalar/docs/scalar.aspnetcore.js
+2025-04-10 12:09:22.840 +05:00 [INF] Finished handling request.
+2025-04-10 12:09:22.840 +05:00 [INF] Finished handling request.
+2025-04-10 12:09:22.843 +05:00 [INF] HTTP GET /openapi/scalar/docs/scalar.aspnetcore.js responded 304 in 21.9986 ms
+2025-04-10 12:09:22.843 +05:00 [INF] HTTP GET /openapi/scalar/docs/scalar.js responded 304 in 22.7789 ms
+2025-04-10 12:11:18.517 +05:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-04-10 12:11:18.627 +05:00 [WRN] The foreign key property 'BillDetail.BillId1' was created in shadow state because a conflicting property with the simple name 'BillId' exists in the entity type, but is either not mapped, is already used for another relationship, or is incompatible with the associated primary key type. See https://aka.ms/efcore-relationships for information on mapping relationships in EF Core.
+2025-04-10 12:11:18.692 +05:00 [WRN] No store type was specified for the decimal property 'BillAmount' on entity type 'Bill'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-04-10 12:11:18.696 +05:00 [WRN] No store type was specified for the decimal property 'ShareAmount' on entity type 'BillDetail'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-04-10 12:11:19.947 +05:00 [INF] Email Background Service is running...
+2025-04-10 12:11:20.530 +05:00 [WRN] Failed to determine the https port for redirect.
+2025-04-10 12:11:20.606 +05:00 [INF] Handling request: GET /openapi/scalar/docs/
+2025-04-10 12:11:20.695 +05:00 [INF] Finished handling request.
+2025-04-10 12:11:20.703 +05:00 [INF] HTTP GET /openapi/scalar/docs/ responded 200 in 95.1505 ms
+2025-04-10 12:11:20.739 +05:00 [INF] Handling request: GET /openapi/scalar/docs/scalar.aspnetcore.js
+2025-04-10 12:11:20.739 +05:00 [INF] Handling request: GET /openapi/scalar/docs/scalar.js
+2025-04-10 12:11:20.775 +05:00 [INF] Finished handling request.
+2025-04-10 12:11:20.775 +05:00 [INF] Finished handling request.
+2025-04-10 12:11:20.779 +05:00 [INF] HTTP GET /openapi/scalar/docs/scalar.aspnetcore.js responded 304 in 40.3688 ms
+2025-04-10 12:11:20.780 +05:00 [INF] HTTP GET /openapi/scalar/docs/scalar.js responded 304 in 40.9965 ms

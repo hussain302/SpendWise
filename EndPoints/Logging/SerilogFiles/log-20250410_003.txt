@@ -1,0 +1,33 @@
+2025-04-10 12:07:31.712 +05:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-04-10 12:07:31.809 +05:00 [WRN] The foreign key property 'BillDetail.BillId1' was created in shadow state because a conflicting property with the simple name 'BillId' exists in the entity type, but is either not mapped, is already used for another relationship, or is incompatible with the associated primary key type. See https://aka.ms/efcore-relationships for information on mapping relationships in EF Core.
+2025-04-10 12:07:31.869 +05:00 [WRN] No store type was specified for the decimal property 'BillAmount' on entity type 'Bill'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-04-10 12:07:31.876 +05:00 [WRN] No store type was specified for the decimal property 'ShareAmount' on entity type 'BillDetail'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-04-10 12:07:33.907 +05:00 [INF] Email Background Service is running...
+2025-04-10 12:07:36.033 +05:00 [WRN] Failed to determine the https port for redirect.
+2025-04-10 12:07:36.125 +05:00 [INF] Handling request: GET /openapi/scalar/docs/
+2025-04-10 12:07:36.243 +05:00 [INF] Finished handling request.
+2025-04-10 12:07:36.251 +05:00 [INF] HTTP GET /openapi/scalar/docs/ responded 200 in 123.0066 ms
+2025-04-10 12:07:36.255 +05:00 [INF] Handling request: GET /openapi/scalar/docs/scalar.aspnetcore.js
+2025-04-10 12:07:36.255 +05:00 [INF] Handling request: GET /openapi/scalar/docs/scalar.js
+2025-04-10 12:07:36.307 +05:00 [INF] Finished handling request.
+2025-04-10 12:07:36.310 +05:00 [INF] HTTP GET /openapi/scalar/docs/scalar.aspnetcore.js responded 200 in 55.7461 ms
+2025-04-10 12:07:36.444 +05:00 [INF] Finished handling request.
+2025-04-10 12:07:36.448 +05:00 [INF] HTTP GET /openapi/scalar/docs/scalar.js responded 200 in 192.9734 ms
+2025-04-10 12:07:37.756 +05:00 [INF] Handling request: GET /favicon.ico
+2025-04-10 12:07:37.762 +05:00 [INF] Finished handling request.
+2025-04-10 12:07:37.766 +05:00 [INF] HTTP GET /favicon.ico responded 404 in 10.1853 ms
+2025-04-10 12:09:20.568 +05:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-04-10 12:09:20.677 +05:00 [WRN] The foreign key property 'BillDetail.BillId1' was created in shadow state because a conflicting property with the simple name 'BillId' exists in the entity type, but is either not mapped, is already used for another relationship, or is incompatible with the associated primary key type. See https://aka.ms/efcore-relationships for information on mapping relationships in EF Core.
+2025-04-10 12:09:20.746 +05:00 [WRN] No store type was specified for the decimal property 'BillAmount' on entity type 'Bill'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-04-10 12:09:20.750 +05:00 [WRN] No store type was specified for the decimal property 'ShareAmount' on entity type 'BillDetail'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-04-10 12:09:21.956 +05:00 [INF] Email Background Service is running...
+2025-04-10 12:09:22.650 +05:00 [WRN] Failed to determine the https port for redirect.
+2025-04-10 12:09:22.723 +05:00 [INF] Handling request: GET /openapi/scalar/docs/
+2025-04-10 12:09:22.811 +05:00 [INF] Finished handling request.
+2025-04-10 12:09:22.817 +05:00 [INF] HTTP GET /openapi/scalar/docs/ responded 200 in 92.4935 ms
+2025-04-10 12:09:22.821 +05:00 [INF] Handling request: GET /openapi/scalar/docs/scalar.js
+2025-04-10 12:09:22.821 +05:00 [INF] Handling request: GET /openapi/scalar/docs/scalar.aspnetcore.js
+2025-04-10 12:09:22.840 +05:00 [INF] Finished handling request.
+2025-04-10 12:09:22.840 +05:00 [INF] Finished handling request.
+2025-04-10 12:09:22.843 +05:00 [INF] HTTP GET /openapi/scalar/docs/scalar.aspnetcore.js responded 304 in 21.9986 ms
+2025-04-10 12:09:22.843 +05:00 [INF] HTTP GET /openapi/scalar/docs/scalar.js responded 304 in 22.7789 ms

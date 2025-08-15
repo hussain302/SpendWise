@@ -1,0 +1,264 @@
+2025-02-19 12:59:08.527 +05:00 [INF] User profile is available. Using 'C:\Users\hussain.saqib\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-02-19 12:59:09.405 +05:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-02-19 12:59:09.476 +05:00 [WRN] The foreign key property 'BillDetail.BillId1' was created in shadow state because a conflicting property with the simple name 'BillId' exists in the entity type, but is either not mapped, is already used for another relationship, or is incompatible with the associated primary key type. See https://aka.ms/efcore-relationships for information on mapping relationships in EF Core.
+2025-02-19 12:59:09.563 +05:00 [WRN] No store type was specified for the decimal property 'BillAmount' on entity type 'Bill'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-02-19 12:59:09.572 +05:00 [WRN] No store type was specified for the decimal property 'ShareAmount' on entity type 'BillDetail'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-02-19 12:59:10.976 +05:00 [INF] Executed DbCommand (63ms) [Parameters=[@__normalizedName_0='ADMIN' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Discriminator], [a].[Name], [a].[NormalizedName], [a].[Description]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[Discriminator] = N'ApplicationRole' AND [a].[NormalizedName] = @__normalizedName_0
+2025-02-19 12:59:11.122 +05:00 [INF] Executed DbCommand (13ms) [Parameters=[@__normalizedName_0='USER' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Discriminator], [a].[Name], [a].[NormalizedName], [a].[Description]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[Discriminator] = N'ApplicationRole' AND [a].[NormalizedName] = @__normalizedName_0
+2025-02-19 12:59:11.174 +05:00 [INF] Executed DbCommand (5ms) [Parameters=[@__normalizedEmail_0='HUSSAIN.ADMIN@SPENDWISE.COM' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[IsActive], [a].[IsSoloUser], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[OrganizationId], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @__normalizedEmail_0
+2025-02-19 12:59:11.940 +05:00 [INF] Now listening on: https://localhost:7161
+2025-02-19 12:59:11.945 +05:00 [INF] Now listening on: http://localhost:5052
+2025-02-19 12:59:12.133 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-19 12:59:12.136 +05:00 [INF] Hosting environment: Development
+2025-02-19 12:59:12.140 +05:00 [INF] Content root path: C:\Users\hussain.saqib\Desktop\Learning\.NET Projects - Learning\ExpenseCalculator\SpendWise - With Identity Server\EndPoints
+2025-02-19 12:59:13.011 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7161/openapi/scalar/docs/ - null null
+2025-02-19 12:59:13.401 +05:00 [INF] Handling request: GET /openapi/scalar/docs/
+2025-02-19 12:59:13.407 +05:00 [INF] Executing endpoint 'HTTP: GET openapi/scalar/docs/{documentName?}'
+2025-02-19 12:59:13.511 +05:00 [INF] Write content with HTTP Response ContentType of text/html
+2025-02-19 12:59:13.540 +05:00 [INF] Executed endpoint 'HTTP: GET openapi/scalar/docs/{documentName?}'
+2025-02-19 12:59:13.572 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7161/openapi/scalar/docs/scalar.js - null null
+2025-02-19 12:59:13.572 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7161/openapi/scalar/docs/scalar.aspnetcore.js - null null
+2025-02-19 12:59:13.572 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7161/_framework/aspnetcore-browser-refresh.js - null null
+2025-02-19 12:59:13.590 +05:00 [INF] Finished handling request.
+2025-02-19 12:59:13.598 +05:00 [INF] Handling request: GET /openapi/scalar/docs/scalar.js
+2025-02-19 12:59:13.601 +05:00 [INF] Handling request: GET /openapi/scalar/docs/scalar.aspnetcore.js
+2025-02-19 12:59:13.603 +05:00 [INF] Executing endpoint 'HTTP: GET openapi/scalar/docs/scalar.js'
+2025-02-19 12:59:13.604 +05:00 [INF] Executing endpoint 'HTTP: GET openapi/scalar/docs/scalar.aspnetcore.js'
+2025-02-19 12:59:13.605 +05:00 [INF] HTTP GET /openapi/scalar/docs/ responded 200 in 204.9616 ms
+2025-02-19 12:59:13.628 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7161/openapi/scalar/docs/ - 200 null text/html 635.1894ms
+2025-02-19 12:59:13.630 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7161/_framework/aspnetcore-browser-refresh.js - 200 13754 application/javascript; charset=utf-8 55.6451ms
+2025-02-19 12:59:13.635 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7161/_vs/browserLink - null null
+2025-02-19 12:59:13.636 +05:00 [INF] Setting HTTP status code 304.
+2025-02-19 12:59:13.636 +05:00 [INF] Setting HTTP status code 304.
+2025-02-19 12:59:13.651 +05:00 [INF] Executed endpoint 'HTTP: GET openapi/scalar/docs/scalar.aspnetcore.js'
+2025-02-19 12:59:13.652 +05:00 [INF] Executed endpoint 'HTTP: GET openapi/scalar/docs/scalar.js'
+2025-02-19 12:59:13.653 +05:00 [INF] Finished handling request.
+2025-02-19 12:59:13.655 +05:00 [INF] Finished handling request.
+2025-02-19 12:59:13.656 +05:00 [INF] HTTP GET /openapi/scalar/docs/scalar.aspnetcore.js responded 304 in 54.5999 ms
+2025-02-19 12:59:13.657 +05:00 [INF] HTTP GET /openapi/scalar/docs/scalar.js responded 304 in 59.2544 ms
+2025-02-19 12:59:13.661 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7161/openapi/scalar/docs/scalar.aspnetcore.js - 304 null null 89.058ms
+2025-02-19 12:59:13.662 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7161/openapi/scalar/docs/scalar.js - 304 null null 89.8851ms
+2025-02-19 12:59:13.714 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7161/_vs/browserLink - 200 null text/javascript; charset=UTF-8 80.0874ms
+2025-02-19 12:59:13.860 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7161/openapi/v1.json - null null
+2025-02-19 12:59:14.096 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7161/openapi/v1.json - 200 null application/json;charset=utf-8 237.2057ms
+2025-02-19 12:59:36.152 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7161/api/Bills/GetAll - null null
+2025-02-19 12:59:36.184 +05:00 [INF] Handling request: GET /api/Bills/GetAll
+2025-02-19 12:59:36.192 +05:00 [INF] Executing endpoint 'EndPoints.Controllers.Expenditure.Bills.v1.BillsController.GetAll (EndPoints)'
+2025-02-19 12:59:36.270 +05:00 [INF] Route matched with {action = "GetAll", controller = "Bills"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll(Application.Features.Expenditure.Bills.Queries.GetAll.GetAllBillsQuery, System.Threading.CancellationToken) on controller EndPoints.Controllers.Expenditure.Bills.v1.BillsController (EndPoints).
+2025-02-19 12:59:36.364 +05:00 [INF] ➡️ [START] Handling GetAllBillsQuery | User: Anonymous | IP: ::1 | Request Data: {
+  "OrganizationId": "00000000-0000-0000-0000-000000000000"
+}
+2025-02-19 12:59:46.896 +05:00 [WRN] ⚠️ [SLOW] GetAllBillsQuery took 10517ms
+2025-02-19 12:59:46.902 +05:00 [INF] ✅ [END] GetAllBillsQuery | Execution Time: 10517ms | Response Data: {
+  "Value": null,
+  "IsSuccess": false,
+  "Errors": [
+    "No bills found for the specified organization."
+  ],
+  "ValidationErrors": {},
+  "Successes": []
+}
+2025-02-19 12:59:46.914 +05:00 [INF] Executing OkObjectResult, writing value of type 'Shared.Wrapper.Result`1[[System.Collections.Generic.IReadOnlyList`1[[Domain.Dtos.BillDto, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-02-19 12:59:46.931 +05:00 [INF] Executed action EndPoints.Controllers.Expenditure.Bills.v1.BillsController.GetAll (EndPoints) in 10646.0714ms
+2025-02-19 12:59:46.935 +05:00 [INF] Executed endpoint 'EndPoints.Controllers.Expenditure.Bills.v1.BillsController.GetAll (EndPoints)'
+2025-02-19 12:59:46.938 +05:00 [INF] Finished handling request.
+2025-02-19 12:59:46.941 +05:00 [INF] HTTP GET /api/Bills/GetAll responded 200 in 10756.3751 ms
+2025-02-19 12:59:46.955 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7161/api/Bills/GetAll - 200 null application/json; charset=utf-8 10803.5601ms
+2025-02-19 12:59:54.446 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7161/api/Bills/GetAll - null null
+2025-02-19 12:59:54.457 +05:00 [INF] Handling request: GET /api/Bills/GetAll
+2025-02-19 12:59:54.459 +05:00 [INF] Executing endpoint 'EndPoints.Controllers.Expenditure.Bills.v1.BillsController.GetAll (EndPoints)'
+2025-02-19 12:59:54.462 +05:00 [INF] Route matched with {action = "GetAll", controller = "Bills"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll(Application.Features.Expenditure.Bills.Queries.GetAll.GetAllBillsQuery, System.Threading.CancellationToken) on controller EndPoints.Controllers.Expenditure.Bills.v1.BillsController (EndPoints).
+2025-02-19 13:00:12.352 +05:00 [INF] ➡️ [START] Handling GetAllBillsQuery | User: Anonymous | IP: ::1 | Request Data: {
+  "OrganizationId": "00000000-0000-0000-0000-000000000000"
+}
+2025-02-19 13:00:12.386 +05:00 [WRN] ⚠️ [SLOW] GetAllBillsQuery took 14675ms
+2025-02-19 13:00:12.389 +05:00 [INF] ✅ [END] GetAllBillsQuery | Execution Time: 14675ms | Response Data: {
+  "Value": null,
+  "IsSuccess": false,
+  "Errors": [
+    "No bills found for the specified organization."
+  ],
+  "ValidationErrors": {},
+  "Successes": []
+}
+2025-02-19 13:00:12.392 +05:00 [INF] Executing OkObjectResult, writing value of type 'Shared.Wrapper.Result`1[[System.Collections.Generic.IReadOnlyList`1[[Domain.Dtos.BillDto, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-02-19 13:00:12.394 +05:00 [INF] Executed action EndPoints.Controllers.Expenditure.Bills.v1.BillsController.GetAll (EndPoints) in 17928.7271ms
+2025-02-19 13:00:12.397 +05:00 [INF] Executed endpoint 'EndPoints.Controllers.Expenditure.Bills.v1.BillsController.GetAll (EndPoints)'
+2025-02-19 13:00:12.399 +05:00 [INF] Finished handling request.
+2025-02-19 13:00:12.401 +05:00 [INF] HTTP GET /api/Bills/GetAll responded 200 in 17943.6000 ms
+2025-02-19 13:00:12.404 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7161/api/Bills/GetAll - 200 null application/json; charset=utf-8 17959.4201ms
+2025-02-19 13:00:43.930 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7161/openapi/scalar/docs/ - null null
+2025-02-19 13:00:43.987 +05:00 [INF] Handling request: GET /openapi/scalar/docs/
+2025-02-19 13:00:43.989 +05:00 [INF] Executing endpoint 'HTTP: GET openapi/scalar/docs/{documentName?}'
+2025-02-19 13:00:43.993 +05:00 [INF] Write content with HTTP Response ContentType of text/html
+2025-02-19 13:00:43.996 +05:00 [INF] Executed endpoint 'HTTP: GET openapi/scalar/docs/{documentName?}'
+2025-02-19 13:00:43.998 +05:00 [INF] Finished handling request.
+2025-02-19 13:00:44.002 +05:00 [INF] HTTP GET /openapi/scalar/docs/ responded 200 in 14.6508 ms
+2025-02-19 13:00:44.007 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7161/openapi/scalar/docs/ - 200 null text/html 78.3766ms
+2025-02-19 13:00:44.018 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7161/_framework/aspnetcore-browser-refresh.js - null null
+2025-02-19 13:00:44.023 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7161/openapi/scalar/docs/scalar.js - null null
+2025-02-19 13:00:44.019 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7161/openapi/scalar/docs/scalar.aspnetcore.js - null null
+2025-02-19 13:00:44.041 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7161/_framework/aspnetcore-browser-refresh.js - 200 13754 application/javascript; charset=utf-8 22.9854ms
+2025-02-19 13:00:44.030 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7161/_vs/browserLink - null null
+2025-02-19 13:00:44.046 +05:00 [INF] Handling request: GET /openapi/scalar/docs/scalar.js
+2025-02-19 13:00:44.050 +05:00 [INF] Handling request: GET /openapi/scalar/docs/scalar.aspnetcore.js
+2025-02-19 13:00:44.059 +05:00 [INF] Executing endpoint 'HTTP: GET openapi/scalar/docs/scalar.js'
+2025-02-19 13:00:44.065 +05:00 [INF] Executing endpoint 'HTTP: GET openapi/scalar/docs/scalar.aspnetcore.js'
+2025-02-19 13:00:44.066 +05:00 [INF] Setting HTTP status code 304.
+2025-02-19 13:00:44.068 +05:00 [INF] Setting HTTP status code 304.
+2025-02-19 13:00:44.069 +05:00 [INF] Executed endpoint 'HTTP: GET openapi/scalar/docs/scalar.js'
+2025-02-19 13:00:44.070 +05:00 [INF] Executed endpoint 'HTTP: GET openapi/scalar/docs/scalar.aspnetcore.js'
+2025-02-19 13:00:44.071 +05:00 [INF] Finished handling request.
+2025-02-19 13:00:44.073 +05:00 [INF] Finished handling request.
+2025-02-19 13:00:44.074 +05:00 [INF] HTTP GET /openapi/scalar/docs/scalar.js responded 304 in 28.3031 ms
+2025-02-19 13:00:44.075 +05:00 [INF] HTTP GET /openapi/scalar/docs/scalar.aspnetcore.js responded 304 in 25.2907 ms
+2025-02-19 13:00:44.078 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7161/openapi/scalar/docs/scalar.js - 304 null null 55.643ms
+2025-02-19 13:00:44.081 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7161/openapi/scalar/docs/scalar.aspnetcore.js - 304 null null 62.2924ms
+2025-02-19 13:00:44.095 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7161/_vs/browserLink - 200 null text/javascript; charset=UTF-8 65.6444ms
+2025-02-19 13:00:44.157 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7161/openapi/v1.json - null null
+2025-02-19 13:00:44.190 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7161/openapi/v1.json - 200 null application/json;charset=utf-8 32.692ms
+2025-02-19 13:00:54.183 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7161/api/User/Users - null null
+2025-02-19 13:00:54.191 +05:00 [INF] Handling request: GET /api/User/Users
+2025-02-19 13:00:54.192 +05:00 [INF] Executing endpoint 'EndPoints.Controllers.Security.Users.v1.UserController.Get (EndPoints)'
+2025-02-19 13:00:54.199 +05:00 [INF] Route matched with {action = "Get", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get(Application.Features.Security.Users.Queries.GetAll.GetAllUsersQuery, System.Threading.CancellationToken) on controller EndPoints.Controllers.Security.Users.v1.UserController (EndPoints).
+2025-02-19 13:00:55.985 +05:00 [INF] ➡️ [START] Handling GetAllUsersQuery | User: Anonymous | IP: ::1 | Request Data: {
+  "UserId": null,
+  "IsAdmin": null,
+  "IsActive": null
+}
+2025-02-19 13:00:56.045 +05:00 [INF] Executed DbCommand (8ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[IsActive], [a].[IsSoloUser], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[OrganizationId], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+2025-02-19 13:00:56.226 +05:00 [INF] Executed DbCommand (10ms) [Parameters=[@__userId_0='acc205ac-e80c-4499-ef63-08dd44f475ca'], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN (
+    SELECT [a0].[Id], [a0].[Name]
+    FROM [AspNetRoles] AS [a0]
+    WHERE [a0].[Discriminator] = N'ApplicationRole'
+) AS [t] ON [a].[RoleId] = [t].[Id]
+WHERE [a].[UserId] = @__userId_0
+2025-02-19 13:00:56.249 +05:00 [INF] Executed DbCommand (2ms) [Parameters=[@__userId_0='6110503e-3d40-48f8-95fd-08dd4516633f'], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN (
+    SELECT [a0].[Id], [a0].[Name]
+    FROM [AspNetRoles] AS [a0]
+    WHERE [a0].[Discriminator] = N'ApplicationRole'
+) AS [t] ON [a].[RoleId] = [t].[Id]
+WHERE [a].[UserId] = @__userId_0
+2025-02-19 13:00:56.261 +05:00 [INF] Executed DbCommand (2ms) [Parameters=[@__userId_0='0c4af00d-6a09-4288-95fe-08dd4516633f'], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN (
+    SELECT [a0].[Id], [a0].[Name]
+    FROM [AspNetRoles] AS [a0]
+    WHERE [a0].[Discriminator] = N'ApplicationRole'
+) AS [t] ON [a].[RoleId] = [t].[Id]
+WHERE [a].[UserId] = @__userId_0
+2025-02-19 13:00:56.273 +05:00 [INF] Executed DbCommand (2ms) [Parameters=[@__userId_0='bcbd9775-22ac-408a-96b7-08dd50aff742'], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN (
+    SELECT [a0].[Id], [a0].[Name]
+    FROM [AspNetRoles] AS [a0]
+    WHERE [a0].[Discriminator] = N'ApplicationRole'
+) AS [t] ON [a].[RoleId] = [t].[Id]
+WHERE [a].[UserId] = @__userId_0
+2025-02-19 13:00:56.302 +05:00 [INF] ✅ [END] GetAllUsersQuery | Execution Time: 306ms | Response Data: {
+  "Value": [
+    {
+      "Id": "acc205ac-e80c-4499-ef63-08dd44f475ca",
+      "UserName": "hussain.admin",
+      "Email": "hussain.admin@spendwise.com",
+      "IsActive": true,
+      "IsEmailConfirmed": true,
+      "UserRoles": null,
+      "UserRolesNames": [
+        "Admin"
+      ],
+      "CreatedAt": "0001-01-01T00:00:00",
+      "CreatedBy": "",
+      "UpdatedAt": null,
+      "UpdatedBy": ""
+    },
+    {
+      "Id": "6110503e-3d40-48f8-95fd-08dd4516633f",
+      "UserName": "hussain.user",
+      "Email": "hussain.user@spendwise.com",
+      "IsActive": true,
+      "IsEmailConfirmed": true,
+      "UserRoles": null,
+      "UserRolesNames": [
+        "Admin",
+        "User"
+      ],
+      "CreatedAt": "0001-01-01T00:00:00",
+      "CreatedBy": "",
+      "UpdatedAt": null,
+      "UpdatedBy": ""
+    },
+    {
+      "Id": "0c4af00d-6a09-4288-95fe-08dd4516633f",
+      "UserName": "hussain.user1",
+      "Email": "hussain.user1@spendwise.com",
+      "IsActive": true,
+      "IsEmailConfirmed": true,
+      "UserRoles": null,
+      "UserRolesNames": [
+        "User"
+      ],
+      "CreatedAt": "0001-01-01T00:00:00",
+      "CreatedBy": "",
+      "UpdatedAt": null,
+      "UpdatedBy": ""
+    },
+    {
+      "Id": "bcbd9775-22ac-408a-96b7-08dd50aff742",
+      "UserName": "hussaintestqwe1",
+      "Email": "hussain.test123@com",
+      "IsActive": false,
+      "IsEmailConfirmed": false,
+      "UserRoles": null,
+      "UserRolesNames": [
+        "Admin"
+      ],
+      "CreatedAt": "0001-01-01T00:00:00",
+      "CreatedBy": "",
+      "UpdatedAt": null,
+      "UpdatedBy": ""
+    }
+  ],
+  "IsSuccess": true,
+  "Errors": [],
+  "ValidationErrors": {},
+  "Successes": [
+    "The request has succeeded.",
+    "Users have been successfully retrieved."
+  ]
+}
+2025-02-19 13:00:56.312 +05:00 [INF] Executing OkObjectResult, writing value of type 'Shared.Wrapper.Result`1[[System.Collections.Generic.IReadOnlyList`1[[Application.Features.Security.Users.UserDto, Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-02-19 13:00:56.326 +05:00 [INF] Executed action EndPoints.Controllers.Security.Users.v1.UserController.Get (EndPoints) in 2124.0911ms
+2025-02-19 13:00:56.336 +05:00 [INF] Executed endpoint 'EndPoints.Controllers.Security.Users.v1.UserController.Get (EndPoints)'
+2025-02-19 13:00:56.341 +05:00 [INF] Finished handling request.
+2025-02-19 13:00:56.346 +05:00 [INF] HTTP GET /api/User/Users responded 200 in 2155.3847 ms
+2025-02-19 13:00:56.355 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7161/api/User/Users - 200 null application/json; charset=utf-8 2173.336ms
+2025-02-19 13:01:25.166 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7161/api/User/Users?UserId=1111 - null null
+2025-02-19 13:01:25.187 +05:00 [INF] Handling request: GET /api/User/Users
+2025-02-19 13:01:25.192 +05:00 [INF] Executing endpoint 'EndPoints.Controllers.Security.Users.v1.UserController.Get (EndPoints)'
+2025-02-19 13:01:25.195 +05:00 [INF] Route matched with {action = "Get", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get(Application.Features.Security.Users.Queries.GetAll.GetAllUsersQuery, System.Threading.CancellationToken) on controller EndPoints.Controllers.Security.Users.v1.UserController (EndPoints).
+2025-02-19 13:01:25.212 +05:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2025-02-19 13:01:25.263 +05:00 [INF] Executed action EndPoints.Controllers.Security.Users.v1.UserController.Get (EndPoints) in 63.737ms
+2025-02-19 13:01:25.270 +05:00 [INF] Executed endpoint 'EndPoints.Controllers.Security.Users.v1.UserController.Get (EndPoints)'
+2025-02-19 13:01:25.273 +05:00 [INF] Finished handling request.
+2025-02-19 13:01:25.277 +05:00 [INF] HTTP GET /api/User/Users responded 400 in 89.2027 ms
+2025-02-19 13:01:25.284 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7161/api/User/Users?UserId=1111 - 400 null application/problem+json; charset=utf-8 118.4888ms

@@ -1,0 +1,5 @@
+const API_HELPER = {
+    EMPTY_GUID: "00000000-0000-0000-0000-000000000000"
+};
+  
+  export default API_HELPER;

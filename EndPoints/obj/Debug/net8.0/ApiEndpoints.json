@@ -1,0 +1,485 @@
+[
+  {
+    "ContainingType": "EndPoints.Controllers.Security.Auth.v1.AuthController",
+    "Method": "Activate",
+    "RelativePath": "api/Auth/Activate",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Application.Features.Security.Identity.Commands.ActivateUser.ActivateUserCommand",
+        "IsRequired": true
+      },
+      {
+        "Name": "X-Api-Version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EndPoints.Controllers.Security.Auth.v1.AuthController",
+    "Method": "ConfirmEmail",
+    "RelativePath": "api/Auth/ConfirmEmail",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Application.Features.Security.Identity.Commands.ConfirmEmail.ConfirmEmailCommand",
+        "IsRequired": true
+      },
+      {
+        "Name": "X-Api-Version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EndPoints.Controllers.Security.Auth.v1.AuthController",
+    "Method": "Login",
+    "RelativePath": "api/Auth/Login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Application.Features.Security.Identity.Commands.Login.LoginCommand",
+        "IsRequired": true
+      },
+      {
+        "Name": "X-Api-Version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EndPoints.Controllers.Security.Auth.v1.AuthController",
+    "Method": "ManageUserRoles",
+    "RelativePath": "api/Auth/ManageUserRoles",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Application.Features.Security.Identity.Commands.ManageRoles.ManageUserRolesCommand",
+        "IsRequired": true
+      },
+      {
+        "Name": "X-Api-Version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EndPoints.Controllers.Security.Auth.v1.AuthController",
+    "Method": "Register",
+    "RelativePath": "api/Auth/Register",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Application.Features.Security.Identity.Commands.Register.RegisterCommand",
+        "IsRequired": true
+      },
+      {
+        "Name": "X-Api-Version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EndPoints.Controllers.Expenditure.Bills.v1.BillsController",
+    "Method": "Add",
+    "RelativePath": "api/Bills/Add",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Application.Features.Expenditure.Bills.Commands.AddEdit.AddEditBillCommand",
+        "IsRequired": true
+      },
+      {
+        "Name": "X-Api-Version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EndPoints.Controllers.Expenditure.Bills.v1.BillsController",
+    "Method": "Delete",
+    "RelativePath": "api/Bills/Delete",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Application.Features.Expenditure.Bills.Commands.Delete.DeleteBillCommand",
+        "IsRequired": true
+      },
+      {
+        "Name": "X-Api-Version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EndPoints.Controllers.Expenditure.Bills.v1.BillsController",
+    "Method": "Edit",
+    "RelativePath": "api/Bills/Edit",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Application.Features.Expenditure.Bills.Commands.AddEdit.AddEditBillCommand",
+        "IsRequired": true
+      },
+      {
+        "Name": "X-Api-Version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EndPoints.Controllers.Expenditure.Bills.v1.BillsController",
+    "Method": "GetAll",
+    "RelativePath": "api/Bills/GetAll",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "OrganizationId",
+        "Type": "System.Guid",
+        "IsRequired": false
+      },
+      {
+        "Name": "X-Api-Version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EndPoints.Controllers.Ownership.Organizations.v1.OrganizationsController",
+    "Method": "Add",
+    "RelativePath": "api/Organizations/Add",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Application.Features.Ownership.Organizations.Commands.AddEdit.AddEditOrganizationCommand",
+        "IsRequired": true
+      },
+      {
+        "Name": "X-Api-Version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EndPoints.Controllers.Ownership.Organizations.v1.OrganizationsController",
+    "Method": "Delete",
+    "RelativePath": "api/Organizations/Delete",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Guid",
+        "IsRequired": false
+      },
+      {
+        "Name": "X-Api-Version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EndPoints.Controllers.Ownership.Organizations.v1.OrganizationsController",
+    "Method": "Edit",
+    "RelativePath": "api/Organizations/Edit",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Application.Features.Ownership.Organizations.Commands.AddEdit.AddEditOrganizationCommand",
+        "IsRequired": true
+      },
+      {
+        "Name": "X-Api-Version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EndPoints.Controllers.Ownership.Organizations.v1.OrganizationsController",
+    "Method": "GetAll",
+    "RelativePath": "api/Organizations/GetAll",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "X-Api-Version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EndPoints.Controllers.Ownership.Organizations.v1.OrganizationsController",
+    "Method": "GetById",
+    "RelativePath": "api/Organizations/GetById",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Guid",
+        "IsRequired": false
+      },
+      {
+        "Name": "X-Api-Version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EndPoints.Controllers.Security.Roles.v1.RolesController",
+    "Method": "Add",
+    "RelativePath": "api/Roles/Add",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Application.Features.Security.Roles.Commands.AddEdit.AddEditRoleCommand",
+        "IsRequired": true
+      },
+      {
+        "Name": "X-Api-Version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EndPoints.Controllers.Security.Roles.v1.RolesController",
+    "Method": "Delete",
+    "RelativePath": "api/Roles/Delete",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Guid",
+        "IsRequired": false
+      },
+      {
+        "Name": "X-Api-Version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EndPoints.Controllers.Security.Roles.v2.RolesController",
+    "Method": "Deletev2",
+    "RelativePath": "api/Roles/Delete",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Application.Features.Security.Roles.Commands.Delete.DeleteRoleCommand",
+        "IsRequired": true
+      },
+      {
+        "Name": "X-Api-Version",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EndPoints.Controllers.Security.Roles.v1.RolesController",
+    "Method": "Edit",
+    "RelativePath": "api/Roles/Edit",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Application.Features.Security.Roles.Commands.AddEdit.AddEditRoleCommand",
+        "IsRequired": true
+      },
+      {
+        "Name": "X-Api-Version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EndPoints.Controllers.Security.Roles.v1.RolesController",
+    "Method": "GetAll",
+    "RelativePath": "api/Roles/GetAll",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "X-Api-Version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EndPoints.Controllers.Security.Roles.v1.RolesController",
+    "Method": "GetById",
+    "RelativePath": "api/Roles/GetById",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Guid",
+        "IsRequired": false
+      },
+      {
+        "Name": "X-Api-Version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EndPoints.Controllers.Security.Users.v1.UserController",
+    "Method": "Create",
+    "RelativePath": "api/User/Create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Application.Features.Security.Identity.Commands.Register.RegisterCommand",
+        "IsRequired": true
+      },
+      {
+        "Name": "X-Api-Version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EndPoints.Controllers.Security.Users.v1.UserController",
+    "Method": "Delete",
+    "RelativePath": "api/User/Delete",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Application.Features.Security.Users.Commands.Delete.DeleteUserCommand",
+        "IsRequired": true
+      },
+      {
+        "Name": "X-Api-Version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EndPoints.Controllers.Security.Users.v1.UserController",
+    "Method": "Get",
+    "RelativePath": "api/User/Users",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "UserId",
+        "Type": "System.Nullable\u00601[[System.Guid, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "IsAdmin",
+        "Type": "System.Nullable\u00601[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "IsActive",
+        "Type": "System.Nullable\u00601[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "X-Api-Version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

@@ -1,0 +1,68 @@
+C:\Users\hussain.saqib\Desktop\Learning\.NET Projects - Learning\ExpenseCalculator\SpendWise\Application\bin\Debug\net8.0\Application.deps.json
+C:\Users\hussain.saqib\Desktop\Learning\.NET Projects - Learning\ExpenseCalculator\SpendWise\Application\bin\Debug\net8.0\Application.dll
+C:\Users\hussain.saqib\Desktop\Learning\.NET Projects - Learning\ExpenseCalculator\SpendWise\Application\bin\Debug\net8.0\Application.pdb
+C:\Users\hussain.saqib\Desktop\Learning\.NET Projects - Learning\ExpenseCalculator\SpendWise\Application\bin\Debug\net8.0\Domain.dll
+C:\Users\hussain.saqib\Desktop\Learning\.NET Projects - Learning\ExpenseCalculator\SpendWise\Application\bin\Debug\net8.0\Shared.dll
+C:\Users\hussain.saqib\Desktop\Learning\.NET Projects - Learning\ExpenseCalculator\SpendWise\Application\bin\Debug\net8.0\Domain.pdb
+C:\Users\hussain.saqib\Desktop\Learning\.NET Projects - Learning\ExpenseCalculator\SpendWise\Application\bin\Debug\net8.0\Shared.pdb
+C:\Users\hussain.saqib\Desktop\Learning\.NET Projects - Learning\ExpenseCalculator\SpendWise\Application\obj\Debug\net8.0\Application.csproj.AssemblyReference.cache
+C:\Users\hussain.saqib\Desktop\Learning\.NET Projects - Learning\ExpenseCalculator\SpendWise\Application\obj\Debug\net8.0\Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hussain.saqib\Desktop\Learning\.NET Projects - Learning\ExpenseCalculator\SpendWise\Application\obj\Debug\net8.0\Application.AssemblyInfoInputs.cache
+C:\Users\hussain.saqib\Desktop\Learning\.NET Projects - Learning\ExpenseCalculator\SpendWise\Application\obj\Debug\net8.0\Application.AssemblyInfo.cs
+C:\Users\hussain.saqib\Desktop\Learning\.NET Projects - Learning\ExpenseCalculator\SpendWise\Application\obj\Debug\net8.0\Application.csproj.CoreCompileInputs.cache
+C:\Users\hussain.saqib\Desktop\Learning\.NET Projects - Learning\ExpenseCalculator\SpendWise\Application\obj\Debug\net8.0\Applicat.44B5EDA2.Up2Date
+C:\Users\hussain.saqib\Desktop\Learning\.NET Projects - Learning\ExpenseCalculator\SpendWise\Application\obj\Debug\net8.0\Application.dll
+C:\Users\hussain.saqib\Desktop\Learning\.NET Projects - Learning\ExpenseCalculator\SpendWise\Application\obj\Debug\net8.0\refint\Application.dll
+C:\Users\hussain.saqib\Desktop\Learning\.NET Projects - Learning\ExpenseCalculator\SpendWise\Application\obj\Debug\net8.0\Application.pdb
+C:\Users\hussain.saqib\Desktop\Learning\.NET Projects - Learning\ExpenseCalculator\SpendWise\Application\obj\Debug\net8.0\ref\Application.dll
+C:\Users\hussain.saqib\OneDrive - Systems Limited\Dotnet Core - Clean Architecture - DDD Pattern\SpendWise\Application\bin\Debug\net8.0\Application.deps.json
+C:\Users\hussain.saqib\OneDrive - Systems Limited\Dotnet Core - Clean Architecture - DDD Pattern\SpendWise\Application\bin\Debug\net8.0\Application.dll
+C:\Users\hussain.saqib\OneDrive - Systems Limited\Dotnet Core - Clean Architecture - DDD Pattern\SpendWise\Application\bin\Debug\net8.0\Application.pdb
+C:\Users\hussain.saqib\OneDrive - Systems Limited\Dotnet Core - Clean Architecture - DDD Pattern\SpendWise\Application\bin\Debug\net8.0\Domain.dll
+C:\Users\hussain.saqib\OneDrive - Systems Limited\Dotnet Core - Clean Architecture - DDD Pattern\SpendWise\Application\bin\Debug\net8.0\Shared.dll
+C:\Users\hussain.saqib\OneDrive - Systems Limited\Dotnet Core - Clean Architecture - DDD Pattern\SpendWise\Application\bin\Debug\net8.0\Domain.pdb
+C:\Users\hussain.saqib\OneDrive - Systems Limited\Dotnet Core - Clean Architecture - DDD Pattern\SpendWise\Application\bin\Debug\net8.0\Shared.pdb
+C:\Users\hussain.saqib\OneDrive - Systems Limited\Dotnet Core - Clean Architecture - DDD Pattern\SpendWise\Application\obj\Debug\net8.0\Application.csproj.AssemblyReference.cache
+C:\Users\hussain.saqib\OneDrive - Systems Limited\Dotnet Core - Clean Architecture - DDD Pattern\SpendWise\Application\obj\Debug\net8.0\Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hussain.saqib\OneDrive - Systems Limited\Dotnet Core - Clean Architecture - DDD Pattern\SpendWise\Application\obj\Debug\net8.0\Application.AssemblyInfoInputs.cache
+C:\Users\hussain.saqib\OneDrive - Systems Limited\Dotnet Core - Clean Architecture - DDD Pattern\SpendWise\Application\obj\Debug\net8.0\Application.AssemblyInfo.cs
+C:\Users\hussain.saqib\OneDrive - Systems Limited\Dotnet Core - Clean Architecture - DDD Pattern\SpendWise\Application\obj\Debug\net8.0\Application.csproj.CoreCompileInputs.cache
+C:\Users\hussain.saqib\OneDrive - Systems Limited\Dotnet Core - Clean Architecture - DDD Pattern\SpendWise\Application\obj\Debug\net8.0\Applicat.44B5EDA2.Up2Date
+C:\Users\hussain.saqib\OneDrive - Systems Limited\Dotnet Core - Clean Architecture - DDD Pattern\SpendWise\Application\obj\Debug\net8.0\Application.dll
+C:\Users\hussain.saqib\OneDrive - Systems Limited\Dotnet Core - Clean Architecture - DDD Pattern\SpendWise\Application\obj\Debug\net8.0\refint\Application.dll
+C:\Users\hussain.saqib\OneDrive - Systems Limited\Dotnet Core - Clean Architecture - DDD Pattern\SpendWise\Application\obj\Debug\net8.0\Application.pdb
+C:\Users\hussain.saqib\OneDrive - Systems Limited\Dotnet Core - Clean Architecture - DDD Pattern\SpendWise\Application\obj\Debug\net8.0\ref\Application.dll
+C:\Users\hussain.saqib\Desktop\Learning\.NET Projects - Learning\ExpenseCalculator\SpendWise - With Identity Server\Application\bin\Debug\net8.0\Application.deps.json
+C:\Users\hussain.saqib\Desktop\Learning\.NET Projects - Learning\ExpenseCalculator\SpendWise - With Identity Server\Application\bin\Debug\net8.0\Application.dll
+C:\Users\hussain.saqib\Desktop\Learning\.NET Projects - Learning\ExpenseCalculator\SpendWise - With Identity Server\Application\bin\Debug\net8.0\Application.pdb
+C:\Users\hussain.saqib\Desktop\Learning\.NET Projects - Learning\ExpenseCalculator\SpendWise - With Identity Server\Application\bin\Debug\net8.0\Domain.dll
+C:\Users\hussain.saqib\Desktop\Learning\.NET Projects - Learning\ExpenseCalculator\SpendWise - With Identity Server\Application\bin\Debug\net8.0\Shared.dll
+C:\Users\hussain.saqib\Desktop\Learning\.NET Projects - Learning\ExpenseCalculator\SpendWise - With Identity Server\Application\bin\Debug\net8.0\Domain.pdb
+C:\Users\hussain.saqib\Desktop\Learning\.NET Projects - Learning\ExpenseCalculator\SpendWise - With Identity Server\Application\bin\Debug\net8.0\Shared.pdb
+C:\Users\hussain.saqib\Desktop\Learning\.NET Projects - Learning\ExpenseCalculator\SpendWise - With Identity Server\Application\obj\Debug\net8.0\Application.csproj.AssemblyReference.cache
+C:\Users\hussain.saqib\Desktop\Learning\.NET Projects - Learning\ExpenseCalculator\SpendWise - With Identity Server\Application\obj\Debug\net8.0\Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hussain.saqib\Desktop\Learning\.NET Projects - Learning\ExpenseCalculator\SpendWise - With Identity Server\Application\obj\Debug\net8.0\Application.AssemblyInfoInputs.cache
+C:\Users\hussain.saqib\Desktop\Learning\.NET Projects - Learning\ExpenseCalculator\SpendWise - With Identity Server\Application\obj\Debug\net8.0\Application.AssemblyInfo.cs
+C:\Users\hussain.saqib\Desktop\Learning\.NET Projects - Learning\ExpenseCalculator\SpendWise - With Identity Server\Application\obj\Debug\net8.0\Application.csproj.CoreCompileInputs.cache
+C:\Users\hussain.saqib\Desktop\Learning\.NET Projects - Learning\ExpenseCalculator\SpendWise - With Identity Server\Application\obj\Debug\net8.0\Applicat.44B5EDA2.Up2Date
+C:\Users\hussain.saqib\Desktop\Learning\.NET Projects - Learning\ExpenseCalculator\SpendWise - With Identity Server\Application\obj\Debug\net8.0\Application.dll
+C:\Users\hussain.saqib\Desktop\Learning\.NET Projects - Learning\ExpenseCalculator\SpendWise - With Identity Server\Application\obj\Debug\net8.0\refint\Application.dll
+C:\Users\hussain.saqib\Desktop\Learning\.NET Projects - Learning\ExpenseCalculator\SpendWise - With Identity Server\Application\obj\Debug\net8.0\Application.pdb
+C:\Users\hussain.saqib\Desktop\Learning\.NET Projects - Learning\ExpenseCalculator\SpendWise - With Identity Server\Application\obj\Debug\net8.0\ref\Application.dll
+D:\Work\C#\Advance Architectures\SpendWise\Application\bin\Debug\net8.0\Application.deps.json
+D:\Work\C#\Advance Architectures\SpendWise\Application\bin\Debug\net8.0\Application.dll
+D:\Work\C#\Advance Architectures\SpendWise\Application\bin\Debug\net8.0\Application.pdb
+D:\Work\C#\Advance Architectures\SpendWise\Application\bin\Debug\net8.0\Domain.dll
+D:\Work\C#\Advance Architectures\SpendWise\Application\bin\Debug\net8.0\Shared.dll
+D:\Work\C#\Advance Architectures\SpendWise\Application\bin\Debug\net8.0\Domain.pdb
+D:\Work\C#\Advance Architectures\SpendWise\Application\bin\Debug\net8.0\Shared.pdb
+D:\Work\C#\Advance Architectures\SpendWise\Application\obj\Debug\net8.0\Application.csproj.AssemblyReference.cache
+D:\Work\C#\Advance Architectures\SpendWise\Application\obj\Debug\net8.0\Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\Work\C#\Advance Architectures\SpendWise\Application\obj\Debug\net8.0\Application.AssemblyInfoInputs.cache
+D:\Work\C#\Advance Architectures\SpendWise\Application\obj\Debug\net8.0\Application.AssemblyInfo.cs
+D:\Work\C#\Advance Architectures\SpendWise\Application\obj\Debug\net8.0\Application.csproj.CoreCompileInputs.cache
+D:\Work\C#\Advance Architectures\SpendWise\Application\obj\Debug\net8.0\Applicat.44B5EDA2.Up2Date
+D:\Work\C#\Advance Architectures\SpendWise\Application\obj\Debug\net8.0\Application.dll
+D:\Work\C#\Advance Architectures\SpendWise\Application\obj\Debug\net8.0\refint\Application.dll
+D:\Work\C#\Advance Architectures\SpendWise\Application\obj\Debug\net8.0\Application.pdb
+D:\Work\C#\Advance Architectures\SpendWise\Application\obj\Debug\net8.0\ref\Application.dll

@@ -1,0 +1,2276 @@
+2025-03-20 12:16:10.923 +05:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-03-20 12:16:11.079 +05:00 [WRN] The foreign key property 'BillDetail.BillId1' was created in shadow state because a conflicting property with the simple name 'BillId' exists in the entity type, but is either not mapped, is already used for another relationship, or is incompatible with the associated primary key type. See https://aka.ms/efcore-relationships for information on mapping relationships in EF Core.
+2025-03-20 12:16:11.249 +05:00 [WRN] No store type was specified for the decimal property 'BillAmount' on entity type 'Bill'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-03-20 12:16:11.257 +05:00 [WRN] No store type was specified for the decimal property 'ShareAmount' on entity type 'BillDetail'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-03-20 12:16:13.035 +05:00 [INF] Email Background Service is running...
+2025-03-20 12:16:13.817 +05:00 [WRN] Failed to determine the https port for redirect.
+2025-03-20 12:16:13.924 +05:00 [INF] Handling request: GET /openapi/scalar/docs/
+2025-03-20 12:16:14.063 +05:00 [INF] Finished handling request.
+2025-03-20 12:16:14.075 +05:00 [INF] Handling request: GET /openapi/scalar/docs/scalar.js
+2025-03-20 12:16:14.075 +05:00 [INF] Handling request: GET /openapi/scalar/docs/scalar.aspnetcore.js
+2025-03-20 12:16:14.092 +05:00 [INF] HTTP GET /openapi/scalar/docs/ responded 200 in 165.2408 ms
+2025-03-20 12:16:14.121 +05:00 [INF] Finished handling request.
+2025-03-20 12:16:14.121 +05:00 [INF] Finished handling request.
+2025-03-20 12:16:14.128 +05:00 [INF] HTTP GET /openapi/scalar/docs/scalar.js responded 304 in 53.5139 ms
+2025-03-20 12:16:14.129 +05:00 [INF] HTTP GET /openapi/scalar/docs/scalar.aspnetcore.js responded 304 in 54.8460 ms
+2025-03-20 12:16:17.971 +05:00 [INF] Handling request: PUT /api/roles/Edit
+2025-03-20 12:16:18.212 +05:00 [INF] ➡️ [START] Handling AddEditRoleCommand | User: Anonymous | IP: ::1 | Request Data: {
+  "Id": "332f8c1c-2595-4a7e-3f6f-08dd6074177f",
+  "Name": "ASasdasdasdasd123",
+  "Description": "asasdasdasdasdasdasdasdasdasd"
+}
+2025-03-20 12:16:20.331 +05:00 [WRN] ⚠️ [SLOW] AddEditRoleCommand took 2114ms
+2025-03-20 12:16:20.338 +05:00 [INF] ✅ [END] AddEditRoleCommand | Execution Time: 2114ms | Response Data: {
+  "Value": "332f8c1c-2595-4a7e-3f6f-08dd6074177f",
+  "IsSuccess": true,
+  "Errors": [],
+  "ValidationErrors": {},
+  "Successes": [
+    "Role \u0027ASasdasdasdasd123\u0027 has been successfully updated.",
+    "The request has succeeded."
+  ]
+}
+2025-03-20 12:16:20.358 +05:00 [INF] Finished handling request.
+2025-03-20 12:16:20.364 +05:00 [INF] HTTP PUT /api/roles/Edit responded 200 in 2393.3055 ms
+2025-03-20 12:16:20.388 +05:00 [INF] Handling request: GET /api/roles/GetAll
+2025-03-20 12:16:20.408 +05:00 [INF] ➡️ [START] Handling GetAllRolesQuery | User: Anonymous | IP: ::1 | Request Data: {}
+2025-03-20 12:16:20.486 +05:00 [INF] ✅ [END] GetAllRolesQuery | Execution Time: 73ms | Response Data: {
+  "Value": [
+    {
+      "Id": "761a6afc-057d-4226-58bc-08dd44f47560",
+      "Name": "Admin",
+      "Description": "Admin role for SpendWise"
+    },
+    {
+      "Id": "f7137b9f-ee58-4c84-58bd-08dd44f47560",
+      "Name": "User",
+      "Description": "User role for SpendWise"
+    },
+    {
+      "Id": "332f8c1c-2595-4a7e-3f6f-08dd6074177f",
+      "Name": "ASasdasdasdasd123",
+      "Description": "asasdasdasdasdasdasdasdasdasd"
+    }
+  ],
+  "IsSuccess": true,
+  "Errors": [],
+  "ValidationErrors": {},
+  "Successes": [
+    "Roles has been successfully retrieved.",
+    "The request has succeeded."
+  ]
+}
+2025-03-20 12:16:20.497 +05:00 [INF] Finished handling request.
+2025-03-20 12:16:20.504 +05:00 [INF] HTTP GET /api/roles/GetAll responded 200 in 116.7807 ms
+2025-03-20 12:16:43.353 +05:00 [INF] Handling request: PUT /api/roles/Edit
+2025-03-20 12:16:43.369 +05:00 [INF] ➡️ [START] Handling AddEditRoleCommand | User: Anonymous | IP: ::1 | Request Data: {
+  "Id": "332f8c1c-2595-4a7e-3f6f-08dd6074177f",
+  "Name": "Guest",
+  "Description": "Guest role for Spendwise"
+}
+2025-03-20 12:16:47.132 +05:00 [WRN] ⚠️ [SLOW] AddEditRoleCommand took 3762ms
+2025-03-20 12:16:47.140 +05:00 [INF] ✅ [END] AddEditRoleCommand | Execution Time: 3762ms | Response Data: {
+  "Value": "332f8c1c-2595-4a7e-3f6f-08dd6074177f",
+  "IsSuccess": true,
+  "Errors": [],
+  "ValidationErrors": {},
+  "Successes": [
+    "Role \u0027Guest\u0027 has been successfully updated.",
+    "The request has succeeded."
+  ]
+}
+2025-03-20 12:16:47.152 +05:00 [INF] Finished handling request.
+2025-03-20 12:16:47.160 +05:00 [INF] HTTP PUT /api/roles/Edit responded 200 in 3806.8555 ms
+2025-03-20 12:16:47.186 +05:00 [INF] Handling request: GET /api/roles/GetAll
+2025-03-20 12:16:47.199 +05:00 [INF] ➡️ [START] Handling GetAllRolesQuery | User: Anonymous | IP: ::1 | Request Data: {}
+2025-03-20 12:16:47.241 +05:00 [INF] ✅ [END] GetAllRolesQuery | Execution Time: 42ms | Response Data: {
+  "Value": [
+    {
+      "Id": "761a6afc-057d-4226-58bc-08dd44f47560",
+      "Name": "Admin",
+      "Description": "Admin role for SpendWise"
+    },
+    {
+      "Id": "f7137b9f-ee58-4c84-58bd-08dd44f47560",
+      "Name": "User",
+      "Description": "User role for SpendWise"
+    },
+    {
+      "Id": "332f8c1c-2595-4a7e-3f6f-08dd6074177f",
+      "Name": "Guest",
+      "Description": "Guest role for Spendwise"
+    }
+  ],
+  "IsSuccess": true,
+  "Errors": [],
+  "ValidationErrors": {},
+  "Successes": [
+    "Roles has been successfully retrieved.",
+    "The request has succeeded."
+  ]
+}
+2025-03-20 12:16:47.248 +05:00 [INF] Finished handling request.
+2025-03-20 12:16:47.251 +05:00 [INF] HTTP GET /api/roles/GetAll responded 200 in 65.3501 ms
+2025-03-20 12:16:56.926 +05:00 [INF] Handling request: PUT /api/roles/Edit
+2025-03-20 12:16:56.947 +05:00 [INF] ➡️ [START] Handling AddEditRoleCommand | User: Anonymous | IP: ::1 | Request Data: {
+  "Id": "f7137b9f-ee58-4c84-58bd-08dd44f47560",
+  "Name": "User",
+  "Description": "User role for Spendwise"
+}
+2025-03-20 12:16:57.008 +05:00 [INF] ✅ [END] AddEditRoleCommand | Execution Time: 61ms | Response Data: {
+  "Value": "f7137b9f-ee58-4c84-58bd-08dd44f47560",
+  "IsSuccess": true,
+  "Errors": [],
+  "ValidationErrors": {},
+  "Successes": [
+    "Role \u0027User\u0027 has been successfully updated.",
+    "The request has succeeded."
+  ]
+}
+2025-03-20 12:16:57.020 +05:00 [INF] Finished handling request.
+2025-03-20 12:16:57.027 +05:00 [INF] HTTP PUT /api/roles/Edit responded 200 in 100.5940 ms
+2025-03-20 12:16:57.046 +05:00 [INF] Handling request: GET /api/roles/GetAll
+2025-03-20 12:16:57.059 +05:00 [INF] ➡️ [START] Handling GetAllRolesQuery | User: Anonymous | IP: ::1 | Request Data: {}
+2025-03-20 12:16:57.096 +05:00 [INF] ✅ [END] GetAllRolesQuery | Execution Time: 36ms | Response Data: {
+  "Value": [
+    {
+      "Id": "761a6afc-057d-4226-58bc-08dd44f47560",
+      "Name": "Admin",
+      "Description": "Admin role for SpendWise"
+    },
+    {
+      "Id": "f7137b9f-ee58-4c84-58bd-08dd44f47560",
+      "Name": "User",
+      "Description": "User role for Spendwise"
+    },
+    {
+      "Id": "332f8c1c-2595-4a7e-3f6f-08dd6074177f",
+      "Name": "Guest",
+      "Description": "Guest role for Spendwise"
+    }
+  ],
+  "IsSuccess": true,
+  "Errors": [],
+  "ValidationErrors": {},
+  "Successes": [
+    "Roles has been successfully retrieved.",
+    "The request has succeeded."
+  ]
+}
+2025-03-20 12:16:57.111 +05:00 [INF] Finished handling request.
+2025-03-20 12:16:57.118 +05:00 [INF] HTTP GET /api/roles/GetAll responded 200 in 72.0545 ms
+2025-03-20 12:17:04.584 +05:00 [INF] Handling request: PUT /api/roles/Edit
+2025-03-20 12:17:04.593 +05:00 [INF] ➡️ [START] Handling AddEditRoleCommand | User: Anonymous | IP: ::1 | Request Data: {
+  "Id": "761a6afc-057d-4226-58bc-08dd44f47560",
+  "Name": "Admin",
+  "Description": "Admin role for Spendwise"
+}
+2025-03-20 12:17:04.619 +05:00 [INF] ✅ [END] AddEditRoleCommand | Execution Time: 26ms | Response Data: {
+  "Value": "761a6afc-057d-4226-58bc-08dd44f47560",
+  "IsSuccess": true,
+  "Errors": [],
+  "ValidationErrors": {},
+  "Successes": [
+    "Role \u0027Admin\u0027 has been successfully updated.",
+    "The request has succeeded."
+  ]
+}
+2025-03-20 12:17:04.625 +05:00 [INF] Finished handling request.
+2025-03-20 12:17:04.630 +05:00 [INF] HTTP PUT /api/roles/Edit responded 200 in 45.7654 ms
+2025-03-20 12:17:04.641 +05:00 [INF] Handling request: GET /api/roles/GetAll
+2025-03-20 12:17:04.648 +05:00 [INF] ➡️ [START] Handling GetAllRolesQuery | User: Anonymous | IP: ::1 | Request Data: {}
+2025-03-20 12:17:04.664 +05:00 [INF] ✅ [END] GetAllRolesQuery | Execution Time: 15ms | Response Data: {
+  "Value": [
+    {
+      "Id": "761a6afc-057d-4226-58bc-08dd44f47560",
+      "Name": "Admin",
+      "Description": "Admin role for Spendwise"
+    },
+    {
+      "Id": "f7137b9f-ee58-4c84-58bd-08dd44f47560",
+      "Name": "User",
+      "Description": "User role for Spendwise"
+    },
+    {
+      "Id": "332f8c1c-2595-4a7e-3f6f-08dd6074177f",
+      "Name": "Guest",
+      "Description": "Guest role for Spendwise"
+    }
+  ],
+  "IsSuccess": true,
+  "Errors": [],
+  "ValidationErrors": {},
+  "Successes": [
+    "Roles has been successfully retrieved.",
+    "The request has succeeded."
+  ]
+}
+2025-03-20 12:17:04.672 +05:00 [INF] Finished handling request.
+2025-03-20 12:17:04.678 +05:00 [INF] HTTP GET /api/roles/GetAll responded 200 in 36.8169 ms
+2025-03-20 12:22:12.320 +05:00 [INF] Handling request: GET /api/roles/GetAll
+2025-03-20 12:22:12.325 +05:00 [INF] ➡️ [START] Handling GetAllRolesQuery | User: Anonymous | IP: ::1 | Request Data: {}
+2025-03-20 12:22:12.339 +05:00 [INF] ✅ [END] GetAllRolesQuery | Execution Time: 13ms | Response Data: {
+  "Value": [
+    {
+      "Id": "761a6afc-057d-4226-58bc-08dd44f47560",
+      "Name": "Admin",
+      "Description": "Admin role for Spendwise"
+    },
+    {
+      "Id": "f7137b9f-ee58-4c84-58bd-08dd44f47560",
+      "Name": "User",
+      "Description": "User role for Spendwise"
+    },
+    {
+      "Id": "332f8c1c-2595-4a7e-3f6f-08dd6074177f",
+      "Name": "Guest",
+      "Description": "Guest role for Spendwise"
+    }
+  ],
+  "IsSuccess": true,
+  "Errors": [],
+  "ValidationErrors": {},
+  "Successes": [
+    "Roles has been successfully retrieved.",
+    "The request has succeeded."
+  ]
+}
+2025-03-20 12:22:12.345 +05:00 [INF] Finished handling request.
+2025-03-20 12:22:12.347 +05:00 [INF] HTTP GET /api/roles/GetAll responded 200 in 27.3313 ms
+2025-03-20 12:22:34.825 +05:00 [INF] Handling request: GET /api/roles/GetAll
+2025-03-20 12:22:34.832 +05:00 [INF] ➡️ [START] Handling GetAllRolesQuery | User: Anonymous | IP: ::1 | Request Data: {}
+2025-03-20 12:22:34.861 +05:00 [INF] ✅ [END] GetAllRolesQuery | Execution Time: 26ms | Response Data: {
+  "Value": [
+    {
+      "Id": "761a6afc-057d-4226-58bc-08dd44f47560",
+      "Name": "Admin",
+      "Description": "Admin role for Spendwise"
+    },
+    {
+      "Id": "f7137b9f-ee58-4c84-58bd-08dd44f47560",
+      "Name": "User",
+      "Description": "User role for Spendwise"
+    },
+    {
+      "Id": "332f8c1c-2595-4a7e-3f6f-08dd6074177f",
+      "Name": "Guest",
+      "Description": "Guest role for Spendwise"
+    }
+  ],
+  "IsSuccess": true,
+  "Errors": [],
+  "ValidationErrors": {},
+  "Successes": [
+    "Roles has been successfully retrieved.",
+    "The request has succeeded."
+  ]
+}
+2025-03-20 12:22:34.873 +05:00 [INF] Finished handling request.
+2025-03-20 12:22:34.878 +05:00 [INF] HTTP GET /api/roles/GetAll responded 200 in 53.4140 ms
+2025-03-20 12:22:36.166 +05:00 [INF] Handling request: GET /api/roles/GetAll
+2025-03-20 12:22:36.177 +05:00 [INF] ➡️ [START] Handling GetAllRolesQuery | User: Anonymous | IP: ::1 | Request Data: {}
+2025-03-20 12:22:36.194 +05:00 [INF] ✅ [END] GetAllRolesQuery | Execution Time: 17ms | Response Data: {
+  "Value": [
+    {
+      "Id": "761a6afc-057d-4226-58bc-08dd44f47560",
+      "Name": "Admin",
+      "Description": "Admin role for Spendwise"
+    },
+    {
+      "Id": "f7137b9f-ee58-4c84-58bd-08dd44f47560",
+      "Name": "User",
+      "Description": "User role for Spendwise"
+    },
+    {
+      "Id": "332f8c1c-2595-4a7e-3f6f-08dd6074177f",
+      "Name": "Guest",
+      "Description": "Guest role for Spendwise"
+    }
+  ],
+  "IsSuccess": true,
+  "Errors": [],
+  "ValidationErrors": {},
+  "Successes": [
+    "Roles has been successfully retrieved.",
+    "The request has succeeded."
+  ]
+}
+2025-03-20 12:22:36.203 +05:00 [INF] Finished handling request.
+2025-03-20 12:22:36.208 +05:00 [INF] HTTP GET /api/roles/GetAll responded 200 in 41.7697 ms
+2025-03-20 12:22:36.412 +05:00 [INF] Handling request: GET /api/roles/GetAll
+2025-03-20 12:22:36.421 +05:00 [INF] ➡️ [START] Handling GetAllRolesQuery | User: Anonymous | IP: ::1 | Request Data: {}
+2025-03-20 12:22:36.445 +05:00 [INF] ✅ [END] GetAllRolesQuery | Execution Time: 23ms | Response Data: {
+  "Value": [
+    {
+      "Id": "761a6afc-057d-4226-58bc-08dd44f47560",
+      "Name": "Admin",
+      "Description": "Admin role for Spendwise"
+    },
+    {
+      "Id": "f7137b9f-ee58-4c84-58bd-08dd44f47560",
+      "Name": "User",
+      "Description": "User role for Spendwise"
+    },
+    {
+      "Id": "332f8c1c-2595-4a7e-3f6f-08dd6074177f",
+      "Name": "Guest",
+      "Description": "Guest role for Spendwise"
+    }
+  ],
+  "IsSuccess": true,
+  "Errors": [],
+  "ValidationErrors": {},
+  "Successes": [
+    "Roles has been successfully retrieved.",
+    "The request has succeeded."
+  ]
+}
+2025-03-20 12:22:36.461 +05:00 [INF] Finished handling request.
+2025-03-20 12:22:36.467 +05:00 [INF] HTTP GET /api/roles/GetAll responded 200 in 54.9615 ms
+2025-03-20 12:23:10.282 +05:00 [INF] Handling request: GET /api/roles/GetAll
+2025-03-20 12:23:10.293 +05:00 [INF] ➡️ [START] Handling GetAllRolesQuery | User: Anonymous | IP: ::1 | Request Data: {}
+2025-03-20 12:23:10.320 +05:00 [INF] ✅ [END] GetAllRolesQuery | Execution Time: 26ms | Response Data: {
+  "Value": [
+    {
+      "Id": "761a6afc-057d-4226-58bc-08dd44f47560",
+      "Name": "Admin",
+      "Description": "Admin role for Spendwise"
+    },
+    {
+      "Id": "f7137b9f-ee58-4c84-58bd-08dd44f47560",
+      "Name": "User",
+      "Description": "User role for Spendwise"
+    },
+    {
+      "Id": "332f8c1c-2595-4a7e-3f6f-08dd6074177f",
+      "Name": "Guest",
+      "Description": "Guest role for Spendwise"
+    }
+  ],
+  "IsSuccess": true,
+  "Errors": [],
+  "ValidationErrors": {},
+  "Successes": [
+    "Roles has been successfully retrieved.",
+    "The request has succeeded."
+  ]
+}
+2025-03-20 12:23:10.332 +05:00 [INF] Finished handling request.
+2025-03-20 12:23:10.340 +05:00 [INF] HTTP GET /api/roles/GetAll responded 200 in 58.2006 ms
+2025-03-20 12:23:14.507 +05:00 [INF] Handling request: GET /api/roles/GetAll
+2025-03-20 12:23:14.518 +05:00 [INF] ➡️ [START] Handling GetAllRolesQuery | User: Anonymous | IP: ::1 | Request Data: {}
+2025-03-20 12:23:14.542 +05:00 [INF] ✅ [END] GetAllRolesQuery | Execution Time: 23ms | Response Data: {
+  "Value": [
+    {
+      "Id": "761a6afc-057d-4226-58bc-08dd44f47560",
+      "Name": "Admin",
+      "Description": "Admin role for Spendwise"
+    },
+    {
+      "Id": "f7137b9f-ee58-4c84-58bd-08dd44f47560",
+      "Name": "User",
+      "Description": "User role for Spendwise"
+    },
+    {
+      "Id": "332f8c1c-2595-4a7e-3f6f-08dd6074177f",
+      "Name": "Guest",
+      "Description": "Guest role for Spendwise"
+    }
+  ],
+  "IsSuccess": true,
+  "Errors": [],
+  "ValidationErrors": {},
+  "Successes": [
+    "Roles has been successfully retrieved.",
+    "The request has succeeded."
+  ]
+}
+2025-03-20 12:23:14.554 +05:00 [INF] Finished handling request.
+2025-03-20 12:23:14.561 +05:00 [INF] HTTP GET /api/roles/GetAll responded 200 in 54.1802 ms
+2025-03-20 12:23:21.733 +05:00 [INF] Handling request: GET /api/roles/GetAll
+2025-03-20 12:23:21.741 +05:00 [INF] ➡️ [START] Handling GetAllRolesQuery | User: Anonymous | IP: ::1 | Request Data: {}
+2025-03-20 12:23:21.764 +05:00 [INF] ✅ [END] GetAllRolesQuery | Execution Time: 22ms | Response Data: {
+  "Value": [
+    {
+      "Id": "761a6afc-057d-4226-58bc-08dd44f47560",
+      "Name": "Admin",
+      "Description": "Admin role for Spendwise"
+    },
+    {
+      "Id": "f7137b9f-ee58-4c84-58bd-08dd44f47560",
+      "Name": "User",
+      "Description": "User role for Spendwise"
+    },
+    {
+      "Id": "332f8c1c-2595-4a7e-3f6f-08dd6074177f",
+      "Name": "Guest",
+      "Description": "Guest role for Spendwise"
+    }
+  ],
+  "IsSuccess": true,
+  "Errors": [],
+  "ValidationErrors": {},
+  "Successes": [
+    "Roles has been successfully retrieved.",
+    "The request has succeeded."
+  ]
+}
+2025-03-20 12:23:21.777 +05:00 [INF] Finished handling request.
+2025-03-20 12:23:21.787 +05:00 [INF] HTTP GET /api/roles/GetAll responded 200 in 54.4477 ms
+2025-03-20 12:23:24.733 +05:00 [INF] Handling request: GET /api/roles/GetAll
+2025-03-20 12:23:24.742 +05:00 [INF] ➡️ [START] Handling GetAllRolesQuery | User: Anonymous | IP: ::1 | Request Data: {}
+2025-03-20 12:23:24.761 +05:00 [INF] ✅ [END] GetAllRolesQuery | Execution Time: 19ms | Response Data: {
+  "Value": [
+    {
+      "Id": "761a6afc-057d-4226-58bc-08dd44f47560",
+      "Name": "Admin",
+      "Description": "Admin role for Spendwise"
+    },
+    {
+      "Id": "f7137b9f-ee58-4c84-58bd-08dd44f47560",
+      "Name": "User",
+      "Description": "User role for Spendwise"
+    },
+    {
+      "Id": "332f8c1c-2595-4a7e-3f6f-08dd6074177f",
+      "Name": "Guest",
+      "Description": "Guest role for Spendwise"
+    }
+  ],
+  "IsSuccess": true,
+  "Errors": [],
+  "ValidationErrors": {},
+  "Successes": [
+    "Roles has been successfully retrieved.",
+    "The request has succeeded."
+  ]
+}
+2025-03-20 12:23:24.772 +05:00 [INF] Finished handling request.
+2025-03-20 12:23:24.779 +05:00 [INF] HTTP GET /api/roles/GetAll responded 200 in 46.6629 ms
+2025-03-20 12:23:26.235 +05:00 [INF] Handling request: GET /api/roles/GetAll
+2025-03-20 12:23:26.245 +05:00 [INF] ➡️ [START] Handling GetAllRolesQuery | User: Anonymous | IP: ::1 | Request Data: {}
+2025-03-20 12:23:26.267 +05:00 [INF] ✅ [END] GetAllRolesQuery | Execution Time: 21ms | Response Data: {
+  "Value": [
+    {
+      "Id": "761a6afc-057d-4226-58bc-08dd44f47560",
+      "Name": "Admin",
+      "Description": "Admin role for Spendwise"
+    },
+    {
+      "Id": "f7137b9f-ee58-4c84-58bd-08dd44f47560",
+      "Name": "User",
+      "Description": "User role for Spendwise"
+    },
+    {
+      "Id": "332f8c1c-2595-4a7e-3f6f-08dd6074177f",
+      "Name": "Guest",
+      "Description": "Guest role for Spendwise"
+    }
+  ],
+  "IsSuccess": true,
+  "Errors": [],
+  "ValidationErrors": {},
+  "Successes": [
+    "Roles has been successfully retrieved.",
+    "The request has succeeded."
+  ]
+}
+2025-03-20 12:23:26.282 +05:00 [INF] Finished handling request.
+2025-03-20 12:23:26.289 +05:00 [INF] HTTP GET /api/roles/GetAll responded 200 in 53.6285 ms
+2025-03-20 12:23:29.853 +05:00 [INF] Handling request: GET /api/roles/GetAll
+2025-03-20 12:23:29.869 +05:00 [INF] ➡️ [START] Handling GetAllRolesQuery | User: Anonymous | IP: ::1 | Request Data: {}
+2025-03-20 12:23:29.906 +05:00 [INF] ✅ [END] GetAllRolesQuery | Execution Time: 36ms | Response Data: {
+  "Value": [
+    {
+      "Id": "761a6afc-057d-4226-58bc-08dd44f47560",
+      "Name": "Admin",
+      "Description": "Admin role for Spendwise"
+    },
+    {
+      "Id": "f7137b9f-ee58-4c84-58bd-08dd44f47560",
+      "Name": "User",
+      "Description": "User role for Spendwise"
+    },
+    {
+      "Id": "332f8c1c-2595-4a7e-3f6f-08dd6074177f",
+      "Name": "Guest",
+      "Description": "Guest role for Spendwise"
+    }
+  ],
+  "IsSuccess": true,
+  "Errors": [],
+  "ValidationErrors": {},
+  "Successes": [
+    "Roles has been successfully retrieved.",
+    "The request has succeeded."
+  ]
+}
+2025-03-20 12:23:29.923 +05:00 [INF] Finished handling request.
+2025-03-20 12:23:29.932 +05:00 [INF] HTTP GET /api/roles/GetAll responded 200 in 78.7710 ms
+2025-03-20 12:23:32.531 +05:00 [INF] Handling request: GET /api/roles/GetAll
+2025-03-20 12:23:32.540 +05:00 [INF] ➡️ [START] Handling GetAllRolesQuery | User: Anonymous | IP: ::1 | Request Data: {}
+2025-03-20 12:23:32.559 +05:00 [INF] ✅ [END] GetAllRolesQuery | Execution Time: 18ms | Response Data: {
+  "Value": [
+    {
+      "Id": "761a6afc-057d-4226-58bc-08dd44f47560",
+      "Name": "Admin",
+      "Description": "Admin role for Spendwise"
+    },
+    {
+      "Id": "f7137b9f-ee58-4c84-58bd-08dd44f47560",
+      "Name": "User",
+      "Description": "User role for Spendwise"
+    },
+    {
+      "Id": "332f8c1c-2595-4a7e-3f6f-08dd6074177f",
+      "Name": "Guest",
+      "Description": "Guest role for Spendwise"
+    }
+  ],
+  "IsSuccess": true,
+  "Errors": [],
+  "ValidationErrors": {},
+  "Successes": [
+    "Roles has been successfully retrieved.",
+    "The request has succeeded."
+  ]
+}
+2025-03-20 12:23:32.570 +05:00 [INF] Finished handling request.
+2025-03-20 12:23:32.577 +05:00 [INF] HTTP GET /api/roles/GetAll responded 200 in 46.3820 ms
+2025-03-20 12:23:43.134 +05:00 [INF] Handling request: GET /api/roles/GetAll
+2025-03-20 12:23:43.138 +05:00 [INF] ➡️ [START] Handling GetAllRolesQuery | User: Anonymous | IP: ::1 | Request Data: {}
+2025-03-20 12:23:43.148 +05:00 [INF] ✅ [END] GetAllRolesQuery | Execution Time: 9ms | Response Data: {
+  "Value": [
+    {
+      "Id": "761a6afc-057d-4226-58bc-08dd44f47560",
+      "Name": "Admin",
+      "Description": "Admin role for Spendwise"
+    },
+    {
+      "Id": "f7137b9f-ee58-4c84-58bd-08dd44f47560",
+      "Name": "User",
+      "Description": "User role for Spendwise"
+    },
+    {
+      "Id": "332f8c1c-2595-4a7e-3f6f-08dd6074177f",
+      "Name": "Guest",
+      "Description": "Guest role for Spendwise"
+    }
+  ],
+  "IsSuccess": true,
+  "Errors": [],
+  "ValidationErrors": {},
+  "Successes": [
+    "Roles has been successfully retrieved.",
+    "The request has succeeded."
+  ]
+}
+2025-03-20 12:23:43.152 +05:00 [INF] Finished handling request.
+2025-03-20 12:23:43.154 +05:00 [INF] HTTP GET /api/roles/GetAll responded 200 in 20.3377 ms
+2025-03-20 12:23:46.229 +05:00 [INF] Handling request: GET /api/roles/GetAll
+2025-03-20 12:23:46.237 +05:00 [INF] ➡️ [START] Handling GetAllRolesQuery | User: Anonymous | IP: ::1 | Request Data: {}
+2025-03-20 12:23:46.254 +05:00 [INF] ✅ [END] GetAllRolesQuery | Execution Time: 17ms | Response Data: {
+  "Value": [
+    {
+      "Id": "761a6afc-057d-4226-58bc-08dd44f47560",
+      "Name": "Admin",
+      "Description": "Admin role for Spendwise"
+    },
+    {
+      "Id": "f7137b9f-ee58-4c84-58bd-08dd44f47560",
+      "Name": "User",
+      "Description": "User role for Spendwise"
+    },
+    {
+      "Id": "332f8c1c-2595-4a7e-3f6f-08dd6074177f",
+      "Name": "Guest",
+      "Description": "Guest role for Spendwise"
+    }
+  ],
+  "IsSuccess": true,
+  "Errors": [],
+  "ValidationErrors": {},
+  "Successes": [
+    "Roles has been successfully retrieved.",
+    "The request has succeeded."
+  ]
+}
+2025-03-20 12:23:46.259 +05:00 [INF] Finished handling request.
+2025-03-20 12:23:46.262 +05:00 [INF] HTTP GET /api/roles/GetAll responded 200 in 32.2613 ms
+2025-03-20 12:23:46.837 +05:00 [INF] Handling request: GET /api/roles/GetAll
+2025-03-20 12:23:46.850 +05:00 [INF] ➡️ [START] Handling GetAllRolesQuery | User: Anonymous | IP: ::1 | Request Data: {}
+2025-03-20 12:23:46.870 +05:00 [INF] ✅ [END] GetAllRolesQuery | Execution Time: 19ms | Response Data: {
+  "Value": [
+    {
+      "Id": "761a6afc-057d-4226-58bc-08dd44f47560",
+      "Name": "Admin",
+      "Description": "Admin role for Spendwise"
+    },
+    {
+      "Id": "f7137b9f-ee58-4c84-58bd-08dd44f47560",
+      "Name": "User",
+      "Description": "User role for Spendwise"
+    },
+    {
+      "Id": "332f8c1c-2595-4a7e-3f6f-08dd6074177f",
+      "Name": "Guest",
+      "Description": "Guest role for Spendwise"
+    }
+  ],
+  "IsSuccess": true,
+  "Errors": [],
+  "ValidationErrors": {},
+  "Successes": [
+    "Roles has been successfully retrieved.",
+    "The request has succeeded."
+  ]
+}
+2025-03-20 12:23:46.884 +05:00 [INF] Finished handling request.
+2025-03-20 12:23:46.889 +05:00 [INF] HTTP GET /api/roles/GetAll responded 200 in 51.7124 ms
+2025-03-20 12:23:55.614 +05:00 [INF] Handling request: GET /api/roles/GetAll
+2025-03-20 12:23:55.622 +05:00 [INF] ➡️ [START] Handling GetAllRolesQuery | User: Anonymous | IP: ::1 | Request Data: {}
+2025-03-20 12:23:55.647 +05:00 [INF] ✅ [END] GetAllRolesQuery | Execution Time: 24ms | Response Data: {
+  "Value": [
+    {
+      "Id": "761a6afc-057d-4226-58bc-08dd44f47560",
+      "Name": "Admin",
+      "Description": "Admin role for Spendwise"
+    },
+    {
+      "Id": "f7137b9f-ee58-4c84-58bd-08dd44f47560",
+      "Name": "User",
+      "Description": "User role for Spendwise"
+    },
+    {
+      "Id": "332f8c1c-2595-4a7e-3f6f-08dd6074177f",
+      "Name": "Guest",
+      "Description": "Guest role for Spendwise"
+    }
+  ],
+  "IsSuccess": true,
+  "Errors": [],
+  "ValidationErrors": {},
+  "Successes": [
+    "Roles has been successfully retrieved.",
+    "The request has succeeded."
+  ]
+}
+2025-03-20 12:23:55.657 +05:00 [INF] Finished handling request.
+2025-03-20 12:23:55.664 +05:00 [INF] HTTP GET /api/roles/GetAll responded 200 in 50.3355 ms
+2025-03-20 12:23:56.649 +05:00 [INF] Handling request: GET /api/roles/GetAll
+2025-03-20 12:23:56.661 +05:00 [INF] ➡️ [START] Handling GetAllRolesQuery | User: Anonymous | IP: ::1 | Request Data: {}
+2025-03-20 12:23:56.724 +05:00 [INF] ✅ [END] GetAllRolesQuery | Execution Time: 62ms | Response Data: {
+  "Value": [
+    {
+      "Id": "761a6afc-057d-4226-58bc-08dd44f47560",
+      "Name": "Admin",
+      "Description": "Admin role for Spendwise"
+    },
+    {
+      "Id": "f7137b9f-ee58-4c84-58bd-08dd44f47560",
+      "Name": "User",
+      "Description": "User role for Spendwise"
+    },
+    {
+      "Id": "332f8c1c-2595-4a7e-3f6f-08dd6074177f",
+      "Name": "Guest",
+      "Description": "Guest role for Spendwise"
+    }
+  ],
+  "IsSuccess": true,
+  "Errors": [],
+  "ValidationErrors": {},
+  "Successes": [
+    "Roles has been successfully retrieved.",
+    "The request has succeeded."
+  ]
+}
+2025-03-20 12:23:56.741 +05:00 [INF] Finished handling request.
+2025-03-20 12:23:56.750 +05:00 [INF] HTTP GET /api/roles/GetAll responded 200 in 101.0142 ms
+2025-03-20 12:23:56.806 +05:00 [INF] Handling request: GET /api/roles/GetAll
+2025-03-20 12:23:56.818 +05:00 [INF] ➡️ [START] Handling GetAllRolesQuery | User: Anonymous | IP: ::1 | Request Data: {}
+2025-03-20 12:23:56.845 +05:00 [INF] ✅ [END] GetAllRolesQuery | Execution Time: 26ms | Response Data: {
+  "Value": [
+    {
+      "Id": "761a6afc-057d-4226-58bc-08dd44f47560",
+      "Name": "Admin",
+      "Description": "Admin role for Spendwise"
+    },
+    {
+      "Id": "f7137b9f-ee58-4c84-58bd-08dd44f47560",
+      "Name": "User",
+      "Description": "User role for Spendwise"
+    },
+    {
+      "Id": "332f8c1c-2595-4a7e-3f6f-08dd6074177f",
+      "Name": "Guest",
+      "Description": "Guest role for Spendwise"
+    }
+  ],
+  "IsSuccess": true,
+  "Errors": [],
+  "ValidationErrors": {},
+  "Successes": [
+    "Roles has been successfully retrieved.",
+    "The request has succeeded."
+  ]
+}
+2025-03-20 12:23:56.861 +05:00 [INF] Finished handling request.
+2025-03-20 12:23:56.869 +05:00 [INF] HTTP GET /api/roles/GetAll responded 200 in 62.7123 ms
+2025-03-20 12:24:02.833 +05:00 [INF] Handling request: GET /api/roles/GetAll
+2025-03-20 12:24:02.845 +05:00 [INF] ➡️ [START] Handling GetAllRolesQuery | User: Anonymous | IP: ::1 | Request Data: {}
+2025-03-20 12:24:02.869 +05:00 [INF] ✅ [END] GetAllRolesQuery | Execution Time: 23ms | Response Data: {
+  "Value": [
+    {
+      "Id": "761a6afc-057d-4226-58bc-08dd44f47560",
+      "Name": "Admin",
+      "Description": "Admin role for Spendwise"
+    },
+    {
+      "Id": "f7137b9f-ee58-4c84-58bd-08dd44f47560",
+      "Name": "User",
+      "Description": "User role for Spendwise"
+    },
+    {
+      "Id": "332f8c1c-2595-4a7e-3f6f-08dd6074177f",
+      "Name": "Guest",
+      "Description": "Guest role for Spendwise"
+    }
+  ],
+  "IsSuccess": true,
+  "Errors": [],
+  "ValidationErrors": {},
+  "Successes": [
+    "Roles has been successfully retrieved.",
+    "The request has succeeded."
+  ]
+}
+2025-03-20 12:24:02.882 +05:00 [INF] Finished handling request.
+2025-03-20 12:24:02.889 +05:00 [INF] HTTP GET /api/roles/GetAll responded 200 in 55.4233 ms
+2025-03-20 12:24:03.173 +05:00 [INF] Handling request: GET /api/roles/GetAll
+2025-03-20 12:24:03.177 +05:00 [INF] ➡️ [START] Handling GetAllRolesQuery | User: Anonymous | IP: ::1 | Request Data: {}
+2025-03-20 12:24:03.187 +05:00 [INF] ✅ [END] GetAllRolesQuery | Execution Time: 10ms | Response Data: {
+  "Value": [
+    {
+      "Id": "761a6afc-057d-4226-58bc-08dd44f47560",
+      "Name": "Admin",
+      "Description": "Admin role for Spendwise"
+    },
+    {
+      "Id": "f7137b9f-ee58-4c84-58bd-08dd44f47560",
+      "Name": "User",
+      "Description": "User role for Spendwise"
+    },
+    {
+      "Id": "332f8c1c-2595-4a7e-3f6f-08dd6074177f",
+      "Name": "Guest",
+      "Description": "Guest role for Spendwise"
+    }
+  ],
+  "IsSuccess": true,
+  "Errors": [],
+  "ValidationErrors": {},
+  "Successes": [
+    "Roles has been successfully retrieved.",
+    "The request has succeeded."
+  ]
+}
+2025-03-20 12:24:03.194 +05:00 [INF] Finished handling request.
+2025-03-20 12:24:03.198 +05:00 [INF] HTTP GET /api/roles/GetAll responded 200 in 25.0430 ms
+2025-03-20 12:24:17.423 +05:00 [INF] Handling request: GET /api/roles/GetAll
+2025-03-20 12:24:17.437 +05:00 [INF] ➡️ [START] Handling GetAllRolesQuery | User: Anonymous | IP: ::1 | Request Data: {}
+2025-03-20 12:24:17.461 +05:00 [INF] ✅ [END] GetAllRolesQuery | Execution Time: 24ms | Response Data: {
+  "Value": [
+    {
+      "Id": "761a6afc-057d-4226-58bc-08dd44f47560",
+      "Name": "Admin",
+      "Description": "Admin role for Spendwise"
+    },
+    {
+      "Id": "f7137b9f-ee58-4c84-58bd-08dd44f47560",
+      "Name": "User",
+      "Description": "User role for Spendwise"
+    },
+    {
+      "Id": "332f8c1c-2595-4a7e-3f6f-08dd6074177f",
+      "Name": "Guest",
+      "Description": "Guest role for Spendwise"
+    }
+  ],
+  "IsSuccess": true,
+  "Errors": [],
+  "ValidationErrors": {},
+  "Successes": [
+    "Roles has been successfully retrieved.",
+    "The request has succeeded."
+  ]
+}
+2025-03-20 12:24:17.476 +05:00 [INF] Finished handling request.
+2025-03-20 12:24:17.482 +05:00 [INF] HTTP GET /api/roles/GetAll responded 200 in 58.8659 ms
+2025-03-20 12:24:23.302 +05:00 [INF] Handling request: GET /api/roles/GetAll
+2025-03-20 12:24:23.321 +05:00 [INF] ➡️ [START] Handling GetAllRolesQuery | User: Anonymous | IP: ::1 | Request Data: {}
+2025-03-20 12:24:23.361 +05:00 [INF] ✅ [END] GetAllRolesQuery | Execution Time: 32ms | Response Data: {
+  "Value": [
+    {
+      "Id": "761a6afc-057d-4226-58bc-08dd44f47560",
+      "Name": "Admin",
+      "Description": "Admin role for Spendwise"
+    },
+    {
+      "Id": "f7137b9f-ee58-4c84-58bd-08dd44f47560",
+      "Name": "User",
+      "Description": "User role for Spendwise"
+    },
+    {
+      "Id": "332f8c1c-2595-4a7e-3f6f-08dd6074177f",
+      "Name": "Guest",
+      "Description": "Guest role for Spendwise"
+    }
+  ],
+  "IsSuccess": true,
+  "Errors": [],
+  "ValidationErrors": {},
+  "Successes": [
+    "Roles has been successfully retrieved.",
+    "The request has succeeded."
+  ]
+}
+2025-03-20 12:24:23.380 +05:00 [INF] Finished handling request.
+2025-03-20 12:24:23.390 +05:00 [INF] HTTP GET /api/roles/GetAll responded 200 in 88.3530 ms
+2025-03-20 12:24:26.389 +05:00 [INF] Handling request: GET /api/roles/GetAll
+2025-03-20 12:24:26.399 +05:00 [INF] ➡️ [START] Handling GetAllRolesQuery | User: Anonymous | IP: ::1 | Request Data: {}
+2025-03-20 12:24:26.423 +05:00 [INF] ✅ [END] GetAllRolesQuery | Execution Time: 22ms | Response Data: {
+  "Value": [
+    {
+      "Id": "761a6afc-057d-4226-58bc-08dd44f47560",
+      "Name": "Admin",
+      "Description": "Admin role for Spendwise"
+    },
+    {
+      "Id": "f7137b9f-ee58-4c84-58bd-08dd44f47560",
+      "Name": "User",
+      "Description": "User role for Spendwise"
+    },
+    {
+      "Id": "332f8c1c-2595-4a7e-3f6f-08dd6074177f",
+      "Name": "Guest",
+      "Description": "Guest role for Spendwise"
+    }
+  ],
+  "IsSuccess": true,
+  "Errors": [],
+  "ValidationErrors": {},
+  "Successes": [
+    "Roles has been successfully retrieved.",
+    "The request has succeeded."
+  ]
+}
+2025-03-20 12:24:26.442 +05:00 [INF] Finished handling request.
+2025-03-20 12:24:26.450 +05:00 [INF] HTTP GET /api/roles/GetAll responded 200 in 61.0483 ms
+2025-03-20 12:24:33.495 +05:00 [INF] Handling request: GET /api/roles/GetAll
+2025-03-20 12:24:33.501 +05:00 [INF] ➡️ [START] Handling GetAllRolesQuery | User: Anonymous | IP: ::1 | Request Data: {}
+2025-03-20 12:24:33.523 +05:00 [INF] ✅ [END] GetAllRolesQuery | Execution Time: 21ms | Response Data: {
+  "Value": [
+    {
+      "Id": "761a6afc-057d-4226-58bc-08dd44f47560",
+      "Name": "Admin",
+      "Description": "Admin role for Spendwise"
+    },
+    {
+      "Id": "f7137b9f-ee58-4c84-58bd-08dd44f47560",
+      "Name": "User",
+      "Description": "User role for Spendwise"
+    },
+    {
+      "Id": "332f8c1c-2595-4a7e-3f6f-08dd6074177f",
+      "Name": "Guest",
+      "Description": "Guest role for Spendwise"
+    }
+  ],
+  "IsSuccess": true,
+  "Errors": [],
+  "ValidationErrors": {},
+  "Successes": [
+    "Roles has been successfully retrieved.",
+    "The request has succeeded."
+  ]
+}
+2025-03-20 12:24:33.539 +05:00 [INF] Finished handling request.
+2025-03-20 12:24:33.544 +05:00 [INF] HTTP GET /api/roles/GetAll responded 200 in 49.6013 ms
+2025-03-20 12:24:38.729 +05:00 [INF] Handling request: GET /api/roles/GetAll
+2025-03-20 12:24:38.734 +05:00 [INF] ➡️ [START] Handling GetAllRolesQuery | User: Anonymous | IP: ::1 | Request Data: {}
+2025-03-20 12:24:38.748 +05:00 [INF] ✅ [END] GetAllRolesQuery | Execution Time: 13ms | Response Data: {
+  "Value": [
+    {
+      "Id": "761a6afc-057d-4226-58bc-08dd44f47560",
+      "Name": "Admin",
+      "Description": "Admin role for Spendwise"
+    },
+    {
+      "Id": "f7137b9f-ee58-4c84-58bd-08dd44f47560",
+      "Name": "User",
+      "Description": "User role for Spendwise"
+    },
+    {
+      "Id": "332f8c1c-2595-4a7e-3f6f-08dd6074177f",
+      "Name": "Guest",
+      "Description": "Guest role for Spendwise"
+    }
+  ],
+  "IsSuccess": true,
+  "Errors": [],
+  "ValidationErrors": {},
+  "Successes": [
+    "Roles has been successfully retrieved.",
+    "The request has succeeded."
+  ]
+}
+2025-03-20 12:24:38.757 +05:00 [INF] Finished handling request.
+2025-03-20 12:24:38.762 +05:00 [INF] HTTP GET /api/roles/GetAll responded 200 in 33.3545 ms
+2025-03-20 12:25:27.937 +05:00 [INF] Handling request: GET /api/roles/GetAll
+2025-03-20 12:25:27.945 +05:00 [INF] ➡️ [START] Handling GetAllRolesQuery | User: Anonymous | IP: ::1 | Request Data: {}
+2025-03-20 12:25:27.966 +05:00 [INF] ✅ [END] GetAllRolesQuery | Execution Time: 21ms | Response Data: {
+  "Value": [
+    {
+      "Id": "761a6afc-057d-4226-58bc-08dd44f47560",
+      "Name": "Admin",
+      "Description": "Admin role for Spendwise"
+    },
+    {
+      "Id": "f7137b9f-ee58-4c84-58bd-08dd44f47560",
+      "Name": "User",
+      "Description": "User role for Spendwise"
+    },
+    {
+      "Id": "332f8c1c-2595-4a7e-3f6f-08dd6074177f",
+      "Name": "Guest",
+      "Description": "Guest role for Spendwise"
+    }
+  ],
+  "IsSuccess": true,
+  "Errors": [],
+  "ValidationErrors": {},
+  "Successes": [
+    "Roles has been successfully retrieved.",
+    "The request has succeeded."
+  ]
+}
+2025-03-20 12:25:27.982 +05:00 [INF] Finished handling request.
+2025-03-20 12:25:27.989 +05:00 [INF] HTTP GET /api/roles/GetAll responded 200 in 51.6378 ms
+2025-03-20 12:25:30.173 +05:00 [INF] Handling request: GET /api/roles/GetAll
+2025-03-20 12:25:30.182 +05:00 [INF] ➡️ [START] Handling GetAllRolesQuery | User: Anonymous | IP: ::1 | Request Data: {}
+2025-03-20 12:25:30.204 +05:00 [INF] ✅ [END] GetAllRolesQuery | Execution Time: 21ms | Response Data: {
+  "Value": [
+    {
+      "Id": "761a6afc-057d-4226-58bc-08dd44f47560",
+      "Name": "Admin",
+      "Description": "Admin role for Spendwise"
+    },
+    {
+      "Id": "f7137b9f-ee58-4c84-58bd-08dd44f47560",
+      "Name": "User",
+      "Description": "User role for Spendwise"
+    },
+    {
+      "Id": "332f8c1c-2595-4a7e-3f6f-08dd6074177f",
+      "Name": "Guest",
+      "Description": "Guest role for Spendwise"
+    }
+  ],
+  "IsSuccess": true,
+  "Errors": [],
+  "ValidationErrors": {},
+  "Successes": [
+    "Roles has been successfully retrieved.",
+    "The request has succeeded."
+  ]
+}
+2025-03-20 12:25:30.221 +05:00 [INF] Finished handling request.
+2025-03-20 12:25:30.230 +05:00 [INF] HTTP GET /api/roles/GetAll responded 200 in 57.1459 ms
+2025-03-20 12:25:42.140 +05:00 [INF] Handling request: GET /api/roles/GetAll
+2025-03-20 12:25:42.152 +05:00 [INF] ➡️ [START] Handling GetAllRolesQuery | User: Anonymous | IP: ::1 | Request Data: {}
+2025-03-20 12:25:42.183 +05:00 [INF] ✅ [END] GetAllRolesQuery | Execution Time: 30ms | Response Data: {
+  "Value": [
+    {
+      "Id": "761a6afc-057d-4226-58bc-08dd44f47560",
+      "Name": "Admin",
+      "Description": "Admin role for Spendwise"
+    },
+    {
+      "Id": "f7137b9f-ee58-4c84-58bd-08dd44f47560",
+      "Name": "User",
+      "Description": "User role for Spendwise"
+    },
+    {
+      "Id": "332f8c1c-2595-4a7e-3f6f-08dd6074177f",
+      "Name": "Guest",
+      "Description": "Guest role for Spendwise"
+    }
+  ],
+  "IsSuccess": true,
+  "Errors": [],
+  "ValidationErrors": {},
+  "Successes": [
+    "Roles has been successfully retrieved.",
+    "The request has succeeded."
+  ]
+}
+2025-03-20 12:25:42.198 +05:00 [INF] Finished handling request.
+2025-03-20 12:25:42.206 +05:00 [INF] HTTP GET /api/roles/GetAll responded 200 in 66.4982 ms
+2025-03-20 12:26:34.147 +05:00 [INF] Handling request: GET /api/roles/GetAll
+2025-03-20 12:26:34.156 +05:00 [INF] ➡️ [START] Handling GetAllRolesQuery | User: Anonymous | IP: ::1 | Request Data: {}
+2025-03-20 12:26:34.187 +05:00 [INF] ✅ [END] GetAllRolesQuery | Execution Time: 30ms | Response Data: {
+  "Value": [
+    {
+      "Id": "761a6afc-057d-4226-58bc-08dd44f47560",
+      "Name": "Admin",
+      "Description": "Admin role for Spendwise"
+    },
+    {
+      "Id": "f7137b9f-ee58-4c84-58bd-08dd44f47560",
+      "Name": "User",
+      "Description": "User role for Spendwise"
+    },
+    {
+      "Id": "332f8c1c-2595-4a7e-3f6f-08dd6074177f",
+      "Name": "Guest",
+      "Description": "Guest role for Spendwise"
+    }
+  ],
+  "IsSuccess": true,
+  "Errors": [],
+  "ValidationErrors": {},
+  "Successes": [
+    "Roles has been successfully retrieved.",
+    "The request has succeeded."
+  ]
+}
+2025-03-20 12:26:34.208 +05:00 [INF] Finished handling request.
+2025-03-20 12:26:34.217 +05:00 [INF] HTTP GET /api/roles/GetAll responded 200 in 70.6032 ms
+2025-03-20 12:26:39.234 +05:00 [INF] Handling request: GET /api/roles/GetAll
+2025-03-20 12:26:39.239 +05:00 [INF] ➡️ [START] Handling GetAllRolesQuery | User: Anonymous | IP: ::1 | Request Data: {}
+2025-03-20 12:26:39.258 +05:00 [INF] ✅ [END] GetAllRolesQuery | Execution Time: 18ms | Response Data: {
+  "Value": [
+    {
+      "Id": "761a6afc-057d-4226-58bc-08dd44f47560",
+      "Name": "Admin",
+      "Description": "Admin role for Spendwise"
+    },
+    {
+      "Id": "f7137b9f-ee58-4c84-58bd-08dd44f47560",
+      "Name": "User",
+      "Description": "User role for Spendwise"
+    },
+    {
+      "Id": "332f8c1c-2595-4a7e-3f6f-08dd6074177f",
+      "Name": "Guest",
+      "Description": "Guest role for Spendwise"
+    }
+  ],
+  "IsSuccess": true,
+  "Errors": [],
+  "ValidationErrors": {},
+  "Successes": [
+    "Roles has been successfully retrieved.",
+    "The request has succeeded."
+  ]
+}
+2025-03-20 12:26:39.272 +05:00 [INF] Finished handling request.
+2025-03-20 12:26:39.276 +05:00 [INF] HTTP GET /api/roles/GetAll responded 200 in 42.0398 ms
+2025-03-20 12:26:45.205 +05:00 [INF] Handling request: GET /api/roles/GetAll
+2025-03-20 12:26:45.215 +05:00 [INF] ➡️ [START] Handling GetAllRolesQuery | User: Anonymous | IP: ::1 | Request Data: {}
+2025-03-20 12:26:45.232 +05:00 [INF] ✅ [END] GetAllRolesQuery | Execution Time: 17ms | Response Data: {
+  "Value": [
+    {
+      "Id": "761a6afc-057d-4226-58bc-08dd44f47560",
+      "Name": "Admin",
+      "Description": "Admin role for Spendwise"
+    },
+    {
+      "Id": "f7137b9f-ee58-4c84-58bd-08dd44f47560",
+      "Name": "User",
+      "Description": "User role for Spendwise"
+    },
+    {
+      "Id": "332f8c1c-2595-4a7e-3f6f-08dd6074177f",
+      "Name": "Guest",
+      "Description": "Guest role for Spendwise"
+    }
+  ],
+  "IsSuccess": true,
+  "Errors": [],
+  "ValidationErrors": {},
+  "Successes": [
+    "Roles has been successfully retrieved.",
+    "The request has succeeded."
+  ]
+}
+2025-03-20 12:26:45.245 +05:00 [INF] Finished handling request.
+2025-03-20 12:26:45.250 +05:00 [INF] HTTP GET /api/roles/GetAll responded 200 in 45.3622 ms
+2025-03-20 12:27:41.997 +05:00 [INF] Handling request: GET /api/roles/GetAll
+2025-03-20 12:27:42.019 +05:00 [INF] ➡️ [START] Handling GetAllRolesQuery | User: Anonymous | IP: ::1 | Request Data: {}
+2025-03-20 12:27:42.046 +05:00 [INF] ✅ [END] GetAllRolesQuery | Execution Time: 26ms | Response Data: {
+  "Value": [
+    {
+      "Id": "761a6afc-057d-4226-58bc-08dd44f47560",
+      "Name": "Admin",
+      "Description": "Admin role for Spendwise"
+    },
+    {
+      "Id": "f7137b9f-ee58-4c84-58bd-08dd44f47560",
+      "Name": "User",
+      "Description": "User role for Spendwise"
+    },
+    {
+      "Id": "332f8c1c-2595-4a7e-3f6f-08dd6074177f",
+      "Name": "Guest",
+      "Description": "Guest role for Spendwise"
+    }
+  ],
+  "IsSuccess": true,
+  "Errors": [],
+  "ValidationErrors": {},
+  "Successes": [
+    "Roles has been successfully retrieved.",
+    "The request has succeeded."
+  ]
+}
+2025-03-20 12:27:42.072 +05:00 [INF] Finished handling request.
+2025-03-20 12:27:42.079 +05:00 [INF] HTTP GET /api/roles/GetAll responded 200 in 81.7038 ms
+2025-03-20 12:27:44.594 +05:00 [INF] Handling request: GET /api/roles/GetAll
+2025-03-20 12:27:44.603 +05:00 [INF] ➡️ [START] Handling GetAllRolesQuery | User: Anonymous | IP: ::1 | Request Data: {}
+2025-03-20 12:27:44.621 +05:00 [INF] ✅ [END] GetAllRolesQuery | Execution Time: 17ms | Response Data: {
+  "Value": [
+    {
+      "Id": "761a6afc-057d-4226-58bc-08dd44f47560",
+      "Name": "Admin",
+      "Description": "Admin role for Spendwise"
+    },
+    {
+      "Id": "f7137b9f-ee58-4c84-58bd-08dd44f47560",
+      "Name": "User",
+      "Description": "User role for Spendwise"
+    },
+    {
+      "Id": "332f8c1c-2595-4a7e-3f6f-08dd6074177f",
+      "Name": "Guest",
+      "Description": "Guest role for Spendwise"
+    }
+  ],
+  "IsSuccess": true,
+  "Errors": [],
+  "ValidationErrors": {},
+  "Successes": [
+    "Roles has been successfully retrieved.",
+    "The request has succeeded."
+  ]
+}
+2025-03-20 12:27:44.628 +05:00 [INF] Finished handling request.
+2025-03-20 12:27:44.632 +05:00 [INF] HTTP GET /api/roles/GetAll responded 200 in 38.0834 ms
+2025-03-20 12:27:48.727 +05:00 [INF] Handling request: POST /api/roles/Add
+2025-03-20 12:27:48.965 +05:00 [ERR] HTTP POST /api/roles/Add responded 500 in 237.8933 ms
+Shared.Exceptions.BadRequestException: Exception of type 'Shared.Exceptions.BadRequestException' was thrown.
+   at Application.Behaviors.ValidationBehaviour`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in C:\Users\hussain.saqib\Desktop\Learning\.NET Projects - Learning\ExpenseCalculator\SpendWise - With Identity Server\Application\Behaviors\ValidationBehaviour.cs:line 24
+   at EndPoints.Controllers.Security.Roles.v1.RolesController.Add(AddEditRoleCommand request, CancellationToken cancellationToken) in C:\Users\hussain.saqib\Desktop\Learning\.NET Projects - Learning\ExpenseCalculator\SpendWise - With Identity Server\EndPoints\Controllers\Security\Roles\v1\RolesController.cs:line 15
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Program.<>c.<<<Main>$>b__0_2>d.MoveNext() in C:\Users\hussain.saqib\Desktop\Learning\.NET Projects - Learning\ExpenseCalculator\SpendWise - With Identity Server\EndPoints\Program.cs:line 75
+--- End of stack trace from previous location ---
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2025-03-20 12:27:49.113 +05:00 [ERR] Error in GlobalExceptionHandler at "2025-03-20T12:27:49.1093990+05:00", with status code 400 and exception Shared.Exceptions.BadRequestException: Exception of type 'Shared.Exceptions.BadRequestException' was thrown.
+   at Application.Behaviors.ValidationBehaviour`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in C:\Users\hussain.saqib\Desktop\Learning\.NET Projects - Learning\ExpenseCalculator\SpendWise - With Identity Server\Application\Behaviors\ValidationBehaviour.cs:line 24
+   at EndPoints.Controllers.Security.Roles.v1.RolesController.Add(AddEditRoleCommand request, CancellationToken cancellationToken) in C:\Users\hussain.saqib\Desktop\Learning\.NET Projects - Learning\ExpenseCalculator\SpendWise - With Identity Server\EndPoints\Controllers\Security\Roles\v1\RolesController.cs:line 15
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Program.<>c.<<<Main>$>b__0_2>d.MoveNext() in C:\Users\hussain.saqib\Desktop\Learning\.NET Projects - Learning\ExpenseCalculator\SpendWise - With Identity Server\EndPoints\Program.cs:line 75
+--- End of stack trace from previous location ---
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Application.Middlewares.RateLimitMiddleware.Invoke(HttpContext context) in C:\Users\hussain.saqib\Desktop\Learning\.NET Projects - Learning\ExpenseCalculator\SpendWise - With Identity Server\Application\Middlewares\RateLimitMiddleware.cs:line 26
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at EndPoints.Infrastructure.Middlewares.GlobalExceptionHandler.Invoke(HttpContext context) in C:\Users\hussain.saqib\Desktop\Learning\.NET Projects - Learning\ExpenseCalculator\SpendWise - With Identity Server\EndPoints\Infrastructure\Middlewares\GlobalExceptionHandler.cs:line 17
+2025-03-20 12:29:02.219 +05:00 [INF] Handling request: GET /api/roles/GetAll
+2025-03-20 12:29:02.231 +05:00 [INF] ➡️ [START] Handling GetAllRolesQuery | User: Anonymous | IP: ::1 | Request Data: {}
+2025-03-20 12:29:02.248 +05:00 [INF] ✅ [END] GetAllRolesQuery | Execution Time: 16ms | Response Data: {
+  "Value": [
+    {
+      "Id": "761a6afc-057d-4226-58bc-08dd44f47560",
+      "Name": "Admin",
+      "Description": "Admin role for Spendwise"
+    },
+    {
+      "Id": "f7137b9f-ee58-4c84-58bd-08dd44f47560",
+      "Name": "User",
+      "Description": "User role for Spendwise"
+    },
+    {
+      "Id": "332f8c1c-2595-4a7e-3f6f-08dd6074177f",
+      "Name": "Guest",
+      "Description": "Guest role for Spendwise"
+    }
+  ],
+  "IsSuccess": true,
+  "Errors": [],
+  "ValidationErrors": {},
+  "Successes": [
+    "Roles has been successfully retrieved.",
+    "The request has succeeded."
+  ]
+}
+2025-03-20 12:29:02.261 +05:00 [INF] Finished handling request.
+2025-03-20 12:29:02.266 +05:00 [INF] HTTP GET /api/roles/GetAll responded 200 in 47.0154 ms
+2025-03-20 12:29:13.007 +05:00 [INF] Handling request: GET /api/roles/GetAll
+2025-03-20 12:29:13.014 +05:00 [INF] ➡️ [START] Handling GetAllRolesQuery | User: Anonymous | IP: ::1 | Request Data: {}
+2025-03-20 12:29:13.033 +05:00 [INF] ✅ [END] GetAllRolesQuery | Execution Time: 19ms | Response Data: {
+  "Value": [
+    {
+      "Id": "761a6afc-057d-4226-58bc-08dd44f47560",
+      "Name": "Admin",
+      "Description": "Admin role for Spendwise"
+    },
+    {
+      "Id": "f7137b9f-ee58-4c84-58bd-08dd44f47560",
+      "Name": "User",
+      "Description": "User role for Spendwise"
+    },
+    {
+      "Id": "332f8c1c-2595-4a7e-3f6f-08dd6074177f",
+      "Name": "Guest",
+      "Description": "Guest role for Spendwise"
+    }
+  ],
+  "IsSuccess": true,
+  "Errors": [],
+  "ValidationErrors": {},
+  "Successes": [
+    "Roles has been successfully retrieved.",
+    "The request has succeeded."
+  ]
+}
+2025-03-20 12:29:13.045 +05:00 [INF] Finished handling request.
+2025-03-20 12:29:13.052 +05:00 [INF] HTTP GET /api/roles/GetAll responded 200 in 44.6722 ms
+2025-03-20 12:35:56.356 +05:00 [INF] Handling request: GET /api/roles/GetAll
+2025-03-20 12:35:56.363 +05:00 [INF] ➡️ [START] Handling GetAllRolesQuery | User: Anonymous | IP: ::1 | Request Data: {}
+2025-03-20 12:35:56.524 +05:00 [INF] ✅ [END] GetAllRolesQuery | Execution Time: 161ms | Response Data: {
+  "Value": [
+    {
+      "Id": "761a6afc-057d-4226-58bc-08dd44f47560",
+      "Name": "Admin",
+      "Description": "Admin role for Spendwise"
+    },
+    {
+      "Id": "f7137b9f-ee58-4c84-58bd-08dd44f47560",
+      "Name": "User",
+      "Description": "User role for Spendwise"
+    },
+    {
+      "Id": "332f8c1c-2595-4a7e-3f6f-08dd6074177f",
+      "Name": "Guest",
+      "Description": "Guest role for Spendwise"
+    }
+  ],
+  "IsSuccess": true,
+  "Errors": [],
+  "ValidationErrors": {},
+  "Successes": [
+    "Roles has been successfully retrieved.",
+    "The request has succeeded."
+  ]
+}
+2025-03-20 12:35:56.532 +05:00 [INF] Finished handling request.
+2025-03-20 12:35:56.537 +05:00 [INF] HTTP GET /api/roles/GetAll responded 200 in 180.6533 ms
+2025-03-20 12:35:59.106 +05:00 [INF] Handling request: GET /api/roles/GetAll
+2025-03-20 12:35:59.115 +05:00 [INF] ➡️ [START] Handling GetAllRolesQuery | User: Anonymous | IP: ::1 | Request Data: {}
+2025-03-20 12:35:59.143 +05:00 [INF] ✅ [END] GetAllRolesQuery | Execution Time: 28ms | Response Data: {
+  "Value": [
+    {
+      "Id": "761a6afc-057d-4226-58bc-08dd44f47560",
+      "Name": "Admin",
+      "Description": "Admin role for Spendwise"
+    },
+    {
+      "Id": "f7137b9f-ee58-4c84-58bd-08dd44f47560",
+      "Name": "User",
+      "Description": "User role for Spendwise"
+    },
+    {
+      "Id": "332f8c1c-2595-4a7e-3f6f-08dd6074177f",
+      "Name": "Guest",
+      "Description": "Guest role for Spendwise"
+    }
+  ],
+  "IsSuccess": true,
+  "Errors": [],
+  "ValidationErrors": {},
+  "Successes": [
+    "Roles has been successfully retrieved.",
+    "The request has succeeded."
+  ]
+}
+2025-03-20 12:35:59.165 +05:00 [INF] Finished handling request.
+2025-03-20 12:35:59.174 +05:00 [INF] HTTP GET /api/roles/GetAll responded 200 in 68.4155 ms
+2025-03-20 12:36:12.886 +05:00 [INF] Handling request: POST /api/roles/Add
+2025-03-20 12:36:12.898 +05:00 [INF] ➡️ [START] Handling AddEditRoleCommand | User: Anonymous | IP: ::1 | Request Data: {
+  "Id": "00000000-0000-0000-0000-000000000000",
+  "Name": "asdasdasdasdasd",
+  "Description": "12635123agsdgafdahgdfhafsdgfahsfdghfaghsfdasdfashgdfghasd\n"
+}
+2025-03-20 12:36:12.980 +05:00 [INF] ✅ [END] AddEditRoleCommand | Execution Time: 81ms | Response Data: {
+  "Value": "193b3a91-bd23-4279-2338-08dd6781e3f5",
+  "IsSuccess": true,
+  "Errors": [],
+  "ValidationErrors": {},
+  "Successes": [
+    "Role \u0027asdasdasdasdasd\u0027 has been successfully updated.",
+    "The request has succeeded."
+  ]
+}
+2025-03-20 12:36:12.993 +05:00 [INF] Finished handling request.
+2025-03-20 12:36:12.999 +05:00 [INF] HTTP POST /api/roles/Add responded 200 in 113.4296 ms
+2025-03-20 12:36:13.021 +05:00 [INF] Handling request: GET /api/roles/GetAll
+2025-03-20 12:36:13.036 +05:00 [INF] ➡️ [START] Handling GetAllRolesQuery | User: Anonymous | IP: ::1 | Request Data: {}
+2025-03-20 12:36:13.059 +05:00 [INF] ✅ [END] GetAllRolesQuery | Execution Time: 22ms | Response Data: {
+  "Value": [
+    {
+      "Id": "761a6afc-057d-4226-58bc-08dd44f47560",
+      "Name": "Admin",
+      "Description": "Admin role for Spendwise"
+    },
+    {
+      "Id": "f7137b9f-ee58-4c84-58bd-08dd44f47560",
+      "Name": "User",
+      "Description": "User role for Spendwise"
+    },
+    {
+      "Id": "332f8c1c-2595-4a7e-3f6f-08dd6074177f",
+      "Name": "Guest",
+      "Description": "Guest role for Spendwise"
+    },
+    {
+      "Id": "193b3a91-bd23-4279-2338-08dd6781e3f5",
+      "Name": "asdasdasdasdasd",
+      "Description": "12635123agsdgafdahgdfhafsdgfahsfdghfaghsfdasdfashgdfghasd\n"
+    }
+  ],
+  "IsSuccess": true,
+  "Errors": [],
+  "ValidationErrors": {},
+  "Successes": [
+    "Roles has been successfully retrieved.",
+    "The request has succeeded."
+  ]
+}
+2025-03-20 12:36:13.077 +05:00 [INF] Finished handling request.
+2025-03-20 12:36:13.086 +05:00 [INF] HTTP GET /api/roles/GetAll responded 200 in 64.1343 ms
+2025-03-20 12:36:27.646 +05:00 [INF] Handling request: GET /api/roles/GetAll
+2025-03-20 12:36:27.656 +05:00 [INF] ➡️ [START] Handling GetAllRolesQuery | User: Anonymous | IP: ::1 | Request Data: {}
+2025-03-20 12:36:27.667 +05:00 [INF] ✅ [END] GetAllRolesQuery | Execution Time: 10ms | Response Data: {
+  "Value": [
+    {
+      "Id": "761a6afc-057d-4226-58bc-08dd44f47560",
+      "Name": "Admin",
+      "Description": "Admin role for Spendwise"
+    },
+    {
+      "Id": "f7137b9f-ee58-4c84-58bd-08dd44f47560",
+      "Name": "User",
+      "Description": "User role for Spendwise"
+    },
+    {
+      "Id": "332f8c1c-2595-4a7e-3f6f-08dd6074177f",
+      "Name": "Guest",
+      "Description": "Guest role for Spendwise"
+    },
+    {
+      "Id": "193b3a91-bd23-4279-2338-08dd6781e3f5",
+      "Name": "asdasdasdasdasd",
+      "Description": "12635123agsdgafdahgdfhafsdgfahsfdghfaghsfdasdfashgdfghasd\n"
+    }
+  ],
+  "IsSuccess": true,
+  "Errors": [],
+  "ValidationErrors": {},
+  "Successes": [
+    "Roles has been successfully retrieved.",
+    "The request has succeeded."
+  ]
+}
+2025-03-20 12:36:27.672 +05:00 [INF] Finished handling request.
+2025-03-20 12:36:27.675 +05:00 [INF] HTTP GET /api/roles/GetAll responded 200 in 28.7124 ms
+2025-03-20 12:36:32.535 +05:00 [INF] Handling request: DELETE /api/roles/Delete
+2025-03-20 12:36:32.589 +05:00 [INF] ➡️ [START] Handling DeleteRoleCommand | User: Anonymous | IP: ::1 | Request Data: {
+  "Id": "193b3a91-bd23-4279-2338-08dd6781e3f5"
+}
+2025-03-20 12:36:32.752 +05:00 [INF] ✅ [END] DeleteRoleCommand | Execution Time: 161ms | Response Data: {
+  "Value": true,
+  "IsSuccess": true,
+  "Errors": [],
+  "ValidationErrors": {},
+  "Successes": [
+    "Role \u0027asdasdasdasdasd\u0027 has been successfully deleted.",
+    "The request has succeeded."
+  ]
+}
+2025-03-20 12:36:32.765 +05:00 [INF] Finished handling request.
+2025-03-20 12:36:32.773 +05:00 [INF] HTTP DELETE /api/roles/Delete responded 200 in 238.0236 ms
+2025-03-20 12:36:32.793 +05:00 [INF] Handling request: GET /api/roles/GetAll
+2025-03-20 12:36:32.805 +05:00 [INF] ➡️ [START] Handling GetAllRolesQuery | User: Anonymous | IP: ::1 | Request Data: {}
+2025-03-20 12:36:32.843 +05:00 [INF] ✅ [END] GetAllRolesQuery | Execution Time: 37ms | Response Data: {
+  "Value": [
+    {
+      "Id": "761a6afc-057d-4226-58bc-08dd44f47560",
+      "Name": "Admin",
+      "Description": "Admin role for Spendwise"
+    },
+    {
+      "Id": "f7137b9f-ee58-4c84-58bd-08dd44f47560",
+      "Name": "User",
+      "Description": "User role for Spendwise"
+    },
+    {
+      "Id": "332f8c1c-2595-4a7e-3f6f-08dd6074177f",
+      "Name": "Guest",
+      "Description": "Guest role for Spendwise"
+    }
+  ],
+  "IsSuccess": true,
+  "Errors": [],
+  "ValidationErrors": {},
+  "Successes": [
+    "Roles has been successfully retrieved.",
+    "The request has succeeded."
+  ]
+}
+2025-03-20 12:36:32.852 +05:00 [INF] Finished handling request.
+2025-03-20 12:36:32.863 +05:00 [INF] HTTP GET /api/roles/GetAll responded 200 in 69.9627 ms
+2025-03-20 12:36:35.762 +05:00 [INF] Handling request: GET /api/roles/GetAll
+2025-03-20 12:36:35.767 +05:00 [INF] ➡️ [START] Handling GetAllRolesQuery | User: Anonymous | IP: ::1 | Request Data: {}
+2025-03-20 12:36:35.777 +05:00 [INF] ✅ [END] GetAllRolesQuery | Execution Time: 10ms | Response Data: {
+  "Value": [
+    {
+      "Id": "761a6afc-057d-4226-58bc-08dd44f47560",
+      "Name": "Admin",
+      "Description": "Admin role for Spendwise"
+    },
+    {
+      "Id": "f7137b9f-ee58-4c84-58bd-08dd44f47560",
+      "Name": "User",
+      "Description": "User role for Spendwise"
+    },
+    {
+      "Id": "332f8c1c-2595-4a7e-3f6f-08dd6074177f",
+      "Name": "Guest",
+      "Description": "Guest role for Spendwise"
+    }
+  ],
+  "IsSuccess": true,
+  "Errors": [],
+  "ValidationErrors": {},
+  "Successes": [
+    "Roles has been successfully retrieved.",
+    "The request has succeeded."
+  ]
+}
+2025-03-20 12:36:35.782 +05:00 [INF] Finished handling request.
+2025-03-20 12:36:35.784 +05:00 [INF] HTTP GET /api/roles/GetAll responded 200 in 21.2136 ms
+2025-03-20 13:05:59.721 +05:00 [INF] Handling request: GET /api/roles/GetAll
+2025-03-20 13:05:59.732 +05:00 [INF] ➡️ [START] Handling GetAllRolesQuery | User: Anonymous | IP: ::1 | Request Data: {}
+2025-03-20 13:06:01.911 +05:00 [WRN] ⚠️ [SLOW] GetAllRolesQuery took 2179ms
+2025-03-20 13:06:01.918 +05:00 [INF] ✅ [END] GetAllRolesQuery | Execution Time: 2179ms | Response Data: {
+  "Value": [
+    {
+      "Id": "761a6afc-057d-4226-58bc-08dd44f47560",
+      "Name": "Admin",
+      "Description": "Admin role for Spendwise"
+    },
+    {
+      "Id": "f7137b9f-ee58-4c84-58bd-08dd44f47560",
+      "Name": "User",
+      "Description": "User role for Spendwise"
+    },
+    {
+      "Id": "332f8c1c-2595-4a7e-3f6f-08dd6074177f",
+      "Name": "Guest",
+      "Description": "Guest role for Spendwise"
+    }
+  ],
+  "IsSuccess": true,
+  "Errors": [],
+  "ValidationErrors": {},
+  "Successes": [
+    "Roles has been successfully retrieved.",
+    "The request has succeeded."
+  ]
+}
+2025-03-20 13:06:01.928 +05:00 [INF] Finished handling request.
+2025-03-20 13:06:01.933 +05:00 [INF] HTTP GET /api/roles/GetAll responded 200 in 2211.9666 ms
+2025-03-20 13:06:04.684 +05:00 [INF] Handling request: GET /api/roles/GetAll
+2025-03-20 13:06:04.695 +05:00 [INF] ➡️ [START] Handling GetAllRolesQuery | User: Anonymous | IP: ::1 | Request Data: {}
+2025-03-20 13:06:04.714 +05:00 [INF] ✅ [END] GetAllRolesQuery | Execution Time: 18ms | Response Data: {
+  "Value": [
+    {
+      "Id": "761a6afc-057d-4226-58bc-08dd44f47560",
+      "Name": "Admin",
+      "Description": "Admin role for Spendwise"
+    },
+    {
+      "Id": "f7137b9f-ee58-4c84-58bd-08dd44f47560",
+      "Name": "User",
+      "Description": "User role for Spendwise"
+    },
+    {
+      "Id": "332f8c1c-2595-4a7e-3f6f-08dd6074177f",
+      "Name": "Guest",
+      "Description": "Guest role for Spendwise"
+    }
+  ],
+  "IsSuccess": true,
+  "Errors": [],
+  "ValidationErrors": {},
+  "Successes": [
+    "Roles has been successfully retrieved.",
+    "The request has succeeded."
+  ]
+}
+2025-03-20 13:06:04.734 +05:00 [INF] Finished handling request.
+2025-03-20 13:06:04.740 +05:00 [INF] HTTP GET /api/roles/GetAll responded 200 in 56.4852 ms
+2025-03-20 13:06:10.682 +05:00 [INF] Handling request: GET /api/roles/GetAll
+2025-03-20 13:06:10.692 +05:00 [INF] ➡️ [START] Handling GetAllRolesQuery | User: Anonymous | IP: ::1 | Request Data: {}
+2025-03-20 13:06:10.713 +05:00 [INF] ✅ [END] GetAllRolesQuery | Execution Time: 20ms | Response Data: {
+  "Value": [
+    {
+      "Id": "761a6afc-057d-4226-58bc-08dd44f47560",
+      "Name": "Admin",
+      "Description": "Admin role for Spendwise"
+    },
+    {
+      "Id": "f7137b9f-ee58-4c84-58bd-08dd44f47560",
+      "Name": "User",
+      "Description": "User role for Spendwise"
+    },
+    {
+      "Id": "332f8c1c-2595-4a7e-3f6f-08dd6074177f",
+      "Name": "Guest",
+      "Description": "Guest role for Spendwise"
+    }
+  ],
+  "IsSuccess": true,
+  "Errors": [],
+  "ValidationErrors": {},
+  "Successes": [
+    "Roles has been successfully retrieved.",
+    "The request has succeeded."
+  ]
+}
+2025-03-20 13:06:10.739 +05:00 [INF] Finished handling request.
+2025-03-20 13:06:10.746 +05:00 [INF] HTTP GET /api/roles/GetAll responded 200 in 63.9415 ms
+2025-03-20 13:06:38.680 +05:00 [INF] Handling request: GET /api/roles/GetAll
+2025-03-20 13:06:38.693 +05:00 [INF] ➡️ [START] Handling GetAllRolesQuery | User: Anonymous | IP: ::1 | Request Data: {}
+2025-03-20 13:06:38.754 +05:00 [INF] ✅ [END] GetAllRolesQuery | Execution Time: 38ms | Response Data: {
+  "Value": [
+    {
+      "Id": "761a6afc-057d-4226-58bc-08dd44f47560",
+      "Name": "Admin",
+      "Description": "Admin role for Spendwise"
+    },
+    {
+      "Id": "f7137b9f-ee58-4c84-58bd-08dd44f47560",
+      "Name": "User",
+      "Description": "User role for Spendwise"
+    },
+    {
+      "Id": "332f8c1c-2595-4a7e-3f6f-08dd6074177f",
+      "Name": "Guest",
+      "Description": "Guest role for Spendwise"
+    }
+  ],
+  "IsSuccess": true,
+  "Errors": [],
+  "ValidationErrors": {},
+  "Successes": [
+    "Roles has been successfully retrieved.",
+    "The request has succeeded."
+  ]
+}
+2025-03-20 13:06:38.773 +05:00 [INF] Finished handling request.
+2025-03-20 13:06:38.782 +05:00 [INF] HTTP GET /api/roles/GetAll responded 200 in 101.7601 ms
+2025-03-20 13:07:00.678 +05:00 [INF] Handling request: GET /api/roles/GetAll
+2025-03-20 13:07:00.689 +05:00 [INF] ➡️ [START] Handling GetAllRolesQuery | User: Anonymous | IP: ::1 | Request Data: {}
+2025-03-20 13:07:00.724 +05:00 [INF] ✅ [END] GetAllRolesQuery | Execution Time: 32ms | Response Data: {
+  "Value": [
+    {
+      "Id": "761a6afc-057d-4226-58bc-08dd44f47560",
+      "Name": "Admin",
+      "Description": "Admin role for Spendwise"
+    },
+    {
+      "Id": "f7137b9f-ee58-4c84-58bd-08dd44f47560",
+      "Name": "User",
+      "Description": "User role for Spendwise"
+    },
+    {
+      "Id": "332f8c1c-2595-4a7e-3f6f-08dd6074177f",
+      "Name": "Guest",
+      "Description": "Guest role for Spendwise"
+    }
+  ],
+  "IsSuccess": true,
+  "Errors": [],
+  "ValidationErrors": {},
+  "Successes": [
+    "Roles has been successfully retrieved.",
+    "The request has succeeded."
+  ]
+}
+2025-03-20 13:07:00.746 +05:00 [INF] Finished handling request.
+2025-03-20 13:07:00.752 +05:00 [INF] HTTP GET /api/roles/GetAll responded 200 in 74.0534 ms
+2025-03-20 13:07:01.679 +05:00 [INF] Handling request: GET /api/roles/GetAll
+2025-03-20 13:07:01.694 +05:00 [INF] ➡️ [START] Handling GetAllRolesQuery | User: Anonymous | IP: ::1 | Request Data: {}
+2025-03-20 13:07:01.729 +05:00 [INF] ✅ [END] GetAllRolesQuery | Execution Time: 33ms | Response Data: {
+  "Value": [
+    {
+      "Id": "761a6afc-057d-4226-58bc-08dd44f47560",
+      "Name": "Admin",
+      "Description": "Admin role for Spendwise"
+    },
+    {
+      "Id": "f7137b9f-ee58-4c84-58bd-08dd44f47560",
+      "Name": "User",
+      "Description": "User role for Spendwise"
+    },
+    {
+      "Id": "332f8c1c-2595-4a7e-3f6f-08dd6074177f",
+      "Name": "Guest",
+      "Description": "Guest role for Spendwise"
+    }
+  ],
+  "IsSuccess": true,
+  "Errors": [],
+  "ValidationErrors": {},
+  "Successes": [
+    "Roles has been successfully retrieved.",
+    "The request has succeeded."
+  ]
+}
+2025-03-20 13:07:01.744 +05:00 [INF] Finished handling request.
+2025-03-20 13:07:01.753 +05:00 [INF] HTTP GET /api/roles/GetAll responded 200 in 74.1104 ms
+2025-03-20 13:07:45.683 +05:00 [INF] Handling request: GET /api/roles/GetAll
+2025-03-20 13:07:45.693 +05:00 [INF] ➡️ [START] Handling GetAllRolesQuery | User: Anonymous | IP: ::1 | Request Data: {}
+2025-03-20 13:07:45.723 +05:00 [INF] ✅ [END] GetAllRolesQuery | Execution Time: 30ms | Response Data: {
+  "Value": [
+    {
+      "Id": "761a6afc-057d-4226-58bc-08dd44f47560",
+      "Name": "Admin",
+      "Description": "Admin role for Spendwise"
+    },
+    {
+      "Id": "f7137b9f-ee58-4c84-58bd-08dd44f47560",
+      "Name": "User",
+      "Description": "User role for Spendwise"
+    },
+    {
+      "Id": "332f8c1c-2595-4a7e-3f6f-08dd6074177f",
+      "Name": "Guest",
+      "Description": "Guest role for Spendwise"
+    }
+  ],
+  "IsSuccess": true,
+  "Errors": [],
+  "ValidationErrors": {},
+  "Successes": [
+    "Roles has been successfully retrieved.",
+    "The request has succeeded."
+  ]
+}
+2025-03-20 13:07:45.758 +05:00 [INF] Finished handling request.
+2025-03-20 13:07:45.770 +05:00 [INF] HTTP GET /api/roles/GetAll responded 200 in 87.0830 ms
+2025-03-20 13:07:47.681 +05:00 [INF] Handling request: GET /api/roles/GetAll
+2025-03-20 13:07:47.694 +05:00 [INF] ➡️ [START] Handling GetAllRolesQuery | User: Anonymous | IP: ::1 | Request Data: {}
+2025-03-20 13:07:47.724 +05:00 [INF] ✅ [END] GetAllRolesQuery | Execution Time: 28ms | Response Data: {
+  "Value": [
+    {
+      "Id": "761a6afc-057d-4226-58bc-08dd44f47560",
+      "Name": "Admin",
+      "Description": "Admin role for Spendwise"
+    },
+    {
+      "Id": "f7137b9f-ee58-4c84-58bd-08dd44f47560",
+      "Name": "User",
+      "Description": "User role for Spendwise"
+    },
+    {
+      "Id": "332f8c1c-2595-4a7e-3f6f-08dd6074177f",
+      "Name": "Guest",
+      "Description": "Guest role for Spendwise"
+    }
+  ],
+  "IsSuccess": true,
+  "Errors": [],
+  "ValidationErrors": {},
+  "Successes": [
+    "Roles has been successfully retrieved.",
+    "The request has succeeded."
+  ]
+}
+2025-03-20 13:07:47.734 +05:00 [INF] Finished handling request.
+2025-03-20 13:07:47.744 +05:00 [INF] HTTP GET /api/roles/GetAll responded 200 in 62.1696 ms
+2025-03-20 13:08:04.683 +05:00 [INF] Handling request: GET /api/roles/GetAll
+2025-03-20 13:08:04.704 +05:00 [INF] ➡️ [START] Handling GetAllRolesQuery | User: Anonymous | IP: ::1 | Request Data: {}
+2025-03-20 13:08:04.731 +05:00 [INF] ✅ [END] GetAllRolesQuery | Execution Time: 26ms | Response Data: {
+  "Value": [
+    {
+      "Id": "761a6afc-057d-4226-58bc-08dd44f47560",
+      "Name": "Admin",
+      "Description": "Admin role for Spendwise"
+    },
+    {
+      "Id": "f7137b9f-ee58-4c84-58bd-08dd44f47560",
+      "Name": "User",
+      "Description": "User role for Spendwise"
+    },
+    {
+      "Id": "332f8c1c-2595-4a7e-3f6f-08dd6074177f",
+      "Name": "Guest",
+      "Description": "Guest role for Spendwise"
+    }
+  ],
+  "IsSuccess": true,
+  "Errors": [],
+  "ValidationErrors": {},
+  "Successes": [
+    "Roles has been successfully retrieved.",
+    "The request has succeeded."
+  ]
+}
+2025-03-20 13:08:04.750 +05:00 [INF] Finished handling request.
+2025-03-20 13:08:04.760 +05:00 [INF] HTTP GET /api/roles/GetAll responded 200 in 76.1898 ms
+2025-03-20 13:08:08.681 +05:00 [INF] Handling request: GET /api/roles/GetAll
+2025-03-20 13:08:08.695 +05:00 [INF] ➡️ [START] Handling GetAllRolesQuery | User: Anonymous | IP: ::1 | Request Data: {}
+2025-03-20 13:08:08.726 +05:00 [INF] ✅ [END] GetAllRolesQuery | Execution Time: 29ms | Response Data: {
+  "Value": [
+    {
+      "Id": "761a6afc-057d-4226-58bc-08dd44f47560",
+      "Name": "Admin",
+      "Description": "Admin role for Spendwise"
+    },
+    {
+      "Id": "f7137b9f-ee58-4c84-58bd-08dd44f47560",
+      "Name": "User",
+      "Description": "User role for Spendwise"
+    },
+    {
+      "Id": "332f8c1c-2595-4a7e-3f6f-08dd6074177f",
+      "Name": "Guest",
+      "Description": "Guest role for Spendwise"
+    }
+  ],
+  "IsSuccess": true,
+  "Errors": [],
+  "ValidationErrors": {},
+  "Successes": [
+    "Roles has been successfully retrieved.",
+    "The request has succeeded."
+  ]
+}
+2025-03-20 13:08:08.749 +05:00 [INF] Finished handling request.
+2025-03-20 13:08:08.757 +05:00 [INF] HTTP GET /api/roles/GetAll responded 200 in 75.2845 ms
+2025-03-20 13:08:11.673 +05:00 [INF] Handling request: GET /api/roles/GetAll
+2025-03-20 13:08:11.684 +05:00 [INF] ➡️ [START] Handling GetAllRolesQuery | User: Anonymous | IP: ::1 | Request Data: {}
+2025-03-20 13:08:11.719 +05:00 [INF] ✅ [END] GetAllRolesQuery | Execution Time: 34ms | Response Data: {
+  "Value": [
+    {
+      "Id": "761a6afc-057d-4226-58bc-08dd44f47560",
+      "Name": "Admin",
+      "Description": "Admin role for Spendwise"
+    },
+    {
+      "Id": "f7137b9f-ee58-4c84-58bd-08dd44f47560",
+      "Name": "User",
+      "Description": "User role for Spendwise"
+    },
+    {
+      "Id": "332f8c1c-2595-4a7e-3f6f-08dd6074177f",
+      "Name": "Guest",
+      "Description": "Guest role for Spendwise"
+    }
+  ],
+  "IsSuccess": true,
+  "Errors": [],
+  "ValidationErrors": {},
+  "Successes": [
+    "Roles has been successfully retrieved.",
+    "The request has succeeded."
+  ]
+}
+2025-03-20 13:08:11.744 +05:00 [INF] Finished handling request.
+2025-03-20 13:08:11.753 +05:00 [INF] HTTP GET /api/roles/GetAll responded 200 in 79.7966 ms
+2025-03-20 13:08:13.682 +05:00 [INF] Handling request: GET /api/roles/GetAll
+2025-03-20 13:08:13.695 +05:00 [INF] ➡️ [START] Handling GetAllRolesQuery | User: Anonymous | IP: ::1 | Request Data: {}
+2025-03-20 13:08:13.731 +05:00 [INF] ✅ [END] GetAllRolesQuery | Execution Time: 33ms | Response Data: {
+  "Value": [
+    {
+      "Id": "761a6afc-057d-4226-58bc-08dd44f47560",
+      "Name": "Admin",
+      "Description": "Admin role for Spendwise"
+    },
+    {
+      "Id": "f7137b9f-ee58-4c84-58bd-08dd44f47560",
+      "Name": "User",
+      "Description": "User role for Spendwise"
+    },
+    {
+      "Id": "332f8c1c-2595-4a7e-3f6f-08dd6074177f",
+      "Name": "Guest",
+      "Description": "Guest role for Spendwise"
+    }
+  ],
+  "IsSuccess": true,
+  "Errors": [],
+  "ValidationErrors": {},
+  "Successes": [
+    "Roles has been successfully retrieved.",
+    "The request has succeeded."
+  ]
+}
+2025-03-20 13:08:13.757 +05:00 [INF] Finished handling request.
+2025-03-20 13:08:13.766 +05:00 [INF] HTTP GET /api/roles/GetAll responded 200 in 83.8693 ms
+2025-03-20 13:08:25.639 +05:00 [INF] Handling request: GET /api/roles/GetAll
+2025-03-20 13:08:25.645 +05:00 [INF] ➡️ [START] Handling GetAllRolesQuery | User: Anonymous | IP: ::1 | Request Data: {}
+2025-03-20 13:08:25.664 +05:00 [INF] ✅ [END] GetAllRolesQuery | Execution Time: 18ms | Response Data: {
+  "Value": [
+    {
+      "Id": "761a6afc-057d-4226-58bc-08dd44f47560",
+      "Name": "Admin",
+      "Description": "Admin role for Spendwise"
+    },
+    {
+      "Id": "f7137b9f-ee58-4c84-58bd-08dd44f47560",
+      "Name": "User",
+      "Description": "User role for Spendwise"
+    },
+    {
+      "Id": "332f8c1c-2595-4a7e-3f6f-08dd6074177f",
+      "Name": "Guest",
+      "Description": "Guest role for Spendwise"
+    }
+  ],
+  "IsSuccess": true,
+  "Errors": [],
+  "ValidationErrors": {},
+  "Successes": [
+    "Roles has been successfully retrieved.",
+    "The request has succeeded."
+  ]
+}
+2025-03-20 13:08:25.672 +05:00 [INF] Finished handling request.
+2025-03-20 13:08:25.676 +05:00 [INF] HTTP GET /api/roles/GetAll responded 200 in 37.6236 ms
+2025-03-20 13:08:32.706 +05:00 [INF] Handling request: POST /api/roles/Add
+2025-03-20 13:08:32.719 +05:00 [INF] ➡️ [START] Handling AddEditRoleCommand | User: Anonymous | IP: ::1 | Request Data: {
+  "Id": "00000000-0000-0000-0000-000000000000",
+  "Name": "asdasd",
+  "Description": "adasdasd123123123123123123123123123"
+}
+2025-03-20 13:08:32.777 +05:00 [INF] ✅ [END] AddEditRoleCommand | Execution Time: 56ms | Response Data: {
+  "Value": "ac82e8ee-b2d5-4097-2339-08dd6781e3f5",
+  "IsSuccess": true,
+  "Errors": [],
+  "ValidationErrors": {},
+  "Successes": [
+    "Role \u0027asdasd\u0027 has been successfully updated.",
+    "The request has succeeded."
+  ]
+}
+2025-03-20 13:08:32.790 +05:00 [INF] Finished handling request.
+2025-03-20 13:08:32.799 +05:00 [INF] HTTP POST /api/roles/Add responded 200 in 93.2854 ms
+2025-03-20 13:08:32.825 +05:00 [INF] Handling request: GET /api/roles/GetAll
+2025-03-20 13:08:32.837 +05:00 [INF] ➡️ [START] Handling GetAllRolesQuery | User: Anonymous | IP: ::1 | Request Data: {}
+2025-03-20 13:08:32.862 +05:00 [INF] ✅ [END] GetAllRolesQuery | Execution Time: 24ms | Response Data: {
+  "Value": [
+    {
+      "Id": "761a6afc-057d-4226-58bc-08dd44f47560",
+      "Name": "Admin",
+      "Description": "Admin role for Spendwise"
+    },
+    {
+      "Id": "f7137b9f-ee58-4c84-58bd-08dd44f47560",
+      "Name": "User",
+      "Description": "User role for Spendwise"
+    },
+    {
+      "Id": "332f8c1c-2595-4a7e-3f6f-08dd6074177f",
+      "Name": "Guest",
+      "Description": "Guest role for Spendwise"
+    },
+    {
+      "Id": "ac82e8ee-b2d5-4097-2339-08dd6781e3f5",
+      "Name": "asdasd",
+      "Description": "adasdasd123123123123123123123123123"
+    }
+  ],
+  "IsSuccess": true,
+  "Errors": [],
+  "ValidationErrors": {},
+  "Successes": [
+    "Roles has been successfully retrieved.",
+    "The request has succeeded."
+  ]
+}
+2025-03-20 13:08:32.875 +05:00 [INF] Finished handling request.
+2025-03-20 13:08:32.881 +05:00 [INF] HTTP GET /api/roles/GetAll responded 200 in 56.8868 ms
+2025-03-20 13:08:37.696 +05:00 [INF] Handling request: PUT /api/roles/Edit
+2025-03-20 13:08:37.707 +05:00 [INF] ➡️ [START] Handling AddEditRoleCommand | User: Anonymous | IP: ::1 | Request Data: {
+  "Id": "ac82e8ee-b2d5-4097-2339-08dd6781e3f5",
+  "Name": "asdasd\u006012",
+  "Description": "adasdasd123123123123123123123123123\u006012"
+}
+2025-03-20 13:08:37.754 +05:00 [INF] ✅ [END] AddEditRoleCommand | Execution Time: 47ms | Response Data: {
+  "Value": "ac82e8ee-b2d5-4097-2339-08dd6781e3f5",
+  "IsSuccess": true,
+  "Errors": [],
+  "ValidationErrors": {},
+  "Successes": [
+    "Role \u0027asdasd\u006012\u0027 has been successfully updated.",
+    "The request has succeeded."
+  ]
+}
+2025-03-20 13:08:37.767 +05:00 [INF] Finished handling request.
+2025-03-20 13:08:37.778 +05:00 [INF] HTTP PUT /api/roles/Edit responded 200 in 81.6461 ms
+2025-03-20 13:08:37.796 +05:00 [INF] Handling request: GET /api/roles/GetAll
+2025-03-20 13:08:37.807 +05:00 [INF] ➡️ [START] Handling GetAllRolesQuery | User: Anonymous | IP: ::1 | Request Data: {}
+2025-03-20 13:08:37.847 +05:00 [INF] ✅ [END] GetAllRolesQuery | Execution Time: 40ms | Response Data: {
+  "Value": [
+    {
+      "Id": "761a6afc-057d-4226-58bc-08dd44f47560",
+      "Name": "Admin",
+      "Description": "Admin role for Spendwise"
+    },
+    {
+      "Id": "f7137b9f-ee58-4c84-58bd-08dd44f47560",
+      "Name": "User",
+      "Description": "User role for Spendwise"
+    },
+    {
+      "Id": "332f8c1c-2595-4a7e-3f6f-08dd6074177f",
+      "Name": "Guest",
+      "Description": "Guest role for Spendwise"
+    },
+    {
+      "Id": "ac82e8ee-b2d5-4097-2339-08dd6781e3f5",
+      "Name": "asdasd\u006012",
+      "Description": "adasdasd123123123123123123123123123\u006012"
+    }
+  ],
+  "IsSuccess": true,
+  "Errors": [],
+  "ValidationErrors": {},
+  "Successes": [
+    "Roles has been successfully retrieved.",
+    "The request has succeeded."
+  ]
+}
+2025-03-20 13:08:37.869 +05:00 [INF] Finished handling request.
+2025-03-20 13:08:37.880 +05:00 [INF] HTTP GET /api/roles/GetAll responded 200 in 84.5094 ms
+2025-03-20 13:08:43.085 +05:00 [INF] Handling request: DELETE /api/roles/Delete
+2025-03-20 13:08:43.109 +05:00 [INF] ➡️ [START] Handling DeleteRoleCommand | User: Anonymous | IP: ::1 | Request Data: {
+  "Id": "ac82e8ee-b2d5-4097-2339-08dd6781e3f5"
+}
+2025-03-20 13:08:43.173 +05:00 [INF] ✅ [END] DeleteRoleCommand | Execution Time: 63ms | Response Data: {
+  "Value": true,
+  "IsSuccess": true,
+  "Errors": [],
+  "ValidationErrors": {},
+  "Successes": [
+    "Role \u0027asdasd\u006012\u0027 has been successfully deleted.",
+    "The request has succeeded."
+  ]
+}
+2025-03-20 13:08:43.184 +05:00 [INF] Finished handling request.
+2025-03-20 13:08:43.193 +05:00 [INF] HTTP DELETE /api/roles/Delete responded 200 in 107.8100 ms
+2025-03-20 13:08:43.220 +05:00 [INF] Handling request: GET /api/roles/GetAll
+2025-03-20 13:08:43.234 +05:00 [INF] ➡️ [START] Handling GetAllRolesQuery | User: Anonymous | IP: ::1 | Request Data: {}
+2025-03-20 13:08:43.268 +05:00 [INF] ✅ [END] GetAllRolesQuery | Execution Time: 32ms | Response Data: {
+  "Value": [
+    {
+      "Id": "761a6afc-057d-4226-58bc-08dd44f47560",
+      "Name": "Admin",
+      "Description": "Admin role for Spendwise"
+    },
+    {
+      "Id": "f7137b9f-ee58-4c84-58bd-08dd44f47560",
+      "Name": "User",
+      "Description": "User role for Spendwise"
+    },
+    {
+      "Id": "332f8c1c-2595-4a7e-3f6f-08dd6074177f",
+      "Name": "Guest",
+      "Description": "Guest role for Spendwise"
+    }
+  ],
+  "IsSuccess": true,
+  "Errors": [],
+  "ValidationErrors": {},
+  "Successes": [
+    "Roles has been successfully retrieved.",
+    "The request has succeeded."
+  ]
+}
+2025-03-20 13:08:43.301 +05:00 [INF] Finished handling request.
+2025-03-20 13:08:43.306 +05:00 [INF] HTTP GET /api/roles/GetAll responded 200 in 86.1302 ms
+2025-03-20 13:09:20.685 +05:00 [INF] Handling request: GET /api/roles/GetAll
+2025-03-20 13:09:20.716 +05:00 [INF] ➡️ [START] Handling GetAllRolesQuery | User: Anonymous | IP: ::1 | Request Data: {}
+2025-03-20 13:09:20.763 +05:00 [INF] ✅ [END] GetAllRolesQuery | Execution Time: 46ms | Response Data: {
+  "Value": [
+    {
+      "Id": "761a6afc-057d-4226-58bc-08dd44f47560",
+      "Name": "Admin",
+      "Description": "Admin role for Spendwise"
+    },
+    {
+      "Id": "f7137b9f-ee58-4c84-58bd-08dd44f47560",
+      "Name": "User",
+      "Description": "User role for Spendwise"
+    },
+    {
+      "Id": "332f8c1c-2595-4a7e-3f6f-08dd6074177f",
+      "Name": "Guest",
+      "Description": "Guest role for Spendwise"
+    }
+  ],
+  "IsSuccess": true,
+  "Errors": [],
+  "ValidationErrors": {},
+  "Successes": [
+    "Roles has been successfully retrieved.",
+    "The request has succeeded."
+  ]
+}
+2025-03-20 13:09:20.789 +05:00 [INF] Finished handling request.
+2025-03-20 13:09:20.798 +05:00 [INF] HTTP GET /api/roles/GetAll responded 200 in 113.2527 ms
+2025-03-20 13:09:28.672 +05:00 [INF] Handling request: GET /api/roles/GetAll
+2025-03-20 13:09:28.679 +05:00 [INF] ➡️ [START] Handling GetAllRolesQuery | User: Anonymous | IP: ::1 | Request Data: {}
+2025-03-20 13:09:28.711 +05:00 [INF] ✅ [END] GetAllRolesQuery | Execution Time: 30ms | Response Data: {
+  "Value": [
+    {
+      "Id": "761a6afc-057d-4226-58bc-08dd44f47560",
+      "Name": "Admin",
+      "Description": "Admin role for Spendwise"
+    },
+    {
+      "Id": "f7137b9f-ee58-4c84-58bd-08dd44f47560",
+      "Name": "User",
+      "Description": "User role for Spendwise"
+    },
+    {
+      "Id": "332f8c1c-2595-4a7e-3f6f-08dd6074177f",
+      "Name": "Guest",
+      "Description": "Guest role for Spendwise"
+    }
+  ],
+  "IsSuccess": true,
+  "Errors": [],
+  "ValidationErrors": {},
+  "Successes": [
+    "Roles has been successfully retrieved.",
+    "The request has succeeded."
+  ]
+}
+2025-03-20 13:09:28.731 +05:00 [INF] Finished handling request.
+2025-03-20 13:09:28.741 +05:00 [INF] HTTP GET /api/roles/GetAll responded 200 in 69.5694 ms
+2025-03-20 13:09:38.682 +05:00 [INF] Handling request: GET /api/roles/GetAll
+2025-03-20 13:09:38.693 +05:00 [INF] ➡️ [START] Handling GetAllRolesQuery | User: Anonymous | IP: ::1 | Request Data: {}
+2025-03-20 13:09:38.712 +05:00 [INF] ✅ [END] GetAllRolesQuery | Execution Time: 18ms | Response Data: {
+  "Value": [
+    {
+      "Id": "761a6afc-057d-4226-58bc-08dd44f47560",
+      "Name": "Admin",
+      "Description": "Admin role for Spendwise"
+    },
+    {
+      "Id": "f7137b9f-ee58-4c84-58bd-08dd44f47560",
+      "Name": "User",
+      "Description": "User role for Spendwise"
+    },
+    {
+      "Id": "332f8c1c-2595-4a7e-3f6f-08dd6074177f",
+      "Name": "Guest",
+      "Description": "Guest role for Spendwise"
+    }
+  ],
+  "IsSuccess": true,
+  "Errors": [],
+  "ValidationErrors": {},
+  "Successes": [
+    "Roles has been successfully retrieved.",
+    "The request has succeeded."
+  ]
+}
+2025-03-20 13:09:38.724 +05:00 [INF] Finished handling request.
+2025-03-20 13:09:38.731 +05:00 [INF] HTTP GET /api/roles/GetAll responded 200 in 49.4847 ms
+2025-03-20 13:09:48.686 +05:00 [INF] Handling request: GET /api/roles/GetAll
+2025-03-20 13:09:48.704 +05:00 [INF] ➡️ [START] Handling GetAllRolesQuery | User: Anonymous | IP: ::1 | Request Data: {}
+2025-03-20 13:09:48.741 +05:00 [INF] ✅ [END] GetAllRolesQuery | Execution Time: 36ms | Response Data: {
+  "Value": [
+    {
+      "Id": "761a6afc-057d-4226-58bc-08dd44f47560",
+      "Name": "Admin",
+      "Description": "Admin role for Spendwise"
+    },
+    {
+      "Id": "f7137b9f-ee58-4c84-58bd-08dd44f47560",
+      "Name": "User",
+      "Description": "User role for Spendwise"
+    },
+    {
+      "Id": "332f8c1c-2595-4a7e-3f6f-08dd6074177f",
+      "Name": "Guest",
+      "Description": "Guest role for Spendwise"
+    }
+  ],
+  "IsSuccess": true,
+  "Errors": [],
+  "ValidationErrors": {},
+  "Successes": [
+    "Roles has been successfully retrieved.",
+    "The request has succeeded."
+  ]
+}
+2025-03-20 13:09:48.771 +05:00 [INF] Finished handling request.
+2025-03-20 13:09:48.783 +05:00 [INF] HTTP GET /api/roles/GetAll responded 200 in 96.7135 ms
+2025-03-20 13:16:29.702 +05:00 [INF] Handling request: GET /api/roles/GetAll
+2025-03-20 13:16:29.727 +05:00 [INF] ➡️ [START] Handling GetAllRolesQuery | User: Anonymous | IP: ::1 | Request Data: {}
+2025-03-20 13:16:29.907 +05:00 [INF] ✅ [END] GetAllRolesQuery | Execution Time: 179ms | Response Data: {
+  "Value": [
+    {
+      "Id": "761a6afc-057d-4226-58bc-08dd44f47560",
+      "Name": "Admin",
+      "Description": "Admin role for Spendwise"
+    },
+    {
+      "Id": "f7137b9f-ee58-4c84-58bd-08dd44f47560",
+      "Name": "User",
+      "Description": "User role for Spendwise"
+    },
+    {
+      "Id": "332f8c1c-2595-4a7e-3f6f-08dd6074177f",
+      "Name": "Guest",
+      "Description": "Guest role for Spendwise"
+    }
+  ],
+  "IsSuccess": true,
+  "Errors": [],
+  "ValidationErrors": {},
+  "Successes": [
+    "Roles has been successfully retrieved.",
+    "The request has succeeded."
+  ]
+}
+2025-03-20 13:16:29.913 +05:00 [INF] Finished handling request.
+2025-03-20 13:16:29.918 +05:00 [INF] HTTP GET /api/roles/GetAll responded 200 in 215.9251 ms
+2025-03-20 13:16:39.683 +05:00 [INF] Handling request: GET /api/roles/GetAll
+2025-03-20 13:16:39.692 +05:00 [INF] ➡️ [START] Handling GetAllRolesQuery | User: Anonymous | IP: ::1 | Request Data: {}
+2025-03-20 13:16:39.726 +05:00 [INF] ✅ [END] GetAllRolesQuery | Execution Time: 23ms | Response Data: {
+  "Value": [
+    {
+      "Id": "761a6afc-057d-4226-58bc-08dd44f47560",
+      "Name": "Admin",
+      "Description": "Admin role for Spendwise"
+    },
+    {
+      "Id": "f7137b9f-ee58-4c84-58bd-08dd44f47560",
+      "Name": "User",
+      "Description": "User role for Spendwise"
+    },
+    {
+      "Id": "332f8c1c-2595-4a7e-3f6f-08dd6074177f",
+      "Name": "Guest",
+      "Description": "Guest role for Spendwise"
+    }
+  ],
+  "IsSuccess": true,
+  "Errors": [],
+  "ValidationErrors": {},
+  "Successes": [
+    "Roles has been successfully retrieved.",
+    "The request has succeeded."
+  ]
+}
+2025-03-20 13:16:39.738 +05:00 [INF] Finished handling request.
+2025-03-20 13:16:39.752 +05:00 [INF] HTTP GET /api/roles/GetAll responded 200 in 68.9745 ms
+2025-03-20 13:43:13.155 +05:00 [INF] Handling request: GET /api/roles/GetAll
+2025-03-20 13:43:13.165 +05:00 [INF] ➡️ [START] Handling GetAllRolesQuery | User: Anonymous | IP: ::1 | Request Data: {}
+2025-03-20 13:43:15.478 +05:00 [WRN] ⚠️ [SLOW] GetAllRolesQuery took 2317ms
+2025-03-20 13:43:15.483 +05:00 [INF] ✅ [END] GetAllRolesQuery | Execution Time: 2317ms | Response Data: {
+  "Value": [
+    {
+      "Id": "761a6afc-057d-4226-58bc-08dd44f47560",
+      "Name": "Admin",
+      "Description": "Admin role for Spendwise"
+    },
+    {
+      "Id": "f7137b9f-ee58-4c84-58bd-08dd44f47560",
+      "Name": "User",
+      "Description": "User role for Spendwise"
+    },
+    {
+      "Id": "332f8c1c-2595-4a7e-3f6f-08dd6074177f",
+      "Name": "Guest",
+      "Description": "Guest role for Spendwise"
+    }
+  ],
+  "IsSuccess": true,
+  "Errors": [],
+  "ValidationErrors": {},
+  "Successes": [
+    "Roles has been successfully retrieved.",
+    "The request has succeeded."
+  ]
+}
+2025-03-20 13:43:15.489 +05:00 [INF] Finished handling request.
+2025-03-20 13:43:15.494 +05:00 [INF] HTTP GET /api/roles/GetAll responded 200 in 2342.9458 ms
+2025-03-20 14:40:27.387 +05:00 [INF] Handling request: GET /api/roles/GetAll
+2025-03-20 14:40:27.446 +05:00 [INF] ➡️ [START] Handling GetAllRolesQuery | User: Anonymous | IP: ::1 | Request Data: {}
+2025-03-20 14:40:32.177 +05:00 [WRN] ⚠️ [SLOW] GetAllRolesQuery took 4694ms
+2025-03-20 14:40:32.638 +05:00 [INF] ✅ [END] GetAllRolesQuery | Execution Time: 4694ms | Response Data: {
+  "Value": [
+    {
+      "Id": "761a6afc-057d-4226-58bc-08dd44f47560",
+      "Name": "Admin",
+      "Description": "Admin role for Spendwise"
+    },
+    {
+      "Id": "f7137b9f-ee58-4c84-58bd-08dd44f47560",
+      "Name": "User",
+      "Description": "User role for Spendwise"
+    },
+    {
+      "Id": "332f8c1c-2595-4a7e-3f6f-08dd6074177f",
+      "Name": "Guest",
+      "Description": "Guest role for Spendwise"
+    }
+  ],
+  "IsSuccess": true,
+  "Errors": [],
+  "ValidationErrors": {},
+  "Successes": [
+    "Roles has been successfully retrieved.",
+    "The request has succeeded."
+  ]
+}
+2025-03-20 14:40:32.707 +05:00 [INF] Finished handling request.
+2025-03-20 14:40:33.429 +05:00 [INF] HTTP GET /api/roles/GetAll responded 200 in 6041.9082 ms

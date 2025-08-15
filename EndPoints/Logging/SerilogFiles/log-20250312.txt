@@ -1,0 +1,32 @@
+2025-03-12 15:20:37.844 +05:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-03-12 15:20:37.943 +05:00 [WRN] The foreign key property 'BillDetail.BillId1' was created in shadow state because a conflicting property with the simple name 'BillId' exists in the entity type, but is either not mapped, is already used for another relationship, or is incompatible with the associated primary key type. See https://aka.ms/efcore-relationships for information on mapping relationships in EF Core.
+2025-03-12 15:20:38.022 +05:00 [WRN] No store type was specified for the decimal property 'BillAmount' on entity type 'Bill'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-03-12 15:20:38.029 +05:00 [WRN] No store type was specified for the decimal property 'ShareAmount' on entity type 'BillDetail'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-03-12 15:20:39.804 +05:00 [INF] Email Background Service is running...
+2025-03-12 15:24:02.002 +05:00 [WRN] Failed to determine the https port for redirect.
+2025-03-12 15:24:02.088 +05:00 [INF] Handling request: GET /api/Organizations/GetAll
+2025-03-12 15:24:02.198 +05:00 [ERR] HTTP GET /api/Organizations/GetAll responded 500 in 110.7690 ms
+Shared.Exceptions.UnauthorizedException: Exception of type 'Shared.Exceptions.UnauthorizedException' was thrown.
+   at EndPoints.Infrastructure.Attributes.CustomSpendWiseAuthorizeAttribute.OnAuthorization(AuthorizationFilterContext context) in C:\Users\hussain.saqib\Desktop\Learning\.NET Projects - Learning\ExpenseCalculator\SpendWise - With Identity Server\EndPoints\Infrastructure\Attributes\CustomSpendWiseAuthorizeAttribute.cs:line 35
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Program.<>c.<<<Main>$>b__0_2>d.MoveNext() in C:\Users\hussain.saqib\Desktop\Learning\.NET Projects - Learning\ExpenseCalculator\SpendWise - With Identity Server\EndPoints\Program.cs:line 75
+--- End of stack trace from previous location ---
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2025-03-12 15:24:02.230 +05:00 [ERR] Error in GlobalExceptionHandler at "2025-03-12T15:24:02.2276956+05:00", with status code 401 and exception Shared.Exceptions.UnauthorizedException: Exception of type 'Shared.Exceptions.UnauthorizedException' was thrown.
+   at EndPoints.Infrastructure.Attributes.CustomSpendWiseAuthorizeAttribute.OnAuthorization(AuthorizationFilterContext context) in C:\Users\hussain.saqib\Desktop\Learning\.NET Projects - Learning\ExpenseCalculator\SpendWise - With Identity Server\EndPoints\Infrastructure\Attributes\CustomSpendWiseAuthorizeAttribute.cs:line 35
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Program.<>c.<<<Main>$>b__0_2>d.MoveNext() in C:\Users\hussain.saqib\Desktop\Learning\.NET Projects - Learning\ExpenseCalculator\SpendWise - With Identity Server\EndPoints\Program.cs:line 75
+--- End of stack trace from previous location ---
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Application.Middlewares.RateLimitMiddleware.Invoke(HttpContext context) in C:\Users\hussain.saqib\Desktop\Learning\.NET Projects - Learning\ExpenseCalculator\SpendWise - With Identity Server\Application\Middlewares\RateLimitMiddleware.cs:line 26
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at EndPoints.Infrastructure.Middlewares.GlobalExceptionHandler.Invoke(HttpContext context) in C:\Users\hussain.saqib\Desktop\Learning\.NET Projects - Learning\ExpenseCalculator\SpendWise - With Identity Server\EndPoints\Infrastructure\Middlewares\GlobalExceptionHandler.cs:line 17

@@ -1,0 +1,72 @@
+C:\Users\hussain.saqib\Desktop\Learning\.NET Projects - Learning\ExpenseCalculator\SpendWise - With Identity Server\Yarp.LoadBalancer\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\hussain.saqib\Desktop\Learning\.NET Projects - Learning\ExpenseCalculator\SpendWise - With Identity Server\Yarp.LoadBalancer\bin\Debug\net8.0\appsettings.json
+C:\Users\hussain.saqib\Desktop\Learning\.NET Projects - Learning\ExpenseCalculator\SpendWise - With Identity Server\Yarp.LoadBalancer\bin\Debug\net8.0\Yarp.LoadBalancer.exe
+C:\Users\hussain.saqib\Desktop\Learning\.NET Projects - Learning\ExpenseCalculator\SpendWise - With Identity Server\Yarp.LoadBalancer\bin\Debug\net8.0\Yarp.LoadBalancer.deps.json
+C:\Users\hussain.saqib\Desktop\Learning\.NET Projects - Learning\ExpenseCalculator\SpendWise - With Identity Server\Yarp.LoadBalancer\bin\Debug\net8.0\Yarp.LoadBalancer.runtimeconfig.json
+C:\Users\hussain.saqib\Desktop\Learning\.NET Projects - Learning\ExpenseCalculator\SpendWise - With Identity Server\Yarp.LoadBalancer\bin\Debug\net8.0\Yarp.LoadBalancer.dll
+C:\Users\hussain.saqib\Desktop\Learning\.NET Projects - Learning\ExpenseCalculator\SpendWise - With Identity Server\Yarp.LoadBalancer\bin\Debug\net8.0\Yarp.LoadBalancer.pdb
+C:\Users\hussain.saqib\Desktop\Learning\.NET Projects - Learning\ExpenseCalculator\SpendWise - With Identity Server\Yarp.LoadBalancer\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\hussain.saqib\Desktop\Learning\.NET Projects - Learning\ExpenseCalculator\SpendWise - With Identity Server\Yarp.LoadBalancer\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\hussain.saqib\Desktop\Learning\.NET Projects - Learning\ExpenseCalculator\SpendWise - With Identity Server\Yarp.LoadBalancer\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\hussain.saqib\Desktop\Learning\.NET Projects - Learning\ExpenseCalculator\SpendWise - With Identity Server\Yarp.LoadBalancer\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\hussain.saqib\Desktop\Learning\.NET Projects - Learning\ExpenseCalculator\SpendWise - With Identity Server\Yarp.LoadBalancer\bin\Debug\net8.0\System.IO.Hashing.dll
+C:\Users\hussain.saqib\Desktop\Learning\.NET Projects - Learning\ExpenseCalculator\SpendWise - With Identity Server\Yarp.LoadBalancer\bin\Debug\net8.0\Yarp.ReverseProxy.dll
+C:\Users\hussain.saqib\Desktop\Learning\.NET Projects - Learning\ExpenseCalculator\SpendWise - With Identity Server\Yarp.LoadBalancer\obj\Debug\net8.0\Yarp.LoadBalancer.csproj.AssemblyReference.cache
+C:\Users\hussain.saqib\Desktop\Learning\.NET Projects - Learning\ExpenseCalculator\SpendWise - With Identity Server\Yarp.LoadBalancer\obj\Debug\net8.0\Yarp.LoadBalancer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hussain.saqib\Desktop\Learning\.NET Projects - Learning\ExpenseCalculator\SpendWise - With Identity Server\Yarp.LoadBalancer\obj\Debug\net8.0\Yarp.LoadBalancer.AssemblyInfoInputs.cache
+C:\Users\hussain.saqib\Desktop\Learning\.NET Projects - Learning\ExpenseCalculator\SpendWise - With Identity Server\Yarp.LoadBalancer\obj\Debug\net8.0\Yarp.LoadBalancer.AssemblyInfo.cs
+C:\Users\hussain.saqib\Desktop\Learning\.NET Projects - Learning\ExpenseCalculator\SpendWise - With Identity Server\Yarp.LoadBalancer\obj\Debug\net8.0\Yarp.LoadBalancer.csproj.CoreCompileInputs.cache
+C:\Users\hussain.saqib\Desktop\Learning\.NET Projects - Learning\ExpenseCalculator\SpendWise - With Identity Server\Yarp.LoadBalancer\obj\Debug\net8.0\Yarp.LoadBalancer.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\hussain.saqib\Desktop\Learning\.NET Projects - Learning\ExpenseCalculator\SpendWise - With Identity Server\Yarp.LoadBalancer\obj\Debug\net8.0\Yarp.LoadBalancer.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\hussain.saqib\Desktop\Learning\.NET Projects - Learning\ExpenseCalculator\SpendWise - With Identity Server\Yarp.LoadBalancer\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\hussain.saqib\Desktop\Learning\.NET Projects - Learning\ExpenseCalculator\SpendWise - With Identity Server\Yarp.LoadBalancer\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\hussain.saqib\Desktop\Learning\.NET Projects - Learning\ExpenseCalculator\SpendWise - With Identity Server\Yarp.LoadBalancer\obj\Debug\net8.0\staticwebassets\msbuild.Yarp.LoadBalancer.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\hussain.saqib\Desktop\Learning\.NET Projects - Learning\ExpenseCalculator\SpendWise - With Identity Server\Yarp.LoadBalancer\obj\Debug\net8.0\staticwebassets\msbuild.build.Yarp.LoadBalancer.props
+C:\Users\hussain.saqib\Desktop\Learning\.NET Projects - Learning\ExpenseCalculator\SpendWise - With Identity Server\Yarp.LoadBalancer\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Yarp.LoadBalancer.props
+C:\Users\hussain.saqib\Desktop\Learning\.NET Projects - Learning\ExpenseCalculator\SpendWise - With Identity Server\Yarp.LoadBalancer\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Yarp.LoadBalancer.props
+C:\Users\hussain.saqib\Desktop\Learning\.NET Projects - Learning\ExpenseCalculator\SpendWise - With Identity Server\Yarp.LoadBalancer\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\hussain.saqib\Desktop\Learning\.NET Projects - Learning\ExpenseCalculator\SpendWise - With Identity Server\Yarp.LoadBalancer\obj\Debug\net8.0\scopedcss\bundle\Yarp.LoadBalancer.styles.css
+C:\Users\hussain.saqib\Desktop\Learning\.NET Projects - Learning\ExpenseCalculator\SpendWise - With Identity Server\Yarp.LoadBalancer\obj\Debug\net8.0\Yarp.Loa.85D1F344.Up2Date
+C:\Users\hussain.saqib\Desktop\Learning\.NET Projects - Learning\ExpenseCalculator\SpendWise - With Identity Server\Yarp.LoadBalancer\obj\Debug\net8.0\Yarp.LoadBalancer.dll
+C:\Users\hussain.saqib\Desktop\Learning\.NET Projects - Learning\ExpenseCalculator\SpendWise - With Identity Server\Yarp.LoadBalancer\obj\Debug\net8.0\refint\Yarp.LoadBalancer.dll
+C:\Users\hussain.saqib\Desktop\Learning\.NET Projects - Learning\ExpenseCalculator\SpendWise - With Identity Server\Yarp.LoadBalancer\obj\Debug\net8.0\Yarp.LoadBalancer.pdb
+C:\Users\hussain.saqib\Desktop\Learning\.NET Projects - Learning\ExpenseCalculator\SpendWise - With Identity Server\Yarp.LoadBalancer\obj\Debug\net8.0\Yarp.LoadBalancer.genruntimeconfig.cache
+C:\Users\hussain.saqib\Desktop\Learning\.NET Projects - Learning\ExpenseCalculator\SpendWise - With Identity Server\Yarp.LoadBalancer\obj\Debug\net8.0\ref\Yarp.LoadBalancer.dll
+D:\Work\C#\Advance Architectures\SpendWise\Yarp.LoadBalancer\bin\Debug\net8.0\appsettings.Development.json
+D:\Work\C#\Advance Architectures\SpendWise\Yarp.LoadBalancer\bin\Debug\net8.0\appsettings.json
+D:\Work\C#\Advance Architectures\SpendWise\Yarp.LoadBalancer\bin\Debug\net8.0\Yarp.LoadBalancer.staticwebassets.endpoints.json
+D:\Work\C#\Advance Architectures\SpendWise\Yarp.LoadBalancer\bin\Debug\net8.0\Yarp.LoadBalancer.exe
+D:\Work\C#\Advance Architectures\SpendWise\Yarp.LoadBalancer\bin\Debug\net8.0\Yarp.LoadBalancer.deps.json
+D:\Work\C#\Advance Architectures\SpendWise\Yarp.LoadBalancer\bin\Debug\net8.0\Yarp.LoadBalancer.runtimeconfig.json
+D:\Work\C#\Advance Architectures\SpendWise\Yarp.LoadBalancer\bin\Debug\net8.0\Yarp.LoadBalancer.dll
+D:\Work\C#\Advance Architectures\SpendWise\Yarp.LoadBalancer\bin\Debug\net8.0\Yarp.LoadBalancer.pdb
+D:\Work\C#\Advance Architectures\SpendWise\Yarp.LoadBalancer\bin\Debug\net8.0\Microsoft.OpenApi.dll
+D:\Work\C#\Advance Architectures\SpendWise\Yarp.LoadBalancer\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Work\C#\Advance Architectures\SpendWise\Yarp.LoadBalancer\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Work\C#\Advance Architectures\SpendWise\Yarp.LoadBalancer\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Work\C#\Advance Architectures\SpendWise\Yarp.LoadBalancer\bin\Debug\net8.0\System.IO.Hashing.dll
+D:\Work\C#\Advance Architectures\SpendWise\Yarp.LoadBalancer\bin\Debug\net8.0\Yarp.ReverseProxy.dll
+D:\Work\C#\Advance Architectures\SpendWise\Yarp.LoadBalancer\obj\Debug\net8.0\Yarp.LoadBalancer.csproj.AssemblyReference.cache
+D:\Work\C#\Advance Architectures\SpendWise\Yarp.LoadBalancer\obj\Debug\net8.0\Yarp.LoadBalancer.GeneratedMSBuildEditorConfig.editorconfig
+D:\Work\C#\Advance Architectures\SpendWise\Yarp.LoadBalancer\obj\Debug\net8.0\Yarp.LoadBalancer.AssemblyInfoInputs.cache
+D:\Work\C#\Advance Architectures\SpendWise\Yarp.LoadBalancer\obj\Debug\net8.0\Yarp.LoadBalancer.AssemblyInfo.cs
+D:\Work\C#\Advance Architectures\SpendWise\Yarp.LoadBalancer\obj\Debug\net8.0\Yarp.LoadBalancer.csproj.CoreCompileInputs.cache
+D:\Work\C#\Advance Architectures\SpendWise\Yarp.LoadBalancer\obj\Debug\net8.0\Yarp.LoadBalancer.MvcApplicationPartsAssemblyInfo.cs
+D:\Work\C#\Advance Architectures\SpendWise\Yarp.LoadBalancer\obj\Debug\net8.0\Yarp.LoadBalancer.MvcApplicationPartsAssemblyInfo.cache
+D:\Work\C#\Advance Architectures\SpendWise\Yarp.LoadBalancer\obj\Debug\net8.0\scopedcss\bundle\Yarp.LoadBalancer.styles.css
+D:\Work\C#\Advance Architectures\SpendWise\Yarp.LoadBalancer\obj\Debug\net8.0\staticwebassets.build.json
+D:\Work\C#\Advance Architectures\SpendWise\Yarp.LoadBalancer\obj\Debug\net8.0\staticwebassets.development.json
+D:\Work\C#\Advance Architectures\SpendWise\Yarp.LoadBalancer\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+D:\Work\C#\Advance Architectures\SpendWise\Yarp.LoadBalancer\obj\Debug\net8.0\staticwebassets\msbuild.Yarp.LoadBalancer.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Work\C#\Advance Architectures\SpendWise\Yarp.LoadBalancer\obj\Debug\net8.0\staticwebassets\msbuild.Yarp.LoadBalancer.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+D:\Work\C#\Advance Architectures\SpendWise\Yarp.LoadBalancer\obj\Debug\net8.0\staticwebassets\msbuild.build.Yarp.LoadBalancer.props
+D:\Work\C#\Advance Architectures\SpendWise\Yarp.LoadBalancer\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Yarp.LoadBalancer.props
+D:\Work\C#\Advance Architectures\SpendWise\Yarp.LoadBalancer\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Yarp.LoadBalancer.props
+D:\Work\C#\Advance Architectures\SpendWise\Yarp.LoadBalancer\obj\Debug\net8.0\staticwebassets.pack.json
+D:\Work\C#\Advance Architectures\SpendWise\Yarp.LoadBalancer\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+D:\Work\C#\Advance Architectures\SpendWise\Yarp.LoadBalancer\obj\Debug\net8.0\Yarp.Loa.85D1F344.Up2Date
+D:\Work\C#\Advance Architectures\SpendWise\Yarp.LoadBalancer\obj\Debug\net8.0\Yarp.LoadBalancer.dll
+D:\Work\C#\Advance Architectures\SpendWise\Yarp.LoadBalancer\obj\Debug\net8.0\refint\Yarp.LoadBalancer.dll
+D:\Work\C#\Advance Architectures\SpendWise\Yarp.LoadBalancer\obj\Debug\net8.0\Yarp.LoadBalancer.pdb
+D:\Work\C#\Advance Architectures\SpendWise\Yarp.LoadBalancer\obj\Debug\net8.0\Yarp.LoadBalancer.genruntimeconfig.cache
+D:\Work\C#\Advance Architectures\SpendWise\Yarp.LoadBalancer\obj\Debug\net8.0\ref\Yarp.LoadBalancer.dll

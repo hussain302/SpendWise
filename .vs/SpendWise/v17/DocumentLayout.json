@@ -1,0 +1,417 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Work\\C#\\Advance Architectures\\SpendWise\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CD4B3A72-8704-46B3-8994-909DFCF4423F}|Application\\Application.csproj|d:\\work\\c#\\advance architectures\\spendwise\\application\\features\\expenditure\\bills\\commands\\addedit\\addeditbillcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD4B3A72-8704-46B3-8994-909DFCF4423F}|Application\\Application.csproj|solutionrelative:application\\features\\expenditure\\bills\\commands\\addedit\\addeditbillcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6039742A-0816-417B-B2B0-34E6B6DB59D0}|EndPoints\\EndPoints.csproj|d:\\work\\c#\\advance architectures\\spendwise\\endpoints\\controllers\\security\\users\\v1\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6039742A-0816-417B-B2B0-34E6B6DB59D0}|EndPoints\\EndPoints.csproj|solutionrelative:endpoints\\controllers\\security\\users\\v1\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5DC452C-D30D-4AAB-9166-9CD28226DB09}|Domain\\Domain.csproj|d:\\work\\c#\\advance architectures\\spendwise\\domain\\extensions\\addressextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5DC452C-D30D-4AAB-9166-9CD28226DB09}|Domain\\Domain.csproj|solutionrelative:domain\\extensions\\addressextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5DC452C-D30D-4AAB-9166-9CD28226DB09}|Domain\\Domain.csproj|d:\\work\\c#\\advance architectures\\spendwise\\domain\\extensions\\genderextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5DC452C-D30D-4AAB-9166-9CD28226DB09}|Domain\\Domain.csproj|solutionrelative:domain\\extensions\\genderextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5DC452C-D30D-4AAB-9166-9CD28226DB09}|Domain\\Domain.csproj|d:\\work\\c#\\advance architectures\\spendwise\\domain\\entities\\security\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5DC452C-D30D-4AAB-9166-9CD28226DB09}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\security\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5DC452C-D30D-4AAB-9166-9CD28226DB09}|Domain\\Domain.csproj|d:\\work\\c#\\advance architectures\\spendwise\\domain\\entities\\security\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5DC452C-D30D-4AAB-9166-9CD28226DB09}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\security\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49075F03-198E-4DAE-A735-216099FEC1D4}|Infrastructure\\Infrastructure.csproj|d:\\work\\c#\\advance architectures\\spendwise\\infrastructure\\implementations\\persistence\\contexts\\seeding\\identityseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49075F03-198E-4DAE-A735-216099FEC1D4}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\implementations\\persistence\\contexts\\seeding\\identityseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6039742A-0816-417B-B2B0-34E6B6DB59D0}|EndPoints\\EndPoints.csproj|d:\\work\\c#\\advance architectures\\spendwise\\endpoints\\controllers\\expenditure\\bills\\v1\\billscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6039742A-0816-417B-B2B0-34E6B6DB59D0}|EndPoints\\EndPoints.csproj|solutionrelative:endpoints\\controllers\\expenditure\\bills\\v1\\billscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD4B3A72-8704-46B3-8994-909DFCF4423F}|Application\\Application.csproj|d:\\work\\c#\\advance architectures\\spendwise\\application\\features\\security\\identity\\commands\\activateuser\\activateusercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD4B3A72-8704-46B3-8994-909DFCF4423F}|Application\\Application.csproj|solutionrelative:application\\features\\security\\identity\\commands\\activateuser\\activateusercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49075F03-198E-4DAE-A735-216099FEC1D4}|Infrastructure\\Infrastructure.csproj|d:\\work\\c#\\advance architectures\\spendwise\\infrastructure\\implementations\\persistence\\repositories\\security\\rolesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49075F03-198E-4DAE-A735-216099FEC1D4}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\implementations\\persistence\\repositories\\security\\rolesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6039742A-0816-417B-B2B0-34E6B6DB59D0}|EndPoints\\EndPoints.csproj|d:\\work\\c#\\advance architectures\\spendwise\\endpoints\\controllers\\ownership\\organizations\\v1\\organizationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6039742A-0816-417B-B2B0-34E6B6DB59D0}|EndPoints\\EndPoints.csproj|solutionrelative:endpoints\\controllers\\ownership\\organizations\\v1\\organizationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49075F03-198E-4DAE-A735-216099FEC1D4}|Infrastructure\\Infrastructure.csproj|d:\\work\\c#\\advance architectures\\spendwise\\infrastructure\\implementations\\persistence\\repositories\\readonlyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49075F03-198E-4DAE-A735-216099FEC1D4}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\implementations\\persistence\\repositories\\readonlyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49075F03-198E-4DAE-A735-216099FEC1D4}|Infrastructure\\Infrastructure.csproj|d:\\work\\c#\\advance architectures\\spendwise\\infrastructure\\implementations\\persistence\\repositories\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49075F03-198E-4DAE-A735-216099FEC1D4}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\implementations\\persistence\\repositories\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49075F03-198E-4DAE-A735-216099FEC1D4}|Infrastructure\\Infrastructure.csproj|d:\\work\\c#\\advance architectures\\spendwise\\infrastructure\\extentions\\servicecollectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49075F03-198E-4DAE-A735-216099FEC1D4}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\extentions\\servicecollectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6039742A-0816-417B-B2B0-34E6B6DB59D0}|EndPoints\\EndPoints.csproj|d:\\work\\c#\\advance architectures\\spendwise\\endpoints\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6039742A-0816-417B-B2B0-34E6B6DB59D0}|EndPoints\\EndPoints.csproj|solutionrelative:endpoints\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6039742A-0816-417B-B2B0-34E6B6DB59D0}|EndPoints\\EndPoints.csproj|d:\\work\\c#\\advance architectures\\spendwise\\endpoints\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{6039742A-0816-417B-B2B0-34E6B6DB59D0}|EndPoints\\EndPoints.csproj|solutionrelative:endpoints\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49075F03-198E-4DAE-A735-216099FEC1D4}|Infrastructure\\Infrastructure.csproj|d:\\work\\c#\\advance architectures\\spendwise\\infrastructure\\implementations\\persistence\\contexts\\dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49075F03-198E-4DAE-A735-216099FEC1D4}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\implementations\\persistence\\contexts\\dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49075F03-198E-4DAE-A735-216099FEC1D4}|Infrastructure\\Infrastructure.csproj|d:\\work\\c#\\advance architectures\\spendwise\\infrastructure\\implementations\\persistence\\contexts\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49075F03-198E-4DAE-A735-216099FEC1D4}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\implementations\\persistence\\contexts\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5DC452C-D30D-4AAB-9166-9CD28226DB09}|Domain\\Domain.csproj|d:\\work\\c#\\advance architectures\\spendwise\\domain\\interfaces\\repositories\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5DC452C-D30D-4AAB-9166-9CD28226DB09}|Domain\\Domain.csproj|solutionrelative:domain\\interfaces\\repositories\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5DC452C-D30D-4AAB-9166-9CD28226DB09}|Domain\\Domain.csproj|d:\\work\\c#\\advance architectures\\spendwise\\domain\\interfaces\\repositories\\ireadonlyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5DC452C-D30D-4AAB-9166-9CD28226DB09}|Domain\\Domain.csproj|solutionrelative:domain\\interfaces\\repositories\\ireadonlyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5DC452C-D30D-4AAB-9166-9CD28226DB09}|Domain\\Domain.csproj|d:\\work\\c#\\advance architectures\\spendwise\\domain\\contracts\\auditableentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5DC452C-D30D-4AAB-9166-9CD28226DB09}|Domain\\Domain.csproj|solutionrelative:domain\\contracts\\auditableentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD4B3A72-8704-46B3-8994-909DFCF4423F}|Application\\Application.csproj|d:\\work\\c#\\advance architectures\\spendwise\\application\\features\\security\\roles\\commands\\addedit\\addeditrolecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD4B3A72-8704-46B3-8994-909DFCF4423F}|Application\\Application.csproj|solutionrelative:application\\features\\security\\roles\\commands\\addedit\\addeditrolecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD4B3A72-8704-46B3-8994-909DFCF4423F}|Application\\Application.csproj|d:\\work\\c#\\advance architectures\\spendwise\\application\\features\\security\\identity\\commands\\login\\logincommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD4B3A72-8704-46B3-8994-909DFCF4423F}|Application\\Application.csproj|solutionrelative:application\\features\\security\\identity\\commands\\login\\logincommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD4B3A72-8704-46B3-8994-909DFCF4423F}|Application\\Application.csproj|d:\\work\\c#\\advance architectures\\spendwise\\application\\features\\security\\identity\\commands\\confirmemail\\confirmemailcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD4B3A72-8704-46B3-8994-909DFCF4423F}|Application\\Application.csproj|solutionrelative:application\\features\\security\\identity\\commands\\confirmemail\\confirmemailcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AddEditBillCommand.cs",
+              "DocumentMoniker": "D:\\Work\\C#\\Advance Architectures\\SpendWise\\Application\\Features\\Expenditure\\Bills\\Commands\\AddEdit\\AddEditBillCommand.cs",
+              "RelativeDocumentMoniker": "Application\\Features\\Expenditure\\Bills\\Commands\\AddEdit\\AddEditBillCommand.cs",
+              "ToolTip": "D:\\Work\\C#\\Advance Architectures\\SpendWise\\Application\\Features\\Expenditure\\Bills\\Commands\\AddEdit\\AddEditBillCommand.cs",
+              "RelativeToolTip": "Application\\Features\\Expenditure\\Bills\\Commands\\AddEdit\\AddEditBillCommand.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAkwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-12T17:42:02.429Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "BillsController.cs",
+              "DocumentMoniker": "D:\\Work\\C#\\Advance Architectures\\SpendWise\\EndPoints\\Controllers\\Expenditure\\Bills\\v1\\BillsController.cs",
+              "RelativeDocumentMoniker": "EndPoints\\Controllers\\Expenditure\\Bills\\v1\\BillsController.cs",
+              "ToolTip": "D:\\Work\\C#\\Advance Architectures\\SpendWise\\EndPoints\\Controllers\\Expenditure\\Bills\\v1\\BillsController.cs",
+              "RelativeToolTip": "EndPoints\\Controllers\\Expenditure\\Bills\\v1\\BillsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-12T17:41:42.802Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "D:\\Work\\C#\\Advance Architectures\\SpendWise\\EndPoints\\Controllers\\Security\\Users\\v1\\UserController.cs",
+              "RelativeDocumentMoniker": "EndPoints\\Controllers\\Security\\Users\\v1\\UserController.cs",
+              "ToolTip": "D:\\Work\\C#\\Advance Architectures\\SpendWise\\EndPoints\\Controllers\\Security\\Users\\v1\\UserController.cs",
+              "RelativeToolTip": "EndPoints\\Controllers\\Security\\Users\\v1\\UserController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T07:01:34.642Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AddressExtensions.cs",
+              "DocumentMoniker": "D:\\Work\\C#\\Advance Architectures\\SpendWise\\Domain\\Extensions\\AddressExtensions.cs",
+              "RelativeDocumentMoniker": "Domain\\Extensions\\AddressExtensions.cs",
+              "ToolTip": "D:\\Work\\C#\\Advance Architectures\\SpendWise\\Domain\\Extensions\\AddressExtensions.cs",
+              "RelativeToolTip": "Domain\\Extensions\\AddressExtensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T17:24:52.727Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GenderExtensions.cs",
+              "DocumentMoniker": "D:\\Work\\C#\\Advance Architectures\\SpendWise\\Domain\\Extensions\\GenderExtensions.cs",
+              "RelativeDocumentMoniker": "Domain\\Extensions\\GenderExtensions.cs",
+              "ToolTip": "D:\\Work\\C#\\Advance Architectures\\SpendWise\\Domain\\Extensions\\GenderExtensions.cs",
+              "RelativeToolTip": "Domain\\Extensions\\GenderExtensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T17:24:48.903Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "D:\\Work\\C#\\Advance Architectures\\SpendWise\\Domain\\Entities\\Security\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\Security\\ApplicationUser.cs",
+              "ToolTip": "D:\\Work\\C#\\Advance Architectures\\SpendWise\\Domain\\Entities\\Security\\ApplicationUser.cs",
+              "RelativeToolTip": "Domain\\Entities\\Security\\ApplicationUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T17:22:58.375Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\Work\\C#\\Advance Architectures\\SpendWise\\Domain\\Entities\\Security\\User.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\Security\\User.cs",
+              "ToolTip": "D:\\Work\\C#\\Advance Architectures\\SpendWise\\Domain\\Entities\\Security\\User.cs",
+              "RelativeToolTip": "Domain\\Entities\\Security\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T17:22:56.471Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IdentitySeeder.cs",
+              "DocumentMoniker": "D:\\Work\\C#\\Advance Architectures\\SpendWise\\Infrastructure\\Implementations\\Persistence\\Contexts\\Seeding\\IdentitySeeder.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Implementations\\Persistence\\Contexts\\Seeding\\IdentitySeeder.cs",
+              "ToolTip": "D:\\Work\\C#\\Advance Architectures\\SpendWise\\Infrastructure\\Implementations\\Persistence\\Contexts\\Seeding\\IdentitySeeder.cs",
+              "RelativeToolTip": "Infrastructure\\Implementations\\Persistence\\Contexts\\Seeding\\IdentitySeeder.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAsAAABeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T18:27:13.552Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ActivateUserCommand.cs",
+              "DocumentMoniker": "D:\\Work\\C#\\Advance Architectures\\SpendWise\\Application\\Features\\Security\\Identity\\Commands\\ActivateUser\\ActivateUserCommand.cs",
+              "RelativeDocumentMoniker": "Application\\Features\\Security\\Identity\\Commands\\ActivateUser\\ActivateUserCommand.cs",
+              "ToolTip": "D:\\Work\\C#\\Advance Architectures\\SpendWise\\Application\\Features\\Security\\Identity\\Commands\\ActivateUser\\ActivateUserCommand.cs",
+              "RelativeToolTip": "Application\\Features\\Security\\Identity\\Commands\\ActivateUser\\ActivateUserCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T18:18:45.383Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "OrganizationsController.cs",
+              "DocumentMoniker": "D:\\Work\\C#\\Advance Architectures\\SpendWise\\EndPoints\\Controllers\\Ownership\\Organizations\\v1\\OrganizationsController.cs",
+              "RelativeDocumentMoniker": "EndPoints\\Controllers\\Ownership\\Organizations\\v1\\OrganizationsController.cs",
+              "ToolTip": "D:\\Work\\C#\\Advance Architectures\\SpendWise\\EndPoints\\Controllers\\Ownership\\Organizations\\v1\\OrganizationsController.cs",
+              "RelativeToolTip": "EndPoints\\Controllers\\Ownership\\Organizations\\v1\\OrganizationsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T17:54:42.037Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ReadOnlyRepository.cs",
+              "DocumentMoniker": "D:\\Work\\C#\\Advance Architectures\\SpendWise\\Infrastructure\\Implementations\\Persistence\\Repositories\\ReadOnlyRepository.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Implementations\\Persistence\\Repositories\\ReadOnlyRepository.cs",
+              "ToolTip": "D:\\Work\\C#\\Advance Architectures\\SpendWise\\Infrastructure\\Implementations\\Persistence\\Repositories\\ReadOnlyRepository.cs",
+              "RelativeToolTip": "Infrastructure\\Implementations\\Persistence\\Repositories\\ReadOnlyRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T18:30:33.257Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Repository.cs",
+              "DocumentMoniker": "D:\\Work\\C#\\Advance Architectures\\SpendWise\\Infrastructure\\Implementations\\Persistence\\Repositories\\Repository.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Implementations\\Persistence\\Repositories\\Repository.cs",
+              "ToolTip": "D:\\Work\\C#\\Advance Architectures\\SpendWise\\Infrastructure\\Implementations\\Persistence\\Repositories\\Repository.cs",
+              "RelativeToolTip": "Infrastructure\\Implementations\\Persistence\\Repositories\\Repository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T18:30:34.447Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "IRepository.cs",
+              "DocumentMoniker": "D:\\Work\\C#\\Advance Architectures\\SpendWise\\Domain\\Interfaces\\Repositories\\IRepository.cs",
+              "RelativeDocumentMoniker": "Domain\\Interfaces\\Repositories\\IRepository.cs",
+              "ToolTip": "D:\\Work\\C#\\Advance Architectures\\SpendWise\\Domain\\Interfaces\\Repositories\\IRepository.cs",
+              "RelativeToolTip": "Domain\\Interfaces\\Repositories\\IRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T17:25:03.511Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "RolesRepository.cs",
+              "DocumentMoniker": "D:\\Work\\C#\\Advance Architectures\\SpendWise\\Infrastructure\\Implementations\\Persistence\\Repositories\\Security\\RolesRepository.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Implementations\\Persistence\\Repositories\\Security\\RolesRepository.cs",
+              "ToolTip": "D:\\Work\\C#\\Advance Architectures\\SpendWise\\Infrastructure\\Implementations\\Persistence\\Repositories\\Security\\RolesRepository.cs",
+              "RelativeToolTip": "Infrastructure\\Implementations\\Persistence\\Repositories\\Security\\RolesRepository.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAIwFgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T18:24:27.24Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ServiceCollectionExtensions.cs",
+              "DocumentMoniker": "D:\\Work\\C#\\Advance Architectures\\SpendWise\\Infrastructure\\Extentions\\ServiceCollectionExtensions.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Extentions\\ServiceCollectionExtensions.cs",
+              "ToolTip": "D:\\Work\\C#\\Advance Architectures\\SpendWise\\Infrastructure\\Extentions\\ServiceCollectionExtensions.cs",
+              "RelativeToolTip": "Infrastructure\\Extentions\\ServiceCollectionExtensions.cs",
+              "ViewState": "AgIAAGMAAAAAAAAAAAA6wHEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T17:38:35.718Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Work\\C#\\Advance Architectures\\SpendWise\\EndPoints\\appsettings.json",
+              "RelativeDocumentMoniker": "EndPoints\\appsettings.json",
+              "ToolTip": "D:\\Work\\C#\\Advance Architectures\\SpendWise\\EndPoints\\appsettings.json",
+              "RelativeToolTip": "EndPoints\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-12T18:40:01.015Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Work\\C#\\Advance Architectures\\SpendWise\\EndPoints\\Program.cs",
+              "RelativeDocumentMoniker": "EndPoints\\Program.cs",
+              "ToolTip": "D:\\Work\\C#\\Advance Architectures\\SpendWise\\EndPoints\\Program.cs",
+              "RelativeToolTip": "EndPoints\\Program.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAApwFMAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T18:40:40.383Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "IReadOnlyRepository.cs",
+              "DocumentMoniker": "D:\\Work\\C#\\Advance Architectures\\SpendWise\\Domain\\Interfaces\\Repositories\\IReadOnlyRepository.cs",
+              "RelativeDocumentMoniker": "Domain\\Interfaces\\Repositories\\IReadOnlyRepository.cs",
+              "ToolTip": "D:\\Work\\C#\\Advance Architectures\\SpendWise\\Domain\\Interfaces\\Repositories\\IReadOnlyRepository.cs",
+              "RelativeToolTip": "Domain\\Interfaces\\Repositories\\IReadOnlyRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T17:28:02.992Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "AuditableEntity.cs",
+              "DocumentMoniker": "D:\\Work\\C#\\Advance Architectures\\SpendWise\\Domain\\Contracts\\AuditableEntity.cs",
+              "RelativeDocumentMoniker": "Domain\\Contracts\\AuditableEntity.cs",
+              "ToolTip": "D:\\Work\\C#\\Advance Architectures\\SpendWise\\Domain\\Contracts\\AuditableEntity.cs",
+              "RelativeToolTip": "Domain\\Contracts\\AuditableEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T17:19:56.563Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "AppDBContext.cs",
+              "DocumentMoniker": "D:\\Work\\C#\\Advance Architectures\\SpendWise\\Infrastructure\\Implementations\\Persistence\\Contexts\\AppDBContext.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Implementations\\Persistence\\Contexts\\AppDBContext.cs",
+              "ToolTip": "D:\\Work\\C#\\Advance Architectures\\SpendWise\\Infrastructure\\Implementations\\Persistence\\Contexts\\AppDBContext.cs",
+              "RelativeToolTip": "Infrastructure\\Implementations\\Persistence\\Contexts\\AppDBContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T18:25:02.184Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "DBContext.cs",
+              "DocumentMoniker": "D:\\Work\\C#\\Advance Architectures\\SpendWise\\Infrastructure\\Implementations\\Persistence\\Contexts\\DBContext.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Implementations\\Persistence\\Contexts\\DBContext.cs",
+              "ToolTip": "D:\\Work\\C#\\Advance Architectures\\SpendWise\\Infrastructure\\Implementations\\Persistence\\Contexts\\DBContext.cs",
+              "RelativeToolTip": "Infrastructure\\Implementations\\Persistence\\Contexts\\DBContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T18:25:04.881Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "AddEditRoleCommand.cs",
+              "DocumentMoniker": "D:\\Work\\C#\\Advance Architectures\\SpendWise\\Application\\Features\\Security\\Roles\\Commands\\AddEdit\\AddEditRoleCommand.cs",
+              "RelativeDocumentMoniker": "Application\\Features\\Security\\Roles\\Commands\\AddEdit\\AddEditRoleCommand.cs",
+              "ToolTip": "D:\\Work\\C#\\Advance Architectures\\SpendWise\\Application\\Features\\Security\\Roles\\Commands\\AddEdit\\AddEditRoleCommand.cs",
+              "RelativeToolTip": "Application\\Features\\Security\\Roles\\Commands\\AddEdit\\AddEditRoleCommand.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAA5wBgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T18:18:56.983Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "LoginCommand.cs",
+              "DocumentMoniker": "D:\\Work\\C#\\Advance Architectures\\SpendWise\\Application\\Features\\Security\\Identity\\Commands\\Login\\LoginCommand.cs",
+              "RelativeDocumentMoniker": "Application\\Features\\Security\\Identity\\Commands\\Login\\LoginCommand.cs",
+              "ToolTip": "D:\\Work\\C#\\Advance Architectures\\SpendWise\\Application\\Features\\Security\\Identity\\Commands\\Login\\LoginCommand.cs",
+              "RelativeToolTip": "Application\\Features\\Security\\Identity\\Commands\\Login\\LoginCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T18:18:49.383Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "ConfirmEmailCommand.cs",
+              "DocumentMoniker": "D:\\Work\\C#\\Advance Architectures\\SpendWise\\Application\\Features\\Security\\Identity\\Commands\\ConfirmEmail\\ConfirmEmailCommand.cs",
+              "RelativeDocumentMoniker": "Application\\Features\\Security\\Identity\\Commands\\ConfirmEmail\\ConfirmEmailCommand.cs",
+              "ToolTip": "D:\\Work\\C#\\Advance Architectures\\SpendWise\\Application\\Features\\Security\\Identity\\Commands\\ConfirmEmail\\ConfirmEmailCommand.cs",
+              "RelativeToolTip": "Application\\Features\\Security\\Identity\\Commands\\ConfirmEmail\\ConfirmEmailCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T18:18:48.191Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

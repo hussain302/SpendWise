@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "70aNyZ9i+wL6PXfHLpRdUwKZa475UfmQgvwjtNUclOQ=",
+  "Source": "EndPoints",
+  "BasePath": "_content/EndPoints",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

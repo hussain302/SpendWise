@@ -1,0 +1,620 @@
+2025-02-26 13:23:20.211 +05:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-02-26 13:23:20.528 +05:00 [WRN] The foreign key property 'BillDetail.BillId1' was created in shadow state because a conflicting property with the simple name 'BillId' exists in the entity type, but is either not mapped, is already used for another relationship, or is incompatible with the associated primary key type. See https://aka.ms/efcore-relationships for information on mapping relationships in EF Core.
+2025-02-26 13:23:20.713 +05:00 [WRN] No store type was specified for the decimal property 'BillAmount' on entity type 'Bill'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-02-26 13:23:20.763 +05:00 [WRN] No store type was specified for the decimal property 'ShareAmount' on entity type 'BillDetail'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-02-26 13:23:33.709 +05:00 [WRN] Failed to determine the https port for redirect.
+2025-02-26 13:23:33.924 +05:00 [INF] Handling request: GET /openapi/scalar/docs/
+2025-02-26 13:23:34.184 +05:00 [INF] Finished handling request.
+2025-02-26 13:23:34.246 +05:00 [INF] Handling request: GET /openapi/scalar/docs/scalar.js
+2025-02-26 13:23:34.243 +05:00 [INF] Handling request: GET /openapi/scalar/docs/scalar.aspnetcore.js
+2025-02-26 13:23:34.297 +05:00 [INF] HTTP GET /openapi/scalar/docs/ responded 200 in 362.4032 ms
+2025-02-26 13:23:34.342 +05:00 [INF] Finished handling request.
+2025-02-26 13:23:34.342 +05:00 [INF] Finished handling request.
+2025-02-26 13:23:34.351 +05:00 [INF] HTTP GET /openapi/scalar/docs/scalar.js responded 304 in 104.7941 ms
+2025-02-26 13:23:34.353 +05:00 [INF] HTTP GET /openapi/scalar/docs/scalar.aspnetcore.js responded 304 in 110.0567 ms
+2025-02-26 16:26:32.751 +05:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-02-26 16:26:32.883 +05:00 [WRN] The foreign key property 'BillDetail.BillId1' was created in shadow state because a conflicting property with the simple name 'BillId' exists in the entity type, but is either not mapped, is already used for another relationship, or is incompatible with the associated primary key type. See https://aka.ms/efcore-relationships for information on mapping relationships in EF Core.
+2025-02-26 16:26:32.927 +05:00 [WRN] No store type was specified for the decimal property 'BillAmount' on entity type 'Bill'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-02-26 16:26:32.940 +05:00 [WRN] No store type was specified for the decimal property 'ShareAmount' on entity type 'BillDetail'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-02-26 16:26:37.811 +05:00 [INF] Email Background Service is running...
+2025-02-26 16:26:43.921 +05:00 [INF] ✅ No pending email confirmations.
+2025-02-26 16:26:47.035 +05:00 [WRN] Failed to determine the https port for redirect.
+2025-02-26 16:26:47.171 +05:00 [INF] Handling request: GET /openapi/scalar/docs/
+2025-02-26 16:26:47.327 +05:00 [INF] Finished handling request.
+2025-02-26 16:26:47.347 +05:00 [INF] Handling request: GET /openapi/scalar/docs/scalar.js
+2025-02-26 16:26:47.347 +05:00 [INF] Handling request: GET /openapi/scalar/docs/scalar.aspnetcore.js
+2025-02-26 16:26:47.376 +05:00 [INF] HTTP GET /openapi/scalar/docs/ responded 200 in 202.0660 ms
+2025-02-26 16:26:47.396 +05:00 [INF] Finished handling request.
+2025-02-26 16:26:47.396 +05:00 [INF] Finished handling request.
+2025-02-26 16:26:47.403 +05:00 [INF] HTTP GET /openapi/scalar/docs/scalar.js responded 304 in 56.3739 ms
+2025-02-26 16:26:47.405 +05:00 [INF] HTTP GET /openapi/scalar/docs/scalar.aspnetcore.js responded 304 in 57.7703 ms
+2025-02-26 16:28:34.981 +05:00 [INF] Handling request: GET /openapi/scalar/docs/
+2025-02-26 16:28:34.998 +05:00 [INF] Finished handling request.
+2025-02-26 16:28:35.007 +05:00 [INF] HTTP GET /openapi/scalar/docs/ responded 200 in 25.5105 ms
+2025-02-26 16:28:35.034 +05:00 [INF] Handling request: GET /openapi/scalar/docs/scalar.js
+2025-02-26 16:28:35.035 +05:00 [INF] Handling request: GET /openapi/scalar/docs/scalar.aspnetcore.js
+2025-02-26 16:28:35.059 +05:00 [INF] Finished handling request.
+2025-02-26 16:28:35.061 +05:00 [INF] Finished handling request.
+2025-02-26 16:28:35.068 +05:00 [INF] HTTP GET /openapi/scalar/docs/scalar.js responded 304 in 34.5129 ms
+2025-02-26 16:28:35.073 +05:00 [INF] HTTP GET /openapi/scalar/docs/scalar.aspnetcore.js responded 304 in 37.2510 ms
+2025-02-26 16:28:44.250 +05:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-02-26 16:28:44.374 +05:00 [WRN] The foreign key property 'BillDetail.BillId1' was created in shadow state because a conflicting property with the simple name 'BillId' exists in the entity type, but is either not mapped, is already used for another relationship, or is incompatible with the associated primary key type. See https://aka.ms/efcore-relationships for information on mapping relationships in EF Core.
+2025-02-26 16:28:44.466 +05:00 [WRN] No store type was specified for the decimal property 'BillAmount' on entity type 'Bill'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-02-26 16:28:44.475 +05:00 [WRN] No store type was specified for the decimal property 'ShareAmount' on entity type 'BillDetail'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-02-26 16:28:48.328 +05:00 [INF] Email Background Service is running...
+2025-02-26 16:28:51.810 +05:00 [INF] 📢 Found 1 users to notify!
+2025-02-26 16:28:57.163 +05:00 [INF] 📧 Email sent to hussain.user1@spendwise.com
+2025-02-26 16:29:01.092 +05:00 [WRN] Failed to determine the https port for redirect.
+2025-02-26 16:29:01.213 +05:00 [INF] Handling request: GET /openapi/scalar/docs/
+2025-02-26 16:29:01.478 +05:00 [INF] Finished handling request.
+2025-02-26 16:29:01.490 +05:00 [INF] HTTP GET /openapi/scalar/docs/ responded 200 in 273.2222 ms
+2025-02-26 16:29:01.500 +05:00 [INF] Handling request: GET /openapi/scalar/docs/scalar.aspnetcore.js
+2025-02-26 16:29:01.500 +05:00 [INF] Handling request: GET /openapi/scalar/docs/scalar.js
+2025-02-26 16:29:01.538 +05:00 [INF] Finished handling request.
+2025-02-26 16:29:01.538 +05:00 [INF] Finished handling request.
+2025-02-26 16:29:01.544 +05:00 [INF] HTTP GET /openapi/scalar/docs/scalar.js responded 304 in 44.0027 ms
+2025-02-26 16:29:01.545 +05:00 [INF] HTTP GET /openapi/scalar/docs/scalar.aspnetcore.js responded 304 in 45.2812 ms
+2025-02-26 16:30:05.308 +05:00 [INF] 📢 Found 1 users to notify!
+2025-02-26 16:31:23.913 +05:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-02-26 16:31:24.022 +05:00 [WRN] The foreign key property 'BillDetail.BillId1' was created in shadow state because a conflicting property with the simple name 'BillId' exists in the entity type, but is either not mapped, is already used for another relationship, or is incompatible with the associated primary key type. See https://aka.ms/efcore-relationships for information on mapping relationships in EF Core.
+2025-02-26 16:31:24.105 +05:00 [WRN] No store type was specified for the decimal property 'BillAmount' on entity type 'Bill'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-02-26 16:31:24.119 +05:00 [WRN] No store type was specified for the decimal property 'ShareAmount' on entity type 'BillDetail'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-02-26 16:31:27.239 +05:00 [INF] Email Background Service is running...
+2025-02-26 16:31:27.353 +05:00 [INF] 📢 Found 1 users to notify!
+2025-02-26 16:31:36.480 +05:00 [INF] 📧 Email sent to hussain.user1@spendwise.com
+2025-02-26 16:31:37.065 +05:00 [WRN] Failed to determine the https port for redirect.
+2025-02-26 16:31:37.165 +05:00 [INF] Handling request: GET /openapi/scalar/docs/
+2025-02-26 16:31:37.280 +05:00 [INF] Finished handling request.
+2025-02-26 16:31:37.306 +05:00 [INF] Handling request: GET /openapi/scalar/docs/scalar.aspnetcore.js
+2025-02-26 16:31:37.306 +05:00 [INF] Handling request: GET /openapi/scalar/docs/scalar.js
+2025-02-26 16:31:37.328 +05:00 [INF] HTTP GET /openapi/scalar/docs/ responded 200 in 162.0575 ms
+2025-02-26 16:31:37.352 +05:00 [INF] Finished handling request.
+2025-02-26 16:31:37.352 +05:00 [INF] Finished handling request.
+2025-02-26 16:31:37.361 +05:00 [INF] HTTP GET /openapi/scalar/docs/scalar.aspnetcore.js responded 304 in 54.8720 ms
+2025-02-26 16:31:37.364 +05:00 [INF] HTTP GET /openapi/scalar/docs/scalar.js responded 304 in 57.7916 ms
+2025-02-26 16:34:05.825 +05:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-02-26 16:34:05.929 +05:00 [WRN] The foreign key property 'BillDetail.BillId1' was created in shadow state because a conflicting property with the simple name 'BillId' exists in the entity type, but is either not mapped, is already used for another relationship, or is incompatible with the associated primary key type. See https://aka.ms/efcore-relationships for information on mapping relationships in EF Core.
+2025-02-26 16:34:06.054 +05:00 [WRN] No store type was specified for the decimal property 'BillAmount' on entity type 'Bill'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-02-26 16:34:06.064 +05:00 [WRN] No store type was specified for the decimal property 'ShareAmount' on entity type 'BillDetail'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-02-26 16:34:09.505 +05:00 [INF] Email Background Service is running...
+2025-02-26 16:34:10.476 +05:00 [WRN] Failed to determine the https port for redirect.
+2025-02-26 16:34:10.609 +05:00 [INF] Handling request: GET /openapi/scalar/docs/
+2025-02-26 16:34:10.801 +05:00 [INF] Finished handling request.
+2025-02-26 16:34:10.846 +05:00 [INF] Handling request: GET /openapi/scalar/docs/scalar.aspnetcore.js
+2025-02-26 16:34:10.856 +05:00 [INF] Handling request: GET /openapi/scalar/docs/scalar.js
+2025-02-26 16:34:10.860 +05:00 [INF] HTTP GET /openapi/scalar/docs/ responded 200 in 241.9608 ms
+2025-02-26 16:34:10.894 +05:00 [INF] Finished handling request.
+2025-02-26 16:34:10.894 +05:00 [INF] Finished handling request.
+2025-02-26 16:34:10.910 +05:00 [INF] HTTP GET /openapi/scalar/docs/scalar.js responded 304 in 54.6451 ms
+2025-02-26 16:34:10.912 +05:00 [INF] HTTP GET /openapi/scalar/docs/scalar.aspnetcore.js responded 304 in 66.1248 ms
+2025-02-26 16:39:09.536 +05:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-02-26 16:39:09.632 +05:00 [WRN] The foreign key property 'BillDetail.BillId1' was created in shadow state because a conflicting property with the simple name 'BillId' exists in the entity type, but is either not mapped, is already used for another relationship, or is incompatible with the associated primary key type. See https://aka.ms/efcore-relationships for information on mapping relationships in EF Core.
+2025-02-26 16:39:09.708 +05:00 [WRN] No store type was specified for the decimal property 'BillAmount' on entity type 'Bill'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-02-26 16:39:09.715 +05:00 [WRN] No store type was specified for the decimal property 'ShareAmount' on entity type 'BillDetail'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-02-26 16:39:11.005 +05:00 [INF] Email Background Service is running...
+2025-02-26 16:39:12.162 +05:00 [WRN] Failed to determine the https port for redirect.
+2025-02-26 16:39:12.258 +05:00 [INF] Handling request: GET /openapi/scalar/docs/
+2025-02-26 16:39:12.453 +05:00 [INF] Finished handling request.
+2025-02-26 16:39:12.463 +05:00 [INF] Handling request: GET /openapi/scalar/docs/scalar.js
+2025-02-26 16:39:12.460 +05:00 [INF] Handling request: GET /openapi/scalar/docs/scalar.aspnetcore.js
+2025-02-26 16:39:12.501 +05:00 [INF] HTTP GET /openapi/scalar/docs/ responded 200 in 241.1683 ms
+2025-02-26 16:39:12.623 +05:00 [INF] Finished handling request.
+2025-02-26 16:39:12.623 +05:00 [INF] Finished handling request.
+2025-02-26 16:39:12.628 +05:00 [INF] HTTP GET /openapi/scalar/docs/scalar.aspnetcore.js responded 304 in 167.7284 ms
+2025-02-26 16:39:12.629 +05:00 [INF] HTTP GET /openapi/scalar/docs/scalar.js responded 304 in 166.2759 ms
+2025-02-26 16:45:55.315 +05:00 [INF] Handling request: GET /Account/Login
+2025-02-26 16:45:55.327 +05:00 [INF] Finished handling request.
+2025-02-26 16:45:55.338 +05:00 [INF] HTTP GET /Account/Login responded 404 in 22.4189 ms
+2025-02-26 16:46:10.969 +05:00 [INF] Handling request: GET /openapi/scalar/docs/
+2025-02-26 16:46:10.978 +05:00 [INF] Finished handling request.
+2025-02-26 16:46:10.982 +05:00 [INF] HTTP GET /openapi/scalar/docs/ responded 200 in 12.8183 ms
+2025-02-26 16:46:11.002 +05:00 [INF] Handling request: GET /openapi/scalar/docs/scalar.js
+2025-02-26 16:46:11.002 +05:00 [INF] Handling request: GET /openapi/scalar/docs/scalar.aspnetcore.js
+2025-02-26 16:46:11.017 +05:00 [INF] Finished handling request.
+2025-02-26 16:46:11.023 +05:00 [INF] Finished handling request.
+2025-02-26 16:46:11.026 +05:00 [INF] HTTP GET /openapi/scalar/docs/scalar.js responded 304 in 23.4923 ms
+2025-02-26 16:46:11.027 +05:00 [INF] HTTP GET /openapi/scalar/docs/scalar.aspnetcore.js responded 304 in 24.4887 ms
+2025-02-26 16:46:11.121 +05:00 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "DELETE api/Roles/Delete" for actions - EndPoints.Controllers.Security.Roles.v2.RolesController.Deletev2 (EndPoints), EndPoints.Controllers.Security.Roles.v1.RolesController.Delete (EndPoints). Actions require a unique method/path combination for Swagger/OpenAPI 2.0 and 3.0. Use ConflictingActionsResolver as a workaround or provide your own implementation of PathGroupSelector.
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.PrepareGenerateOperation(IGrouping`2 group)
+   at System.Linq.Enumerable.SelectEnumerableIterator`2.MoveNext()
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperationsAsync(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePathsAsync(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository, Func`3 operationsGenerator)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePathsAsync(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-02-26 16:46:17.223 +05:00 [INF] Handling request: GET /openapi/scalar/docs/
+2025-02-26 16:46:17.230 +05:00 [INF] Finished handling request.
+2025-02-26 16:46:17.234 +05:00 [INF] HTTP GET /openapi/scalar/docs/ responded 200 in 11.0160 ms
+2025-02-26 16:46:17.250 +05:00 [INF] Handling request: GET /openapi/scalar/docs/scalar.js
+2025-02-26 16:46:17.250 +05:00 [INF] Handling request: GET /openapi/scalar/docs/scalar.aspnetcore.js
+2025-02-26 16:46:17.259 +05:00 [INF] Finished handling request.
+2025-02-26 16:46:17.261 +05:00 [INF] Finished handling request.
+2025-02-26 16:46:17.265 +05:00 [INF] HTTP GET /openapi/scalar/docs/scalar.js responded 304 in 14.5282 ms
+2025-02-26 16:46:17.266 +05:00 [INF] HTTP GET /openapi/scalar/docs/scalar.aspnetcore.js responded 304 in 15.9756 ms
+2025-02-26 16:46:17.353 +05:00 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "DELETE api/Roles/Delete" for actions - EndPoints.Controllers.Security.Roles.v2.RolesController.Deletev2 (EndPoints), EndPoints.Controllers.Security.Roles.v1.RolesController.Delete (EndPoints). Actions require a unique method/path combination for Swagger/OpenAPI 2.0 and 3.0. Use ConflictingActionsResolver as a workaround or provide your own implementation of PathGroupSelector.
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.PrepareGenerateOperation(IGrouping`2 group)
+   at System.Linq.Enumerable.SelectEnumerableIterator`2.MoveNext()
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperationsAsync(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePathsAsync(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository, Func`3 operationsGenerator)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePathsAsync(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-02-26 16:46:27.894 +05:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-02-26 16:46:27.994 +05:00 [WRN] The foreign key property 'BillDetail.BillId1' was created in shadow state because a conflicting property with the simple name 'BillId' exists in the entity type, but is either not mapped, is already used for another relationship, or is incompatible with the associated primary key type. See https://aka.ms/efcore-relationships for information on mapping relationships in EF Core.
+2025-02-26 16:46:28.068 +05:00 [WRN] No store type was specified for the decimal property 'BillAmount' on entity type 'Bill'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-02-26 16:46:28.077 +05:00 [WRN] No store type was specified for the decimal property 'ShareAmount' on entity type 'BillDetail'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-02-26 16:46:29.200 +05:00 [INF] Email Background Service is running...
+2025-02-26 16:46:29.863 +05:00 [WRN] Failed to determine the https port for redirect.
+2025-02-26 16:46:29.963 +05:00 [INF] Handling request: GET /openapi/scalar/docs/
+2025-02-26 16:46:30.088 +05:00 [INF] Handling request: GET /openapi/scalar/docs/scalar.aspnetcore.js
+2025-02-26 16:46:30.075 +05:00 [INF] Finished handling request.
+2025-02-26 16:46:30.085 +05:00 [INF] Handling request: GET /openapi/scalar/docs/scalar.js
+2025-02-26 16:46:30.117 +05:00 [INF] HTTP GET /openapi/scalar/docs/ responded 200 in 146.6478 ms
+2025-02-26 16:46:30.119 +05:00 [INF] Finished handling request.
+2025-02-26 16:46:30.119 +05:00 [INF] Finished handling request.
+2025-02-26 16:46:30.129 +05:00 [INF] HTTP GET /openapi/scalar/docs/scalar.js responded 304 in 43.6575 ms
+2025-02-26 16:46:30.129 +05:00 [INF] HTTP GET /openapi/scalar/docs/scalar.aspnetcore.js responded 304 in 41.3838 ms
+2025-02-26 16:46:36.660 +05:00 [INF] Handling request: GET /api/Organizations/GetAll
+2025-02-26 16:46:36.727 +05:00 [INF] ➡️ [START] Handling GetAllOrganizationsQuery | User: Anonymous | IP: ::1 | Request Data: {}
+2025-02-26 16:46:36.888 +05:00 [INF] ✅ [END] GetAllOrganizationsQuery | Execution Time: 123ms | Response Data: {
+  "Value": [
+    {
+      "Name": "DataRovers",
+      "OwnerName": "Sam Khan",
+      "Details": "DataRovers is a healthcare solution for RCMs and Providers",
+      "HeadCount": 30,
+      "CreatedBy": "",
+      "CreatedOn": "0001-01-01T00:00:00",
+      "LastModifiedBy": "",
+      "LastModifiedOn": "2025-02-06T08:34:59.7180698",
+      "Id": "688e5637-e374-40fd-6918-08dd4687a423"
+    },
+    {
+      "Name": "Systems Ltd",
+      "OwnerName": "Asif Peer",
+      "Details": "Systems Limited",
+      "HeadCount": 12000,
+      "CreatedBy": "",
+      "CreatedOn": "2025-02-11T07:20:26.9240085",
+      "LastModifiedBy": "",
+      "LastModifiedOn": null,
+      "Id": "74e701dc-d11a-4605-a615-08dd4a6c8ed5"
+    },
+    {
+      "Name": "asdasd",
+      "OwnerName": "asdasdasd",
+      "Details": "asdasdas",
+      "HeadCount": 122,
+      "CreatedBy": "",
+      "CreatedOn": "2025-02-19T07:56:08.9773468",
+      "LastModifiedBy": "",
+      "LastModifiedOn": null,
+      "Id": "e72e264f-38ed-4605-5aa7-08dd50badee7"
+    }
+  ],
+  "IsSuccess": true,
+  "Errors": [],
+  "ValidationErrors": {},
+  "Successes": [
+    "Organizations has been successfully retrieved.",
+    "The request has succeeded."
+  ]
+}
+2025-02-26 16:46:36.919 +05:00 [INF] Finished handling request.
+2025-02-26 16:46:36.924 +05:00 [INF] HTTP GET /api/Organizations/GetAll responded 200 in 263.6881 ms
+2025-02-26 16:46:43.545 +05:00 [INF] Handling request: GET /openapi/scalar/docs/
+2025-02-26 16:46:43.558 +05:00 [INF] Finished handling request.
+2025-02-26 16:46:43.566 +05:00 [INF] HTTP GET /openapi/scalar/docs/ responded 200 in 20.9719 ms
+2025-02-26 16:46:43.586 +05:00 [INF] Handling request: GET /openapi/scalar/docs/scalar.js
+2025-02-26 16:46:43.586 +05:00 [INF] Handling request: GET /openapi/scalar/docs/scalar.aspnetcore.js
+2025-02-26 16:46:43.596 +05:00 [INF] Finished handling request.
+2025-02-26 16:46:43.598 +05:00 [INF] Finished handling request.
+2025-02-26 16:46:43.605 +05:00 [INF] HTTP GET /openapi/scalar/docs/scalar.js responded 304 in 18.5064 ms
+2025-02-26 16:46:43.606 +05:00 [INF] HTTP GET /openapi/scalar/docs/scalar.aspnetcore.js responded 304 in 19.0098 ms
+2025-02-26 16:46:46.820 +05:00 [INF] Handling request: GET /Account/Login
+2025-02-26 16:46:46.824 +05:00 [INF] Finished handling request.
+2025-02-26 16:46:46.827 +05:00 [INF] HTTP GET /Account/Login responded 404 in 7.3576 ms
+2025-02-26 16:47:29.698 +05:00 [INF] Handling request: GET /openapi/scalar/docs/
+2025-02-26 16:47:30.406 +05:00 [INF] Finished handling request.
+2025-02-26 16:47:33.481 +05:00 [INF] HTTP GET /openapi/scalar/docs/ responded 200 in 3782.5568 ms
+2025-02-26 16:47:36.870 +05:00 [INF] Handling request: GET /openapi/scalar/docs/scalar.aspnetcore.js
+2025-02-26 16:47:36.869 +05:00 [INF] Handling request: GET /openapi/scalar/docs/scalar.js
+2025-02-26 16:47:38.098 +05:00 [INF] Finished handling request.
+2025-02-26 16:47:38.100 +05:00 [INF] Finished handling request.
+2025-02-26 16:47:38.104 +05:00 [INF] HTTP GET /openapi/scalar/docs/scalar.aspnetcore.js responded 304 in 1233.5423 ms
+2025-02-26 16:47:38.105 +05:00 [INF] HTTP GET /openapi/scalar/docs/scalar.js responded 304 in 1236.0449 ms
+2025-02-26 16:47:51.700 +05:00 [INF] Handling request: GET /Account/Login
+2025-02-26 16:47:51.705 +05:00 [INF] Finished handling request.
+2025-02-26 16:47:51.709 +05:00 [INF] HTTP GET /Account/Login responded 404 in 9.6720 ms
+2025-02-26 16:48:36.266 +05:00 [INF] Handling request: POST /api/Auth/Login
+2025-02-26 16:48:36.351 +05:00 [INF] ➡️ [START] Handling LoginCommand | User: Anonymous | IP: ::1 | Request Data: {
+  "Email": "hussain.admin@spendwise.com",
+  "Password": "Admin@123"
+}
+2025-02-26 16:48:37.965 +05:00 [INF] ✅ [END] LoginCommand | Execution Time: 1611ms | Response Data: {
+  "Value": {
+    "Token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzaWQiOiJhY2MyMDVhYy1lODBjLTQ0OTktZWY2My0wOGRkNDRmNDc1Y2EiLCJuYW1laWQiOiJodXNzYWluLmFkbWluIiwiZW1haWwiOiJodXNzYWluLmFkbWluQHNwZW5kd2lzZS5jb20iLCJJc0FjdGl2ZSI6IlRydWUiLCJSb2xlcyI6IkFkbWluIiwiZXhwIjoxNzQwNTcxMTE3LCJpc3MiOiJodHRwOi8vbG9jYWxob3N0OjUwMDEvIiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdDo1MDAxLyJ9.cth2GrcL5qGsGuiQywyG886buLLf1jz5KpZDoftNQtk"
+  },
+  "IsSuccess": true,
+  "Errors": [],
+  "ValidationErrors": {},
+  "Successes": [
+    "The request has succeeded.",
+    "Login Successful!"
+  ]
+}
+2025-02-26 16:48:37.975 +05:00 [INF] Finished handling request.
+2025-02-26 16:48:37.979 +05:00 [INF] HTTP POST /api/Auth/Login responded 200 in 1712.9750 ms
+2025-02-26 16:49:29.111 +05:00 [INF] Handling request: GET /Account/Login
+2025-02-26 16:49:29.122 +05:00 [INF] Finished handling request.
+2025-02-26 16:49:29.129 +05:00 [INF] HTTP GET /Account/Login responded 404 in 17.8995 ms
+2025-02-26 16:49:56.156 +05:00 [INF] Handling request: GET /Account/Login
+2025-02-26 16:49:56.167 +05:00 [INF] Finished handling request.
+2025-02-26 16:49:56.176 +05:00 [INF] HTTP GET /Account/Login responded 404 in 20.4951 ms
+2025-02-26 17:02:09.182 +05:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-02-26 17:02:09.384 +05:00 [WRN] The foreign key property 'BillDetail.BillId1' was created in shadow state because a conflicting property with the simple name 'BillId' exists in the entity type, but is either not mapped, is already used for another relationship, or is incompatible with the associated primary key type. See https://aka.ms/efcore-relationships for information on mapping relationships in EF Core.
+2025-02-26 17:02:09.527 +05:00 [WRN] No store type was specified for the decimal property 'BillAmount' on entity type 'Bill'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-02-26 17:02:09.558 +05:00 [WRN] No store type was specified for the decimal property 'ShareAmount' on entity type 'BillDetail'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-02-26 17:02:11.417 +05:00 [INF] Email Background Service is running...
+2025-02-26 17:02:20.693 +05:00 [WRN] Failed to determine the https port for redirect.
+2025-02-26 17:02:20.820 +05:00 [INF] Handling request: GET /openapi/scalar/docs/
+2025-02-26 17:02:21.045 +05:00 [INF] Finished handling request.
+2025-02-26 17:02:21.075 +05:00 [INF] Handling request: GET /openapi/scalar/docs/scalar.js
+2025-02-26 17:02:21.075 +05:00 [INF] Handling request: GET /openapi/scalar/docs/scalar.aspnetcore.js
+2025-02-26 17:02:21.105 +05:00 [INF] HTTP GET /openapi/scalar/docs/ responded 200 in 257.3876 ms
+2025-02-26 17:02:21.152 +05:00 [INF] Finished handling request.
+2025-02-26 17:02:21.152 +05:00 [INF] Finished handling request.
+2025-02-26 17:02:21.178 +05:00 [INF] HTTP GET /openapi/scalar/docs/scalar.aspnetcore.js responded 304 in 102.9047 ms
+2025-02-26 17:02:21.182 +05:00 [INF] HTTP GET /openapi/scalar/docs/scalar.js responded 304 in 106.5470 ms
+2025-02-26 17:02:52.094 +05:00 [INF] Handling request: POST /api/Auth/Login
+2025-02-26 17:02:52.296 +05:00 [INF] ➡️ [START] Handling LoginCommand | User: Anonymous | IP: ::1 | Request Data: {
+  "Email": "hussain.admin@spendwise.com",
+  "Password": "Admin@123"
+}
+2025-02-26 17:02:56.563 +05:00 [WRN] ⚠️ [SLOW] LoginCommand took 4251ms
+2025-02-26 17:02:56.578 +05:00 [INF] ✅ [END] LoginCommand | Execution Time: 4251ms | Response Data: {
+  "Value": {
+    "Token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzaWQiOiJhY2MyMDVhYy1lODBjLTQ0OTktZWY2My0wOGRkNDRmNDc1Y2EiLCJuYW1laWQiOiJodXNzYWluLmFkbWluIiwiZW1haWwiOiJodXNzYWluLmFkbWluQHNwZW5kd2lzZS5jb20iLCJJc0FjdGl2ZSI6IlRydWUiLCJSb2xlcyI6IkFkbWluIiwiZXhwIjoxNzQwNTcxOTc2LCJpc3MiOiJodHRwOi8vbG9jYWxob3N0OjUwMDEvIiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdDo1MDAxLyJ9.OoN-a8buW6x-iiWUI35UrERUbKK_RN4sH9g7ZaAHSNU"
+  },
+  "IsSuccess": true,
+  "Errors": [],
+  "ValidationErrors": {},
+  "Successes": [
+    "The request has succeeded.",
+    "Login Successful!"
+  ]
+}
+2025-02-26 17:02:56.622 +05:00 [INF] Finished handling request.
+2025-02-26 17:02:56.634 +05:00 [INF] HTTP POST /api/Auth/Login responded 200 in 4539.6651 ms
+2025-02-26 17:03:16.254 +05:00 [INF] Handling request: GET /Account/Login
+2025-02-26 17:03:16.264 +05:00 [INF] Finished handling request.
+2025-02-26 17:03:16.270 +05:00 [INF] HTTP GET /Account/Login responded 404 in 16.0835 ms
+2025-02-26 17:06:25.440 +05:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-02-26 17:06:25.561 +05:00 [WRN] The foreign key property 'BillDetail.BillId1' was created in shadow state because a conflicting property with the simple name 'BillId' exists in the entity type, but is either not mapped, is already used for another relationship, or is incompatible with the associated primary key type. See https://aka.ms/efcore-relationships for information on mapping relationships in EF Core.
+2025-02-26 17:06:25.705 +05:00 [WRN] No store type was specified for the decimal property 'BillAmount' on entity type 'Bill'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-02-26 17:06:25.725 +05:00 [WRN] No store type was specified for the decimal property 'ShareAmount' on entity type 'BillDetail'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-02-26 17:06:27.173 +05:00 [INF] Email Background Service is running...
+2025-02-26 17:06:27.957 +05:00 [WRN] Failed to determine the https port for redirect.
+2025-02-26 17:06:28.047 +05:00 [INF] Handling request: GET /openapi/scalar/docs/
+2025-02-26 17:06:28.225 +05:00 [INF] Finished handling request.
+2025-02-26 17:06:28.237 +05:00 [INF] Handling request: GET /openapi/scalar/docs/scalar.aspnetcore.js
+2025-02-26 17:06:28.237 +05:00 [INF] Handling request: GET /openapi/scalar/docs/scalar.js
+2025-02-26 17:06:28.246 +05:00 [INF] HTTP GET /openapi/scalar/docs/ responded 200 in 194.9672 ms
+2025-02-26 17:06:28.283 +05:00 [INF] Finished handling request.
+2025-02-26 17:06:28.284 +05:00 [INF] Finished handling request.
+2025-02-26 17:06:28.292 +05:00 [INF] HTTP GET /openapi/scalar/docs/scalar.aspnetcore.js responded 304 in 55.4857 ms
+2025-02-26 17:06:28.293 +05:00 [INF] HTTP GET /openapi/scalar/docs/scalar.js responded 304 in 56.0470 ms
+2025-02-26 17:09:14.693 +05:00 [INF] Handling request: POST /api/Auth/Login
+2025-02-26 17:09:14.903 +05:00 [INF] ➡️ [START] Handling LoginCommand | User: Anonymous | IP: ::1 | Request Data: {
+  "Email": "hussain.admin@spendwise.com",
+  "Password": "Admin@123"
+}
+2025-02-26 17:09:15.584 +05:00 [INF] ✅ [END] LoginCommand | Execution Time: 666ms | Response Data: {
+  "Value": {
+    "Token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzaWQiOiJhY2MyMDVhYy1lODBjLTQ0OTktZWY2My0wOGRkNDRmNDc1Y2EiLCJuYW1laWQiOiJodXNzYWluLmFkbWluIiwiZW1haWwiOiJodXNzYWluLmFkbWluQHNwZW5kd2lzZS5jb20iLCJJc0FjdGl2ZSI6IlRydWUiLCJSb2xlcyI6IkFkbWluIiwiZXhwIjoxNzQwNTcyMzU1LCJpc3MiOiJodHRwOi8vbG9jYWxob3N0OjUwMDEvIiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdDo1MDAxLyJ9.QFXFXODhEHHwoj6BBG89rdRpgUm3sCfUbDul7VJkxUk"
+  },
+  "IsSuccess": true,
+  "Errors": [],
+  "ValidationErrors": {},
+  "Successes": [
+    "The request has succeeded.",
+    "Login Successful!"
+  ]
+}
+2025-02-26 17:09:15.641 +05:00 [INF] Finished handling request.
+2025-02-26 17:09:15.652 +05:00 [INF] HTTP POST /api/Auth/Login responded 200 in 959.0471 ms
+2025-02-26 17:09:38.910 +05:00 [INF] Handling request: GET /api/Bills/GetAll
+2025-02-26 17:09:38.955 +05:00 [INF] ➡️ [START] Handling GetAllBillsQuery | User: Anonymous | IP: ::1 | Request Data: {
+  "OrganizationId": "00000000-0000-0000-0000-000000000000"
+}
+2025-02-26 17:09:39.053 +05:00 [INF] ✅ [END] GetAllBillsQuery | Execution Time: 79ms | Response Data: {
+  "Value": null,
+  "IsSuccess": false,
+  "Errors": [
+    "No bills found for the specified organization."
+  ],
+  "ValidationErrors": {},
+  "Successes": []
+}
+2025-02-26 17:09:39.069 +05:00 [INF] Finished handling request.
+2025-02-26 17:09:39.074 +05:00 [INF] HTTP GET /api/Bills/GetAll responded 200 in 163.9382 ms
+2025-02-26 17:09:47.777 +05:00 [INF] Handling request: GET /api/Bills/GetAll
+2025-02-26 17:09:47.786 +05:00 [INF] ➡️ [START] Handling GetAllBillsQuery | User: Anonymous | IP: ::1 | Request Data: {
+  "OrganizationId": "00000000-0000-0000-0000-000000000000"
+}
+2025-02-26 17:09:47.814 +05:00 [INF] ✅ [END] GetAllBillsQuery | Execution Time: 22ms | Response Data: {
+  "Value": null,
+  "IsSuccess": false,
+  "Errors": [
+    "No bills found for the specified organization."
+  ],
+  "ValidationErrors": {},
+  "Successes": []
+}
+2025-02-26 17:09:47.830 +05:00 [INF] Finished handling request.
+2025-02-26 17:09:47.834 +05:00 [INF] HTTP GET /api/Bills/GetAll responded 200 in 57.5835 ms
+2025-02-26 17:09:59.958 +05:00 [INF] Handling request: GET /api/Bills/GetAll
+2025-02-26 17:09:59.969 +05:00 [INF] ➡️ [START] Handling GetAllBillsQuery | User: Anonymous | IP: ::1 | Request Data: {
+  "OrganizationId": "00000000-0000-0000-0000-000000000000"
+}
+2025-02-26 17:10:00.027 +05:00 [INF] ✅ [END] GetAllBillsQuery | Execution Time: 57ms | Response Data: {
+  "Value": null,
+  "IsSuccess": false,
+  "Errors": [
+    "No bills found for the specified organization."
+  ],
+  "ValidationErrors": {},
+  "Successes": []
+}
+2025-02-26 17:10:00.046 +05:00 [INF] Finished handling request.
+2025-02-26 17:10:00.054 +05:00 [INF] HTTP GET /api/Bills/GetAll responded 200 in 96.0491 ms
+2025-02-26 17:10:05.077 +05:00 [INF] Handling request: GET /api/Bills/GetAll
+2025-02-26 17:10:05.088 +05:00 [INF] ➡️ [START] Handling GetAllBillsQuery | User: Anonymous | IP: ::1 | Request Data: {
+  "OrganizationId": "00000000-0000-0000-0000-000000000000"
+}
+2025-02-26 17:10:05.113 +05:00 [INF] ✅ [END] GetAllBillsQuery | Execution Time: 22ms | Response Data: {
+  "Value": null,
+  "IsSuccess": false,
+  "Errors": [
+    "No bills found for the specified organization."
+  ],
+  "ValidationErrors": {},
+  "Successes": []
+}
+2025-02-26 17:10:05.130 +05:00 [INF] Finished handling request.
+2025-02-26 17:10:05.137 +05:00 [INF] HTTP GET /api/Bills/GetAll responded 200 in 60.5741 ms
+2025-02-26 17:10:22.607 +05:00 [INF] Handling request: GET /Account/Login
+2025-02-26 17:10:22.621 +05:00 [INF] Finished handling request.
+2025-02-26 17:10:22.627 +05:00 [INF] HTTP GET /Account/Login responded 404 in 19.3506 ms
+2025-02-26 17:10:28.832 +05:00 [INF] Handling request: GET /Account/Login
+2025-02-26 17:10:28.845 +05:00 [INF] Finished handling request.
+2025-02-26 17:10:28.855 +05:00 [INF] HTTP GET /Account/Login responded 404 in 22.4128 ms
+2025-02-26 17:11:53.767 +05:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-02-26 17:11:53.866 +05:00 [WRN] The foreign key property 'BillDetail.BillId1' was created in shadow state because a conflicting property with the simple name 'BillId' exists in the entity type, but is either not mapped, is already used for another relationship, or is incompatible with the associated primary key type. See https://aka.ms/efcore-relationships for information on mapping relationships in EF Core.
+2025-02-26 17:11:53.954 +05:00 [WRN] No store type was specified for the decimal property 'BillAmount' on entity type 'Bill'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-02-26 17:11:53.967 +05:00 [WRN] No store type was specified for the decimal property 'ShareAmount' on entity type 'BillDetail'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-02-26 17:11:55.347 +05:00 [INF] Email Background Service is running...
+2025-02-26 17:11:55.487 +05:00 [FTL] Application startup exception
+System.InvalidOperationException: Scheme already exists: Bearer
+   at Microsoft.AspNetCore.Authentication.AuthenticationOptions.AddScheme(String name, Action`1 configureBuilder)
+   at Microsoft.Extensions.Options.ConfigureNamedOptions`1.Configure(String name, TOptions options)
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at Microsoft.Extensions.Options.UnnamedOptionsManager`1.get_Value()
+   at Microsoft.AspNetCore.Authentication.AuthenticationSchemeProvider..ctor(IOptions`1 options, IDictionary`2 schemes)
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+   at System.Reflection.MethodBaseInvoker.InvokeDirectByRefWithFewArgs(Object obj, Span`1 copyOfArgs, BindingFlags invokeAttr)
+   at System.Reflection.MethodBaseInvoker.InvokeWithOneArg(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeConstructorInfo.Invoke(BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitRootCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.CreateServiceAccessor(ServiceIdentifier serviceIdentifier)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(ServiceIdentifier serviceIdentifier, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(Type serviceType)
+   at Microsoft.Extensions.Internal.ActivatorUtilities.ConstructorMatcher.CreateInstance(IServiceProvider provider)
+   at Microsoft.Extensions.Internal.ActivatorUtilities.CreateInstance(IServiceProvider provider, Type instanceType, Object[] parameters)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.ReflectionMiddlewareBinder.CreateMiddleware(RequestDelegate next)
+   at Microsoft.AspNetCore.Builder.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+2025-02-26 17:11:55.524 +05:00 [ERR] Hosting failed to start
+System.InvalidOperationException: Scheme already exists: Bearer
+   at Microsoft.AspNetCore.Authentication.AuthenticationOptions.AddScheme(String name, Action`1 configureBuilder)
+   at Microsoft.Extensions.Options.ConfigureNamedOptions`1.Configure(String name, TOptions options)
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at Microsoft.Extensions.Options.UnnamedOptionsManager`1.get_Value()
+   at Microsoft.AspNetCore.Authentication.AuthenticationSchemeProvider..ctor(IOptions`1 options, IDictionary`2 schemes)
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+   at System.Reflection.MethodBaseInvoker.InvokeDirectByRefWithFewArgs(Object obj, Span`1 copyOfArgs, BindingFlags invokeAttr)
+   at System.Reflection.MethodBaseInvoker.InvokeWithOneArg(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeConstructorInfo.Invoke(BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitRootCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.CreateServiceAccessor(ServiceIdentifier serviceIdentifier)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(ServiceIdentifier serviceIdentifier, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(Type serviceType)
+   at Microsoft.Extensions.Internal.ActivatorUtilities.ConstructorMatcher.CreateInstance(IServiceProvider provider)
+   at Microsoft.Extensions.Internal.ActivatorUtilities.CreateInstance(IServiceProvider provider, Type instanceType, Object[] parameters)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.ReflectionMiddlewareBinder.CreateMiddleware(RequestDelegate next)
+   at Microsoft.AspNetCore.Builder.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.<StartAsync>b__15_1(IHostedService service, CancellationToken token)
+   at Microsoft.Extensions.Hosting.Internal.Host.ForeachService[T](IEnumerable`1 services, CancellationToken token, Boolean concurrent, Boolean abortOnFirstException, List`1 exceptions, Func`3 operation)
+2025-02-26 17:12:50.496 +05:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-02-26 17:12:50.618 +05:00 [WRN] The foreign key property 'BillDetail.BillId1' was created in shadow state because a conflicting property with the simple name 'BillId' exists in the entity type, but is either not mapped, is already used for another relationship, or is incompatible with the associated primary key type. See https://aka.ms/efcore-relationships for information on mapping relationships in EF Core.
+2025-02-26 17:12:50.762 +05:00 [WRN] No store type was specified for the decimal property 'BillAmount' on entity type 'Bill'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-02-26 17:12:50.774 +05:00 [WRN] No store type was specified for the decimal property 'ShareAmount' on entity type 'BillDetail'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-02-26 17:12:52.442 +05:00 [INF] Email Background Service is running...
+2025-02-26 17:12:53.492 +05:00 [WRN] Failed to determine the https port for redirect.
+2025-02-26 17:12:53.611 +05:00 [INF] Handling request: GET /openapi/scalar/docs/
+2025-02-26 17:12:53.752 +05:00 [INF] Finished handling request.
+2025-02-26 17:12:53.765 +05:00 [INF] Handling request: GET /openapi/scalar/docs/scalar.js
+2025-02-26 17:12:53.765 +05:00 [INF] Handling request: GET /openapi/scalar/docs/scalar.aspnetcore.js
+2025-02-26 17:12:53.810 +05:00 [INF] HTTP GET /openapi/scalar/docs/ responded 200 in 197.2601 ms
+2025-02-26 17:12:53.829 +05:00 [INF] Finished handling request.
+2025-02-26 17:12:53.829 +05:00 [INF] Finished handling request.
+2025-02-26 17:12:53.840 +05:00 [INF] HTTP GET /openapi/scalar/docs/scalar.aspnetcore.js responded 304 in 74.4745 ms
+2025-02-26 17:12:53.841 +05:00 [INF] HTTP GET /openapi/scalar/docs/scalar.js responded 304 in 75.7820 ms
+2025-02-26 17:13:04.672 +05:00 [INF] Handling request: GET /Account/Login
+2025-02-26 17:13:04.688 +05:00 [INF] Finished handling request.
+2025-02-26 17:13:04.698 +05:00 [INF] HTTP GET /Account/Login responded 404 in 25.1980 ms
+2025-02-26 17:13:11.922 +05:00 [INF] Handling request: GET /Account/Login
+2025-02-26 17:13:11.934 +05:00 [INF] Finished handling request.
+2025-02-26 17:13:11.944 +05:00 [INF] HTTP GET /Account/Login responded 404 in 21.3834 ms
+2025-02-26 17:13:37.729 +05:00 [INF] Handling request: POST /api/Auth/Login
+2025-02-26 17:13:37.953 +05:00 [INF] ➡️ [START] Handling LoginCommand | User: Anonymous | IP: ::1 | Request Data: {
+  "Email": "hussain.admin@spendwise.com",
+  "Password": "Admin@123"
+}
+2025-02-26 17:13:38.719 +05:00 [INF] ✅ [END] LoginCommand | Execution Time: 748ms | Response Data: {
+  "Value": {
+    "Token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzaWQiOiJhY2MyMDVhYy1lODBjLTQ0OTktZWY2My0wOGRkNDRmNDc1Y2EiLCJuYW1laWQiOiJodXNzYWluLmFkbWluIiwiZW1haWwiOiJodXNzYWluLmFkbWluQHNwZW5kd2lzZS5jb20iLCJJc0FjdGl2ZSI6IlRydWUiLCJSb2xlcyI6IkFkbWluIiwiZXhwIjoxNzQwNTcyNjE4LCJpc3MiOiJodHRwOi8vbG9jYWxob3N0OjUwMDEvIiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdDo1MDAxLyJ9.sq3ypsWdICVxriaql-kixcxLkIW-pqNRL6Rz_TYtqv0"
+  },
+  "IsSuccess": true,
+  "Errors": [],
+  "ValidationErrors": {},
+  "Successes": [
+    "The request has succeeded.",
+    "Login Successful!"
+  ]
+}
+2025-02-26 17:13:38.778 +05:00 [INF] Finished handling request.
+2025-02-26 17:13:38.787 +05:00 [INF] HTTP POST /api/Auth/Login responded 200 in 1057.2432 ms
+2025-02-26 17:13:58.751 +05:00 [INF] Handling request: GET /Account/Login
+2025-02-26 17:13:58.761 +05:00 [INF] Finished handling request.
+2025-02-26 17:13:58.768 +05:00 [INF] HTTP GET /Account/Login responded 404 in 17.3229 ms
+2025-02-26 17:15:46.775 +05:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-02-26 17:15:46.892 +05:00 [WRN] The foreign key property 'BillDetail.BillId1' was created in shadow state because a conflicting property with the simple name 'BillId' exists in the entity type, but is either not mapped, is already used for another relationship, or is incompatible with the associated primary key type. See https://aka.ms/efcore-relationships for information on mapping relationships in EF Core.
+2025-02-26 17:15:46.951 +05:00 [WRN] No store type was specified for the decimal property 'BillAmount' on entity type 'Bill'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-02-26 17:15:46.970 +05:00 [WRN] No store type was specified for the decimal property 'ShareAmount' on entity type 'BillDetail'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-02-26 17:15:48.695 +05:00 [INF] Email Background Service is running...
+2025-02-26 17:15:49.588 +05:00 [WRN] Failed to determine the https port for redirect.
+2025-02-26 17:15:49.714 +05:00 [INF] Handling request: GET /openapi/scalar/docs/
+2025-02-26 17:15:49.863 +05:00 [INF] Finished handling request.
+2025-02-26 17:15:49.880 +05:00 [INF] Handling request: GET /openapi/scalar/docs/scalar.js
+2025-02-26 17:15:49.880 +05:00 [INF] Handling request: GET /openapi/scalar/docs/scalar.aspnetcore.js
+2025-02-26 17:15:49.889 +05:00 [INF] HTTP GET /openapi/scalar/docs/ responded 200 in 159.0281 ms
+2025-02-26 17:15:49.915 +05:00 [INF] Finished handling request.
+2025-02-26 17:15:49.915 +05:00 [INF] Finished handling request.
+2025-02-26 17:15:49.923 +05:00 [INF] HTTP GET /openapi/scalar/docs/scalar.js responded 304 in 42.9289 ms
+2025-02-26 17:15:49.924 +05:00 [INF] HTTP GET /openapi/scalar/docs/scalar.aspnetcore.js responded 304 in 43.9865 ms
+2025-02-26 18:58:49.375 +05:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-02-26 18:58:49.498 +05:00 [WRN] The foreign key property 'BillDetail.BillId1' was created in shadow state because a conflicting property with the simple name 'BillId' exists in the entity type, but is either not mapped, is already used for another relationship, or is incompatible with the associated primary key type. See https://aka.ms/efcore-relationships for information on mapping relationships in EF Core.
+2025-02-26 18:58:49.616 +05:00 [WRN] No store type was specified for the decimal property 'BillAmount' on entity type 'Bill'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-02-26 18:58:49.631 +05:00 [WRN] No store type was specified for the decimal property 'ShareAmount' on entity type 'BillDetail'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-02-26 18:58:51.352 +05:00 [INF] Email Background Service is running...
+2025-02-26 18:58:52.350 +05:00 [WRN] Failed to determine the https port for redirect.
+2025-02-26 18:58:52.481 +05:00 [INF] Handling request: GET /openapi/scalar/docs/
+2025-02-26 18:58:52.645 +05:00 [INF] Finished handling request.
+2025-02-26 18:58:52.668 +05:00 [INF] Handling request: GET /openapi/scalar/docs/scalar.aspnetcore.js
+2025-02-26 18:58:52.668 +05:00 [INF] Handling request: GET /openapi/scalar/docs/scalar.js
+2025-02-26 18:58:52.705 +05:00 [INF] HTTP GET /openapi/scalar/docs/ responded 200 in 222.0649 ms
+2025-02-26 18:58:52.723 +05:00 [INF] Finished handling request.
+2025-02-26 18:58:52.723 +05:00 [INF] Finished handling request.
+2025-02-26 18:58:52.735 +05:00 [INF] HTTP GET /openapi/scalar/docs/scalar.js responded 304 in 66.9502 ms
+2025-02-26 18:58:52.737 +05:00 [INF] HTTP GET /openapi/scalar/docs/scalar.aspnetcore.js responded 304 in 68.1870 ms
+2025-02-26 18:59:33.823 +05:00 [INF] Handling request: POST /api/Auth/Login
+2025-02-26 18:59:34.066 +05:00 [INF] ➡️ [START] Handling LoginCommand | User: Anonymous | IP: ::1 | Request Data: {
+  "Email": "hussain.admin@spendwise.com",
+  "Password": "Admin@123"
+}
+2025-02-26 18:59:34.682 +05:00 [INF] ✅ [END] LoginCommand | Execution Time: 607ms | Response Data: {
+  "Value": {
+    "Token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzaWQiOiJhY2MyMDVhYy1lODBjLTQ0OTktZWY2My0wOGRkNDRmNDc1Y2EiLCJuYW1laWQiOiJodXNzYWluLmFkbWluIiwiZW1haWwiOiJodXNzYWluLmFkbWluQHNwZW5kd2lzZS5jb20iLCJJc0FjdGl2ZSI6IlRydWUiLCJSb2xlcyI6IkFkbWluIiwiZXhwIjoxNzQwNTc4OTc0LCJpc3MiOiJodHRwOi8vbG9jYWxob3N0OjUwMDEvIiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdDo1MDAxLyJ9.65-io3YQ_QZP4-PrPC9Qp6irZZYszXgYmxF043czIIU"
+  },
+  "IsSuccess": true,
+  "Errors": [],
+  "ValidationErrors": {},
+  "Successes": [
+    "The request has succeeded.",
+    "Login Successful!"
+  ]
+}
+2025-02-26 18:59:34.718 +05:00 [INF] Finished handling request.
+2025-02-26 18:59:34.726 +05:00 [INF] HTTP POST /api/Auth/Login responded 200 in 903.0102 ms
+2025-02-26 19:03:55.709 +05:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2025-02-26 19:03:55.920 +05:00 [WRN] The foreign key property 'BillDetail.BillId1' was created in shadow state because a conflicting property with the simple name 'BillId' exists in the entity type, but is either not mapped, is already used for another relationship, or is incompatible with the associated primary key type. See https://aka.ms/efcore-relationships for information on mapping relationships in EF Core.
+2025-02-26 19:03:56.101 +05:00 [WRN] No store type was specified for the decimal property 'BillAmount' on entity type 'Bill'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-02-26 19:03:56.120 +05:00 [WRN] No store type was specified for the decimal property 'ShareAmount' on entity type 'BillDetail'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-02-26 19:03:57.527 +05:00 [INF] Email Background Service is running...
+2025-02-26 19:03:58.720 +05:00 [WRN] Failed to determine the https port for redirect.
+2025-02-26 19:03:58.846 +05:00 [INF] Handling request: GET /openapi/scalar/docs/
+2025-02-26 19:03:58.990 +05:00 [INF] Finished handling request.
+2025-02-26 19:03:59.010 +05:00 [INF] Handling request: GET /openapi/scalar/docs/scalar.js
+2025-02-26 19:03:59.010 +05:00 [INF] Handling request: GET /openapi/scalar/docs/scalar.aspnetcore.js
+2025-02-26 19:03:59.019 +05:00 [INF] HTTP GET /openapi/scalar/docs/ responded 200 in 171.7930 ms
+2025-02-26 19:03:59.044 +05:00 [INF] Finished handling request.
+2025-02-26 19:03:59.044 +05:00 [INF] Finished handling request.
+2025-02-26 19:03:59.049 +05:00 [INF] HTTP GET /openapi/scalar/docs/scalar.js responded 304 in 38.4932 ms
+2025-02-26 19:03:59.050 +05:00 [INF] HTTP GET /openapi/scalar/docs/scalar.aspnetcore.js responded 304 in 39.7104 ms
+2025-02-26 19:04:31.316 +05:00 [INF] Handling request: POST /api/Auth/Login
+2025-02-26 19:04:31.520 +05:00 [INF] ➡️ [START] Handling LoginCommand | User: Anonymous | IP: ::1 | Request Data: {
+  "Email": "hussain.admin@spendwise.com",
+  "Password": "Admin@123"
+}
+2025-02-26 19:04:32.301 +05:00 [INF] ✅ [END] LoginCommand | Execution Time: 765ms | Response Data: {
+  "Value": {
+    "Token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzaWQiOiJhY2MyMDVhYy1lODBjLTQ0OTktZWY2My0wOGRkNDRmNDc1Y2EiLCJuYW1laWQiOiJodXNzYWluLmFkbWluIiwiZW1haWwiOiJodXNzYWluLmFkbWluQHNwZW5kd2lzZS5jb20iLCJJc0FjdGl2ZSI6IlRydWUiLCJSb2xlcyI6IkFkbWluIiwiZXhwIjoxNzQwNTc5MjcyLCJpc3MiOiJodHRwOi8vbG9jYWxob3N0OjUwMDEvIiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdDo1MDAxLyJ9.HZ4vZqA1gt5bvw6TXtMQkeneQ6GZtpwrnhl7b1Ye5R4"
+  },
+  "IsSuccess": true,
+  "Errors": [],
+  "ValidationErrors": {},
+  "Successes": [
+    "The request has succeeded.",
+    "Login Successful!"
+  ]
+}
+2025-02-26 19:04:32.358 +05:00 [INF] Finished handling request.
+2025-02-26 19:04:32.368 +05:00 [INF] HTTP POST /api/Auth/Login responded 200 in 1051.5381 ms
+2025-02-26 19:04:46.600 +05:00 [INF] Handling request: GET /api/Organizations/GetAll
+2025-02-26 19:04:46.991 +05:00 [ERR] HTTP GET /api/Organizations/GetAll responded 500 in 390.6682 ms
+System.InvalidOperationException: Endpoint EndPoints.Controllers.Ownership.Organizations.v1.OrganizationsController.GetAll (EndPoints) contains authorization metadata, but a middleware was not found that supports authorization.
+Configure your application startup by adding app.UseAuthorization() in the application startup code. If there are calls to app.UseRouting() and app.UseEndpoints(...), the call to app.UseAuthorization() must go between them.
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.ThrowMissingAuthMiddlewareException(Endpoint endpoint)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Program.<>c.<<<Main>$>b__0_2>d.MoveNext() in C:\Users\hussain.saqib\Desktop\Learning\.NET Projects - Learning\ExpenseCalculator\SpendWise - With Identity Server\EndPoints\Program.cs:line 64
+--- End of stack trace from previous location ---
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2025-02-26 19:04:47.187 +05:00 [ERR] Error in GlobalExceptionHandler at "2025-02-26T19:04:47.1854038+05:00", with status code 500 and exception System.InvalidOperationException: Endpoint EndPoints.Controllers.Ownership.Organizations.v1.OrganizationsController.GetAll (EndPoints) contains authorization metadata, but a middleware was not found that supports authorization.
+Configure your application startup by adding app.UseAuthorization() in the application startup code. If there are calls to app.UseRouting() and app.UseEndpoints(...), the call to app.UseAuthorization() must go between them.
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.ThrowMissingAuthMiddlewareException(Endpoint endpoint)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Program.<>c.<<<Main>$>b__0_2>d.MoveNext() in C:\Users\hussain.saqib\Desktop\Learning\.NET Projects - Learning\ExpenseCalculator\SpendWise - With Identity Server\EndPoints\Program.cs:line 64
+--- End of stack trace from previous location ---
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Application.Middlewares.RateLimitMiddleware.Invoke(HttpContext context) in C:\Users\hussain.saqib\Desktop\Learning\.NET Projects - Learning\ExpenseCalculator\SpendWise - With Identity Server\Application\Middlewares\RateLimitMiddleware.cs:line 26
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at EndPoints.Infrastructure.Middlewares.GlobalExceptionHandler.Invoke(HttpContext context) in C:\Users\hussain.saqib\Desktop\Learning\.NET Projects - Learning\ExpenseCalculator\SpendWise - With Identity Server\EndPoints\Infrastructure\Middlewares\GlobalExceptionHandler.cs:line 17
+2025-02-26 19:04:58.691 +05:00 [INF] Handling request: GET /api/Organizations/GetAll
+2025-02-26 19:04:58.868 +05:00 [ERR] HTTP GET /api/Organizations/GetAll responded 500 in 177.5554 ms
+System.InvalidOperationException: Endpoint EndPoints.Controllers.Ownership.Organizations.v1.OrganizationsController.GetAll (EndPoints) contains authorization metadata, but a middleware was not found that supports authorization.
+Configure your application startup by adding app.UseAuthorization() in the application startup code. If there are calls to app.UseRouting() and app.UseEndpoints(...), the call to app.UseAuthorization() must go between them.
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.ThrowMissingAuthMiddlewareException(Endpoint endpoint)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Program.<>c.<<<Main>$>b__0_2>d.MoveNext() in C:\Users\hussain.saqib\Desktop\Learning\.NET Projects - Learning\ExpenseCalculator\SpendWise - With Identity Server\EndPoints\Program.cs:line 64
+--- End of stack trace from previous location ---
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2025-02-26 19:04:59.090 +05:00 [ERR] Error in GlobalExceptionHandler at "2025-02-26T19:04:59.0900979+05:00", with status code 500 and exception System.InvalidOperationException: Endpoint EndPoints.Controllers.Ownership.Organizations.v1.OrganizationsController.GetAll (EndPoints) contains authorization metadata, but a middleware was not found that supports authorization.
+Configure your application startup by adding app.UseAuthorization() in the application startup code. If there are calls to app.UseRouting() and app.UseEndpoints(...), the call to app.UseAuthorization() must go between them.
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.ThrowMissingAuthMiddlewareException(Endpoint endpoint)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Program.<>c.<<<Main>$>b__0_2>d.MoveNext() in C:\Users\hussain.saqib\Desktop\Learning\.NET Projects - Learning\ExpenseCalculator\SpendWise - With Identity Server\EndPoints\Program.cs:line 64
+--- End of stack trace from previous location ---
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Application.Middlewares.RateLimitMiddleware.Invoke(HttpContext context) in C:\Users\hussain.saqib\Desktop\Learning\.NET Projects - Learning\ExpenseCalculator\SpendWise - With Identity Server\Application\Middlewares\RateLimitMiddleware.cs:line 26
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at EndPoints.Infrastructure.Middlewares.GlobalExceptionHandler.Invoke(HttpContext context) in C:\Users\hussain.saqib\Desktop\Learning\.NET Projects - Learning\ExpenseCalculator\SpendWise - With Identity Server\EndPoints\Infrastructure\Middlewares\GlobalExceptionHandler.cs:line 17
